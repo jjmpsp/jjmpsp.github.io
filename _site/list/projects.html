@@ -413,63 +413,80 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js" type="application/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
 <script>
     $(document).ready(function () {
 
-        window.TypeItDefaults.speed = 50;
-        var Typer = new TypeIt('.speech-bubble-text');
+        if (Cookies.get('hide_clippy_modal') === true) {
+            initClippyModals();
+            $("#clippy-modal").slideToggle(300);
 
-        function createHideButton() {
-            $(".clippy-buttons").append('<button id="button-clippy-modal-hide-forever">Hide Forever</button>');
+        } else {
+            $("#clippy-modal-minimised").slideToggle(300);
         }
-
-        function createButton(text, cb) {
-            var button = document.createElement('button');
-            button.innerHTML = text;
-            button.onclick = cb;
-            document.body.appendChild(button);
-            $(".clippy-buttons").append(button);
-        }
-
-        function clearButtons() {
-            $(".clippy-buttons").children().remove();
-
-            createButton('Hide', function () {
-                $("#clippy-modal").slideToggle();
-            });
-            createHideButton();
-        }
-
-        Typer.type('Oh hi. It looks like you\'re new here. Would you like any help?');
-
-        $("#clippy-modal").slideToggle(300);
-        createHideButton();
-
-        createButton("Sure!", function () {
-            alert('hi');
-        });
-
-        createButton("No thanks.", function () {
-            Typer.delete();
-            Typer.type('No problem. Please feel free to hide me if you feel like I\'m in your way.');
-
-            clearButtons();
-        });
-
-        $(".close-clippy-modal").click(function () {
-            $("#clippy-modal").slideToggle();
-
-            $("#clippy-modal-minimised").slideToggle();
-        });
 
         $("#clippy-modal-minimised").click(function () {
+            initClippyModals();
             $(this).slideToggle();
+
             $("#clippy-modal").slideToggle();
         });
 
-        $("#button-clippy-modal-hide-forever").click(function () {
-            $("#clippy-modal").slideToggle();
-        });
+        function initClippyModals() {
+            window.TypeItDefaults.speed = 50;
+            var Typer = new TypeIt('.speech-bubble-text');
+
+            function createHideButton() {
+                $(".clippy-buttons").append('<button id="button-clippy-modal-hide-forever">Hide Forever</button>');
+            }
+
+            function createButton(text, cb) {
+                var button = document.createElement('button');
+                button.innerHTML = text;
+                button.onclick = cb;
+                document.body.appendChild(button);
+                $(".clippy-buttons").append(button);
+            }
+
+            function clearButtons() {
+                $(".clippy-buttons").children().remove();
+
+                createButton('Hide', function () {
+                    $("#clippy-modal").slideToggle();
+                });
+                createHideButton();
+            }
+
+            Typer.type('Oh hi. It looks like you\'re new here. Would you like any help?');
+
+            createHideButton();
+
+            createButton("Sure!", function () {
+                alert('hi');
+            });
+
+            createButton("No thanks.", function () {
+                Typer.delete();
+                Typer.type('No problem. Please feel free to hide me if you feel like I\'m in your way.');
+
+                clearButtons();
+            });
+
+            $("#clippy-modal-minimised").click(function () {
+                $(this).slideToggle();
+                $("#clippy-modal").slideToggle();
+            });
+
+            $("#button-clippy-modal-hide-forever").click(function () {
+                $("#clippy-modal").slideToggle();
+            });
+
+            function setHideCookieValue() {
+                Cookies.set('hide_clippy_modal', 'true');
+            }
+        }
+
     });
 </script>
 
@@ -600,7 +617,7 @@
                 <li> I am a recruiter.</li>
                 <li> I am a student.</li>
                 <li> I am a friend or colleague.</li>
-                <li> I'm nobody, just browsing. </li>
+                <li> I'm nobody, just browsing.</li>
             </ul>
         </div>
         <div class="clippy-image" style="display: block; height: 180px;">
