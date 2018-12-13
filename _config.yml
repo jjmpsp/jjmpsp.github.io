@@ -17,7 +17,7 @@ avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 baseurl: ""
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
-include: ["_pages", "_portfolio"]
+include: ["_travel", "_pages", "_portfolio"]
 
 # Turn the projects into a collection.
 collections:
@@ -29,6 +29,11 @@ collections:
     output: true
     title: portfolio
     permalink: /:collection/:name.html
+  travel:
+    output: true
+    title: Travel
+    permalink: /:collection/:name.html
+
 
 defaults:
 # Turn the profile sidebar on for all pages by default, except for the
@@ -60,6 +65,12 @@ defaults:
       show_profile: false
       layout: defaults/project
   -
+      scope:
+        path: "_travel"
+      values:
+        show_profile: false
+        layout: defaults/travel
+  -
     scope:
       path: "list"
     values:
@@ -67,4 +78,3 @@ defaults:
       layout: defaults/list
 
 lastUpdated: 2018-12-10 19:02:05 UTC
-my_setting: "string"
