@@ -4,6 +4,10 @@ permalink: about.html
 narrow: true
 ---
 
+[Technical Skills](http://google.com/) s s
+
+[Personal Life](http://google.com/) sss
+
 {% include components/intro.md %}
 
 <hr />
