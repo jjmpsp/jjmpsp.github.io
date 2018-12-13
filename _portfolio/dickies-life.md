@@ -1,15 +1,13 @@
 ---
 title: Dickies Life
 duration: May 2015 - Jan 2016
-role: Team Lead
+role: Full Stack Web Developer
 skills:
   - JavaScript
-  - Angular 1.5
-  - Angular 2
   - Team Leadership
 ---
 
-## About Cyberdyne Corporation
+## About Dickies
 
 Cyberdyne is initially a benign manufacturing corporation at 18144 El Camino Real, Sunnyvale, California. Its products are unsure, possibly computers or processors, but from the equipment in its factory and its high tech-sounding name, it seems possible that Cyberdyne might have been some sort of smaller parts producer for larger manufacturers of high tech equipment.
 

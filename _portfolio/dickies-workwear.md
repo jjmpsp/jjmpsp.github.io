@@ -9,7 +9,7 @@ skills:
   - Project Management
 ---
 
-## About Wayne Enterprises
+## About Dickies
 
 Wayne Enterprises, Inc., also known as WayneCorp, is a fictional company appearing in American comic books published by DC Comics, commonly in association with the superhero Batman.
 

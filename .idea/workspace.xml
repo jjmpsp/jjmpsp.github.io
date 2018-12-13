@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6168d4-eadf-448d-8951-882c083027cc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-05-10-why-i-ditched-wordpress-for-jekyll.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change beforePath="$PROJECT_DIR$/_pages/index.md" afterPath="$PROJECT_DIR$/_pages/index.md" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/010-acme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/020-globex.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/030-umbrella.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/dickies-life.md" afterPath="$PROJECT_DIR$/_portfolio/dickies-life.md" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/dickies-workwear.md" afterPath="$PROJECT_DIR$/_portfolio/dickies-workwear.md" />
+      <change beforePath="$PROJECT_DIR$/_site/_portfolio/010-acme.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/_portfolio/020-globex.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/_portfolio/030-umbrella.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" />
+      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/posts.html" afterPath="$PROJECT_DIR$/_site/list/posts.html" />
+      <change beforePath="$PROJECT_DIR$/_site/list/portfolio.html" afterPath="$PROJECT_DIR$/_site/list/portfolio.html" />
+      <change beforePath="$PROJECT_DIR$/_site/portfolio/010-acme.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/portfolio/020-globex.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/portfolio/030-umbrella.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" />
+      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,22 +34,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_pages/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="435">
-                <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="345" column="9" lean-forward="false" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
+            <state relative-caret-position="177">
+              <caret line="325" column="33" lean-forward="false" selection-start-line="325" selection-start-column="33" selection-end-line="325" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -57,8 +60,8 @@
       <file leaf-file-name="dickies-workwear.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="216" column="33" lean-forward="false" selection-start-line="216" selection-start-column="33" selection-end-line="216" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,9 +70,51 @@
       <file leaf-file-name="dickies-workwear.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/portfolio/dickies-workwear.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="216" column="56" lean-forward="false" selection-start-line="216" selection-start-column="56" selection-end-line="216" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="-1499">
+              <caret line="216" column="36" lean-forward="false" selection-start-line="216" selection-start-column="36" selection-end-line="216" selection-end-column="36" />
+              <folding>
+                <element signature="e#288#296#0" expanded="true" />
+                <element signature="e#16478#16484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dickies-workwear.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_portfolio/dickies-workwear.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_pages/about.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dickies-life.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_portfolio/dickies-life.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -80,31 +125,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
                 <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="travel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/defaults/travel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <marker date="1520676862000" expanded="true" signature="349:450" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="travel.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_pages/travel.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -149,8 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>my t</find>
-      <find>portfolio</find>
       <find>&amp;copy</find>
       <find>contact joel</find>
       <find>led-green</find>
@@ -177,8 +195,10 @@
       <find>stick</find>
       <find>close-clippy-modal</find>
       <find>console.log</find>
-      <find>About Wayne Enterprises</find>
       <find>travel</find>
+      <find>dickies workwear</find>
+      <find>john</find>
+      <find>About Wayne Enterprises</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,7 +216,6 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-13-friday-theme-single-image.md" />
         <option value="$PROJECT_DIR$/_site/travel.html" />
         <option value="$PROJECT_DIR$/_data/nav.yml" />
-        <option value="$PROJECT_DIR$/_portfolio/dickies-workwear.md" />
         <option value="$PROJECT_DIR$/_data/profile.yml" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_includes/components/all-tags.html" />
@@ -206,16 +225,18 @@
         <option value="$PROJECT_DIR$/_includes/components/project-meta.html" />
         <option value="$PROJECT_DIR$/_posts/how-to-avoid-scope-screep-in-it-projects.md" />
         <option value="$PROJECT_DIR$/_posts/how-to-avoid-scope-creep-in-it-projects.md" />
-        <option value="$PROJECT_DIR$/_portfolio/dickies-life.md" />
         <option value="$PROJECT_DIR$/_travel/amsterdamn-netherlands.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_pages/travel.md" />
         <option value="$PROJECT_DIR$/_posts/looping-over-all-collections-in-jekyll.md" />
         <option value="$PROJECT_DIR$/_travel/amsterdam-netherlands.md" />
-        <option value="$PROJECT_DIR$/_pages/index.md" />
-        <option value="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
         <option value="$PROJECT_DIR$/_posts/2018-05-10-why-i-ditched-wordpress-for-jekyll.md" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" />
+        <option value="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
+        <option value="$PROJECT_DIR$/_portfolio/dickies-workwear.md" />
+        <option value="$PROJECT_DIR$/_pages/index.md" />
+        <option value="$PROJECT_DIR$/_portfolio/dickies-life.md" />
       </list>
     </option>
   </component>
@@ -383,12 +404,12 @@
       <workItem from="1544313649643" duration="122000" />
       <workItem from="1544313963456" duration="2428000" />
       <workItem from="1544316561788" duration="18112000" />
-      <workItem from="1544648982302" duration="10994000" />
+      <workItem from="1544648982302" duration="11689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34533000" />
+    <option name="totallyTimeSpent" value="35228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -510,16 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_portfolio/dickies-workwear.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Application Support/Google/Chrome/Default/Extensions/ipjbabcpngaonjaedhpfodmjaklmdfdo/5.3_0/_metadata/computed_hashes.json" />
     <entry file="file://$PROJECT_DIR$/_site/portfolio/dickies-life.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -534,16 +545,6 @@
         <state relative-caret-position="476">
           <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -581,7 +582,7 @@
         <state relative-caret-position="3240">
           <caret line="216" column="4" lean-forward="false" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
           <folding>
-            <marker date="1544664652683" expanded="true" signature="25606:25616" ph="..." />
+            <marker date="1544665786151" expanded="true" signature="25606:25616" ph="..." />
           </folding>
         </state>
       </provider>
@@ -687,17 +688,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="300">
             <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_portfolio/dickies-life.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             <folding />
           </first_editor>
           <second_editor />
@@ -814,33 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="216" column="33" lean-forward="false" selection-start-line="216" selection-start-column="33" selection-end-line="216" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/portfolio/dickies-workwear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="216" column="56" lean-forward="false" selection-start-line="216" selection-start-column="56" selection-end-line="216" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-10-why-i-ditched-wordpress-for-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -854,9 +817,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="345" column="9" lean-forward="false" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
+        <state relative-caret-position="177">
+          <caret line="325" column="33" lean-forward="false" selection-start-line="325" selection-start-column="33" selection-end-line="325" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/portfolio/dickies-workwear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1499">
+          <caret line="216" column="36" lean-forward="false" selection-start-line="216" selection-start-column="36" selection-end-line="216" selection-end-column="36" />
+          <folding>
+            <element signature="e#288#296#0" expanded="true" />
+            <element signature="e#16478#16484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_portfolio/dickies-workwear.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_portfolio/dickies-life.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
