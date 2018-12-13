@@ -244,6 +244,11 @@
     </div>
 </div>
 
+<div class="eupopup eupopup-bottom eupopup-style-compact"></div>
+
+<link href="static/css/jquery-eu-cookie-law-popup.css" rel="stylesheet">
+<script src="static/js/jquery-eu-cookie-law-popup.js"></script>
+
 
 <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js" type="application/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
@@ -251,49 +256,65 @@
 <script>
     $(document).ready(function () {
 
-        if (Cookies.get('hide_clippy_modal') === true) {
-            initClippyModals();
-            $("#clippy-modal").slideToggle(300);
+        var clippyInstance = null;
 
+        // Cache selectors
+        var clippyModal = $("#clippy-modal");
+        var clippyModalMinimised = $("#clippy-modal-minimised");
+
+        // Check cookies
+        var userHasVisitedBefore = Cookies.get('visited_before') || false;
+        var userHasHiddenClippyModal = Cookies.get('hide_clippy_modal') || false;
+
+        if (userHasHiddenClippyModal) {
+            clippyModalMinimised.slideToggle(300);
         } else {
-            $("#clippy-modal-minimised").slideToggle(300);
+            if (clippyInstance == null) {
+                clippyInstance = new ClippyModals(userHasVisitedBefore);
+            }
+            clippyModal.slideToggle(300);
         }
 
-        $("#clippy-modal-minimised").click(function () {
-            initClippyModals();
+        clippyModalMinimised.click(function () {
+            if (clippyInstance == null) {
+                clippyInstance = new ClippyModals(true);
+            }
             $(this).slideToggle();
 
-            $("#clippy-modal").slideToggle();
+            clippyModal.slideToggle();
         });
 
-        function initClippyModals() {
+        function ClippyModals(userHasVisitedBefore) {
             window.TypeItDefaults.speed = 50;
-            var Typer = new TypeIt('.speech-bubble-text');
 
-            function createHideButton() {
-                $(".clippy-buttons").append('<button id="button-clippy-modal-hide-forever">Hide Forever</button>');
-            }
+            var clippyButtons = $(".clippy-buttons");
+            var closeClippyModalButton = $(".close-clippy-modal");
+
+            var Typer = new TypeIt('.speech-bubble-text');
 
             function createButton(text, cb) {
                 var button = document.createElement('button');
                 button.innerHTML = text;
                 button.onclick = cb;
                 document.body.appendChild(button);
-                $(".clippy-buttons").append(button);
+                clippyButtons.append(button);
             }
 
             function clearButtons() {
-                $(".clippy-buttons").children().remove();
+                clippyButtons.children().remove();
 
                 createButton('Hide', function () {
-                    $("#clippy-modal").slideToggle();
+                    closeClippyAction();
                 });
-                createHideButton();
             }
 
-            Typer.type('Oh hi. It looks like you\'re new here. Would you like any help?');
-
-            createHideButton();
+            var message = "";
+            if (userHasVisitedBefore === false) {
+                message = 'Oh hi. It looks like you\'re new here. Would you like any help?';
+            } else {
+                message = "What would you like help with?";
+            }
+            Typer.type(message);
 
             createButton("Sure!", function () {
                 alert('hi');
@@ -306,17 +327,18 @@
                 clearButtons();
             });
 
-            $("#clippy-modal-minimised").click(function () {
-                $(this).slideToggle();
-                $("#clippy-modal").slideToggle();
-            });
-
-            $("#button-clippy-modal-hide-forever").click(function () {
-                $("#clippy-modal").slideToggle();
+            closeClippyModalButton.click(function () {
+                closeClippyAction();
             });
 
             function setHideCookieValue() {
                 Cookies.set('hide_clippy_modal', 'true');
+            }
+
+            function closeClippyAction() {
+                setHideCookieValue();
+                clippyModal.slideToggle();
+                clippyModalMinimised.slideToggle(300);
             }
         }
 
@@ -446,6 +468,7 @@
             </span>
         </div>
         <div>
+            <p>Happy to help. Which describes you best?</p>
             <ul>
                 <li> I am a recruiter.</li>
                 <li> I am a student.</li>
