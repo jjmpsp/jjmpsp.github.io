@@ -2,7 +2,7 @@
 permalink: /:categories/:year/:month/:day/:title.html
 
 # Jekyll sitemap plugin config - https://github.com/jekyll/jekyll-sitemap
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://joel-murphy.co.uk" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
 
