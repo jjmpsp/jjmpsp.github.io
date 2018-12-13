@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6168d4-eadf-448d-8951-882c083027cc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2017/10/13/friday-theme-single-image.html" afterPath="$PROJECT_DIR$/_site/2017/10/13/friday-theme-single-image.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2017/10/18/friday-theme-icons.html" afterPath="$PROJECT_DIR$/_site/2017/10/18/friday-theme-icons.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2017/10/19/friday-theme-multiple-images.html" afterPath="$PROJECT_DIR$/_site/2017/10/19/friday-theme-multiple-images.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/03/10/friday-theme-code.html" afterPath="$PROJECT_DIR$/_site/2018/03/10/friday-theme-code.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/03/10/how-to-avoid-scope-creep-in-it-projects.html" afterPath="$PROJECT_DIR$/_site/2018/03/10/how-to-avoid-scope-creep-in-it-projects.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/010-acme.html" afterPath="$PROJECT_DIR$/_site/_portfolio/010-acme.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/020-globex.html" afterPath="$PROJECT_DIR$/_site/_portfolio/020-globex.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/030-umbrella.html" afterPath="$PROJECT_DIR$/_site/_portfolio/030-umbrella.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" afterPath="$PROJECT_DIR$/_site/about.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/portfolio.html" afterPath="$PROJECT_DIR$/_site/list/portfolio.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/posts.html" afterPath="$PROJECT_DIR$/_site/list/posts.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/projects.html" afterPath="$PROJECT_DIR$/_site/list/projects.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/010-acme.html" afterPath="$PROJECT_DIR$/_site/portfolio/010-acme.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/020-globex.html" afterPath="$PROJECT_DIR$/_site/portfolio/020-globex.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/030-umbrella.html" afterPath="$PROJECT_DIR$/_site/portfolio/030-umbrella.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/install.html" afterPath="$PROJECT_DIR$/_site/projects/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/madeup.html" afterPath="$PROJECT_DIR$/_site/projects/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/yetanother.html" afterPath="$PROJECT_DIR$/_site/projects/yetanother.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel.html" afterPath="$PROJECT_DIR$/_site/travel.html" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="211">
@@ -58,6 +34,16 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#8444#8450#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,18 +70,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all-skills.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/components/all-skills.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="67" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +195,6 @@
         <option value="$PROJECT_DIR$/_pages/travel.md" />
         <option value="$PROJECT_DIR$/_includes/bars/side.html" />
         <option value="$PROJECT_DIR$/_includes/bars/bottom.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_pages/index.md" />
         <option value="$PROJECT_DIR$/_includes/components/intro.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-13-friday-theme-single-image.md" />
@@ -239,6 +212,7 @@
         <option value="$PROJECT_DIR$/_posts/how-to-avoid-scope-creep-in-it-projects.md" />
         <option value="$PROJECT_DIR$/_portfolio/dickies-life.md" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -404,12 +378,12 @@
       <workItem from="1544313649643" duration="122000" />
       <workItem from="1544313963456" duration="2428000" />
       <workItem from="1544316561788" duration="18112000" />
-      <workItem from="1544648982302" duration="8172000" />
+      <workItem from="1544648982302" duration="8250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31711000" />
+    <option name="totallyTimeSpent" value="31789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -661,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_portfolio/dickies-workwear.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -751,7 +717,7 @@
         <state relative-caret-position="3240">
           <caret line="216" column="4" lean-forward="false" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
           <folding>
-            <marker date="1544660840791" expanded="true" signature="25694:25704" ph="..." />
+            <marker date="1544660868678" expanded="true" signature="25694:25704" ph="..." />
           </folding>
         </state>
       </provider>
@@ -891,6 +857,14 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#8444#8450#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,7 +7,7 @@ highlighter:      rouge
 excerpt_separator: <!--more-->
 
 # Config for your profile.
-title:            friday-theme.github.io  # Site title
+title:            Joel Murphy  # Site title
 name:             Joel Murphy             # Your name
 role:             Full Stack PHP Developer
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
