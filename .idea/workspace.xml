@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab6168d4-eadf-448d-8951-882c083027cc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_pages/index.md" afterPath="$PROJECT_DIR$/_pages/index.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/010-acme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/020-globex.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/030-umbrella.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/dickies-life.md" afterPath="$PROJECT_DIR$/_portfolio/dickies-life.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/dickies-workwear.md" afterPath="$PROJECT_DIR$/_portfolio/dickies-workwear.md" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/010-acme.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/020-globex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/030-umbrella.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/portfolio.html" afterPath="$PROJECT_DIR$/_site/list/portfolio.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/010-acme.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/020-globex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/030-umbrella.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,16 +26,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="325" column="33" lean-forward="false" selection-start-line="325" selection-start-column="33" selection-end-line="325" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,7 +58,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="45">
-                <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+                <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -106,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dickies-life.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dickies-life.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_portfolio/dickies-life.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -119,12 +92,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-05-10-why-i-ditched-wordpress-for-jekyll.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-05-10-why-i-ditched-wordpress-for-jekyll.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -132,12 +105,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-03-10-looping-over-all-collections-in-jekyll.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-03-10-looping-over-all-collections-in-jekyll.md">
+      <file leaf-file-name="LICENSE.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -145,15 +118,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amsterdam-netherlands.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_travel/amsterdam-netherlands.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/robots.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,7 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&amp;copy</find>
       <find>contact joel</find>
       <find>led-green</find>
       <find>contact</find>
@@ -199,6 +178,7 @@
       <find>dickies workwear</find>
       <find>john</find>
       <find>About Wayne Enterprises</find>
+      <find>plugin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,7 +206,6 @@
         <option value="$PROJECT_DIR$/_posts/how-to-avoid-scope-screep-in-it-projects.md" />
         <option value="$PROJECT_DIR$/_posts/how-to-avoid-scope-creep-in-it-projects.md" />
         <option value="$PROJECT_DIR$/_travel/amsterdamn-netherlands.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_pages/travel.md" />
         <option value="$PROJECT_DIR$/_posts/looping-over-all-collections-in-jekyll.md" />
         <option value="$PROJECT_DIR$/_travel/amsterdam-netherlands.md" />
@@ -237,6 +216,7 @@
         <option value="$PROJECT_DIR$/_portfolio/dickies-workwear.md" />
         <option value="$PROJECT_DIR$/_pages/index.md" />
         <option value="$PROJECT_DIR$/_portfolio/dickies-life.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -284,71 +264,7 @@
             <path>
               <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="defaults" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_posts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_projects" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="_site" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_travel" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="list" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjmpsp.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -404,12 +320,12 @@
       <workItem from="1544313649643" duration="122000" />
       <workItem from="1544313963456" duration="2428000" />
       <workItem from="1544316561788" duration="18112000" />
-      <workItem from="1544648982302" duration="11689000" />
+      <workItem from="1544648982302" duration="12019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35228000" />
+    <option name="totallyTimeSpent" value="35558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -446,28 +362,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/PlacesBeen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/projects.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/entypo/youko-with-circle.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/entypo/youtube.svg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -582,7 +476,7 @@
         <state relative-caret-position="3240">
           <caret line="216" column="4" lean-forward="false" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
           <folding>
-            <marker date="1544665786151" expanded="true" signature="25606:25616" ph="..." />
+            <marker date="1544666904797" expanded="true" signature="25606:25616" ph="..." />
           </folding>
         </state>
       </provider>
@@ -763,14 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_pages/travel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -868,7 +754,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="45">
-            <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             <folding />
           </first_editor>
           <second_editor />
@@ -883,6 +769,44 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
