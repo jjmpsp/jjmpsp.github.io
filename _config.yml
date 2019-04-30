@@ -14,7 +14,7 @@ excerpt_separator: <!--more-->
 # Config for your profile.
 title:            Joel Murphy  # Site title
 name:             Joel Murphy             # Your name
-role:             Full Stack PHP Developer
+role:             Senior Full Stack Developer
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
