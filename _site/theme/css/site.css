@@ -50,4 +50,8 @@ h2[id]::before {
     margin-top: -80px;
 }
 
+.navbar-brand{
+    font-family: 'Varela Round', sans-serif;
+}
+
 
