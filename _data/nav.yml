@@ -1,17 +1,17 @@
-- title: Home
+- title: 🏠Home
   href: index.html
 
-- title: About Joel
+- title: ℹ️About Joel
   href: about.html
 
-- title: Blog Posts
+- title: 📖Blog Posts
   href: list/posts.html
 
-- title: Personal Projects
+- title: 🤓Personal Projects
   href: list/projects.html
 
-- title: Work Portfolio
+- title: 👨Work Portfolio
   href: list/portfolio.html
 
-- title: Travel
+- title: ✈️Travel
   href: travel.html

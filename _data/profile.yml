@@ -1,13 +1,13 @@
 - caption: Stack Overflow
-  href: https://stackoverflow.com
+  href: https://stackoverflow.com/users/1007680/joel-murphy
   icon: icons/stackoverflow.svg
 
 - caption: Facebook
-  href: https://www.facebook.com
+  href: https://www.facebook.com/joel.murphy.378
   icon: entypo/facebook.svg
 
 - caption: Twitter
-  href: https://www.twitter.com
+  href: https://twitter.com/jjmpsp
   icon: entypo/twitter.svg
 
 - caption: jjmpsp on GitHub
@@ -19,6 +19,6 @@
   icon: entypo/wallet.svg
 
 - caption: Cardiff, Wales, UK
-  href: https://www.google.co.uk/maps/place/London/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583
+  href: https://www.google.co.uk/maps/place/Cardiff,Wales
   icon: entypo/location-pin.svg
 

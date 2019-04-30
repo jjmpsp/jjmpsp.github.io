@@ -1,6 +1,4 @@
-### Who is Joel Murphy?
-
-Welcome to the website of Joel Murphy. You've probably stumbled across this page because you're looking to hire me or you're interested in learning from my articles.
+Welcome to the personal website of Joel Murphy. You've probably stumbled across this page because I've directed you here or you've been stalking my online profiles (hey, everyone does it and I don't actually mind as I've put this information on the internet in the first place!)
 
 I am a Level 3 Cisco Certified technician and hold a technical 2nd class Degree from Cardiff University in Computer Science with Informatics & Business Information Systems. My A-Level qualifications consist of; Design, Technology & Product Development (D.T), Computing, and Leisure & Management Studies.
 
