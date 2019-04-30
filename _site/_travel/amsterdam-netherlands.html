@@ -102,6 +102,27 @@
 
 
             <div class="card bg-light" style="margin-top:10px;">
+<<<<<<< HEAD
+=======
+                <div class="card-body text-center">
+                    <a class="typeform-share button" href="https://joelmurphy1.typeform.com/to/ZdvAbr" data-mode="popup"
+                       style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+                       data-submit-close-delay="5" target="_blank">Contact Joel</a>
+                    <script> (function () {
+                        var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement,
+                            gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/";
+                        if (!gi.call(d, id)) {
+                            js = ce.call(d, "script");
+                            js.id = id;
+                            js.src = b + "embed.js";
+                            q = gt.call(d, "script")[0];
+                            q.parentNode.insertBefore(js, q)
+                        }
+                    })() </script>
+                </div>
+            </div>
+            <div class="card bg-light" style="margin-top:10px;">
+>>>>>>> 719bfeb864b68c12672d1e958220fdb938945804
                 <a href="https://stackoverflow.com/users/1007680/joel-murphy" style="margin: 10px auto;">
                     <img src="https://stackoverflow.com/users/flair/1007680.png" width="208" height="58"
                          alt="profile for Joel Murphy at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
@@ -115,7 +136,7 @@
 </h1>
 
 <div class="d-md-block d-lg-none">
-    <div class="sticky-top space-before" style="z-index: 0 !important;">
+    <div class="space-before" style="z-index: 0 !important;">
     <div class="card bg-light mb-3 space-before">
         <div class="card-body">
             <div class="card-title">
@@ -210,17 +231,168 @@
 
 <div class="eupopup eupopup-bottom eupopup-style-compact"></div>
 
-<link href="static/css/jquery-eu-cookie-law-popup.css" rel="stylesheet">
-<script src="static/js/jquery-eu-cookie-law-popup.js"></script>
+<link href="/static/css/jquery-eu-cookie-law-popup.css" rel="stylesheet">
+<script src="/static/js/jquery-eu-cookie-law-popup.js"></script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js" type="application/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
+<<<<<<< HEAD
+=======
+<script>
+    $(document).ready(function () {
+
+        $(".hide-n-slide ul").hide(), $(".hide-n-slide > span").on("click", function () {
+            $(this).parent().find("ul").slideToggle()
+        });
+
+        /*var clippyInstance = null;
+
+        // Cache selectors
+        var clippyModal = $("#clippy-modal");
+        var clippyModalMinimised = $("#clippy-modal-minimised");
+
+        // Check cookies
+        var userHasVisitedBefore = Cookies.get('visited_before') || false;
+        var userHasHiddenClippyModal = Cookies.get('hide_clippy_modal') || false;
+
+        if (userHasHiddenClippyModal) {
+            clippyModalMinimised.slideToggle(300);
+        } else {
+            if (clippyInstance == null) {
+                clippyInstance = new ClippyModals(userHasVisitedBefore);
+            }
+            clippyModal.slideToggle(300);
+        }
+
+        clippyModalMinimised.click(function () {
+            if (clippyInstance == null) {
+                clippyInstance = new ClippyModals(true);
+            }
+            $(this).slideToggle();
+
+            clippyModal.slideToggle();
+        });*/
+
+        function ClippyModals(userHasVisitedBefore) {
+            window.TypeItDefaults.speed = 50;
+
+            var clippyButtons = $(".clippy-buttons");
+            var closeClippyModalButton = $(".close-clippy-modal");
+
+            var Typer = new TypeIt('.speech-bubble-text');
+
+            function createButton(text, cb) {
+                var button = document.createElement('button');
+                button.innerHTML = text;
+                button.onclick = cb;
+                document.body.appendChild(button);
+                clippyButtons.append(button);
+            }
+
+            function clearButtons() {
+                clippyButtons.children().remove();
+
+                createButton('Hide', function () {
+                    closeClippyAction();
+                });
+            }
+
+            var message = "";
+            if (userHasVisitedBefore === false) {
+                message = 'Oh hi. It looks like you\'re new here. Would you like any help?';
+            } else {
+                message = "What would you like help with?";
+            }
+            Typer.type(message);
+
+            createButton("Sure!", function () {
+                alert('hi');
+            });
+
+            createButton("No thanks.", function () {
+                Typer.delete();
+                Typer.type('No problem. Please feel free to hide me if you feel like I\'m in your way.');
+
+                clearButtons();
+            });
+
+            closeClippyModalButton.click(function () {
+                closeClippyAction();
+            });
+
+            function setHideCookieValue() {
+                Cookies.set('hide_clippy_modal', 'true');
+            }
+
+            function closeClippyAction() {
+                setHideCookieValue();
+                clippyModal.slideToggle();
+                clippyModalMinimised.slideToggle(300);
+            }
+        }
+
+    });
+</script>
+
+>>>>>>> 719bfeb864b68c12672d1e958220fdb938945804
 <style>
 
 
 </style>
+<<<<<<< HEAD
+=======
+
+
+<style>
+    .skills {
+        background-color: #eee;
+    }
+
+    .skills li{
+        background-color: #fff;
+    }
+</style>
+
+<div id="clippy-modal-minimised">
+    <button class="clippy-button">Show Clippy</button>
+</div>
+
+<div id="clippy-modal">
+    <div class="inner">
+        <span class="icon close-clippy-modal">
+            <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Triangle_down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M5,6h10l-5,9L5,6z"/>
+</svg>
+
+        </span>
+        <div class="speech-bubble">
+            <span class="speech-bubble-text">
+            </span>
+        </div>
+        <div>
+            <p>Happy to help. Which describes you best?</p>
+            <ul>
+                <li> I am a recruiter.</li>
+                <li> I am a student.</li>
+                <li> I am a friend or colleague.</li>
+                <li> I'm nobody, just browsing.</li>
+            </ul>
+        </div>
+        <div class="clippy-image" style="display: block; height: 180px;">
+            <img src="/static/img/clippy.png" alt="Clippy Image"
+                 style="height:180px;width:180px;position: relative;bottom:6px;">
+        </div>
+        <hr>
+        <div class="clippy-buttons"></div>
+    </div>
+</div>
+>>>>>>> 719bfeb864b68c12672d1e958220fdb938945804
 
 <footer class="container" style="background: #efefef;max;min-height: 40px;max-height: 400px;">
     <div class="row" style="line-height:40px;margin-left:auto;margin-right:auto;">
@@ -262,24 +434,26 @@
 
 <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "email": "mailto:info@example.com",
-      "image": "janedoe.jpg",
-      "jobTitle": "Senior Full Stack PHP Developer",
-      "name": "Joel Murphy",
-      "birthPlace": "Cardiff, Wales, UK",
-      "birthDate": "1993.13.28",
-      "height": "67 inches",
-      "gender": "male",
-      "memberOf": "Labour Party",
-      "nationality": "British Welsh",
-      "url": "https://joel-murphy.co.uk/",
-	    "sameAs" : [ "https://www.facebook.com/",
-      "https://www.linkedin.com/",
-      "http://twitter.com/",
-      "http://instagram.com/",
-      "https://plus.google.com/"]
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "email": "mailto:info@example.com",
+        "image": "janedoe.jpg",
+        "jobTitle": "Senior Full Stack PHP Developer",
+        "name": "Joel Murphy",
+        "birthPlace": "Cardiff, Wales, UK",
+        "birthDate": "1993.13.28",
+        "height": "67 inches",
+        "gender": "male",
+        "memberOf": "Labour Party",
+        "nationality": "British Welsh",
+        "url": "https://joel-murphy.co.uk/",
+        "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.linkedin.com/",
+            "http://twitter.com/",
+            "http://instagram.com/",
+            "https://plus.google.com/"
+        ]
     }
 </script>
 
@@ -288,7 +462,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38507708-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-38507708-1');

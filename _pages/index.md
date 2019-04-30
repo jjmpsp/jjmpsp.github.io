@@ -19,7 +19,7 @@ Joel has posted a bunch of tips about how to use Friday Theme. There's the three
 <div class="card mb-3">
     <img class="card-img-top" src="static/img/night_out.jpg"/>
     <div class="card-body bg-light">
-        <div class="card-text">Me enjoying a night out in <a href="https://clwb.net/">Clwb Ifor Bach</a> in Cardiff.</div>
+        <div class="card-text">Me enjoying a night out at <a href="https://clwb.net/">Clwb Ifor Bach</a> in Cardiff.</div>
     </div>
 </div>
 

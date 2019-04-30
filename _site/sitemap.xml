@@ -2,11 +2,19 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/portfolio/dickies-life.html</loc>
+<<<<<<< HEAD
 <lastmod>2019-05-01T00:18:34+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/portfolio/dickies-workwear.html</loc>
 <lastmod>2019-05-01T00:18:34+01:00</lastmod>
+=======
+<lastmod>2018-12-18T15:11:01+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/dickies-workwear.html</loc>
+<lastmod>2018-12-18T15:11:01+00:00</lastmod>
+>>>>>>> 719bfeb864b68c12672d1e958220fdb938945804
 </url>
 <url>
 <loc>http://localhost:4000/2017/10/13/friday-theme-single-image.html</loc>
@@ -38,6 +46,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/projects/install.html</loc>
+<<<<<<< HEAD
 <lastmod>2019-05-01T00:18:34+01:00</lastmod>
 </url>
 <url>
@@ -51,12 +60,30 @@
 <url>
 <loc>http://localhost:4000/travel/amsterdam-netherlands.html</loc>
 <lastmod>2019-05-01T00:18:34+01:00</lastmod>
+=======
+<lastmod>2018-12-18T15:11:01+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/madeup.html</loc>
+<lastmod>2018-12-18T15:11:01+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/yetanother.html</loc>
+<lastmod>2018-12-18T15:11:01+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/travel/amsterdam-netherlands.html</loc>
+<lastmod>2018-12-18T15:11:01+00:00</lastmod>
+>>>>>>> 719bfeb864b68c12672d1e958220fdb938945804
 </url>
 <url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/_travel/amsterdam-netherlands</loc>
+</url>
+<url>
+<loc>http://localhost:4000/cookie-policy.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/_portfolio/dickies-life</loc>
@@ -78,5 +105,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/travel.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+<lastmod>2018-12-18T15:11:01+00:00</lastmod>
 </url>
 </urlset>

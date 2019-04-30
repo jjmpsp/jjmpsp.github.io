@@ -7,7 +7,11 @@
   icon: entypo/facebook.svg
 
 - caption: Twitter
+<<<<<<< HEAD
   href: https://twitter.com/jjmpsp
+=======
+  href: https://www.twitter.com/jjmpsp
+>>>>>>> 719bfeb864b68c12672d1e958220fdb938945804
   icon: entypo/twitter.svg
 
 - caption: jjmpsp on GitHub
@@ -19,6 +23,10 @@
   icon: entypo/wallet.svg
 
 - caption: Cardiff, Wales, UK
+<<<<<<< HEAD
   href: https://www.google.co.uk/maps/place/Cardiff,Wales
+=======
+  href: https://www.google.co.uk/maps/place/Cardiff
+>>>>>>> 719bfeb864b68c12672d1e958220fdb938945804
   icon: entypo/location-pin.svg
 
