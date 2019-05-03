@@ -79,3 +79,7 @@ h2[id]::before {
 .card-body a:hover span.hover-underline-dashed{
     border-bottom: 1px dashed #777 !important;
 }
+
+.navbar-nav li a:hover {
+    background: #80808026;
+}
