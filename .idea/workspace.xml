@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/_data/nav.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/nav.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/profile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/profile.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/components/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/components/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/components/profile-avatar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/components/profile-avatar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/cookie-policy.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/cookie-policy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/list/projects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/css/site.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+            <state relative-caret-position="129">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -93,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_data/nav.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -142,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.role</find>
       <find>fear of flying</find>
       <find>nav</find>
       <find>na</find>
@@ -172,6 +163,7 @@
       <find>to allow</find>
       <find>last update</find>
       <find>card-text</find>
+      <find>wanna</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,12 +182,12 @@
         <option value="$PROJECT_DIR$/_pages/cookie-policy.md" />
         <option value="$PROJECT_DIR$/_pages/about.md" />
         <option value="$PROJECT_DIR$/list/projects.md" />
-        <option value="$PROJECT_DIR$/_data/nav.yml" />
         <option value="$PROJECT_DIR$/_data/profile.yml" />
         <option value="$PROJECT_DIR$/theme/css/site.css" />
         <option value="$PROJECT_DIR$/_includes/components/intro.md" />
         <option value="$PROJECT_DIR$/_includes/components/profile-avatar.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_data/nav.yml" />
       </list>
     </option>
   </component>
@@ -275,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556811119767</updated>
-      <workItem from="1556811123305" duration="10624000" />
+      <workItem from="1556811123305" duration="11147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10624000" />
+    <option name="totallyTimeSpent" value="11147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
@@ -398,20 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/nav.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/profile.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/components/profile-body.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -467,11 +445,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        <state relative-caret-position="129">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/profile.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/nav.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
