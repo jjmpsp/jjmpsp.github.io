@@ -1,6 +1,7 @@
 ---
 layout: defaults/page
 permalink: about.html
+title: About Joel Murphy
 narrow: true
 ---
 

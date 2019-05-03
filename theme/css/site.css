@@ -16,6 +16,10 @@
     fill: #999;
 }
 
+.icon.pin svg path {
+    fill: #c03144;
+}
+
 .icon.red svg path {
     fill: #A00;
 }

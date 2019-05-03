@@ -1,5 +1,5 @@
 ---
-title: All Projects
+title: Personal Projects
 narrow: true
 permalink: list/projects.html
 show_profile: true
