@@ -1,3 +1,7 @@
+- caption: LinkedIn
+  href: https://www.linkedin.com/in/joeljmurphy/
+  icon: entypo/linkedin.svg
+
 - caption: Stack Overflow
   href: https://stackoverflow.com/users/1007680/joel-murphy
   icon: icons/stackoverflow.svg
