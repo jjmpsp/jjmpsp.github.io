@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-10-10-understanding-the-core-concepts-of-kubernetes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/components/profile-body.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/components/profile-body.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/structure/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/structure/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2017/10/13/friday-theme-single-image.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2017/10/13/friday-theme-single-image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2017/10/18/friday-theme-icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2017/10/18/friday-theme-icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2017/10/19/friday-theme-multiple-images.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2017/10/19/friday-theme-multiple-images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/03/10/friday-theme-code.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/03/10/friday-theme-code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/03/10/how-to-avoid-scope-creep-in-it-projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/03/10/how-to-avoid-scope-creep-in-it-projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/03/10/looping-over-all-collections-in-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/03/10/looping-over-all-collections-in-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/05/10/why-i-ditched-wordpress-for-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/10/why-i-ditched-wordpress-for-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/10/10/using-git-as-backup-solution-bad-idea.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/10/10/using-git-as-backup-solution-bad-idea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/amsterdam-netherlands.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/_travel/amsterdam-netherlands.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/cookie-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/cookie-policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/list/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/list/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/list/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/list/posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/list/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/list/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/list/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/list/tutorials.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/install.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/install.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/madeup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/madeup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/yetanother.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/yetanother.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talks-presentations.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talks-presentations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/travel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/amsterdam-netherlands.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/travel/amsterdam-netherlands.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tutorials.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/install.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tutorials/install.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/madeup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tutorials/madeup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/yetanother.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tutorials/yetanother.html" afterDir="false" />
-    </list>
+    <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/components/profile-body.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
@@ -315,24 +277,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556811119767</updated>
-      <workItem from="1556811123305" duration="14200000" />
+      <workItem from="1556811123305" duration="14534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14200000" />
+    <option name="totallyTimeSpent" value="14534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33044422" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33044422" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -623,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/components/profile-body.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
