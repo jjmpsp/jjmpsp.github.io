@@ -30,6 +30,10 @@ collections:
     output: true
     title: Projects
     permalink: /:collection/:name.html
+  tutorials:
+    output: true
+    title: Tutorials
+    permalink: /:collection/:name.html
   portfolio:
     output: true
     title: portfolio
@@ -69,6 +73,12 @@ defaults:
     values:
       show_profile: false
       layout: defaults/project
+  -
+    scope:
+      path: "_tutorials"
+    values:
+      show_profile: false
+      layout: defaults/tutorial
   -
       scope:
         path: "_travel"
