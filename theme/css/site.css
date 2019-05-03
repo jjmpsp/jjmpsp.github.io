@@ -58,12 +58,20 @@ h2[id]::before {
     font-size: 1rem !important;
 }
 
-.content a{
-    border-bottom: 1px dashed #777;
-}
 
-.content a:hover{
+.content a:hover {
     text-decoration: none !important;
     border-bottom: 1px dashed #777 !important;
     color: red;
+}
+
+.card-body a:hover{
+    color: red;
+    text-decoration: none !important;
+}
+.card-body a span.hover-underline-dashed{
+    border-bottom: 1px dashed #f8f9fa;
+}
+.card-body a:hover span.hover-underline-dashed{
+    border-bottom: 1px dashed #777 !important;
 }
