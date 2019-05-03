@@ -54,4 +54,16 @@ h2[id]::before {
     font-family: 'Varela Round', sans-serif;
 }
 
+.content {
+    font-size: 1rem !important;
+}
 
+.content a{
+    border-bottom: 1px dashed #777;
+}
+
+.content a:hover{
+    text-decoration: none !important;
+    border-bottom: 1px dashed #777 !important;
+    color: red;
+}

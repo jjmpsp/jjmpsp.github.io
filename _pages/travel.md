@@ -6,7 +6,7 @@ narrow: true
 
 ## My travels
 
-Up until 2011 I had only ever been on holiday to Spain. This was partly due to the fact I had a massive fear of flying
+Up until 2011 I had only ever been on holiday to Spain. This was partly due to the fact I had a huge fear of flying
 
 [Beavis And Butthead: Do America](https://www.youtube.com/watch?v=Cr4RdSLAG7I)
 
