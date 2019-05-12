@@ -10,7 +10,7 @@ permalink: list/posts.html
 
 <div id="currently-showing">
     <h2 class="d-flex align-items-center mb-3">
-        <span class="text-secondary mr-2">Showing everything matching:</span>
+        <span class="text-secondary mr-2">Showing all posts matching tag:</span>
         <span class="border rounded p-2 mr-2 bg-light text-secondary" id="active-tag"></span>
         <a class="btn btn-primary btn-small" href="javascript:void(0)" onclick="clearTags()">clear</a>
     </h4>
@@ -22,7 +22,7 @@ permalink: list/posts.html
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 
     {% if year != written_year %}
-        <h5 class="text-secondary mt-4 mb-4 p-2 bg-light rounded" id="{{ year | slugify }}">
+        <h5 class="year-heading text-secondary mt-4 mb-4 p-2 bg-light rounded" id="{{ year | slugify }}">
             {{ year }}
         </h5>
         {% capture written_year %}{{ year }}{% endcapture %}

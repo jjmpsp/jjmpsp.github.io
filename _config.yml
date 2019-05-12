@@ -42,6 +42,10 @@ collections:
     output: true
     title: Travel
     permalink: /:collection/:name.html
+  product-reviews:
+    output: true
+    title: Product Reviews
+    permalink: /:collection/:name.html
 
 
 defaults:
@@ -85,6 +89,12 @@ defaults:
       values:
         show_profile: false
         layout: defaults/travel
+  -
+      scope:
+        path: "_product-reviews"
+      values:
+        show_profile: false
+        layout: defaults/product-review
   -
     scope:
       path: "list"
