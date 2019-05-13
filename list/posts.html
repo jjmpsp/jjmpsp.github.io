@@ -23,7 +23,7 @@ permalink: list/posts.html
 
     {% if year != written_year %}
         <h5 class="year-heading text-secondary mt-4 mb-4 p-2 bg-light rounded" id="{{ year | slugify }}">
-            {{ year }}
+            Posts from {{ year }}:
         </h5>
         {% capture written_year %}{{ year }}{% endcapture %}
     {% endif %}

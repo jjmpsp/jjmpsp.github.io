@@ -12,7 +12,6 @@ function initialize() {
             from: '1N2LBk4JHwWpOY4d9fobIn27lfnZ5MDy-NoqqRpk',
             where: "ISO_2DIGIT IN (" +
             "'AT'," + // Austria
-            "'AT'," + // Austria
             "'BA'," + // Bosnia and Herzegovina
             "'BE'," + // Belgium
             "'BG'," + // Bulgaria

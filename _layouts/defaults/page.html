@@ -10,4 +10,32 @@ layout: default
     {% endif %}
 </h1>
 
+<button class="d-flex align-items-center btn btn-primary" id="expand-view">
+    <span class="icon grey mr-2">
+        {% include entypo/resize-full-screen.svg %}
+    </span>
+    <span class="button-text">Expand</span>
+</button>
+
 {{ content }}
+
+
+<script>
+    $(document).ready(function() {
+        var expandViewToggled = false;
+        $("#expand-view").click(function () {
+
+            if (!expandViewToggled) {
+                $("#side").attr('style', 'display:none !important');
+                $("#content").addClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
+                expandViewToggled = true;
+                $($(this).children(".button-text")[0]).text("Shrink");
+            } else {
+                $("#side").removeAttr('style');
+                $("#content").removeClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
+                expandViewToggled = false;
+                $($(this).children(".button-text")[0]).text("Expand");
+            }
+        });
+    });
+</script>

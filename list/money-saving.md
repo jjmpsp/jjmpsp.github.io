@@ -1,5 +1,5 @@
 ---
-title: Money Savings
+title: Money Saving Guides
 narrow: true
 permalink: list/money-saving.html
 show_profile: true

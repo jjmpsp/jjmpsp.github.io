@@ -111,7 +111,7 @@
 
 <div class="container site-container" id="top">
     <div class="row">
-        <div class="d-none d-lg-block col-lg-4 col-xl-3 side">
+        <div class="d-none d-lg-block col-lg-4 col-xl-3 side" id="side">
             
     <div class="card bg-light">
         <div class="card-body text-center">
@@ -146,6 +146,9 @@
         <img src="/static/img/html.png" alt="HTML Icon">
         <img src="/static/img/js.png" alt="JS Icon">
         <img src="/static/img/css.png" alt="CSS Icon">
+        <p style="margin-top:10px; background: #343a40;padding:5px;">
+            <a href="/about.html#technical-skills" style="color:white!important;">See full skillset</a>
+        </p>
     </div>
     <div style="border: 2px dotted #888888;padding:20px;">
         <h5 style="color:#000;font-weight:400;">Current Job Role:</h5>
@@ -340,22 +343,57 @@
                 
 
                 Published Blog Posts: 11
-                Published Tutorials: 4
+                Published Tutorials: 5
                 Published Work Portfolio Items: 2
                 Published Money Saving Posts: 0
             </div>
         </div>
-        <div class="col-md-12 col-lg-8 col-xl-9 pb-4 content">
+        <div class="col-md-12 col-lg-8 col-xl-9 pb-4 content" id="content">
             <h1 class="border border-top-0 border-right-0 border-left-0 mb-4 pb-2">
     
         Joel Murphy 😍
     
 </h1>
 
+<button class="d-flex align-items-center btn btn-primary" id="expand-view">
+    <span class="icon grey mr-2">
+        <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Resize_full_screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M6.987,10.987l-2.931,3.031L2,11.589V18h6.387l-2.43-2.081l3.03-2.932L6.987,10.987z M11.613,2l2.43,2.081l-3.03,2.932l2,2
+	l2.931-3.031L18,8.411V2H11.613z"/>
+</svg>
+
+    </span>
+    <span class="button-text">Expand</span>
+</button>
+
 <p>I am a keen believer in the ‘spirit of sharing’ and by nature I like to help others. I’ve put this page together to list some of the talks and presentations I’ve done:</p>
 
 
 
+
+<script>
+    $(document).ready(function() {
+        var expandViewToggled = false;
+        $("#expand-view").click(function () {
+
+            if (!expandViewToggled) {
+                $("#side").attr('style', 'display:none !important');
+                $("#content").addClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
+                expandViewToggled = true;
+                $($(this).children(".button-text")[0]).text("Shrink");
+            } else {
+                $("#side").removeAttr('style');
+                $("#content").removeClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
+                expandViewToggled = false;
+                $($(this).children(".button-text")[0]).text("Expand");
+            }
+        });
+    });
+</script>
         </div>
         <div class="col-md-12 d-lg-none bottom">
             
@@ -393,6 +431,9 @@
         <img src="/static/img/html.png" alt="HTML Icon">
         <img src="/static/img/js.png" alt="JS Icon">
         <img src="/static/img/css.png" alt="CSS Icon">
+        <p style="margin-top:10px; background: #343a40;padding:5px;">
+            <a href="/about.html#technical-skills" style="color:white!important;">See full skillset</a>
+        </p>
     </div>
     <div style="border: 2px dotted #888888;padding:20px;">
         <h5 style="color:#000;font-weight:400;">Current Job Role:</h5>
