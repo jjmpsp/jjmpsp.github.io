@@ -46,61 +46,70 @@ layout: compress
                 </a>
             </div>
             <div class="card bg-light" style="margin-top:10px;">
-                <h3>Website Statistics:</h3>
-                {% assign blog_counter = 0 %}
-                {% for item in site.posts %}
-                    {% unless item.published == false %}
+                <div class="card-body">
+                    <div style="border: 2px dotted #888888;padding:20px;">
+                        <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">Website Statistics:</h4>
+
+                        {% assign blog_counter = 0 %}
+                        {% for item in site.posts %}
+                        {% unless item.published == false %}
                         {% assign blog_counter=blog_counter | plus:1 %}
-                    {% endunless %}
-                {% endfor %}
+                        {% endunless %}
+                        {% endfor %}
 
-                {% assign tutorial_counter = 0 %}
-                {% for item in site.tutorials %}
-                    {% unless item.published == false %}
+                        {% assign tutorial_counter = 0 %}
+                        {% for item in site.tutorials %}
+                        {% unless item.published == false %}
                         {% assign tutorial_counter=tutorial_counter | plus:1 %}
-                    {% endunless %}
-                {% endfor %}
+                        {% endunless %}
+                        {% endfor %}
 
-                {% assign portfolio_counter = 0 %}
-                {% for item in site.portfolio %}
-                    {% unless item.published == false %}
+                        {% assign portfolio_counter = 0 %}
+                        {% for item in site.portfolio %}
+                        {% unless item.published == false %}
                         {% assign portfolio_counter=portfolio_counter | plus:1 %}
-                    {% endunless %}
-                {% endfor %}
+                        {% endunless %}
+                        {% endfor %}
 
-                {% assign moneysaving_counter = 0 %}
-                {% for item in site.money-savings %}
-                    {% unless item.published == false %}
+                        {% assign moneysaving_counter = 0 %}
+                        {% for item in site.money-savings %}
+                        {% unless item.published == false %}
                         {% assign moneysaving_counter=moneysaving_counter | plus:1 %}
-                    {% endunless %}
-                {% endfor %}
+                        {% endunless %}
+                        {% endfor %}
 
-                <ul>
-                    <li>
-                        Published Blog Posts: {{ blog_counter }}
-                    </li>
-                    <li>
-                        Published Tutorials: {{ tutorial_counter }}
-                    </li>
-                    <li>
-                        Published Work Portfolio Items: {{ portfolio_counter }}
-                    </li>
-                    <li>
-                        Published Money Saving Posts: {{ moneysaving_counter }}
-                    </li>
-                </ul>
+                        <ul>
+                            <li>
+                                Published Blog Posts: {{ blog_counter }}
+                            </li>
+                            <li>
+                                Published Tutorials: {{ tutorial_counter }}
+                            </li>
+                            <li>
+                                Published Work Portfolio Items: {{ portfolio_counter }}
+                            </li>
+                            <li>
+                                Published Money Saving Posts: {{ moneysaving_counter }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div>
-                Useful links
 
-                <ul>
-                    <li>
-                        <a href="/disclaimer.html">Disclaimer</a>
-                    </li>
-                    <li>
-                        <a href="/credits.html">Credits</a>
-                    </li>
-                </ul>
+            <div class="card bg-light" style="margin-top:10px;">
+                <div class="card-body">
+                    <div style="border: 2px dotted #888888;padding:20px;">
+                        <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">Useful links:</h4>
+                        <ul>
+                            <li>
+                                <a href="/disclaimer.html">Disclaimer</a>
+                            </li>
+                            <li>
+                                <a href="/credits.html">Credits</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-md-12 col-lg-8 col-xl-{{ col2 }} pb-4 content" id="content">

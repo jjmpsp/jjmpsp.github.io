@@ -19,6 +19,10 @@ Consider where your application is hosted.
 
 Ensure your application uses a caching layer. As mentioned above, high memory environments have become a lot more common than before. RAM is a lot faster than hard drive storage, so consider storing frequently used data in RAM, rather than on disk. 
 
+Do you need jQuery?
+*Hypocrit mode* I'm a sucker for this one but it's actually a really important thing to point out that jquery itself is a very helpful JavaScript library, but most websites out there doesn't even require half or more of the functionality jQuery offers. Vanilla JavaScript is enough. Someone has kindly created a website which explains all of this stuff in a dumbed down fashion, so please check out http://youmightnotneedjquery.com/ to learn more about if you really need to be using jQuery on your website.
+
+
 Consider using a CDN
 Do you know where your website visitors come from? We're talking miliseconds or seconds here.
 
