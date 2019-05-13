@@ -111,4 +111,14 @@ defaults:
       show_profile: false
       layout: defaults/list
 
+# config for jekyll-html-compress plugin
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
 lastUpdated: 2019-05-09 19:02:05 UTC
