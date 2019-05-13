@@ -2,20 +2,22 @@
 layout: default
 ---
 
-<h1 class="border border-top-0 border-right-0 border-left-0 mb-4 pb-2">
-    {% if page.title %}
+<div class="border border-top-0 border-right-0 border-left-0 mb-4 pb-2">
+    <h1 style="display:inline-flex;">
+        {% if page.title %}
         {{ page.title }}
-    {% else %}
+        {% else %}
         {{ site.name }} 😍
-    {% endif %}
-</h1>
+        {% endif %}
+    </h1>
 
-<button class="d-flex align-items-center btn btn-primary" id="expand-view">
+    <button class="btn btn-primary hidden-xs hidden-md" id="expand-view" style="display: inline-flex; float:right;">
     <span class="icon grey mr-2">
         {% include entypo/resize-full-screen.svg %}
     </span>
-    <span class="button-text">Expand</span>
-</button>
+        <span class="button-text">Expand</span>
+    </button>
+</div>
 
 {{ content }}
 

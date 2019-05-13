@@ -1,5 +1,5 @@
 ---
-title:  Work Portfolio
+title:  Joel's Work Portfolio
 show_skills: true
 permalink: list/portfolio.html
 ---
@@ -13,8 +13,13 @@ permalink: list/portfolio.html
         <span class="text-secondary mr-2">Showing everything matching:</span>
         <span class="border rounded p-2 mr-2 bg-light text-secondary" id="active-skill"></span>
         <a class="btn btn-primary btn-small" href="javascript:void(0)" onclick="clearSkills()">clear</a>
-    </h4>
+    </h2>
 </div>
+
+I have worked on dozens of back-end systems over the years. Unfortunately, it isn't as easy to
+The below
+
+<hr>
 
 {% assign sorted = site.portfolio | reverse %}
 
@@ -24,45 +29,45 @@ permalink: list/portfolio.html
 
 <script type="text/javascript">
 
-    var parseHash = function() {
+    var parseHash;
+    parseHash = function () {
         if (document.location.hash.length > 0) {
-            var skill = document.location.hash.slice(1)
-            var name = $(".skill-" + skill).first().text()
-            showPortfolioBySkill(skill, name)
+            var tag = document.location.hash.slice(1);
+            var name = $(".tag-" + tag).first().text();
+            showPostByTag(tag, name);
         }
         else {
-            clearSkills()
+            clearTags();
         }
-    }
+    };
 
-    $(document).ready(parseHash)
+    $(document).ready(parseHash);
+    $(window).on('hashchange', parseHash);
 
-    $(window).on('hashchange', parseHash)
-
-    var showPortfolioBySkill = function(skill, name) {
-        $("#currently-showing").show()
-        $(".card-portfolio").hide()
-        $(".skill").removeClass("bg-warning")
+    var showPostByTag = function(tag, name) {
+        $("#currently-showing").show();
+        $(".card-post").hide();
+        $(".tag").removeClass("bg-warning")
             .addClass("bg-white")
-            .removeClass("text-dark")
-        $(".card-portfolio").each(function(idx, card) {
-            var matches = $(card).find(".skill-" + skill)
+            .removeClass("text-dark");
+        $(".card-post").each(function(idx, card) {
+            var matches = $(card).find(".tag-" + tag);
             if (matches.length > 0) $(card).show()
-        })
-        $(".skill-" + skill).removeClass("bg-white")
+        });
+        $(".tag-" + tag).removeClass("bg-white")
             .addClass("bg-warning")
             .addClass("text-dark")
-            .blur()
-        $("#active-skill").html(name)
-    }
+            .blur();
+        $("#active-tag").html(name);
+    };
 
-    var clearSkills = function() {
-        $("#currently-showing").hide()
-        $(".card-portfolio").show()
-        $(".skill").removeClass("bg-warning")
+    var clearTags = function() {
+        $("#currently-showing").hide();
+        $(".card-post").show();
+        $(".tag").removeClass("bg-warning")
             .addClass("bg-white")
-            .removeClass("text-dark")
-        document.location.hash = ""
+            .removeClass("text-dark");
+        document.location.hash = "";
     }
 
 </script>

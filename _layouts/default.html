@@ -75,15 +75,32 @@ layout: compress
                     {% endunless %}
                 {% endfor %}
 
-                Published Blog Posts: {{ blog_counter }}
-                Published Tutorials: {{ tutorial_counter }}
-                Published Work Portfolio Items: {{ portfolio_counter }}
-                Published Money Saving Posts: {{ moneysaving_counter }}
+                <ul>
+                    <li>
+                        Published Blog Posts: {{ blog_counter }}
+                    </li>
+                    <li>
+                        Published Tutorials: {{ tutorial_counter }}
+                    </li>
+                    <li>
+                        Published Work Portfolio Items: {{ portfolio_counter }}
+                    </li>
+                    <li>
+                        Published Money Saving Posts: {{ moneysaving_counter }}
+                    </li>
+                </ul>
             </div>
             <div>
                 Useful links
 
-                <a href="/disclaimer.html">Disclaimer</a>
+                <ul>
+                    <li>
+                        <a href="/disclaimer.html">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a href="/credits.html">Credits</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="col-md-12 col-lg-8 col-xl-{{ col2 }} pb-4 content" id="content">

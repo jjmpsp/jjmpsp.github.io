@@ -1,15 +1,15 @@
 ---
-title: Dickies Life
+title: Hybu Pobl Ifanc
 duration: May 2015 - Jan 2016
 role: Full Stack Web Developer
 skills:
   - JavaScript
   - PHP
-  - Doctrine ORM
-  - Team Leadership
+  - HTML
+  - Web Design
 ---
 
-## About Dickies
+## About Hybu Pobl Ifanc
 
 Cyberdyne is initially a benign manufacturing corporation at 18144 El Camino Real, Sunnyvale, California. Its products are unsure, possibly computers or processors, but from the equipment in its factory and its high tech-sounding name, it seems possible that Cyberdyne might have been some sort of smaller parts producer for larger manufacturers of high tech equipment.
 
@@ -18,7 +18,7 @@ A Series 800 Terminator, which is sent from the future and designed to kill huma
 From [http://terminator.wikia.com/wiki/Cyberdyne_Systems](http://terminator.wikia.com/wiki/Cyberdyne_Systems).
 
 <div class="card mb-3">
-    <img class="card-img-top" src = "/static/img/dickieslife.png"/>
+    <img class="card-img-top" src = "/static/img/hybu.png"/>
     <div class="card-body bg-light">
         <div class="card-text">Screenshot of my work.</div>
     </div>

@@ -126,3 +126,7 @@ blockquote span{
     font-style: normal;
     font-weight: bold;
 }
+
+#expand-view svg path {
+    fill: white;
+}

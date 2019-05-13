@@ -7,12 +7,13 @@ tags:
   - City
 ---
 
-Here's how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too.
-
 1. It's small enough to walk pretty much anywhere you need to go.
 
 2. It's not quite London, but it's not far from it.
 Don't get me wrong, I love visiting London but one problem I have with it is how unhappy and rude can be. Everyone is in so much of a damn rush and they'll give you the filthiest look ever just for stepping in their way by mistake. Thankfully, Cardiff isn't quite as busy as London but has a similar vibe. There's a lot going on during the entire year, and people are generally friendlier here than London.
+
+<!--more-->
+
 
 3. The bars and pubs make it one of the best places to drink in the world
 Everyone loves cheap booze but finding the cheapest
@@ -46,18 +47,5 @@ Want to travel elsewhere? We also have a temporary. As of 2019 there are no plan
 
 10. Cardiff's diversity is becoming more wide spread and there are now people here from all over the world.
 Scared you won't fit in here? I bet you will.
-
-<!--more-->
-
-The card allows a caption to be aligned with the photo, and the card classes contain a `card-img-top` that ensures the image is responsive within the grid.
-
-<div class="card mb-3">
-    <img class="card-img-top" src="/static/img/christmas_in_cardiff.jpg"/>
-    <div class="card-body bg-light">
-        <div class="card-text">
-            The Peak District on a mosty morning.
-        </div>
-    </div>
-</div>
 
 The city boasts a range of opportunities to those living in it. 
