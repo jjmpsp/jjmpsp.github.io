@@ -46,6 +46,10 @@ collections:
     output: true
     title: Product Reviews
     permalink: /:collection/:name.html
+  money-saving:
+    output: true
+    title: Money Saving
+    permalink: /:collection/:name.html
 
 
 defaults:
@@ -95,6 +99,11 @@ defaults:
       values:
         show_profile: false
         layout: defaults/product-review
+  - scope:
+      path: "_money-saving"
+    values:
+      show_profile: false
+      layout: defaults/money-saving
   -
     scope:
       path: "list"
@@ -102,4 +111,4 @@ defaults:
       show_profile: false
       layout: defaults/list
 
-lastUpdated: 2018-12-10 19:02:05 UTC
+lastUpdated: 2019-05-09 19:02:05 UTC

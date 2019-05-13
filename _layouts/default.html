@@ -41,6 +41,41 @@
                          title="profile for Joel Murphy at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
                 </a>
             </div>
+            <div class="card bg-light" style="margin-top:10px;">
+                <h3>Website Statistics:</h3>
+                {% assign blog_counter = 0 %}
+                {% for item in site.posts %}
+                    {% unless item.published == false %}
+                        {% assign blog_counter=blog_counter | plus:1 %}
+                    {% endunless %}
+                {% endfor %}
+
+                {% assign tutorial_counter = 0 %}
+                {% for item in site.tutorials %}
+                    {% unless item.published == false %}
+                        {% assign tutorial_counter=tutorial_counter | plus:1 %}
+                    {% endunless %}
+                {% endfor %}
+
+                {% assign portfolio_counter = 0 %}
+                {% for item in site.portfolio %}
+                    {% unless item.published == false %}
+                        {% assign portfolio_counter=portfolio_counter | plus:1 %}
+                    {% endunless %}
+                {% endfor %}
+
+                {% assign moneysaving_counter = 0 %}
+                {% for item in site.money-savings %}
+                    {% unless item.published == false %}
+                        {% assign moneysaving_counter=moneysaving_counter | plus:1 %}
+                    {% endunless %}
+                {% endfor %}
+
+                Published Blog Posts: {{ blog_counter }}
+                Published Tutorials: {{ tutorial_counter }}
+                Published Work Portfolio Items: {{ portfolio_counter }}
+                Published Money Saving Posts: {{ moneysaving_counter }}
+            </div>
         </div>
         <div class="col-md-12 col-lg-8 col-xl-{{ col2 }} pb-4 content">
             {{ content }}
@@ -102,7 +137,7 @@
     {
         "@context": "http://schema.org",
         "@type": "Person",
-        "email": "mailto:info@example.com",
+        "email": "mailto:contact@joel-murphy.co.uk",
         "image": "janedoe.jpg",
         "jobTitle": "Senior Full Stack PHP Developer",
         "name": "Joel Murphy",
