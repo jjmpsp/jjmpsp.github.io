@@ -7,7 +7,7 @@ title: A note from the Author...
 
 Welcome to the personal website of Joel Murphy. Here is a message from the author:
 
-> You've probably stumbled across this website because I've directed you here to learn from my [tutorials](/list/tutorials.html), or maybe you've been stalking my social media profiles and you've ended up clicking through to here? (hey, it's okay - we're all human and get curious sometimes! 😂)
+> You've probably stumbled across this website because I've directed you here to learn from my [tutorials](/list/tutorials.html), or maybe you've been stalking my social media profiles and you've ended up clicking through to here? (hey, it's okay - we're all human and get curious sometimes! 😂) Anyhow, a warm welcome to you no matter how you ended up here. 😄
 >
 > I've created this website as a central repository of information to document topics, events, and developments I find interesting in my personal & work life. You'll find that the majority of the content posted here is about technology, this is because it's the industry I work in and one of my favourite hobbies outside of work too. I also post about [my travels](/travel/), [product reviews](list/product-reviews.html), and [money saving tips ](/list/money-saving.html) - so maybe you non tech enthusiast visitors may be interested in these.  
 >
