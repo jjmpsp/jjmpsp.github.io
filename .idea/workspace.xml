@@ -2,59 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/03/10/how-to-avoid-scope-creep-in-it-projects.html" afterPath="$PROJECT_DIR$/_site/2018/03/10/how-to-avoid-scope-creep-in-it-projects.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/03/10/looping-over-all-collections-in-jekyll.html" afterPath="$PROJECT_DIR$/_site/2018/03/10/looping-over-all-collections-in-jekyll.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/05/10/why-i-ditched-wordpress-for-jekyll.html" afterPath="$PROJECT_DIR$/_site/2018/05/10/why-i-ditched-wordpress-for-jekyll.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/10/10/understanding-the-core-concepts-of-kubernetes.html" afterPath="$PROJECT_DIR$/_site/2018/10/10/understanding-the-core-concepts-of-kubernetes.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/10/10/using-git-as-backup-solution-bad-idea.html" afterPath="$PROJECT_DIR$/_site/2018/10/10/using-git-as-backup-solution-bad-idea.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/10/11/gdpr-waste-of-time.html" afterPath="$PROJECT_DIR$/_site/2018/10/11/gdpr-waste-of-time.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/11/11/how-far-should-we-go-with-automation.html" afterPath="$PROJECT_DIR$/_site/2018/11/11/how-far-should-we-go-with-automation.html" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/01/01/ten-reasons-why-cardiff-is-the-best-city-in-the-world.html" afterPath="$PROJECT_DIR$/_site/2019/01/01/ten-reasons-why-cardiff-is-the-best-city-in-the-world.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/box-uk.html" afterPath="$PROJECT_DIR$/_site/_portfolio/box-uk.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/hybu-pobl-ifanc.html" afterPath="$PROJECT_DIR$/_site/_portfolio/hybu-pobl-ifanc.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/promixx.html" afterPath="$PROJECT_DIR$/_site/_portfolio/promixx.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/amsterdam-netherlands.html" afterPath="$PROJECT_DIR$/_site/_travel/amsterdam-netherlands.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/sarajevo-bosnia-herzegovina.html" afterPath="$PROJECT_DIR$/_site/_travel/sarajevo-bosnia-herzegovina.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/vienna-austria.html" afterPath="$PROJECT_DIR$/_site/_travel/vienna-austria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" afterPath="$PROJECT_DIR$/_site/about.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cookie-policy.html" afterPath="$PROJECT_DIR$/_site/cookie-policy.html" />
-      <change beforePath="$PROJECT_DIR$/_site/credits.html" afterPath="$PROJECT_DIR$/_site/credits.html" />
-      <change beforePath="$PROJECT_DIR$/_site/disclaimer.html" afterPath="$PROJECT_DIR$/_site/disclaimer.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/money-saving.html" afterPath="$PROJECT_DIR$/_site/list/money-saving.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/portfolio.html" afterPath="$PROJECT_DIR$/_site/list/portfolio.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/posts.html" afterPath="$PROJECT_DIR$/_site/list/posts.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/product-reviews.html" afterPath="$PROJECT_DIR$/_site/list/product-reviews.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/projects.html" afterPath="$PROJECT_DIR$/_site/list/projects.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/talks-presentations.html" afterPath="$PROJECT_DIR$/_site/list/talks-presentations.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/tutorials.html" afterPath="$PROJECT_DIR$/_site/list/tutorials.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/box-uk.html" afterPath="$PROJECT_DIR$/_site/portfolio/box-uk.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/hybu-pobl-ifanc.html" afterPath="$PROJECT_DIR$/_site/portfolio/hybu-pobl-ifanc.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/promixx.html" afterPath="$PROJECT_DIR$/_site/portfolio/promixx.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/install.html" afterPath="$PROJECT_DIR$/_site/projects/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/madeup.html" afterPath="$PROJECT_DIR$/_site/projects/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/yetanother.html" afterPath="$PROJECT_DIR$/_site/projects/yetanother.html" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/talks-presentations.html" afterPath="$PROJECT_DIR$/_site/talks-presentations.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel.html" afterPath="$PROJECT_DIR$/_site/travel.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/amsterdam-netherlands.html" afterPath="$PROJECT_DIR$/_site/travel/amsterdam-netherlands.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/sarajevo-bosnia-herzegovina.html" afterPath="$PROJECT_DIR$/_site/travel/sarajevo-bosnia-herzegovina.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/vienna-austria.html" afterPath="$PROJECT_DIR$/_site/travel/vienna-austria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/how-to-get-started-with-software-development.html" afterPath="$PROJECT_DIR$/_site/tutorials/how-to-get-started-with-software-development.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/how-to-make-a-website-load-faster-in-2019.html" afterPath="$PROJECT_DIR$/_site/tutorials/how-to-make-a-website-load-faster-in-2019.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/install.html" afterPath="$PROJECT_DIR$/_site/tutorials/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/madeup.html" afterPath="$PROJECT_DIR$/_site/tutorials/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/yetanother.html" afterPath="$PROJECT_DIR$/_site/tutorials/yetanother.html" />
-      <change beforePath="$PROJECT_DIR$/_tutorials/how-to-get-started-with-software-development.md" afterPath="$PROJECT_DIR$/_tutorials/how-to-get-started-with-software-development.md" />
-      <change beforePath="$PROJECT_DIR$/_tutorials/how-to-make-a-website-load-faster-in-2019.md" afterPath="$PROJECT_DIR$/_tutorials/how-to-make-a-website-load-faster-in-2019.md" />
-      <change beforePath="$PROJECT_DIR$/list/portfolio.html" afterPath="$PROJECT_DIR$/list/portfolio.html" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -409,16 +357,15 @@
       <updated>1556811119767</updated>
       <workItem from="1556811123305" duration="18723000" />
       <workItem from="1557691203571" duration="3839000" />
-      <workItem from="1557773889475" duration="5597000" />
+      <workItem from="1557773889475" duration="5953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47866000" />
+    <option name="totallyTimeSpent" value="48222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1280" height="716" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25234374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -429,7 +376,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33074534" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33074534" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
