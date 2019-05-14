@@ -16,3 +16,9 @@ gem install jekyll-sitemap
 Now that we have jekyll ready, we are ready to serve our static website:
 
 jekyll serve
+
+This project is managed using an open Trello board. If there's anything you think I could do to improve the website, please leave some feedback and I will update the kanban board to reflect on the changes and improvements I need to make.
+
+https://joel-murphy.co.uk/
+
+Cheers!
