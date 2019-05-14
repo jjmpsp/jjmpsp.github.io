@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_portfolio/learning-at-wales.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/F" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/defaults/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/defaults/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2018/03/10/how-to-avoid-scope-creep-in-it-projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/03/10/how-to-avoid-scope-creep-in-it-projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2018/03/10/looping-over-all-collections-in-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/03/10/looping-over-all-collections-in-jekyll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2018/05/10/why-i-ditched-wordpress-for-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/10/why-i-ditched-wordpress-for-jekyll.html" afterDir="false" />
@@ -14,7 +13,6 @@
       <change beforePath="$PROJECT_DIR$/_site/2018/11/11/how-far-should-we-go-with-automation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/11/11/how-far-should-we-go-with-automation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/01/01/ten-reasons-why-cardiff-is-the-best-city-in-the-world.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/01/01/ten-reasons-why-cardiff-is-the-best-city-in-the-world.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/02/02/new-emojis-for-2019.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/02/02/new-emojis-for-2019.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/F" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/_portfolio/box-uk.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/_portfolio/box-uk.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" afterDir="false" />
@@ -43,7 +41,6 @@
       <change beforePath="$PROJECT_DIR$/_site/projects/install.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/install.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/projects/madeup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/madeup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/projects/yetanother.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/yetanother.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/talks-presentations.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talks-presentations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/travel.html" afterDir="false" />
@@ -55,7 +52,6 @@
       <change beforePath="$PROJECT_DIR$/_site/tutorials/install.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tutorials/install.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tutorials/madeup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tutorials/madeup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tutorials/yetanother.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tutorials/yetanother.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/css/site.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/defaults/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_portfolio/learning-at-wales.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -111,18 +119,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="221">
                 <caret line="13" selection-start-line="13" selection-end-line="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-01-01-ten-reasons-why-cardiff-is-the-best-city-in-the-world.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="439">
-                <caret line="50" column="64" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -218,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_includes/bars/nav.html" />
         <option value="$PROJECT_DIR$/_pages/tutorials.md" />
         <option value="$PROJECT_DIR$/_pages/talks.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-10-using-git-as-backup-solution-bad-idea.md" />
@@ -269,14 +264,15 @@
         <option value="$PROJECT_DIR$/_tutorials/how-to-get-started-with-software-development.md" />
         <option value="$PROJECT_DIR$/theme/css/site.css" />
         <option value="$PROJECT_DIR$/_layouts/defaults/page.html" />
+        <option value="$PROJECT_DIR$/_portfolio/learning-at-wales.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
-    <option name="y" value="56" />
-    <option name="width" value="1282" />
-    <option name="height" value="712" />
+    <option name="x" value="-89" />
+    <option name="y" value="254" />
+    <option name="width" value="1288" />
+    <option name="height" value="683" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -314,6 +310,11 @@
               <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="jjmpsp.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjmpsp.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jjmpsp.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -356,7 +357,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="portfolio&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/portfolio.html&#10;tutorials&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/tutorials.md&#10;site.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;about&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;intro&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;intro.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_portfolio" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -364,11 +365,11 @@
       <recent name="C:\Users\jo209050\Desktop\jjmpsp.github.io\_layouts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jo209050\Desktop\jjmpsp.github.io\_portfolio" />
       <recent name="$PROJECT_DIR$/_portfolio" />
       <recent name="$PROJECT_DIR$/_pages" />
       <recent name="C:\Users\jo209050\Desktop\jjmpsp.github.io\_posts" />
       <recent name="C:\Users\jo209050\Desktop\jjmpsp.github.io\_pages" />
-      <recent name="C:\Users\jo209050\Desktop\jjmpsp.github.io\_tutorials" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -400,13 +401,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49392000" />
+    <option name="totallyTimeSpent" value="50709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,7 +420,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33152762" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33152762" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -750,8 +751,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/defaults/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_portfolio/learning-at-wales.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
