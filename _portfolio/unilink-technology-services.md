@@ -1,5 +1,5 @@
 ---
-title: Dickies Workwear
+title: Unilink Technology Services
 duration: Jan 2016 - present
 role: Full Stack Web Developer
 skills:
@@ -9,7 +9,7 @@ skills:
   - Project Management
 ---
 
-## About Dickies
+## About Unilink Technology Services
 
 Wayne Enterprises, Inc., also known as WayneCorp, is a fictional company appearing in American comic books published by DC Comics, commonly in association with the superhero Batman.
 
@@ -20,12 +20,11 @@ Wayne Enterprises and the Wayne Foundation are largely run by Bruce Wayne's busi
 From [https://en.wikipedia.org/wiki/Wayne_Enterprises](https://en.wikipedia.org/wiki/Wayne_Enterprises).
 
 <div class="card mb-3">
-    <img class="card-img-top" src = "/static/img/dickiesworkwear.png"/>
+    <img class="card-img-top" src = "/static/img/unilink.png"/>
     <div class="card-body bg-light">
         <div class="card-text">Screenshot of my work.</div>
     </div>
 </div>
 
 ## My Role
-
-I worked my way up to a senior level full stack website developer at Dickies, a global leader in workwear clothing. I was in charge of maintaining 13 Dickies e-commerce websites and developing a custom written PHP 7.0 framework. Part of my work involved cleansing, migrating, and normalising 14 years of e-commerce data, and mocking up designs from a designer in code. I also interviewed and hired new developers on behalf of the company’s I.T &amp; Marketing department.
+I was hired by a prison communications company for advice on making their Python websites and background processes GDPR compliant. This job involved auditing existing I.T infrastructure, data flow, data handling practises, giving advice on new technologies, and creating a contingency plan in the event of a data breach.
