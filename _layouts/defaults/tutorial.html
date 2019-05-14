@@ -8,14 +8,31 @@ layout: default
 
 {% include nav-breadcrumbs.html %}
 
+<hr>
+
 {% include social-share-bar.html %}
 
+<hr>
 
 <div class="d-md-block d-lg-none">
     {% include components/project-meta.html %}
 </div>
 
 {{ content }}
+
+
+<hr>
+
+{% include social-share-bar.html %}
+
+<hr>
+
+<h4>Share your thoughts for: '{{ page.title }}':</h4>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+
+<div class="fb-comments" data-href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" data-width="100%" data-numposts="10"></div>
 
 <script type="text/javascript">
     $(document).ready(function () {
