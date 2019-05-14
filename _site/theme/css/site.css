@@ -27,6 +27,7 @@
 .list-title {
     text-transform: uppercase;
     font-weight: 300;
+    font-size: 25px;
 }
 
 .navbar-toggler:focus {

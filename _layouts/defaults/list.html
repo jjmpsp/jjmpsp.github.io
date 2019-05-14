@@ -2,9 +2,16 @@
 layout: default
 ---
 
-<h5 class="list-title border border-left-0 border-right-0 py-2">
+<h1 class="list-title border border-left-0 border-right-0 py-2">
     {{ page.title }}
-</h5>
+
+    <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
+        <span class="icon grey mr-2">
+            {% include entypo/resize-full-screen.svg %}
+        </span>
+        <span class="button-text">Expand</span>
+    </button>
+</h1>
 
 {% include nav-breadcrumbs.html %}
 

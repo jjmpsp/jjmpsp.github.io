@@ -1,5 +1,5 @@
 ---
-title: Tutorials
+title: Joel's Tutorials
 narrow: true
 permalink: /tutorials
 show_profile: true

@@ -1,12 +1,9 @@
 ---
 layout: defaults/page
+title: Joel's travels
 permalink: travel.html
 narrow: true
 ---
-
-## My travels
-
-Up until 2011 I had only ever been on holiday to Spain.
 
 <div id="map-canvas"></div>
 
@@ -20,6 +17,9 @@ Up until 2011 I had only ever been on holiday to Spain.
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGQdgVqTDsRWmrgkorSwmuWRAtdOW0Umk"></script>
 <script type="text/javascript" src="/static/js/PlacesBeen.js"></script>
+
+Up until 2011 I had only ever been on holiday to Spain.
+
 
 I have decided to document my experience in every single country visited.
 

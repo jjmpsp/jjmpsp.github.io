@@ -12,7 +12,6 @@ layout: compress
 {% include bars/nav.html %}
 
 {% capture col1 %}{% if page.narrow %}3{% else %}4{% endif %}{% endcapture %}
-
 {% capture col2 %}{% if page.narrow %}9{% else %}8{% endif %}{% endcapture %}
 
 <div class="container site-container" id="top">
@@ -131,10 +130,27 @@ layout: compress
 
 <link href="{{ site.baseurl }}/static/css/jquery-eu-cookie-law-popup.css" rel="stylesheet">
 <script src="{{ site.baseurl }}/static/js/jquery-eu-cookie-law-popup.js"></script>
-
-
-<script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js" type="application/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        var expandViewToggled = false;
+        $("#expand-view").click(function () {
+
+            if (!expandViewToggled) {
+                $("#side").attr('style', 'display:none !important');
+                $("#content").addClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
+                expandViewToggled = true;
+                $($(this).children(".button-text")[0]).text("Shrink");
+            } else {
+                $("#side").removeAttr('style');
+                $("#content").removeClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
+                expandViewToggled = false;
+                $($(this).children(".button-text")[0]).text("Expand");
+            }
+        });
+    });
+</script>
 
 <footer class="container" style="background: #efefef;min-height: 40px;max-height: 400px;">
     <div class="row" style="line-height:40px;margin-left:auto;margin-right:auto;">

@@ -2,8 +2,11 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: A note from the Author...
+title: Welcome to joel-murphy.co.uk
 ---
+
+{% include nav-breadcrumbs.html %}
+
 
 Welcome to the personal website of Joel Murphy. Here is a message from the author:
 

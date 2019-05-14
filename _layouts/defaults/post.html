@@ -1,14 +1,24 @@
 ---
 layout: default
+postType: Blog Post
 ---
 
-<h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">{{ page.title }}</h1>
+<h1 class="list-title border border-left-0 border-right-0 py-2">
+    {{ page.title }}
+
+    <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
+        <span class="icon grey mr-2">
+            {% include entypo/resize-full-screen.svg %}
+        </span>
+        <span class="button-text">Expand</span>
+    </button>
+</h1>
 
 <div class="d-md-block d-lg-none">
     {% include components/post-meta.html %}
 </div>
 
-{% include social-share-bar.html %}
+{% include social-share-bar.html postType=layout.postType %}
 
 <hr>
 
