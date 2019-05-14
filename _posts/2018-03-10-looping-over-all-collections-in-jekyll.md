@@ -12,10 +12,10 @@ Here's how to put a single image into a post, using a Bootstrap 4 card. This sho
 The card allows a caption to be aligned with the photo, and the card classes contain a `card-img-top` that ensures the image is responsive within the grid.
 
 <div class="card mb-3">
-    <img class="card-img-top" src="/static/img/christmas_in_cardiff.jpg"/>
+    <img class="card-img-top" src="/static/img/jekyll-logo.png" />
     <div class="card-body bg-light">
         <div class="card-text">
-            The Peak District on a mosty morning.
+            The Peak District on a mosty morning. Image credit, Official <a href="https://jekyllrb.com/">Jekyll website</a>.
         </div>
     </div>
 </div>

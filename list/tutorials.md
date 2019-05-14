@@ -5,19 +5,29 @@ permalink: list/tutorials.html
 show_profile: true
 ---
 
+I am a huge fan of continuous learning and love learning new skills. I spend a lot of my income on new learning materials but I want to share my knowledge with you here for free.  
+
 {% for tutorial in site.tutorials %}
 - [{{ tutorial.title }}]({{ site.baseurl }}{{ tutorial.url }})
 {% endfor %}
 
-
-<form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
-    <div class="mc-field-group">
-        <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on">
-        <input type="submit" value="Subscribe" name="subscribe" class="heart">
-    </div>
-</form>
+<div class="email-subscription-cta">
+    <h2>Stay in the loop</h2>
+    <h4>Want to be notified of recent tutorials, blog posts, money saving tips, and other news?</h4>
+    <p>Subscribe today - it's free of charge and you can opt out at any time if it's not for you.</p> 
+    <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+        <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on">
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+        </div>
+    </form>
+</div>
 
 <style>
+    .email-subscription-cta {
+        background: #efefef;
+        padding: 20px;
+    }
     .wj-contact-form input {
         vertical-align: middle;
         margin-top: 0.25em;

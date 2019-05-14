@@ -1,8 +1,7 @@
 ---
-title: Amsterdam, Netherlands
+title: France
 tags:
-  - Amsterdam
-  - Netherlands
+  - France
   - Travel
   
 images:

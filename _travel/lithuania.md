@@ -1,8 +1,7 @@
 ---
-title: Sarajevo, Bosnia and Herzegovina
+title: Lithuania
 tags:
-  - Sarajevo
-  - Bosnia and Herzegovina
+  - Lithuania
   - Travel
   
 images:
