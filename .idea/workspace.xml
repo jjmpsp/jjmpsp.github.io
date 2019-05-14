@@ -2,135 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_includes/back-to-portfolio.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/social-share-bar.html" afterPath="$PROJECT_DIR$/_includes/social-share-bar.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/defaults/list.html" afterPath="$PROJECT_DIR$/_layouts/defaults/list.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/defaults/page.html" afterPath="$PROJECT_DIR$/_layouts/defaults/page.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/defaults/portfolio.html" afterPath="$PROJECT_DIR$/_layouts/defaults/portfolio.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/defaults/post.html" afterPath="$PROJECT_DIR$/_layouts/defaults/post.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/defaults/project.html" afterPath="$PROJECT_DIR$/_layouts/defaults/project.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/defaults/tutorial.html" afterPath="$PROJECT_DIR$/_layouts/defaults/tutorial.html" />
-      <change beforePath="$PROJECT_DIR$/_pages/index.md" afterPath="$PROJECT_DIR$/_pages/index.md" />
-      <change beforePath="$PROJECT_DIR$/_pages/travel.md" afterPath="$PROJECT_DIR$/_pages/travel.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/box-uk.md" afterPath="$PROJECT_DIR$/_portfolio/box-uk.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/dickies-life.md" afterPath="$PROJECT_DIR$/_portfolio/dickies-life.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/hybu-pobl-ifanc.md" afterPath="$PROJECT_DIR$/_portfolio/hybu-pobl-ifanc.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/learning-at-wales.md" afterPath="$PROJECT_DIR$/_portfolio/learning-at-wales.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/nott-development-studios.md" afterPath="$PROJECT_DIR$/_portfolio/nott-development-studios.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/promixx.md" afterPath="$PROJECT_DIR$/_portfolio/promixx.md" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/seekrs.md" afterPath="$PROJECT_DIR$/_portfolio/seekrs.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md" afterPath="$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/box-uk.html" afterPath="$PROJECT_DIR$/_site/_portfolio/box-uk.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/hybu-pobl-ifanc.html" afterPath="$PROJECT_DIR$/_site/_portfolio/hybu-pobl-ifanc.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/learning-at-wales.html" afterPath="$PROJECT_DIR$/_site/_portfolio/learning-at-wales.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/nott-development-studios.html" afterPath="$PROJECT_DIR$/_site/_portfolio/nott-development-studios.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/promixx.html" afterPath="$PROJECT_DIR$/_site/_portfolio/promixx.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/seekrs.html" afterPath="$PROJECT_DIR$/_site/_portfolio/seekrs.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/austria.html" afterPath="$PROJECT_DIR$/_site/_travel/austria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/belguim.html" afterPath="$PROJECT_DIR$/_site/_travel/belguim.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/bosnia-herzegovina.html" afterPath="$PROJECT_DIR$/_site/_travel/bosnia-herzegovina.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/bulgaria.html" afterPath="$PROJECT_DIR$/_site/_travel/bulgaria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/croatia.html" afterPath="$PROJECT_DIR$/_site/_travel/croatia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/cyprus.html" afterPath="$PROJECT_DIR$/_site/_travel/cyprus.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/czech-republic.html" afterPath="$PROJECT_DIR$/_site/_travel/czech-republic.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/france.html" afterPath="$PROJECT_DIR$/_site/_travel/france.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/germany.html" afterPath="$PROJECT_DIR$/_site/_travel/germany.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/great-britain.html" afterPath="$PROJECT_DIR$/_site/_travel/great-britain.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/greece.html" afterPath="$PROJECT_DIR$/_site/_travel/greece.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/hungary.html" afterPath="$PROJECT_DIR$/_site/_travel/hungary.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/ireland.html" afterPath="$PROJECT_DIR$/_site/_travel/ireland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/israel.html" afterPath="$PROJECT_DIR$/_site/_travel/israel.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/italy.html" afterPath="$PROJECT_DIR$/_site/_travel/italy.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/latvia.html" afterPath="$PROJECT_DIR$/_site/_travel/latvia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/lithuania.html" afterPath="$PROJECT_DIR$/_site/_travel/lithuania.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/netherlands.html" afterPath="$PROJECT_DIR$/_site/_travel/netherlands.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/norway.html" afterPath="$PROJECT_DIR$/_site/_travel/norway.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/poland.html" afterPath="$PROJECT_DIR$/_site/_travel/poland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/romania.html" afterPath="$PROJECT_DIR$/_site/_travel/romania.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/serbia.html" afterPath="$PROJECT_DIR$/_site/_travel/serbia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/slovakia.html" afterPath="$PROJECT_DIR$/_site/_travel/slovakia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/slovenia.html" afterPath="$PROJECT_DIR$/_site/_travel/slovenia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/spain.html" afterPath="$PROJECT_DIR$/_site/_travel/spain.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/sweden.html" afterPath="$PROJECT_DIR$/_site/_travel/sweden.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_travel/switzerland.html" afterPath="$PROJECT_DIR$/_site/_travel/switzerland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" afterPath="$PROJECT_DIR$/_site/about.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog.html" afterPath="$PROJECT_DIR$/_site/blog.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2018-03-10-how-to-avoid-scope-creep-in-it-projects.html" afterPath="$PROJECT_DIR$/_site/blog/2018-03-10-how-to-avoid-scope-creep-in-it-projects.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2018-03-10-looping-over-all-collections-in-jekyll.html" afterPath="$PROJECT_DIR$/_site/blog/2018-03-10-looping-over-all-collections-in-jekyll.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2018-05-10-why-i-ditched-wordpress-for-jekyll.html" afterPath="$PROJECT_DIR$/_site/blog/2018-05-10-why-i-ditched-wordpress-for-jekyll.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2018-10-10-understanding-the-core-concepts-of-kubernetes.html" afterPath="$PROJECT_DIR$/_site/blog/2018-10-10-understanding-the-core-concepts-of-kubernetes.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2018-10-10-using-git-as-backup-solution-bad-idea.html" afterPath="$PROJECT_DIR$/_site/blog/2018-10-10-using-git-as-backup-solution-bad-idea.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2018-10-11-gdpr-waste-of-time.html" afterPath="$PROJECT_DIR$/_site/blog/2018-10-11-gdpr-waste-of-time.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2018-11-11-how-far-should-we-go-with-automation.html" afterPath="$PROJECT_DIR$/_site/blog/2018-11-11-how-far-should-we-go-with-automation.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2019-01-01-ten-reasons-why-cardiff-is-the-best-city-in-the-world.html" afterPath="$PROJECT_DIR$/_site/blog/2019-01-01-ten-reasons-why-cardiff-is-the-best-city-in-the-world.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2019-02-02-new-emojis-for-2019.html" afterPath="$PROJECT_DIR$/_site/blog/2019-02-02-new-emojis-for-2019.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cookie-policy.html" afterPath="$PROJECT_DIR$/_site/cookie-policy.html" />
-      <change beforePath="$PROJECT_DIR$/_site/credits.html" afterPath="$PROJECT_DIR$/_site/credits.html" />
-      <change beforePath="$PROJECT_DIR$/_site/disclaimer.html" afterPath="$PROJECT_DIR$/_site/disclaimer.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/money-saving.html" afterPath="$PROJECT_DIR$/_site/list/money-saving.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/product-reviews.html" afterPath="$PROJECT_DIR$/_site/list/product-reviews.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/talks-presentations.html" afterPath="$PROJECT_DIR$/_site/list/talks-presentations.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio.html" afterPath="$PROJECT_DIR$/_site/portfolio.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/box-uk.html" afterPath="$PROJECT_DIR$/_site/portfolio/box-uk.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/hybu-pobl-ifanc.html" afterPath="$PROJECT_DIR$/_site/portfolio/hybu-pobl-ifanc.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/learning-at-wales.html" afterPath="$PROJECT_DIR$/_site/portfolio/learning-at-wales.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/nott-development-studios.html" afterPath="$PROJECT_DIR$/_site/portfolio/nott-development-studios.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/promixx.html" afterPath="$PROJECT_DIR$/_site/portfolio/promixx.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/seekrs.html" afterPath="$PROJECT_DIR$/_site/portfolio/seekrs.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects.html" afterPath="$PROJECT_DIR$/_site/projects.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/install.html" afterPath="$PROJECT_DIR$/_site/projects/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/madeup.html" afterPath="$PROJECT_DIR$/_site/projects/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/yetanother.html" afterPath="$PROJECT_DIR$/_site/projects/yetanother.html" />
+      <change beforePath="$PROJECT_DIR$/_includes/structure/head.html" afterPath="$PROJECT_DIR$/_includes/structure/head.html" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/static/img/learning-at-wales.png" afterPath="$PROJECT_DIR$/_site/static/img/learning-at-wales.png" />
-      <change beforePath="$PROJECT_DIR$/_site/static/img/nott-development-studios.png" afterPath="$PROJECT_DIR$/_site/static/img/nott-development-studios.png" />
-      <change beforePath="$PROJECT_DIR$/_site/static/img/seekrs.png" afterPath="$PROJECT_DIR$/_site/static/img/seekrs.png" />
-      <change beforePath="$PROJECT_DIR$/_site/talks-presentations.html" afterPath="$PROJECT_DIR$/_site/talks-presentations.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel.html" afterPath="$PROJECT_DIR$/_site/travel.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/austria.html" afterPath="$PROJECT_DIR$/_site/travel/austria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/belguim.html" afterPath="$PROJECT_DIR$/_site/travel/belguim.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/bosnia-herzegovina.html" afterPath="$PROJECT_DIR$/_site/travel/bosnia-herzegovina.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/bulgaria.html" afterPath="$PROJECT_DIR$/_site/travel/bulgaria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/croatia.html" afterPath="$PROJECT_DIR$/_site/travel/croatia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/cyprus.html" afterPath="$PROJECT_DIR$/_site/travel/cyprus.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/czech-republic.html" afterPath="$PROJECT_DIR$/_site/travel/czech-republic.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/france.html" afterPath="$PROJECT_DIR$/_site/travel/france.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/germany.html" afterPath="$PROJECT_DIR$/_site/travel/germany.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/great-britain.html" afterPath="$PROJECT_DIR$/_site/travel/great-britain.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/greece.html" afterPath="$PROJECT_DIR$/_site/travel/greece.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/hungary.html" afterPath="$PROJECT_DIR$/_site/travel/hungary.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/ireland.html" afterPath="$PROJECT_DIR$/_site/travel/ireland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/israel.html" afterPath="$PROJECT_DIR$/_site/travel/israel.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/italy.html" afterPath="$PROJECT_DIR$/_site/travel/italy.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/latvia.html" afterPath="$PROJECT_DIR$/_site/travel/latvia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/lithuania.html" afterPath="$PROJECT_DIR$/_site/travel/lithuania.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/netherlands.html" afterPath="$PROJECT_DIR$/_site/travel/netherlands.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/norway.html" afterPath="$PROJECT_DIR$/_site/travel/norway.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/poland.html" afterPath="$PROJECT_DIR$/_site/travel/poland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/romania.html" afterPath="$PROJECT_DIR$/_site/travel/romania.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/serbia.html" afterPath="$PROJECT_DIR$/_site/travel/serbia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/slovakia.html" afterPath="$PROJECT_DIR$/_site/travel/slovakia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/slovenia.html" afterPath="$PROJECT_DIR$/_site/travel/slovenia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/spain.html" afterPath="$PROJECT_DIR$/_site/travel/spain.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/sweden.html" afterPath="$PROJECT_DIR$/_site/travel/sweden.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/switzerland.html" afterPath="$PROJECT_DIR$/_site/travel/switzerland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials.html" afterPath="$PROJECT_DIR$/_site/tutorials.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/how-to-get-started-with-software-development.html" afterPath="$PROJECT_DIR$/_site/tutorials/how-to-get-started-with-software-development.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/how-to-make-a-website-load-faster-in-2019.html" afterPath="$PROJECT_DIR$/_site/tutorials/how-to-make-a-website-load-faster-in-2019.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/install.html" afterPath="$PROJECT_DIR$/_site/tutorials/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/madeup.html" afterPath="$PROJECT_DIR$/_site/tutorials/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/yetanother.html" afterPath="$PROJECT_DIR$/_site/tutorials/yetanother.html" />
-      <change beforePath="$PROJECT_DIR$/list/tutorials.md" afterPath="$PROJECT_DIR$/list/tutorials.md" />
-      <change beforePath="$PROJECT_DIR$/static/img/learning-at-wales.png" afterPath="$PROJECT_DIR$/static/img/learning-at-wales.png" />
-      <change beforePath="$PROJECT_DIR$/static/img/nott-development-studios.png" afterPath="$PROJECT_DIR$/static/img/nott-development-studios.png" />
-      <change beforePath="$PROJECT_DIR$/static/img/seekrs.png" afterPath="$PROJECT_DIR$/static/img/seekrs.png" />
+      <change beforePath="$PROJECT_DIR$/_site/theme/css/site.css" afterPath="$PROJECT_DIR$/_site/theme/css/site.css" />
       <change beforePath="$PROJECT_DIR$/theme/css/site.css" afterPath="$PROJECT_DIR$/theme/css/site.css" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
@@ -157,6 +32,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/structure/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="116" column="24" lean-forward="false" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -203,15 +98,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutorials.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tutorials.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/tutorials.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <first_editor relative-caret-position="285">
+                <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme/css/site.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -220,10 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>eupopup-closebutton</find>
-      <find>buttons</find>
-      <find>active</find>
-      <find>nav-bread</find>
       <find>tutorials.html</find>
       <find>list/</find>
       <find>list/tutorials</find>
@@ -250,6 +151,10 @@
       <find>https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js</find>
       <find>list-title</find>
       <find>TUTORIALS</find>
+      <find>animate.css</find>
+      <find>animate</find>
+      <find>animated</find>
+      <find>pulse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -258,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_travel/italy.md" />
         <option value="$PROJECT_DIR$/_travel/latvia.md" />
         <option value="$PROJECT_DIR$/_travel/lithuania.md" />
         <option value="$PROJECT_DIR$/_travel/norway.md" />
@@ -304,11 +208,12 @@
         <option value="$PROJECT_DIR$/_portfolio/nott-development-studios.md" />
         <option value="$PROJECT_DIR$/_portfolio/learning-at-wales.md" />
         <option value="$PROJECT_DIR$/_portfolio/hybu-pobl-ifanc.md" />
-        <option value="$PROJECT_DIR$/theme/css/site.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_layouts/defaults/tutorial.html" />
         <option value="$PROJECT_DIR$/_layouts/defaults/post.html" />
         <option value="$PROJECT_DIR$/list/tutorials.md" />
+        <option value="$PROJECT_DIR$/theme/css/site.css" />
+        <option value="$PROJECT_DIR$/_includes/structure/head.html" />
       </list>
     </option>
   </component>
@@ -420,12 +325,12 @@
       <workItem from="1556811123305" duration="18723000" />
       <workItem from="1557691203571" duration="3839000" />
       <workItem from="1557773889475" duration="5953000" />
-      <workItem from="1557854650083" duration="6574000" />
+      <workItem from="1557854650083" duration="7028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77866000" />
+    <option name="totallyTimeSpent" value="78320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="715" extended-state="6" />
@@ -463,26 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_travel/norway.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_travel/poland.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_travel/romania.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -863,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1362">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_portfolio/hybu-pobl-ifanc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -923,11 +800,35 @@
     <entry file="file://$PROJECT_DIR$/list/tutorials.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="116" column="24" lean-forward="false" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/structure/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
