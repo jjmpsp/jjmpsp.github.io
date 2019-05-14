@@ -26,6 +26,10 @@ include: ["_travel", "_pages", "_portfolio"]
 
 # Turn the projects into a collection.
 collections:
+  posts:
+    output: true
+    title: Posts
+    permalink: /blog/:name.html
   projects:
     output: true
     title: Projects
@@ -67,48 +71,48 @@ defaults:
     scope:
       path: "_posts"
     values:
-      show_profile: false
+      show_profile: true
       layout: defaults/post
   -
     scope:
       path: "_portfolio"
     values:
-      show_profile: false
+      show_profile: true
       layout: defaults/portfolio
   -
     scope:
       path: "_projects"
     values:
-      show_profile: false
+      show_profile: true
       layout: defaults/project
   -
     scope:
       path: "_tutorials"
     values:
-      show_profile: false
+      show_profile: true
       layout: defaults/tutorial
   -
       scope:
         path: "_travel"
       values:
-        show_profile: false
+        show_profile: true
         layout: defaults/travel
   -
       scope:
         path: "_product-reviews"
       values:
-        show_profile: false
+        show_profile: true
         layout: defaults/product-review
   - scope:
       path: "_money-saving"
     values:
-      show_profile: false
+      show_profile: true
       layout: defaults/money-saving
   -
     scope:
       path: "list"
     values:
-      show_profile: false
+      show_profile: true
       layout: defaults/list
 
 # config for jekyll-html-compress plugin
