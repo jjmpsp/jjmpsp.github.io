@@ -6,9 +6,6 @@
  * Code on Github:
  * https://github.com/wimagguc/jquery-eu-cookie-law-popup
  *
- * To see a live demo, go to:
- * http://www.wimagguc.com/2018/05/gdpr-compliance-with-the-jquery-eu-cookie-law-plugin/
- *
  * by Richard Dancsi
  * http://www.wimagguc.com/
  *
@@ -16,7 +13,7 @@
 
 (function($) {
 
-// for ie9 doesn't support debug console >>>
+// ie9 doesn't support debug console >>>
 if (!window.console) window.console = {};
 if (!window.console.log) window.console.log = function () { };
 // ^^^
@@ -32,8 +29,8 @@ $.fn.euCookieLawPopup = (function() {
 		popupPosition : 'top',
 		colorStyle : 'default',
 		compactStyle : false,
-		popupTitle : 'This website is using cookies',
-		popupText : 'We use cookies to ensure that we give you the best experience on our website. If you continue without changing your settings, we\'ll assume that you are happy to receive all cookies on this website.',
+		popupTitle : '[title]',
+		popupText : '[notice]',
 		buttonContinueTitle : 'Continue',
 		buttonLearnmoreTitle : 'Learn&nbsp;more',
 		buttonLearnmoreOpenInNewWindow : true,
@@ -135,24 +132,21 @@ $.fn.euCookieLawPopup = (function() {
 			return _self.params.htmlMarkup;
 		}
 
-		var html =
-			'<div class="eupopup-container' +
-			    ' eupopup-container-' + _self.params.popupPosition +
-			    (_self.params.compactStyle ? ' eupopup-style-compact' : '') +
-				' eupopup-color-' + _self.params.colorStyle + '">' +
-				'<div class="eupopup-head">' + _self.params.popupTitle + '</div>' +
-				'<div class="eupopup-body">' + _self.params.popupText + '</div>' +
-				'<div class="eupopup-buttons">' +
-				  '<a href="#" class="eupopup-button eupopup-button_1">' + _self.params.buttonContinueTitle + '</a>' +
-				  '<a href="' + _self.params.cookiePolicyUrl + '"' +
-				 	(_self.params.buttonLearnmoreOpenInNewWindow ? ' target=_blank ' : '') +
-					' class="eupopup-button eupopup-button_2">' + _self.params.buttonLearnmoreTitle + '</a>' +
-				  '<div class="clearfix"></div>' +
-				'</div>' +
-				'<a href="#" class="eupopup-closebutton">x</a>' +
+		return '<div class="eupopup-container' +
+			' eupopup-container-' + _self.params.popupPosition +
+			(_self.params.compactStyle ? ' eupopup-style-compact' : '') +
+			' eupopup-color-' + _self.params.colorStyle + '">' +
+			'<div class="eupopup-head">' + _self.params.popupTitle + '</div>' +
+			'<div class="eupopup-body">' + _self.params.popupText + '</div>' +
+			'<div class="eupopup-buttons">' +
+			'<a href="#" class="eupopup-button eupopup-button_1">' + _self.params.buttonContinueTitle + '</a>' +
+			'<a href="' + _self.params.cookiePolicyUrl + '"' +
+			(_self.params.buttonLearnmoreOpenInNewWindow ? ' target=_blank ' : '') +
+			' class="eupopup-button eupopup-button_2">' + _self.params.buttonLearnmoreTitle + '</a>' +
+			'<div class="clearfix"></div>' +
+			'</div>' +
+			'<a href="#" class="eupopup-closebutton">x</a>' +
 			'</div>';
-
-		return html;
 	};
 
 	// Storing the consent in a cookie
@@ -204,7 +198,7 @@ $.fn.euCookieLawPopup = (function() {
 
 			// No need to display this if user already accepted the policy
 			if (userAlreadyAcceptedCookies()) {
-        $(document).trigger("user_cookie_already_accepted", {'consent': true});
+        		$(document).trigger("user_cookie_already_accepted", {'consent': true});
 				return;
 			}
 
@@ -253,9 +247,8 @@ $.fn.euCookieLawPopup = (function() {
 $(document).ready( function() {
 	if ($(".eupopup").length > 0) {
 		$(document).euCookieLawPopup().init({
-			'info' : 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
 			'popupTitle' : 'This website is using cookies. ',
-			'popupText' : 'We use them to give you the best experience. If you continue using our website, we\'ll assume that you are happy to receive all cookies on this website.'
+			'popupText' : 'We use cookies to give you the best website experience. If you continue using this website, you agree that you are happy to receive cookies.'
 		});
 	}
 });

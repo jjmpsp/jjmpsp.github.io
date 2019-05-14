@@ -1,7 +1,7 @@
 ---
 title: Joel's Personal Projects
 narrow: true
-permalink: list/projects.html
+permalink: projects
 show_profile: true
 ---
 

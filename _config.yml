@@ -12,10 +12,10 @@ highlighter:      rouge
 excerpt_separator: <!--more-->
 
 # Config for your profile.
-title:            Joel Murphy  # Site title
-name:             Joel Murphy             # Your name
+title:            Joel Murphy
+name:             Joel Murphy
 role:             Senior Full Stack Developer
-avatar:           /theme/img/avatar.jpg   # Path to an avatar image
+avatar:           /theme/img/avatar.jpg
 
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.

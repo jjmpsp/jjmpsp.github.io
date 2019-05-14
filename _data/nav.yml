@@ -5,16 +5,16 @@
   href: about.html
 
 - title: 🍎 Tutorials
-  href: list/tutorials.html
+  href: tutorials
 
 - title: 📖 Blog Posts
   href: list/posts.html
 
 - title: 🤓 Personal Projects
-  href: list/projects.html
+  href: projects
 
 - title: 👨 Work Portfolio
-  href: list/portfolio.html
+  href: portfolio
 
 - title: ✈ Travel
   href: travel.html

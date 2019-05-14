@@ -3,7 +3,14 @@ layout: defaults/page
 permalink: about.html
 title: About Joel Murphy
 narrow: true
+
+title: About Joel Murphy
+crumbtitle: About Joel Murphy
+
 ---
+
+
+{% include nav-breadcrumbs.html %}
 
 Jump to: 
 [Technical Skills](about.html#technical-skills), [Personal Life](about.html#personal-life)

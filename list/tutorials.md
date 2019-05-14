@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 narrow: true
-permalink: list/tutorials.html
+permalink: /tutorials
 show_profile: true
 ---
 
