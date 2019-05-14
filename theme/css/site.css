@@ -127,6 +127,17 @@ blockquote span{
     font-weight: bold;
 }
 
+#expand-view {
+    float: right;
+    display: none;
+}
+
 #expand-view svg path {
     fill: white;
+}
+
+@media (min-width: 992px) {
+    #expand-view{
+        display: inline-flex;
+    }
 }
