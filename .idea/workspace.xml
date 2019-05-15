@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/components/profile-avatar.html" afterPath="$PROJECT_DIR$/_includes/components/profile-avatar.html" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md" afterPath="$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md" />
+      <change beforePath="$PROJECT_DIR$/_includes/toc-scroll-to-top.html" afterPath="$PROJECT_DIR$/_includes/toc-scroll-to-top.html" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile-avatar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile-avatar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/components/profile-avatar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="137">
@@ -65,6 +64,16 @@
                 <element signature="n#style#0;n#a#1;n#div#0;n#p#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toc-scroll-to-top.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/toc-scroll-to-top.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,24 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-02-02-new-emojis-for-2019.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="252">
-                <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js</find>
       <find>list-title</find>
       <find>TUTORIALS</find>
       <find>animate.css</find>
@@ -181,6 +176,7 @@
       <find>href</find>
       <find>depending on</find>
       <find>See full skillset</find>
+      <find>back to top</find>
     </findStrings>
     <replaceStrings>
       <replace>target=&quot;_blank&quot; href</replace>
@@ -226,7 +222,6 @@
         <option value="$PROJECT_DIR$/_portfolio/unilink-technology-services.md" />
         <option value="$PROJECT_DIR$/_tutorials/how-to-make-a-website-load-faster-in-2019.md" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_includes/toc-scroll-to-top.html" />
         <option value="$PROJECT_DIR$/_layouts/defaults/portfolio.html" />
         <option value="$PROJECT_DIR$/_layouts/defaults/tutorial.html" />
         <option value="$PROJECT_DIR$/_money-savings/test.md" />
@@ -243,6 +238,7 @@
         <option value="$PROJECT_DIR$/_pages/about.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md" />
         <option value="$PROJECT_DIR$/_includes/components/profile-avatar.html" />
+        <option value="$PROJECT_DIR$/_includes/toc-scroll-to-top.html" />
       </list>
     </option>
   </component>
@@ -379,12 +375,12 @@
       <workItem from="1556811123305" duration="18723000" />
       <workItem from="1557691203571" duration="3839000" />
       <workItem from="1557773889475" duration="5953000" />
-      <workItem from="1557854650083" duration="16677000" />
+      <workItem from="1557854650083" duration="16779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87969000" />
+    <option name="totallyTimeSpent" value="88071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="715" extended-state="6" />
@@ -646,14 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/toc-scroll-to-top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/toc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -905,6 +893,14 @@
             <element signature="n#style#0;n#a#1;n#div#0;n#p#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/toc-scroll-to-top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
