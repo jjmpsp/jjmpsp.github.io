@@ -3,74 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav-breadcrumbs.html" afterPath="$PROJECT_DIR$/_includes/nav-breadcrumbs.html" />
       <change beforePath="$PROJECT_DIR$/_pages/index.md" afterPath="$PROJECT_DIR$/_pages/index.md" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/box-uk.html" afterPath="$PROJECT_DIR$/_site/_portfolio/box-uk.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/_portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/hybu-pobl-ifanc.html" afterPath="$PROJECT_DIR$/_site/_portfolio/hybu-pobl-ifanc.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/learning-at-wales.html" afterPath="$PROJECT_DIR$/_site/_portfolio/learning-at-wales.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/nott-development-studios.html" afterPath="$PROJECT_DIR$/_site/_portfolio/nott-development-studios.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/promixx.html" afterPath="$PROJECT_DIR$/_site/_portfolio/promixx.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/seekrs.html" afterPath="$PROJECT_DIR$/_site/_portfolio/seekrs.html" />
-      <change beforePath="$PROJECT_DIR$/_site/_portfolio/unilink-technology-services.html" afterPath="$PROJECT_DIR$/_site/_portfolio/unilink-technology-services.html" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" afterPath="$PROJECT_DIR$/_site/about.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog.html" afterPath="$PROJECT_DIR$/_site/blog.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/money-saving.html" afterPath="$PROJECT_DIR$/_site/list/money-saving.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/product-reviews.html" afterPath="$PROJECT_DIR$/_site/list/product-reviews.html" />
-      <change beforePath="$PROJECT_DIR$/_site/list/talks-presentations.html" afterPath="$PROJECT_DIR$/_site/list/talks-presentations.html" />
-      <change beforePath="$PROJECT_DIR$/_site/money_savings/test.html" afterPath="$PROJECT_DIR$/_site/money_savings/test.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio.html" afterPath="$PROJECT_DIR$/_site/portfolio.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/box-uk.html" afterPath="$PROJECT_DIR$/_site/portfolio/box-uk.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/hybu-pobl-ifanc.html" afterPath="$PROJECT_DIR$/_site/portfolio/hybu-pobl-ifanc.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/learning-at-wales.html" afterPath="$PROJECT_DIR$/_site/portfolio/learning-at-wales.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/nott-development-studios.html" afterPath="$PROJECT_DIR$/_site/portfolio/nott-development-studios.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/promixx.html" afterPath="$PROJECT_DIR$/_site/portfolio/promixx.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/seekrs.html" afterPath="$PROJECT_DIR$/_site/portfolio/seekrs.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/unilink-technology-services.html" afterPath="$PROJECT_DIR$/_site/portfolio/unilink-technology-services.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects.html" afterPath="$PROJECT_DIR$/_site/projects.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/install.html" afterPath="$PROJECT_DIR$/_site/projects/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/madeup.html" afterPath="$PROJECT_DIR$/_site/projects/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/yetanother.html" afterPath="$PROJECT_DIR$/_site/projects/yetanother.html" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/theme/css/site.css" afterPath="$PROJECT_DIR$/_site/theme/css/site.css" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/austria.html" afterPath="$PROJECT_DIR$/_site/travel/austria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/belguim.html" afterPath="$PROJECT_DIR$/_site/travel/belguim.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/bosnia-herzegovina.html" afterPath="$PROJECT_DIR$/_site/travel/bosnia-herzegovina.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/bulgaria.html" afterPath="$PROJECT_DIR$/_site/travel/bulgaria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/croatia.html" afterPath="$PROJECT_DIR$/_site/travel/croatia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/cyprus.html" afterPath="$PROJECT_DIR$/_site/travel/cyprus.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/czech-republic.html" afterPath="$PROJECT_DIR$/_site/travel/czech-republic.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/france.html" afterPath="$PROJECT_DIR$/_site/travel/france.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/germany.html" afterPath="$PROJECT_DIR$/_site/travel/germany.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/great-britain.html" afterPath="$PROJECT_DIR$/_site/travel/great-britain.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/greece.html" afterPath="$PROJECT_DIR$/_site/travel/greece.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/hungary.html" afterPath="$PROJECT_DIR$/_site/travel/hungary.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/ireland.html" afterPath="$PROJECT_DIR$/_site/travel/ireland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/israel.html" afterPath="$PROJECT_DIR$/_site/travel/israel.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/italy.html" afterPath="$PROJECT_DIR$/_site/travel/italy.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/latvia.html" afterPath="$PROJECT_DIR$/_site/travel/latvia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/lithuania.html" afterPath="$PROJECT_DIR$/_site/travel/lithuania.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/netherlands.html" afterPath="$PROJECT_DIR$/_site/travel/netherlands.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/norway.html" afterPath="$PROJECT_DIR$/_site/travel/norway.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/poland.html" afterPath="$PROJECT_DIR$/_site/travel/poland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/romania.html" afterPath="$PROJECT_DIR$/_site/travel/romania.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/serbia.html" afterPath="$PROJECT_DIR$/_site/travel/serbia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/slovakia.html" afterPath="$PROJECT_DIR$/_site/travel/slovakia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/slovenia.html" afterPath="$PROJECT_DIR$/_site/travel/slovenia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/spain.html" afterPath="$PROJECT_DIR$/_site/travel/spain.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/sweden.html" afterPath="$PROJECT_DIR$/_site/travel/sweden.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/switzerland.html" afterPath="$PROJECT_DIR$/_site/travel/switzerland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials.html" afterPath="$PROJECT_DIR$/_site/tutorials.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/how-to-get-started-with-software-development.html" afterPath="$PROJECT_DIR$/_site/tutorials/how-to-get-started-with-software-development.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/how-to-make-a-website-load-faster-in-2019.html" afterPath="$PROJECT_DIR$/_site/tutorials/how-to-make-a-website-load-faster-in-2019.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/install.html" afterPath="$PROJECT_DIR$/_site/tutorials/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/madeup.html" afterPath="$PROJECT_DIR$/_site/tutorials/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/yetanother.html" afterPath="$PROJECT_DIR$/_site/tutorials/yetanother.html" />
-      <change beforePath="$PROJECT_DIR$/theme/css/site.css" afterPath="$PROJECT_DIR$/theme/css/site.css" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/_pages/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <first_editor relative-caret-position="181">
+                <caret line="19" column="138" lean-forward="false" selection-start-line="19" selection-start-column="138" selection-end-line="19" selection-end-column="138" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -171,8 +104,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="110" column="24" lean-forward="false" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -217,7 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>share-button</find>
       <find>social-sha</find>
       <find>until 2011 I had only ever been on holiday to Spain.</find>
       <find>ack to portfolio</find>
@@ -237,7 +169,6 @@
       <find>site.money_savings</find>
       <find>testing</find>
       <find>outside of work too</find>
-      <find>money</find>
       <find>iast visitors m</find>
       <find>another</find>
       <find>blockquote</find>
@@ -247,6 +178,8 @@
       <find>breadcrumb</find>
       <find>&gt;</find>
       <find>world</find>
+      <find>ead of time, as i</find>
+      <find>money</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -300,11 +233,11 @@
         <option value="$PROJECT_DIR$/_testingz/test.md" />
         <option value="$PROJECT_DIR$/list/money-saving.md" />
         <option value="$PROJECT_DIR$/_layouts/defaults/money-saving.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md" />
         <option value="$PROJECT_DIR$/_includes/nav-breadcrumbs.html" />
         <option value="$PROJECT_DIR$/theme/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/theme/css/site.css" />
+        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_pages/index.md" />
       </list>
     </option>
@@ -397,7 +330,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="brea&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/nav-breadcrumbs.html&#10;index&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;site.css&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;emoji&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;tutorial&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/tutorial.html&#10;config&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_config.yml&#10;project&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/project.html&#10;projects&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/projects.md&#10;default&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/default.html&#10;.js&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/static/js/PlacesBeen.js&#10;dickies&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_portfolio/dickies-workwear.md&#10;travel&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/travel.html&#10;tutorials&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/tutorials.md&#10;page&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/page.html&#10;social-&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/social-share-bar.html&#10;new emo&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;portfolio&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/portfolio.html&#10;site.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;about&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;intro&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;intro.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md" />
+    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_config.yml&#10;brea&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/nav-breadcrumbs.html&#10;index&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;site.css&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;emoji&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;tutorial&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/tutorial.html&#10;project&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/project.html&#10;projects&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/projects.md&#10;default&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/default.html&#10;.js&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/static/js/PlacesBeen.js&#10;dickies&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_portfolio/dickies-workwear.md&#10;travel&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/travel.html&#10;tutorials&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/tutorials.md&#10;page&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/page.html&#10;social-&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/social-share-bar.html&#10;new emo&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;portfolio&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/portfolio.html&#10;site.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;about&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;intro&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;intro.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_includes" />
   </component>
@@ -442,15 +375,16 @@
       <workItem from="1556811123305" duration="18723000" />
       <workItem from="1557691203571" duration="3839000" />
       <workItem from="1557773889475" duration="5953000" />
-      <workItem from="1557854650083" duration="14954000" />
+      <workItem from="1557854650083" duration="15389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86246000" />
+    <option name="totallyTimeSpent" value="86681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="715" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25390625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -461,7 +395,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3888025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3888025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -892,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="110" column="24" lean-forward="false" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -945,11 +871,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_pages/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <first_editor relative-caret-position="181">
+            <caret line="19" column="138" lean-forward="false" selection-start-line="19" selection-start-column="138" selection-end-line="19" selection-end-column="138" />
             <folding />
           </first_editor>
           <second_editor />
