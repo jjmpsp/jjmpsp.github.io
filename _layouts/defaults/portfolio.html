@@ -19,6 +19,21 @@ postType: Portfolio Item
 
 {{ content }}
 
+
+<div id="float-toc" style="display: block;">
+    <nav role="navigation" class="table-of-contents">
+        <h3>On this Page</h3>
+        {% assign allHtml = "<h1>This is a test</h1>" | append: content %}
+        {% include toc.html html=allHtml %}
+        <a href="#">
+            <span class="icon grey svg20">
+                {% include entypo/arrow-up.svg %}
+            </span>
+            Back to top of page
+        </a>
+    </nav>
+</div>
+
 <hr>
 
 {% include social-share-bar.html postType=layout.postType %}

@@ -19,6 +19,15 @@ A Series 800 Terminator, which is sent from the future and designed to kill huma
 From [http://terminator.wikia.com/wiki/Cyberdyne_Systems](http://terminator.wikia.com/wiki/Cyberdyne_Systems).
 
 <div class="card mb-3">
+    <img class="card-img-top" src = "/static/img/dickies-life-tshirts.jpg"/>
+    <div class="card-body bg-light">
+        <div class="card-text">Screenshot of my work.</div>
+    </div>
+</div>
+
+## Screenshot of the {{ page.title }} website:
+
+<div class="card mb-3">
     <img class="card-img-top" src = "/static/img/dickieslife.png"/>
     <div class="card-body bg-light">
         <div class="card-text">Screenshot of my work.</div>

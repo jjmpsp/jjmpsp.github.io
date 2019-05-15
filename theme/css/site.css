@@ -35,7 +35,7 @@
 }
 
 .navbar-toggler {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .navbar-toggler.collapsed {
@@ -55,7 +55,7 @@ h2[id]::before {
     margin-top: -80px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -70,14 +70,16 @@ h2[id]::before {
     color: red;
 }
 
-.card-body a:hover{
+.card-body a:hover {
     color: red;
     text-decoration: none !important;
 }
-.card-body a span.hover-underline-dashed{
+
+.card-body a span.hover-underline-dashed {
     border-bottom: 1px dashed #f8f9fa;
 }
-.card-body a:hover span.hover-underline-dashed{
+
+.card-body a:hover span.hover-underline-dashed {
     border-bottom: 1px dashed #777 !important;
 }
 
@@ -85,45 +87,45 @@ h2[id]::before {
     background: #80808026;
 }
 
-.year-heading{
+.year-heading {
     border-left: 5px solid orange;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-blockquote{
-    font-family:Open Sans;
-    font-style:italic;
+blockquote {
+    font-family: Open Sans;
+    font-style: italic;
     color: #555555;
-    padding:1em 45px;
-    border-left:8px solid #78C0A8 ;
-    line-height:1.6;
+    padding: 1em 45px;
+    border-left: 8px solid #78C0A8;
+    line-height: 1.6;
     position: relative;
-    background:#EDEDED;
+    background: #EDEDED;
 }
 
-blockquote::before{
-    font-family:Arial;
+blockquote::before {
+    font-family: Arial;
     content: "\201C";
     color: orange;
-    font-size:4em;
+    font-size: 4em;
     position: absolute;
     left: 10px;
-    top:-10px;
+    top: -10px;
 }
 
-blockquote::after{
-    font-family:Arial;
+blockquote::after {
+    font-family: Arial;
     content: "\201D";
     color: orange;
-    font-size:4em;
+    font-size: 4em;
     position: absolute;
     right: 20px;
     bottom: -45px;
 }
 
-blockquote span{
-    display:block;
-    color:#333333;
+blockquote span {
+    display: block;
+    color: #333333;
     font-style: normal;
     font-weight: bold;
 }
@@ -138,7 +140,7 @@ blockquote span{
 }
 
 @media (min-width: 992px) {
-    #expand-view{
+    #expand-view {
         display: inline-flex;
     }
 }
@@ -196,4 +198,27 @@ blockquote span{
 .pulse {
     -webkit-animation-name: pulse;
     animation-name: pulse;
+}
+
+#float-toc {
+    position: fixed;
+    bottom: 40px;
+    right: 12px;
+    text-decoration: none;
+    color: #000;
+    background-color: #e9ecef;
+    display: none;
+    width: 25%;
+    padding: 20px;
+    opacity: 0.5;
+    border: 1px solid grey;
+}
+
+#float-toc:hover {
+    opacity: 1;
+}
+
+.svg20 svg{
+    height: 20px;
+    width: 20px;
 }
