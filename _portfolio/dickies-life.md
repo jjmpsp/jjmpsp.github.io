@@ -7,6 +7,7 @@ skills:
   - PHP
   - Doctrine ORM
   - Team Leadership
+excerpt: Dickies Life Test
 ---
 
 ## About Dickies
