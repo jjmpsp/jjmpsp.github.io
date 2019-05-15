@@ -13,7 +13,7 @@ title: Welcome to joel-murphy.co.uk
 
 Welcome to the personal website of Joel Murphy. Here is a message from the author:
 
-> You've probably stumbled across this website because I've directed you here to learn from my [tutorials](/tutorials), or maybe you've been stalking my social media profiles and you've ended up clicking through to here? (hey, it's okay - we're all human and get curious sometimes! 😂) Anyhow, a warm welcome to you! regardless of how you ended up here. 😄
+> You've probably stumbled across this website because I've directed you here to learn from my [tutorials](/tutorials), or to view my [travel pictures](/travel.html). Otherwise, there's a chance you've been stalking my social media profiles and you've ended up clicking through to here? (hey, it's okay - we're all human and get curious sometimes! 😂) Anyhow, a warm welcome to you! regardless of how you ended up here. 😄
 >
 > I've created this website as a central repository of information to document topics, events, and developments I find interesting in my personal & work life. You'll find that the majority of the content posted here is about technology, this is because it's the industry I work in and one of my favourite hobbies outside of work. I also post about [my travels](/travel/), conduct [product reviews](list/product-reviews.html), and share [money saving tips ](money-saving), which you non tech enthusiasts may be interested in having a look at. 
 >
