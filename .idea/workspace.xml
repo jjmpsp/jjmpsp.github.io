@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" afterPath="$PROJECT_DIR$/_pages/about.md" />
+      <change beforePath="$PROJECT_DIR$/_includes/components/profile-avatar.html" afterPath="$PROJECT_DIR$/_includes/components/profile-avatar.html" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md" afterPath="$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_pages/about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="66">
+              <first_editor relative-caret-position="1043">
                 <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
                 <folding />
               </first_editor>
@@ -42,15 +43,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="box-uk.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_portfolio/box-uk.md">
+      <file leaf-file-name="2018-10-11-gdpr-waste-of-time.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <first_editor relative-caret-position="100">
+                <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile-avatar.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/components/profile-avatar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#a#1;n#div#0;n#p#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +73,8 @@
         <entry file="file://$PROJECT_DIR$/_pages/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="24">
-                <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <first_editor relative-caret-position="115">
+                <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="36" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -84,19 +98,6 @@
             <state relative-caret-position="117">
               <caret line="4609" column="13" lean-forward="false" selection-start-line="4609" selection-start-column="13" selection-end-line="4609" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_money_savings/test.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -150,8 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>until 2011 I had only ever been on holiday to Spain.</find>
-      <find>ack to portfolio</find>
       <find>https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js</find>
       <find>list-title</find>
       <find>TUTORIALS</find>
@@ -179,8 +178,13 @@
       <find>world</find>
       <find>ead of time, as i</find>
       <find>money</find>
+      <find>href</find>
       <find>depending on</find>
+      <find>See full skillset</find>
     </findStrings>
+    <replaceStrings>
+      <replace>target=&quot;_blank&quot; href</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,8 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_travel/spain.md" />
-        <option value="$PROJECT_DIR$/_travel/sweden.md" />
         <option value="$PROJECT_DIR$/_travel/switzerland.md" />
         <option value="$PROJECT_DIR$/_pages/cookie-policy.md" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -239,6 +241,8 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_pages/index.md" />
         <option value="$PROJECT_DIR$/_pages/about.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md" />
+        <option value="$PROJECT_DIR$/_includes/components/profile-avatar.html" />
       </list>
     </option>
   </component>
@@ -330,7 +334,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="about.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;config&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_config.yml&#10;brea&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/nav-breadcrumbs.html&#10;index&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;site.css&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;emoji&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;tutorial&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/tutorial.html&#10;project&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/project.html&#10;projects&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/projects.md&#10;default&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/default.html&#10;.js&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/static/js/PlacesBeen.js&#10;dickies&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_portfolio/dickies-workwear.md&#10;travel&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/travel.html&#10;tutorials&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/tutorials.md&#10;page&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/page.html&#10;social-&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/social-share-bar.html&#10;new emo&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;portfolio&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/portfolio.html&#10;site.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;about&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;intro&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;intro.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md" />
+    <property name="SearchEverywhereHistoryKey" value="gdpr&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2018-10-11-gdpr-waste-of-time.md&#10;about.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;config&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_config.yml&#10;brea&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/nav-breadcrumbs.html&#10;index&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;site.css&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;emoji&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;tutorial&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/tutorial.html&#10;project&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/project.html&#10;projects&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/projects.md&#10;default&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/default.html&#10;.js&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/static/js/PlacesBeen.js&#10;dickies&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_portfolio/dickies-workwear.md&#10;travel&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/travel.html&#10;tutorials&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/tutorials.md&#10;page&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/page.html&#10;social-&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/social-share-bar.html&#10;new emo&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;portfolio&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/portfolio.html&#10;site.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;about&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;intro&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;intro.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_includes" />
   </component>
@@ -375,12 +379,12 @@
       <workItem from="1556811123305" duration="18723000" />
       <workItem from="1557691203571" duration="3839000" />
       <workItem from="1557773889475" duration="5953000" />
-      <workItem from="1557854650083" duration="16099000" />
+      <workItem from="1557854650083" duration="16677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87391000" />
+    <option name="totallyTimeSpent" value="87969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="715" extended-state="6" />
@@ -418,14 +422,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_tutorials/indexhtml" />
-    <entry file="file://$PROJECT_DIR$/list/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/components/project-meta.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -868,25 +864,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/index.md">
+    <entry file="file://$PROJECT_DIR$/_pages/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="24">
-            <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <first_editor relative-caret-position="1043">
+            <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/about.md">
+    <entry file="file://$PROJECT_DIR$/_pages/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+          <first_editor relative-caret-position="115">
+            <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="36" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-11-gdpr-waste-of-time.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/components/profile-avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#div#0;n#p#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
