@@ -19,7 +19,17 @@ postType: Portfolio Item
 
 {{ content }}
 
+<script>
+    var target = $('#float-toc');
 
+    $(document).scroll(function(e){
+        var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+        var opcaityPercent = (scrollPercent / 100).toFixed(2);
+        if(scrollPercent >= 0){
+            target.css('opacity', opcaityPercent);
+        }
+    });
+</script>
 <div id="float-toc" style="display: block;">
     <nav role="navigation" class="table-of-contents">
         <h3>On this Page</h3>
