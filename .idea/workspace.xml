@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md" afterPath="$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md" />
       <change beforePath="$PROJECT_DIR$/theme/css/site.css" afterPath="$PROJECT_DIR$/theme/css/site.css" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
@@ -116,22 +117,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/profile.yml">
+      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme/css/site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="196">
+              <caret line="234" column="98" lean-forward="false" selection-start-line="234" selection-start-column="98" selection-end-line="234" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/theme/css/site.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
-              <folding />
+      <file leaf-file-name="2019-02-02-new-emojis-for-2019.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="42">
+                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -206,7 +210,6 @@
         <option value="$PROJECT_DIR$/_data/breadcrumbs.csv" />
         <option value="$PROJECT_DIR$/list/posts.html" />
         <option value="$PROJECT_DIR$/_data/nav.yml" />
-        <option value="$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md" />
         <option value="$PROJECT_DIR$/_includes/social-share-bar.html" />
         <option value="$PROJECT_DIR$/static/js/PlacesBeen.js" />
         <option value="$PROJECT_DIR$/_layouts/defaults/list.html" />
@@ -239,6 +242,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_pages/index.md" />
         <option value="$PROJECT_DIR$/theme/css/site.css" />
+        <option value="$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md" />
       </list>
     </option>
   </component>
@@ -330,7 +334,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="tutorial&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/tutorial.html&#10;config&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_config.yml&#10;project&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/project.html&#10;projects&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/projects.md&#10;default&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/default.html&#10;.js&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/static/js/PlacesBeen.js&#10;dickies&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_portfolio/dickies-workwear.md&#10;site.css&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;index&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;travel&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/travel.html&#10;tutorials&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/tutorials.md&#10;page&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/page.html&#10;social-&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/social-share-bar.html&#10;new emo&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;portfolio&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/portfolio.html&#10;site.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;about&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;intro&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;intro.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md" />
+    <property name="SearchEverywhereHistoryKey" value="site.css&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;emoji&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;tutorial&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/tutorial.html&#10;config&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_config.yml&#10;project&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/project.html&#10;projects&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/projects.md&#10;default&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/default.html&#10;.js&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/static/js/PlacesBeen.js&#10;dickies&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_portfolio/dickies-workwear.md&#10;index&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;travel&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/travel.html&#10;tutorials&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/tutorials.md&#10;page&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_layouts/defaults/page.html&#10;social-&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/social-share-bar.html&#10;new emo&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_posts/2019-02-02-new-emojis-for-2019.md&#10;portfolio&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/list/portfolio.html&#10;site.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/theme/css/site.css&#10;about&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/about.md&#10;intro&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md&#10;intro.md&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_includes/components/intro.md&#10;index.&#9;FILE&#9;file:///Users/joel/Desktop/jjmpsp.github.io/_pages/index.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_includes" />
   </component>
@@ -375,12 +379,12 @@
       <workItem from="1556811123305" duration="18723000" />
       <workItem from="1557691203571" duration="3839000" />
       <workItem from="1557773889475" duration="5953000" />
-      <workItem from="1557854650083" duration="13611000" />
+      <workItem from="1557854650083" duration="13989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84903000" />
+    <option name="totallyTimeSpent" value="85281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="715" extended-state="6" />
@@ -463,17 +467,6 @@
         <state relative-caret-position="45">
           <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -885,9 +878,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/theme/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+        <state relative-caret-position="196">
+          <caret line="234" column="98" lean-forward="false" selection-start-line="234" selection-start-column="98" selection-end-line="234" selection-end-column="98" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-02-02-new-emojis-for-2019.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
