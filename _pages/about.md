@@ -83,12 +83,12 @@ Joel has worked for small start-up companies, as well as corporations in contrac
                     </li>
                     
                     <li>
-                        Bootstrap [<a href="https://getbootstrap.com/">getbootstrap.com</a>]
+                        Bootstrap [<a target="_blank" href="https://getbootstrap.com/">getbootstrap.com</a>]
                     </li>
                     
                     <li>
-                        LESS [<a href="https://lesscss.org/">lesscss.org</a>],
-                        <br>Sass &amp; SCSS modules [<a href="https://sass-lang.com/">sass-lang.com</a>]
+                        LESS [<a target="_blank" href="https://lesscss.org/">lesscss.org</a>],
+                        <br>Sass &amp; SCSS modules [<a target="_blank" href="https://sass-lang.com/">sass-lang.com</a>]
                     </li>
                 </ul>
             </li>
@@ -104,35 +104,35 @@ Joel has worked for small start-up companies, as well as corporations in contrac
                     </li>
                     
                     <li>
-                        TypeScript [<a href="https://www.typescriptlang.org/">typescriptlang.org</a>]
+                        TypeScript [<a target="_blank" href="https://www.typescriptlang.org/">typescriptlang.org</a>]
                     </li>
                     
                     <li>
-                        React [<a href="https://reactjs.org/">reactjs.org</a>]
+                        React [<a target="_blank" href="https://reactjs.org/">reactjs.org</a>]
                     </li>
                     
                     <li>
-                        Redux for React [<a href="https://redux.js.org/basics/usagewithreact">redux.js.org]</a>
+                        Redux for React [<a target="_blank" href="https://redux.js.org/basics/usagewithreact">redux.js.org]</a>
                     </li>
                     
                     <li>
-                        AngularJS [<a href="https://angularjs.org/">angularjs.org</a>], Node, Express.js, MongoDB (MEAN stack)
+                        AngularJS [<a target="_blank" href="https://angularjs.org/">angularjs.org</a>], Node, Express.js, MongoDB (MEAN stack)
                     </li>
                     
                     <li>
-                        CoffeeScript [<a href="https://coffeescript.org/">coffeescript.org</a>]
+                        CoffeeScript [<a target="_blank" href="https://coffeescript.org/">coffeescript.org</a>]
                     </li>
                     
                     <li>
-                        JQuery [<a href="https://jquery.com/">jquery.com</a>]
+                        JQuery [<a target="_blank" href="https://jquery.com/">jquery.com</a>]
                     </li>
                     
                     <li>
-                        RequireJS [<a href="https://requirejs.org/">requirejs.org</a>]
+                        RequireJS [<a target="_blank" href="https://requirejs.org/">requirejs.org</a>]
                     </li>
                     
                     <li>
-                        Jasmine JS test framework [<a href="https://jasmine.github.io/">jasmine.github.io</a>]
+                        Jasmine JS test framework [<a target="_blank" href="https://jasmine.github.io/">jasmine.github.io</a>]
                     </li>
                 </ul>
             </li>
@@ -150,27 +150,27 @@ Joel has worked for small start-up companies, as well as corporations in contrac
                 
                 <ul style="">
                     <li>
-                        PHP 7+ and PSR standards [<a href="https://www.php-fig.org/psr/">php-fig.org</a>]
+                        PHP 7+ and PSR standards [<a target="_blank" href="https://www.php-fig.org/psr/">php-fig.org</a>]
                     </li>
                     
                     <li>
-                        Laravel Framework [<a href="https://laravel.com">laravel.com</a>],
-                        <br>Zend Framework [<a href="https://framework.zend.com">framework.zend.com</a>],
+                        Laravel Framework [<a target="_blank" href="https://laravel.com">laravel.com</a>],
+                        <br>Zend Framework [<a target="_blank" href="https://framework.zend.com">framework.zend.com</a>],
                         <br>self-written frameworks
                     </li>
                     
                     <li>
                         CMS/eCommerce:
-                        <br>WordPress [<a href="https://wordpress.com/">wordpress.com</a>],
-                        <br>Concrete5 [<a href="https://www.concrete5.org/">concrete5.org</a>],
-                        <br>OpenCart [<a href="https://www.opencart.com/">opencart.com</a>]
+                        <br>WordPress [<a target="_blank" href="https://wordpress.com/">wordpress.com</a>],
+                        <br>Concrete5 [<a target="_blank" href="https://www.concrete5.org/">concrete5.org</a>],
+                        <br>OpenCart [<a target="_blank" href="https://www.opencart.com/">opencart.com</a>]
                     </li>
                     
                     <li>
                         PHP Related Tools:
-                        <br>Composer [<a href="https://getcomposer.org">getcomposer.org</a>],
-                        <br>PHPUnit [<a href="https://phpunit.de/">phpunit.de</a>],
-                        <br>XDebug [<a href="https://xdebug.org/">xdebug.org</a>]
+                        <br>Composer [<a target="_blank" href="https://getcomposer.org">getcomposer.org</a>],
+                        <br>PHPUnit [<a target="_blank" href="https://phpunit.de/">phpunit.de</a>],
+                        <br>XDebug [<a target="_blank" href="https://xdebug.org/">xdebug.org</a>]
                     </li>
                     
                     <li>
