@@ -93,7 +93,7 @@ h2[id]::before {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote {
-    font-family: Open Sans;
+    font-family: Open Sans,, sans-serif ;
     font-style: italic;
     color: #555555;
     padding: 1em 45px;
@@ -101,6 +101,7 @@ blockquote {
     line-height: 1.6;
     position: relative;
     background: #EDEDED;
+    font-size: 18px;
 }
 
 blockquote::before {
