@@ -6,6 +6,8 @@ url: "https://joel-murphy.co.uk" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
 
+exclude: [.idea/]
+
 # Conversion
 markdown:         kramdown
 highlighter:      rouge
@@ -46,11 +48,11 @@ collections:
     output: true
     title: Travel
     permalink: /:collection/:name.html
-  product-reviews:
+  product_reviews:
     output: true
     title: Product Reviews
     permalink: /:collection/:name.html
-  money-saving:
+  money_savings:
     output: true
     title: Money Saving
     permalink: /:collection/:name.html
@@ -104,7 +106,7 @@ defaults:
         show_profile: true
         layout: defaults/product-review
   - scope:
-      path: "_money-saving"
+      path: "_money_savings"
     values:
       show_profile: true
       layout: defaults/money-saving

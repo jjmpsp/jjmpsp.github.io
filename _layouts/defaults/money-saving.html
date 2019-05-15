@@ -1,10 +1,26 @@
 ---
 layout: default
+postType: Money Saving Tip
 ---
 
-<h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
+<h1 class="list-title border border-left-0 border-right-0 py-2">
     {{ page.title }}
+
+    <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
+        <span class="icon grey mr-2">
+            {% include entypo/resize-full-screen.svg %}
+        </span>
+        <span class="button-text">Expand</span>
+    </button>
 </h1>
+
+{% include nav-breadcrumbs.html %}
+
+<hr>
+
+{% include social-share-bar.html postType=layout.postType %}
+
+<hr>
 
 <div class="d-md-block d-lg-none">
     {% include components/project-meta.html %}
@@ -12,18 +28,17 @@ layout: default
 
 {{ content }}
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        var tpl = 
-            "<li class='nav-item'>\
-                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
-            </li>"
-        $("h2").each(function(idx, h2) {
-            $(h2).attr("id", "header" + idx)
-            var name = $(h2).text().trim()
-            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
-            var header = $(dom_string)
-            $(".header-list").append(header)
-        })
-    })
-</script>
+{% include toc-scroll-to-top.html %}
+
+<hr>
+
+{% include social-share-bar.html postType=layout.postType %}
+
+<hr>
+
+<h4>Share your thoughts on: '{{ page.title }}':</h4>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+
+<div class="fb-comments" data-href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" data-width="100%" data-numposts="10"></div>
