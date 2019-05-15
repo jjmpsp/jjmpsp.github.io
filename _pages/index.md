@@ -6,7 +6,7 @@ title: Welcome to joel-murphy.co.uk
 ---
 
 {% include nav-breadcrumbs.html %}
-
+          
 <div class="card mb-3">
     <img class="card-img-top" src="static/img/joel-and-regan-at-the-beach.jpeg" title="Joel and Regan at the beach" alt="Joel and Regan at the beach" />
 </div>
