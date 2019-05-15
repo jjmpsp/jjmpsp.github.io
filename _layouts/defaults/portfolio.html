@@ -21,16 +21,20 @@ postType: Portfolio Item
 
 <script>
     var target = $('#float-toc');
+    $(document).ready(function () {
+        target.css('opacity', '0');
 
-    $(document).scroll(function(e){
-        var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
-        var opcaityPercent = (scrollPercent / 100).toFixed(2);
-        if(scrollPercent >= 0){
-            target.css('opacity', opcaityPercent);
-        }
+        $(document).scroll(function (e) {
+            var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+            var opacityPercent = (scrollPercent / 100).toFixed(2);
+            console.log(opacityPercent);
+            target.css('opacity', opacityPercent);
+            console.log('set opacity to ' + opacityPercent);
+        });
     });
+
 </script>
-<div id="float-toc" style="display: block;">
+<div id="float-toc" class="hidden-xs hidden-sm hidden-md" style="display: block;">
     <nav role="navigation" class="table-of-contents">
         <h3>On this Page</h3>
         {% assign allHtml = "<h1>This is a test</h1>" | append: content %}
