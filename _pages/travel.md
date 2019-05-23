@@ -25,7 +25,7 @@ Up until 2011 I had only ever been on holiday to Spain.
 
 I have decided to document my experience in every single country visited.
 
-<div id="vmap" style="width: 600px; height: 400px;"></div>
+<div id="vmap" style="width: 100%; height: 600px;"></div>
 
 
 ````

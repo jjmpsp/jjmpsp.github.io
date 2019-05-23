@@ -2,88 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf8d1ae-f813-4f55-a47c-f70a9fb82b0c" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/jqvmap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/jqvmap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.vmap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.vmap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/continents/jquery.vmap.africa.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/continents/jquery.vmap.asia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/continents/jquery.vmap.australia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/continents/jquery.vmap.europe.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/continents/jquery.vmap.north-america.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/continents/jquery.vmap.south-america.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.algeria.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.argentina.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.brazil.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.canada.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.croatia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.europe.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.france.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.germany.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.greece.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.indonesia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.iran.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.iraq.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.new_regions_france.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.russia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.serbia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.tunisia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.turkey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.ukraine.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.usa.counties.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.usa.districts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.usa.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/maps/jquery.vmap.world.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_layouts/defaults/travel.html" afterPath="$PROJECT_DIR$/_layouts/defaults/travel.html" />
       <change beforePath="$PROJECT_DIR$/_pages/travel.md" afterPath="$PROJECT_DIR$/_pages/travel.md" />
-      <change beforePath="$PROJECT_DIR$/_site/money_savings/test.html" afterPath="$PROJECT_DIR$/_site/money_savings/test.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/box-uk.html" afterPath="$PROJECT_DIR$/_site/portfolio/box-uk.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-life.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" afterPath="$PROJECT_DIR$/_site/portfolio/dickies-workwear.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/hybu-pobl-ifanc.html" afterPath="$PROJECT_DIR$/_site/portfolio/hybu-pobl-ifanc.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/learning-at-wales.html" afterPath="$PROJECT_DIR$/_site/portfolio/learning-at-wales.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/nott-development-studios.html" afterPath="$PROJECT_DIR$/_site/portfolio/nott-development-studios.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/promixx.html" afterPath="$PROJECT_DIR$/_site/portfolio/promixx.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/seekrs.html" afterPath="$PROJECT_DIR$/_site/portfolio/seekrs.html" />
-      <change beforePath="$PROJECT_DIR$/_site/portfolio/unilink-technology-services.html" afterPath="$PROJECT_DIR$/_site/portfolio/unilink-technology-services.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/install.html" afterPath="$PROJECT_DIR$/_site/projects/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/madeup.html" afterPath="$PROJECT_DIR$/_site/projects/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/yetanother.html" afterPath="$PROJECT_DIR$/_site/projects/yetanother.html" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/travel.html" afterPath="$PROJECT_DIR$/_site/travel.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/austria.html" afterPath="$PROJECT_DIR$/_site/travel/austria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/belguim.html" afterPath="$PROJECT_DIR$/_site/travel/belguim.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/bosnia-herzegovina.html" afterPath="$PROJECT_DIR$/_site/travel/bosnia-herzegovina.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/bulgaria.html" afterPath="$PROJECT_DIR$/_site/travel/bulgaria.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/croatia.html" afterPath="$PROJECT_DIR$/_site/travel/croatia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/cyprus.html" afterPath="$PROJECT_DIR$/_site/travel/cyprus.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/czech-republic.html" afterPath="$PROJECT_DIR$/_site/travel/czech-republic.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/france.html" afterPath="$PROJECT_DIR$/_site/travel/france.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/germany.html" afterPath="$PROJECT_DIR$/_site/travel/germany.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/great-britain.html" afterPath="$PROJECT_DIR$/_site/travel/great-britain.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/greece.html" afterPath="$PROJECT_DIR$/_site/travel/greece.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/hungary.html" afterPath="$PROJECT_DIR$/_site/travel/hungary.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/ireland.html" afterPath="$PROJECT_DIR$/_site/travel/ireland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/israel.html" afterPath="$PROJECT_DIR$/_site/travel/israel.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/italy.html" afterPath="$PROJECT_DIR$/_site/travel/italy.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/latvia.html" afterPath="$PROJECT_DIR$/_site/travel/latvia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/lithuania.html" afterPath="$PROJECT_DIR$/_site/travel/lithuania.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/netherlands.html" afterPath="$PROJECT_DIR$/_site/travel/netherlands.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/norway.html" afterPath="$PROJECT_DIR$/_site/travel/norway.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/poland.html" afterPath="$PROJECT_DIR$/_site/travel/poland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/romania.html" afterPath="$PROJECT_DIR$/_site/travel/romania.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/serbia.html" afterPath="$PROJECT_DIR$/_site/travel/serbia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/slovakia.html" afterPath="$PROJECT_DIR$/_site/travel/slovakia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/slovenia.html" afterPath="$PROJECT_DIR$/_site/travel/slovenia.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/spain.html" afterPath="$PROJECT_DIR$/_site/travel/spain.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/sweden.html" afterPath="$PROJECT_DIR$/_site/travel/sweden.html" />
-      <change beforePath="$PROJECT_DIR$/_site/travel/switzerland.html" afterPath="$PROJECT_DIR$/_site/travel/switzerland.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/how-to-get-started-with-software-development.html" afterPath="$PROJECT_DIR$/_site/tutorials/how-to-get-started-with-software-development.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/how-to-make-a-website-load-faster-in-2019.html" afterPath="$PROJECT_DIR$/_site/tutorials/how-to-make-a-website-load-faster-in-2019.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/install.html" afterPath="$PROJECT_DIR$/_site/tutorials/install.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/madeup.html" afterPath="$PROJECT_DIR$/_site/tutorials/madeup.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tutorials/yetanother.html" afterPath="$PROJECT_DIR$/_site/tutorials/yetanother.html" />
     </list>
     <ignored path="$PROJECT_DIR$/_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,12 +98,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travel.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="travel.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_pages/travel.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="206">
-                <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <first_editor relative-caret-position="168">
+                <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -201,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travel.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="travel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/defaults/travel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="270">
+              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="n#h1#0;n#!!top" expanded="false" />
               </folding>
@@ -317,8 +237,8 @@
         <option value="$PROJECT_DIR$/_includes/components/profile-avatar.html" />
         <option value="$PROJECT_DIR$/_includes/toc-scroll-to-top.html" />
         <option value="$PROJECT_DIR$/theme/css/site.css" />
-        <option value="$PROJECT_DIR$/_pages/travel.md" />
         <option value="$PROJECT_DIR$/_layouts/defaults/travel.html" />
+        <option value="$PROJECT_DIR$/_pages/travel.md" />
       </list>
     </option>
   </component>
@@ -474,12 +394,12 @@
       <workItem from="1557691203571" duration="3839000" />
       <workItem from="1557773889475" duration="5953000" />
       <workItem from="1557854650083" duration="16899000" />
-      <workItem from="1558647909556" duration="1522000" />
+      <workItem from="1558647909556" duration="1778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89713000" />
+    <option name="totallyTimeSpent" value="89969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1282" height="713" extended-state="0" />
@@ -954,24 +874,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/travel.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="206">
-            <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/defaults/travel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="270">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="n#h1#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/travel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
