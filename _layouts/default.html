@@ -156,9 +156,7 @@ layout: compress
         $(document).scroll(function (e) {
             var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
             var opacityPercent = (scrollPercent / 100).toFixed(2);
-            console.log(opacityPercent);
             target.css('opacity', opacityPercent);
-            console.log('set opacity to ' + opacityPercent);
         });
     });
 </script>
