@@ -14,14 +14,28 @@ layout: default
 <script type="text/javascript" src="{{ site.baseurl }}/static/js/maps/jquery.vmap.world.js" charset="utf-8"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/static/css/jqvmap.min.css"/>
 <style>
-#vmap .jqvmap-zoomin,#vmap .jqvmap-zoomout{
-    width: 17px;
-    height: 17px;
-}
+    #vmap .jqvmap-zoomin, #vmap .jqvmap-zoomout {
+        width: 17px;
+        height: 17px;
+    }
 </style>
 <script>
-    jQuery(document).ready(function() {
-        jQuery('#vmap').vectorMap({ map: 'world_en' });
+    jQuery(document).ready(function () {
+        jQuery('#vmap').vectorMap({
+            map: 'world_en',
+            backgroundColor: '#00A8DD',
+            selectedRegions: ['AT', 'BE', 'DE'],
+            showTooltip: true,
+            onRegionClick: function(element, code, region)
+            {
+                var message = 'You clicked "'
+                    + region
+                    + '" which has the code: '
+                    + code.toUpperCase();
+
+                alert(message);
+            }
+        });
     });
 </script>
 
