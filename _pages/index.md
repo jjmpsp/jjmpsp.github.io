@@ -8,7 +8,7 @@ title: Welcome to joel-murphy.co.uk
 {% include nav-breadcrumbs.html %}
           
 <div class="card mb-3">
-    <img class="card-img-top" src="static/img/joel-and-regan-at-the-beach.jpeg" title="Joel and Regan at the beach" alt="Joel and Regan at the beach" />
+    <img class="card-img-top" src="static/img/joel-and-regan-night-out-in-cardiff.jpg" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
 </div>
 
 Welcome to the personal website of Joel Murphy. Here is a message from the author:
