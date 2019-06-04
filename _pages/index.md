@@ -29,13 +29,6 @@ Welcome to the personal website of Joel Murphy. Here is a message from the autho
 >
 >-- Joel
 
-<div class="card mb-3">
-    <img class="card-img-top" src="static/img/night_out.jpg"/>
-    <div class="card-body bg-light">
-        <div class="card-text"><strong>Featured photo:</strong> Me enjoying a night out at <a href="https://clwb.net/" target="_blank">Clwb Ifor Bach</a> in Cardiff.</div>
-    </div>
-</div>
-
 {% comment %}
 Recent Posts
 {% for post in site.posts limit:3 %}
