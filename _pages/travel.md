@@ -7,7 +7,6 @@ narrow: true
 
 <script type="text/javascript" src="/static/js/PlacesBeen.js"></script>
 
-{% include nav-breadcrumbs.html %}
 
 Up until 2011 I had only ever been on holiday to Spain.
 
