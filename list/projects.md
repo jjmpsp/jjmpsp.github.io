@@ -1,6 +1,6 @@
 ---
 title: Joel's Personal Projects
-narrow: true
+narrow: false
 permalink: projects
 show_profile: true
 ---

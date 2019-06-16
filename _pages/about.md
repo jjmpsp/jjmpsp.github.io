@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: about.html
 title: About Joel Murphy
-narrow: true
+narrow: false
 
 title: About Joel Murphy
 crumbtitle: About Joel Murphy

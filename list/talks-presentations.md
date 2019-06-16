@@ -1,13 +1,13 @@
 ---
 title: Talks & Presentations
-narrow: true
+narrow: false
 permalink: list/talks-presentations.html
 show_profile: true
 ---
 
 I am a keen believer in the 'spirit of sharing' and by nature I like to help others. I've put this page together to list some of the talks and presentations I've done:
 
-{% if site.talks_presentations | size > 0 %}
+{% if site.talks_presentations %}
     {% for talks_presentation in site.talks_presentations %}
     - [{{ talks_presentation.title }}]({{ site.baseurl }}{{ talks_presentation.url }})
     {% endfor %}

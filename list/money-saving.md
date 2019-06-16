@@ -1,11 +1,11 @@
 ---
 title: Money Saving Guides
-narrow: true
+narrow: false
 permalink: list/money-saving.html
 show_profile: true
 ---
 
-{% if site.money_savings | size > 0 %}
+{% if site.money_savings %}
     {% for money_saving in site.money_savings %}
 - [{{ money_saving.title }}]({{ site.baseurl }}{{ money_saving.url }})
     {% endfor %}

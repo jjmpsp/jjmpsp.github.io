@@ -1,6 +1,6 @@
 ---
 title: Joel's Tutorials
-narrow: true
+narrow: false
 permalink: /tutorials
 show_profile: true
 ---

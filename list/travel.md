@@ -2,7 +2,7 @@
 layout: defaults/travel
 title: Joel's travels
 permalink: travel
-narrow: true
+narrow: false
 ---
 
 <script type="text/javascript" src="/static/js/PlacesBeen.js"></script>

@@ -1,7 +1,7 @@
 ---
 layout: defaults/page
 permalink: index.html
-narrow: true
+narrow: false
 title: Welcome to joel-murphy.co.uk
 ---
 
@@ -36,4 +36,38 @@ Recent Posts
 {% endfor %}
 {% endcomment %}
 
+
+<h2>Looking to hire a technology expert?</h2>
+<p>I now offer my expertise as a service. These are just some of the deliverables I can provide:</p>
+<div class="card-columns">    
+    <div class="card">
+        <h3>Web Design</h3>
+        I have the experience to design websites which stand out above the rest. Aesthetics and usability is key for websites. We can take care of this for you.
+    </div>
+    
+    <div class="card">
+        <h3>Web Development</h3>
+        I can plan, prototype, and develop custom scripts for your needs. If you have an idea then we build it so you can see it become a reality.
+    </div>
+    
+    <div class="card">
+        <h3>SEO</h3>
+        We have the ability to bring your website to the top of peoples search results. Giving your business more visibility and reach to potential customers.
+    </div>
+    
+    <div class="card">
+        <h3>Hosting</h3>
+        We provide fast and reliable hosting with a 99.9% uptime. We use cloud hosting with native SSDs on a high speed 40Gbps network.
+    </div>
+    
+    <div class="card">
+        <h3>E-commerce</h3>
+        We can build online e-commerce shops to give your company the best opportunity to boost your sales online, and focus on building up your business.
+    </div>
+    
+    <div class="card">
+        <h3>Website Maintenance</h3>
+        Need someone to look after your website to make sure it's up to date with your latest content and designs? We've got you covered.
+    </div>
+</div>
 

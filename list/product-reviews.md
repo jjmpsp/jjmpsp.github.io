@@ -1,6 +1,6 @@
 ---
 title: Product Reviews
-narrow: true
+narrow: false
 permalink: list/product-reviews.html
 show_profile: true
 ---
