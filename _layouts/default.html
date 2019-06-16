@@ -50,7 +50,7 @@ layout: compress
                         <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">Website Statistics:</h4>
 
                         {% assign blog_counter = 0 %}
-                        {% for item in site.posts %}
+                        {% for item in site.blogposts %}
                         {% unless item.published == false %}
                         {% assign blog_counter=blog_counter | plus:1 %}
                         {% endunless %}
@@ -71,7 +71,7 @@ layout: compress
                         {% endfor %}
 
                         {% assign moneysaving_counter = 0 %}
-                        {% for item in site.money-savings %}
+                        {% for item in site.money_savings %}
                         {% unless item.published == false %}
                         {% assign moneysaving_counter=moneysaving_counter | plus:1 %}
                         {% endunless %}

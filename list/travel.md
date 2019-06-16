@@ -13,6 +13,12 @@ I have decided to document my experience in every single country visited with th
 
 <div id="vmap" style="width: 100%; height: 600px;"></div>
 
-{% for place in site.travel %}
+## Africa
+{% for place in site.travel_africa %}
+- [{{ place.title }}]({{ page.baseurl }}{{ place.url }})
+{% endfor %}
+
+## Europe
+{% for place in site.travel_europe %}
 - [{{ place.title }}]({{ page.baseurl }}{{ place.url }})
 {% endfor %}

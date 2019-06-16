@@ -24,14 +24,15 @@ avatar:           /theme/img/avatar.jpg
 baseurl: ""
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
-include: ["_travel", "_pages", "_portfolio"]
+include: ["_pages"]
 
 # Collections
+collections_dir: _collections
 collections:
-  posts:
+  blogposts:
     output: true
-    title: Posts
-    permalink: /blog/:name.html
+    title: Blog Posts
+    permalink: /:collection/:name.html
   projects:
     output: true
     title: Projects
@@ -48,6 +49,14 @@ collections:
     output: true
     title: Travel
     permalink: /:collection/:name.html
+  travel_africa:
+    output: true
+    title: Travel in Africa
+    permalink: /travel/africa/:name.html
+  travel_europe:
+    output: true
+    title: Travel in Europe
+    permalink: /travel/europe/:name.html
   product_reviews:
     output: true
     title: Product Reviews
@@ -59,59 +68,61 @@ collections:
 
 
 defaults:
-# Turn the profile sidebar on for all pages by default, except for the
-# collections, where it is off and replaced by useful things on the sidebar.
-# To override this one a page, use
-#    show_profile: false
-# to hide the profile.
-  -
-    scope:
+  # Turn the profile sidebar on for all pages by default, except for the
+  # collections, where it is off and replaced by useful things on the sidebar.
+  # To override this one a page, use
+  #    show_profile: false
+  # to hide the profile.
+  - scope:
       path: ""
     values:
       show_profile: true
-  -
-    scope:
-      path: "_posts"
+  - scope:
+      path: "_blogposts"
     values:
       show_profile: true
-      layout: defaults/post
-  -
-    scope:
+      layout: defaults/blog-post
+  - scope:
       path: "_portfolio"
     values:
       show_profile: true
       layout: defaults/portfolio
-  -
-    scope:
+  - scope:
       path: "_projects"
     values:
       show_profile: true
       layout: defaults/project
-  -
-    scope:
+  - scope:
       path: "_tutorials"
     values:
       show_profile: true
       layout: defaults/tutorial
-  -
-      scope:
-        path: "_travel"
-      values:
-        show_profile: true
-        layout: defaults/travel
-  -
-      scope:
-        path: "_product-reviews"
-      values:
-        show_profile: true
-        layout: defaults/product-review
+  - scope:
+      path: "_travel"
+    values:
+      show_profile: true
+      layout: defaults/travel
+  - scope:
+      path: "_travel_africa"
+    values:
+      show_profile: true
+      layout: defaults/travel
+  - scope:
+      path: "_travel_europe"
+    values:
+      show_profile: true
+      layout: defaults/travel
+  - scope:
+      path: "_product-reviews"
+    values:
+      show_profile: true
+      layout: defaults/product-review
   - scope:
       path: "_money_savings"
     values:
       show_profile: true
       layout: defaults/money-saving
-  -
-    scope:
+  - scope:
       path: "list"
     values:
       show_profile: true
