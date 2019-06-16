@@ -2,7 +2,7 @@
 permalink: /:categories/:year/:month/:day/:title.html
 
 # Jekyll sitemap plugin config - https://github.com/jekyll/jekyll-sitemap
-url: "https://jjmpsp.github.io" # the base hostname & protocol for your site
+url: "https://jjmpsp.github.io" # the base hostname & protocol for this site
 plugins:
   - jekyll-sitemap
 
@@ -26,7 +26,7 @@ baseurl: ""
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_travel", "_pages", "_portfolio"]
 
-# Turn the projects into a collection.
+# Collections
 collections:
   posts:
     output: true
