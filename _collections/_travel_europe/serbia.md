@@ -1,5 +1,5 @@
 ---
-title: Amsterdam, Netherlands
+title: Serbia
 tags:
   - Serbia
   - Travel
