@@ -1,3 +1,7 @@
+body {
+    background: url("../../static/img/subtle_dots_@2X.png");
+}
+
 .profile-image {
     border: 5px solid rgba(0, 0, 0, 0.2);
 }
@@ -244,8 +248,55 @@ blockquote span {
     content: "➡️" !important;
     padding-right: 0 !important;;
 }
-.breadcrumb-item.active a{
+
+.breadcrumb-item.active a {
     pointer-events: none;
     cursor: default;
     color: grey !important;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+#footer {
+    background: #212529;
+    min-height: 40px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.stat_count{
+    color: #efefef;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #efefef;
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.stat_count1{
+    background:#63474D;
+}
+
+.stat_count2{
+    background:#AA767C;
+}
+
+.stat_count3{
+    background:#D6A184;
+}
+
+.stat_count4{
+    background:#FFA686;
+}
+
+.stat_count5{
+    background:#FEC196;
 }

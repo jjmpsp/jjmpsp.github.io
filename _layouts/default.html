@@ -18,7 +18,7 @@ layout: compress
     <div class="row">
         <div class="d-none d-lg-block col-lg-4 col-xl-{{ col1 }} side" id="side">
             {% include bars/side.html %}
-            <div class="card bg-light" style="margin-top:10px;">
+            <div class="card bg-white" style="margin-top:10px;">
 
                 <div class="card-body text-center">
                     <a class="typeform-share button" href="https://joelmurphy1.typeform.com/to/ZdvAbr" data-mode="popup"
@@ -37,16 +37,16 @@ layout: compress
                     })() </script>
                 </div>
             </div>
-            <div class="card bg-light" style="margin-top:10px;">
+            <div class="card bg-white" style="margin-top:10px;">
                 <a href="https://stackoverflow.com/users/1007680/joel-murphy" style="margin: 10px auto;">
                     <img src="https://stackoverflow.com/users/flair/1007680.png" width="208" height="58"
                          alt="profile for Joel Murphy at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
                          title="profile for Joel Murphy at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
                 </a>
             </div>
-            <div class="card bg-light" style="margin-top:10px;">
+            <div class="card bg-white" style="margin-top:10px;">
                 <div class="card-body">
-                    <div style="border: 2px dotted #888888;padding:20px;">
+                    <div style="border: 1px dotted #888888;padding:20px;">
                         <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">Website Statistics:</h4>
 
                         {% assign blog_counter = 0 %}
@@ -79,25 +79,29 @@ layout: compress
 
                         <ul>
                             <li>
-                                Published Blog Posts: {{ blog_counter }}
+                                Published Blog Posts: <br>
+                                <div class="stat_count stat_count1">{{ blog_counter }}</div>
                             </li>
                             <li>
-                                Published Tutorials: {{ tutorial_counter }}
+                                Published Tutorials: <br>
+                                <div class="stat_count stat_count2">{{ tutorial_counter }}</div>
                             </li>
                             <li>
-                                Published Work Portfolio Items: {{ portfolio_counter }}
+                                Published Work Portfolio Items: <br>
+                                <div class="stat_count stat_count3">{{ portfolio_counter }}</div>
                             </li>
                             <li>
-                                Published Money Saving Posts: {{ moneysaving_counter }}
+                                Published Money Saving Posts: <br>
+                                <div class="stat_count stat_count4">{{ moneysaving_counter }}</div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="card bg-light" style="margin-top:10px;">
+            <div class="card bg-white" style="margin-top:10px;">
                 <div class="card-body">
-                    <div style="border: 2px dotted #888888;padding:20px;">
+                    <div style="border: 1px dotted #888888;padding:20px;">
                         <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">Useful links:</h4>
                         <ul>
                             <li>
@@ -118,7 +122,11 @@ layout: compress
             </div>
         </div>
         <div class="col-md-12 col-lg-8 col-xl-{{ col2 }} pb-4 content" id="content">
-            {{ content }}
+            <div class="card bg-white">
+                <div class="card-body">
+                    {{ content }}
+                </div>
+            </div>
         </div>
         <div class="col-md-12 d-lg-none bottom">
             {% include bars/bottom.html %}
@@ -161,7 +169,7 @@ layout: compress
     });
 </script>
 
-<footer class="container" style="background: #efefef;min-height: 40px;max-height: 400px;">
+<footer id="footer">
     <div class="row" style="line-height:40px;margin-left:auto;margin-right:auto;">
         <div style="display: block;width:100%;text-align: center;">
             &copy; Joel Murphy 2012 - {{ "now" | date: "%Y" }}.

@@ -17,7 +17,7 @@ I am a huge fan of continuous learning and love learning new skills. I spend a l
     <p>Subscribe today - it's free of charge and you can opt out at any time if it's not for you.</p> 
     <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
         <div class="mc-field-group">
-            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on">
+            <input type="email" placeholder="email@domain.com" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on">
             <input type="submit" value="Subscribe" name="subscribe" class="heart">
         </div>
     </form>

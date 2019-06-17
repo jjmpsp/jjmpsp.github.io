@@ -1,5 +1,5 @@
 ---
-title: Vienna, Austria
+title: Austria
 tags:
   - Vienna
   - Austria
@@ -19,9 +19,7 @@ Here's an example for multiple images that uses Bootstrap's card columns for a M
 
 <!--more-->
 
-To automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.
-
-Here's the card columns in action.
+Vienna
 
 <div class="card-columns">
     {% for img in page.images %}
