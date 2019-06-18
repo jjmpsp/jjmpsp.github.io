@@ -1,5 +1,6 @@
 ---
 title: Latvia
+featuredImage: latvia.jpg
 tags:
   - Latvia
   - Travel

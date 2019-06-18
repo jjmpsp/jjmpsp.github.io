@@ -1,5 +1,6 @@
 ---
 title: Slovakia
+featuredImage: slovakia.jpg
 tags:
   - Slovakia
   - Travel

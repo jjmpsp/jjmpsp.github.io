@@ -1,5 +1,6 @@
 ---
 title: Czech Republic
+featuredImage: czech-republic.jpg
 tags:
   - Czech republic
   - Travel

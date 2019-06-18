@@ -1,6 +1,6 @@
 ---
 title: Lithuania
-slug: test
+featuredImage: lithuania.jpg
 tags:
   - Lithuania
   - Travel

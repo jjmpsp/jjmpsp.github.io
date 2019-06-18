@@ -22,3 +22,7 @@ I have decided to document my experience in every single country visited with th
 {% for place in site.travel_europe %}
 - [{{ place.title }}]({{ page.baseurl }}{{ place.url }})
 {% endfor %}
+
+{% for place in site.travel_europe %}
+    <img class="card-img-top" src="{{ page.baseurl }}/static/img/countries/{{ place.featuredImage }}" />
+{% endfor %}

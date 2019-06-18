@@ -1,5 +1,6 @@
 ---
 title: Spain
+featuredImage: spain.jpg
 tags:
   - Spain
   - Travel

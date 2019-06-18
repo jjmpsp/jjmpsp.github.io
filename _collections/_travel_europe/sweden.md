@@ -1,5 +1,6 @@
 ---
 title: Sweden
+featuredImage: sweden.jpg
 tags:
   - Sweden
   - Travel

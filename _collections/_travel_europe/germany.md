@@ -1,5 +1,6 @@
 ---
 title: Germany
+featuredImage: germany.jpg
 tags:
   - Germany
   - Travel

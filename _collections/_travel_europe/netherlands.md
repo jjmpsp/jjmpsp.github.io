@@ -1,5 +1,6 @@
 ---
 title: Netherlands
+featuredImage: netherlands.jpg
 tags:
   - Netherlands
   - Travel

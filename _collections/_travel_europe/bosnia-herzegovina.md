@@ -1,5 +1,6 @@
 ---
 title: Bosnia & Herzegovina
+featuredImage: bosnia-herzegovina.jpg
 tags:
   - Bosnia & Herzegovina
   - Travel

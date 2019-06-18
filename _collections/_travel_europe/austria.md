@@ -1,5 +1,6 @@
 ---
 title: Austria
+featuredImage: austria.jpg
 tags:
   - Vienna
   - Austria

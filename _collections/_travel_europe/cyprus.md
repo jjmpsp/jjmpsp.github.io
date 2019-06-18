@@ -1,5 +1,6 @@
 ---
 title: Cyprus
+featuredImage: cyprus.jpg
 tags:
   - Cyprus
   - Travel

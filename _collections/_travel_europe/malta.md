@@ -1,5 +1,6 @@
 ---
 title: Malta
+featuredImage: malta.jpg
 tags:
   - Malta
   - Travel

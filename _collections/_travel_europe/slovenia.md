@@ -1,5 +1,6 @@
 ---
 title: Slovenia
+featuredImage: slovenia.jpg
 tags:
   - Slovenia
   - Travel

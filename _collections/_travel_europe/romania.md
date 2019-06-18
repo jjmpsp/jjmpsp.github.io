@@ -1,5 +1,6 @@
 ---
 title: Romania
+featuredImage: romania.jpg
 tags:
   - Romania
   - Travel

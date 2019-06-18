@@ -1,5 +1,6 @@
 ---
 title: Belgium
+featuredImage: belgium.jpg
 tags:
   - Belgium
   - Travel

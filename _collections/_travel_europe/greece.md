@@ -1,5 +1,6 @@
 ---
 title: Greece
+featuredImage: greece.jpg
 tags:
   - Greece
   - Travel

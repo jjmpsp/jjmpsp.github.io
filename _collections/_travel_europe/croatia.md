@@ -1,5 +1,6 @@
 ---
 title: Croatia
+featuredImage: croatia.jpg
 tags:
   - Croatia
   - Travel

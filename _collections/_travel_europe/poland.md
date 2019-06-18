@@ -1,5 +1,6 @@
 ---
 title: Poland
+featuredImage: poland.jpg
 tags:
   - Poland
   - Travel

@@ -1,5 +1,6 @@
 ---
 title: Italy
+featuredImage: italy.jpg
 tags:
   - Italy
   - Travel

@@ -1,5 +1,6 @@
 ---
 title: Great Britain
+featuredImage: great-britain.jpg
 tags:
   - Great Britain
   - Travel

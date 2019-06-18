@@ -1,5 +1,6 @@
 ---
 title: Switzerland
+featuredImage: switzerland.jpg
 tags:
   - Switzerland
   - Travel

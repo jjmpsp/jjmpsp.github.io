@@ -1,5 +1,6 @@
 ---
 title: Ireland
+featuredImage: ireland.jpg
 tags:
   - Ireland
   - Travel

@@ -1,5 +1,6 @@
 ---
 title: Norway
+featuredImage: norway.jpg
 tags:
   - Norway
   - Travel

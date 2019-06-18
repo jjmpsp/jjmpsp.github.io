@@ -1,5 +1,6 @@
 ---
 title: Serbia
+featuredImage: serbia.jpg
 tags:
   - Serbia
   - Travel

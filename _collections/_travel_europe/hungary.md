@@ -1,5 +1,6 @@
 ---
 title: Hungary
+featuredImage: hungary.jpg
 tags:
   - Hungary
   - Travel

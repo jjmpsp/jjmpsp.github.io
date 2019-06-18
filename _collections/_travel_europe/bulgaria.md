@@ -1,5 +1,6 @@
 ---
 title: Bulgaria
+featuredImage: bulgaria.jpg
 tags:
   - Bulgaria
   - Travel

@@ -1,5 +1,6 @@
 ---
 title: France
+featuredImage: france.jpg
 tags:
   - France
   - Travel

@@ -1,5 +1,6 @@
 ---
 title: Israel
+featuredImage: israel.jpg
 tags:
   - Israel
   - Travel
