@@ -190,6 +190,20 @@ Joel has worked for small start-up companies, as well as corporations in contrac
     </div>
 </div>
 
+Virtualisation and Container Technologies
+
+Hyper-v hypervisor
+Virtualbox hypervisor
+VMWare
+
+Dev-Ops & Infrastructure
+Docker - https://www.docker.com/
+Vagrant - https://www.vagrantup.com/
+Ansible - https://www.ansible.com/
+Terraform - https://www.terraform.io/
+Packer - https://www.packer.io/
+Kubernetes - https://kubernetes.io/
+
 ## Personal Life
 
 Personal life section
