@@ -203,6 +203,11 @@ Ansible - https://www.ansible.com/
 Terraform - https://www.terraform.io/
 Packer - https://www.packer.io/
 Kubernetes - https://kubernetes.io/
+Travis
+Heroku
+Chef
+Puppet
+
 
 ## Personal Life
 
