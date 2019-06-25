@@ -7,7 +7,7 @@ So you've just finished writing your first website, but for some reason your web
 <!--more-->
 
 ## The problem
-Part of my work at the NHS is to develop Windows Docker Containers to recreate some of our infrastructure.
+Part of my work at my current workplace (NHS Wales) is to develop Windows Docker Containers to recreate some of our infrastructure locally.
 Yes, that's right, Windows Containers. 
 
 The problem with Windows containers right now is it's just not ready for production environments, especially in the public sector.
@@ -36,6 +36,28 @@ You should be inheriting from a specific tag. As mentioned above, there is no Mi
 FROM microsoft/windowsservercore:
 LABEL maintainer "Joel Murphy"
 
+
+Getting into the container
+So just like a real system, it would be nice to 'hop onto' the system and do some sysadmin work. 
+Let's get started with that.
+
+From your Host Operating System, issue the following command:
+
+docker exec -it <name_of_container> powershell
+
+Here's a real life example:
+
+docker exec -it suspicious_galois powershell
+
+This will fire up a powershell terminal. If you've done some work with Linux Docker containers you should be able to start to see the power of this already.
+
+This is how you will inspect the windows container for underlying issues. As a step further you an do things such as configure WinRM for advanced control over the container without using the docker binary. That's outside of the scope of this tutorial though.
+
+<div class="card mb-3">
+    <img class="card-img-top" src="static/img/tutorials/docker-windows-containers-powershell.PNG" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+</div>
+
+Nice! You can exit out of this container by simply typing 'exit' - it couldn't be easier really.
 
 
 
