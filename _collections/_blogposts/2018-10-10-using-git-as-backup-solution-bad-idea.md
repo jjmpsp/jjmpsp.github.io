@@ -14,3 +14,4 @@ Git is a version control system and this should be its only purpose. You should 
 
 Allow me to explain a typical scenario where this may be an issue:
 
+Imagine
