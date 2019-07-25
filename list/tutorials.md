@@ -5,7 +5,7 @@ permalink: /tutorials
 show_profile: true
 ---
 
-I am a huge fan of continuous learning and love learning new skills. I spend a lot of my income on new learning materials but I want to share my knowledge with you here for free.  
+Joel is a huge fan of continuous learning, personal development, and learning new skills. Joel spends a great amount of time and money resources on new learning materials. He shares this knowledge on his personal website as he believes everyone should be able to receive a free education in topics schools don't teach.  
 
 {% for tutorial in site.tutorials %}
 - [{{ tutorial.title }}]({{ site.baseurl }}{{ tutorial.url }})
