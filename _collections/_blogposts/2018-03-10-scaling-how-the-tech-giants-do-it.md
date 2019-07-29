@@ -11,13 +11,13 @@ Keeping a service online is a 24 hour operation. If you work in I.T then theres 
 you've seen first hand just how much people take technology for granted.
 
 Big companies and organisations such as Google, Microsoft, Amazon, Twitter, Facebook, etc.
-all hare one common problem: How to scale
+all share one common problem: How to scale
 
 The foundations of the internet.
 
 Keep in mind that the internet is just a massive network of connected computers.
 
-The internet's Domain Name System (DNS) is just like a gigantic.
+The internet's Domain Name System (DNS) is just like a gigantic phone book system in its most simple form.
 
 'call john'
 

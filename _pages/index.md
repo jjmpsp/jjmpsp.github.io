@@ -19,11 +19,11 @@ Welcome to the personal website of Joel Murphy. Here is a message from the autho
 >
 > You may have already noticed that I've used an absurd amount of emoji's throughout this website. There's no real reason why I've done this but I believe they add a nice personal touch to the content I write. Let's be honest, who doesn't love emojis unless you're a caveman without any sense of humour? 👌 🥰 💯
 >
-> If you're here to learn about technology related topics, you may be interested in [my Tutorials](/tutorials), [my Talks & Presentations](/list/talks-presentations.md), and [my Blog Posts](/blog). I try to update these as often as possible whenever I have free time (which isn't very often sadly) 😔.
+> If you're here to learn about technology related topics, you may be interested in [my Tutorials](/tutorials), [my Talks & Presentations](/list/talks-presentations.md), and [my Blog Posts](/blog). I try to update these when I have free time (which isn't very often sadly) 😔.
 >
 > All of the content published to this website will be available in English. If the content I produce gains some popularity, I'd be more than happy to give permission for it to be translated into other languages. However, please notify me of any planned publications you hope to make ahead of time, as it would be appreciated to get accredited in the form of a link back to the original source 🔗.
 >
-> That's all for now. I hope you have a fantastic day 🌞 or night 🌝 - depending on which part of the world you'rre from. 🌎 If you have any questions or concerns about the content on this website, or just want to chat, please feel free to reach out to me by clicking on the contact button located in the side bar of this website. 
+> That's all for now. I hope you have a fantastic day 🌞 or night 🌝 - depending on which part of the world you're from. 🌎 If you have any questions or concerns about the content on this website, or just want to chat, please feel free to reach out to me by clicking on the contact button located in the side bar of this website. 
 >
 > Cheers! 🍻🍻🍻
 >
