@@ -14,6 +14,8 @@ Wordpress and it's huge plugin system can be a handle to maintain. Don't get me 
 
 Sometimes websites can have in excess of 10, 20, or 50+ plugins installed. All it takes is for one of those single plugins to have one single security vulnrebility and this is enough to comepletely take down your website. Some wordpress security vulnerabilities can go unseen for months, or even years. What if a plugin developer decides to abandon their masterpiece of a plugin if they've taken on other projects? You're pretty much screwed and the only option you're left with is to fork and maintain a version of the plugin yourself, or use an alternative plugin. The issues with this is it can take up a lot of time
 
+<!--more-->
+
 Now my website is completely managed with git. This is absolutely fantastic. In a matter of minutes and from pretty much any device I can make changes to my website and github pages will automatically deploy those changes for me when pushed to a specificied branch. How cool this this?
 
 Just like any other page on the internet, HTML is used to write the structure and content of webpages. However, Jekyll has support for rendering content using Markdwon. This is a nice little extra as it allows you to do things such as writing lists much faster than before. E.g. why write 20 lines of HTML when you can achieve the same thing in 4?

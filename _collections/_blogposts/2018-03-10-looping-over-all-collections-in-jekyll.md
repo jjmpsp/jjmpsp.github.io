@@ -1,5 +1,5 @@
 ---
-title: Looping over all collection types in Jekyll
+title: How to loop over all collection types in Jekyll
 tags:
   - jekyll
   - liquid

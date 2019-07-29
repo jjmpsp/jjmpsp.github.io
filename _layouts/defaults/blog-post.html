@@ -7,10 +7,9 @@ postType: Blog Post
     {{ page.title }}
 
     <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
-        <span class="icon grey mr-2">
+        <span class="icon grey">
             {% include entypo/resize-full-screen.svg %}
         </span>
-        <span class="button-text">Expand</span>
     </button>
 </h1>
 
@@ -26,7 +25,7 @@ postType: Blog Post
 
 <hr>
 
-{% include social-share-bar.html %}
+{% include social-share-bar.html postType=layout.postType %}
 
 <hr>
 

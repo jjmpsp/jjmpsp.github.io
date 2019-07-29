@@ -47,7 +47,8 @@ layout: compress
             <div class="card bg-white" style="margin-top:10px;">
                 <div class="card-body">
                     <div style="border: 1px dotted #888888;padding:20px;">
-                        <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">📈 Website Statistics:</h4>
+                        <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">📈
+                            Website Statistics:</h4>
 
                         {% assign blog_counter = 0 %}
                         {% for item in site.blogposts %}
@@ -102,7 +103,8 @@ layout: compress
             <div class="card bg-white" style="margin-top:10px;">
                 <div class="card-body">
                     <div style="border: 1px dotted #888888;padding:20px;">
-                        <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">🔗 Useful links:</h4>
+                        <h4 class="card-title d-none d-sm-block text-center" style="color:#000;font-weight:400;">🔗
+                            Useful links:</h4>
                         <ul>
                             <li>
                                 <a href="/disclaimer.html">Disclaimer</a>
@@ -114,7 +116,8 @@ layout: compress
                                 <a href="/cookie-policy.html">Cookie Policy</a>
                             </li>
                             <li>
-                                <a href="https://trello.com/b/6MTwpOKh/joel-murphy-website-project-management-board" target="_blank">Website project management</a>
+                                <a href="https://trello.com/b/6MTwpOKh/joel-murphy-website-project-management-board"
+                                   target="_blank">Website project management</a>
                             </li>
                         </ul>
                     </div>
@@ -141,7 +144,7 @@ layout: compress
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         var expandViewToggled = false;
         $("#expand-view").click(function () {
 
@@ -149,22 +152,22 @@ layout: compress
                 $("#side").attr('style', 'display:none !important');
                 $("#content").addClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
                 expandViewToggled = true;
-                $($(this).children(".button-text")[0]).text("Shrink");
             } else {
                 $("#side").removeAttr('style');
                 $("#content").removeClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
                 expandViewToggled = false;
-                $($(this).children(".button-text")[0]).text("Expand");
             }
         });
 
 
         var target = $('#float-toc');
+        var scrollbar = $("#scroll-value");
 
         $(document).scroll(function (e) {
             var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
             var opacityPercent = (scrollPercent / 100).toFixed(2);
-            target.css('opacity', opacityPercent);
+            //target.css('opacity', opacityPercent);
+            scrollbar.css("width", scrollPercent+"%");
         });
     });
 </script>
@@ -174,11 +177,12 @@ layout: compress
         <div style="display: block;width:100%;text-align: center;">
             &copy; Joel Murphy 2012 - {{ "now" | date: "%Y" }}.
             <a href="https://github.com/jjmpsp/jjmpsp.github.io">This website is open
-            source</a>.
+                source</a>.
             Content was last updated on:
             {% assign d = site.lastUpdated | date: "%-d" %}
             {{ site.lastUpdated | date: "%B" }}
-            {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+            {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d
+            }}rd{% else %}{{ d }}th{% endcase %},
             {{ site.lastUpdated | date: "%Y" }}
             🕗
         </div>
@@ -233,6 +237,7 @@ layout: compress
             "https://www.twitter.com/jjmpsp"
         ]
     }
+
 </script>
 
 

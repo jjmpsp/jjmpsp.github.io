@@ -29,9 +29,9 @@ Welcome to the personal website of Joel Murphy. Here is a message from the autho
 >
 >-- Joel
 
+------
 
-
-Recent Blog Posts
+## Recent Blog Posts
 {% for post in site.blogposts limit:3 %}
 {% include components/post-card.html %}
 {% endfor %}

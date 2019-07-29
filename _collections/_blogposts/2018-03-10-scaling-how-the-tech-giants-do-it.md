@@ -1,5 +1,5 @@
 ---
-title: how do tech giants scale to millions or billions of users?
+title: How do tech giants scale to millions or billions of users?
 tags:
   - jekyll
   - liquid
@@ -11,7 +11,9 @@ Keeping a service online is a 24 hour operation. If you work in I.T then theres 
 you've seen first hand just how much people take technology for granted.
 
 Big companies and organisations such as Google, Microsoft, Amazon, Twitter, Facebook, etc.
-all share one common problem: How to scale
+all share one common problem: How to scale to Millions, or even Billions of users across the globe. This blog post will discuss some of the most common methods for scaling websites.
+
+<!--more-->
 
 The foundations of the internet.
 
