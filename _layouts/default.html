@@ -157,7 +157,7 @@ layout: compress
 
     <link href="{{ site.baseurl }}/static/css/jquery-eu-cookie-law-popup.css" rel="stylesheet">
     <script src="{{ site.baseurl }}/static/js/jquery-eu-cookie-law-popup.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="{{ site.baseurl }}/static/js/js.cookie.min.js"></script>
 
     <script>
         $(document).ready(function () {
@@ -175,13 +175,12 @@ layout: compress
                 }
             });
 
-
             var target = $('#float-toc');
             var scrollbar = $("#scroll-value");
 
             $(document).scroll(function (e) {
                 var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
-                var opacityPercent = (scrollPercent / 100).toFixed(2);
+                //var opacityPercent = (scrollPercent / 100).toFixed(2);
                 //target.css('opacity', opacityPercent);
                 scrollbar.css("width", scrollPercent + "%");
             });
@@ -235,8 +234,6 @@ layout: compress
                 "https://www.twitter.com/jjmpsp"
             ]
         }
-
-
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
