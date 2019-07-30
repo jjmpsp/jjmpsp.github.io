@@ -1,7 +1,7 @@
-<div id="float-toc" class="">
+<div id="float-toc">
     <nav role="navigation" class="table-of-contents">
         <h3>Table of Contents:</h3>
-        {% assign allHtml = "<h1>This is a test</h1>" | append: content %}
+        {% assign allHtml = "<h1>" | append: include.title | append: "</h1>" | append: content %}
         {% include toc.html html=allHtml %}
         <a href="#">
             <span class="icon grey svg20">
