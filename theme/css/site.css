@@ -301,3 +301,9 @@ blockquote span {
 .stat_count5{
     background:#FEC196;
 }
+
+
+span.normal-text {
+    font-style: normal !important;
+    display: inline !important;
+}
