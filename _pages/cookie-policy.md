@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: cookie-policy.html
 title: Cookie Policy
-narrow: true
+narrow: false
 ---
 
 ### Cookie Policy for Joel Murphy
@@ -47,7 +47,7 @@ This is the Cookie Policy for Joel Murphy's personal website, accessible at [htt
 
 <ul>
     <li>
-        <p>This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience on websites. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.</p>
+        <p>This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and identify ways that we can improve your experience on this website. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.</p>
         <p>For more information on Google Analytics cookies, see the official Google Analytics page.</p>
     </li>
     <li>
@@ -58,7 +58,7 @@ This is the Cookie Policy for Joel Murphy's personal website, accessible at [htt
         <p>For more information on Google AdSense see the official Google AdSense privacy FAQ.</p>
     </li>
     <li>
-        <p>We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; Twitter, Facebook, Instagram, will set cookies through our site which may be used to enhance your profile on their site, or contribute to the data they hold for various purposes outlined in their respective privacy policies.</p>
+        <p>We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; Twitter, Facebook, and Instagram, will set cookies through our site which may be used to enhance your profile on their site, or contribute to the data they hold for various purposes outlined in their respective privacy policies.</p>
     </li>
 </ul>
 

@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: credits.html
 title: Credits
-narrow: true
+narrow: false
 ---
 
 I'd like to thank everyone who contributed towards making my site functional and awesome.

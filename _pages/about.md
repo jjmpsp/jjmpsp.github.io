@@ -181,26 +181,35 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
             </div>
             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                 <div class="card-body">
-                    Virtualisation and Container Technologies
-
-                    Hyper-v hypervisor
-                    Virtualbox hypervisor
-                    VMWare
-
-                    Dev-Ops & Infrastructure
-                    Docker - https://www.docker.com/
-                    Vagrant - https://www.vagrantup.com/
-                    Ansible - https://www.ansible.com/
-                    Terraform - https://www.terraform.io/
-                    Packer - https://www.packer.io/
-                    Kubernetes - https://kubernetes.io/
-                    Travis
-                    Heroku
-                    Chef
-                    Puppet - 
+                   
+                    
+                    <ul>
+                        <li>
+                             Virtualisation and Container Technologies
+                             <ul>
+                                <li>Hyper-v Hypervisor</li>
+                                <li>Virtualbox Hypervisor</li>
+                                <li>VMWare</li>
+                             </ul>
+                        </li>
+                        <li>
+                            Dev-Ops & Infrastructure
+                            <ul>
+                                <li>Docker - https://www.docker.com/</li>
+                                <li> Vagrant - https://www.vagrantup.com/</li>
+                                <li> Ansible - https://www.ansible.com/</li>
+                                <li> Terraform - https://www.terraform.io/</li>
+                                <li>Packer - https://www.packer.io/</li>
+                                <li>Kubernetes - https://kubernetes.io/</li>
+                                <li>Travis - </li>
+                                <li>Heroku - </li>
+                                <li>Chef - </li>
+                                <li>Puppet - </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
         </div>
 
         <div class="card">
@@ -272,8 +281,17 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
 
 ## Personal Life
 
-<div class="card mb-3">
-    <img class="card-img-top" src="static/img/joel-and-regan-night-out-in-cardiff.jpg" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+<div class="card mb-3"> 
+    <img class="card-img-top" src="static/img/joel-and-regan-night-out-in-cardiff.jpg" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <div class="card-body bg-light">
+        <div class="card-text"> 
+           Joel and Regan on a night out in Cardiff.
+        </div>
+    </div>
 </div>
 
-Personal life section
+Outside of work, Joel spends the majority of his free time enjoying activities in his hometown with his partner, Regan. This involves exploring the outdoors with their dog, attending music concerts, drinking at various bars, and eating food festival events. 
+
+Travelling has been a hobby of Joel’s since leaving school. His goal is to travel as much of the world as possible, starting off with Europe and then going further afield to other continents. 
+
+Joel is always up for trying new things and never sees any opportunity as a waste of time. His motto is: "you have to try everything once in life, if not, you have no place to judge something without actually experiencing it." 

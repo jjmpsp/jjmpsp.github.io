@@ -20,7 +20,7 @@ role:             Senior Full Stack Developer and R&D expert by day. Cloud, DevO
 avatar:           /theme/img/avatar.jpg
 
 # The theme uses the baseurl throughout, which is useful for running the entire
-# site under a subdir, like for this GitHub Pages deployment as a project site.
+# site under a subdir, like for athis GitHub Pages deployment as a project site.
 baseurl: ""
 
 # Add a directory to hold misc pages, just to keep the root directory clean.

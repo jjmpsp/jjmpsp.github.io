@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: disclaimer.html
 title: Disclaimer
-narrow: true
+narrow: false
 ---
 
 All content posted on this website is subject to copyright laws.
