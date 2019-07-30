@@ -307,3 +307,11 @@ span.normal-text {
     font-style: normal !important;
     display: inline !important;
 }
+
+.technology-img{
+    height: 57px;
+    width: 57px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #E6E6E6;
+}
