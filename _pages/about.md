@@ -238,6 +238,10 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
                     </li>
                     
                     <li>
+                        Browserify http://browserify.org/
+                    </li>
+                    
+                    <li>
                         <img class="technology-img" src="static/img/technologies/mongodb.png" title="MongoDB" alt="MongoDB">
                         Express.js, MongoDB (MEAN stack)
                     </li>

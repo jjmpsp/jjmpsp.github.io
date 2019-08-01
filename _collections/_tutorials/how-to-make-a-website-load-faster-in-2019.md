@@ -32,4 +32,10 @@ Are your website visitors browsing your website using a Desktop or Mobile device
 
 Does your website contain video elements? iOS has disabled autoplay for a few years now, but some other mobile vendors may have web browsers which play videos automatically. Having multiple videos on a page is enough to drain a client's data allowance in a matter of minutes and could potentially make your website slow if you run a medium to high traffic website.
 
+Lazy loading can be a great way to ensure your pages load quickly. This technique shouldn't be used for every single image on a webpage, only those who take a while to load. You may be wondering if this technique is also appropriate for mobile browsers. The answer here is "it depends". Mobile browsers should download a lower quality version of the image in the first place. Imagine having your data plan renewed and realing that loading one web page has sucked up over 12MB of your precious data?! Once you've verified that your pages load in under 3 seconds, I'd then consider lazy loading images so your website visitors can 
+
+A great resource for testing webpages is Google's very own lighthouse.
+
+https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en
+
 
