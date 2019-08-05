@@ -207,7 +207,7 @@ blockquote span {
 #float-toc {
     position: fixed;
     bottom: 40px;
-    right: 12px;
+    right: 0;
     text-decoration: none;
     color: #000;
     background-color: #e9ecef;

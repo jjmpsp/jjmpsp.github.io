@@ -442,5 +442,16 @@ PE = Perm Krai
 VN = Voronezh Oblast
 ````
 
+### Disabling html compression
+See http://jch.penibelst.de/
+
+default.html
+
+```
+---
+layout: compress
+---
+```
+
 ## Changelog
 TODO
