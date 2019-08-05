@@ -206,13 +206,13 @@ blockquote span {
 }
 
 #float-toc {
-    display: none;
     position: fixed;
     bottom: 40px;
     right: 0;
     text-decoration: none;
     color: #000;
     background-color: #e9ecef;
+    display: block;
     width: 50%;
     padding: 10px 20px;
     border: 1px solid grey;
@@ -319,7 +319,7 @@ span.normal-text {
 /* Mobile only */
 @media (max-width: 767px) {
     #float-toc {
-        bottom:80px;
+        bottom:120px;
         width: 100%;
     }
 
