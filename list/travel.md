@@ -22,7 +22,7 @@ I have decided to document my experience in every single country visited with th
             <a href="{{ page.baseurl }}{{ place.url }}">
                 <div class="box">
                     <div class="imgBox">
-                        <img class="img-responsive lazy-img" data-src="{{ page.baseurl }}/static/img/countries/{{ place.featuredImage }}" />
+                        <img class="img-responsive lazy-img" data-src="{{ page.baseurl }}/static/img/countries/{{ place.featuredImage }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="content">
                         <h2>{{ place.title }}</h2>
