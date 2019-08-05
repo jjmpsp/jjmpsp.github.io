@@ -8,17 +8,6 @@ narrow: false
 <!--
 <script type="text/javascript" src="/static/js/PlacesBeen.js"></script>
 -->
-<script type="text/javascript" src="/static/js/jquery.lazy.min.js"></script>
-
-<script>
-$(document).ready(function(){
-    $('.lazy-img').lazy({
-        effect: "fadeIn",
-        effectTime: 300,
-        threshold: 0
-    });
-});
-</script>
 
 Travelling is one of my favourite hobbies outside of work, and my goal is to visit as much of the world as possible. As you can imagine, this doesn't always come cheap as money is  but I always try to find the most viable way to explore new places
 I have decided to document my experience in every single country visited with the aim of assisting other keen travellers around the world to do exactly the same.

@@ -20,7 +20,7 @@ Here are my top 10 reasons why I think Cardiff is the greatest City in the world
 
 ### 10. It's small enough to walk pretty much anywhere you need to go.
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/walking.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/walking.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -29,7 +29,7 @@ Here are my top 10 reasons why I think Cardiff is the greatest City in the world
 ### 9. It's not quite London, but it's not far from it.
 
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/london.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/london.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -39,7 +39,7 @@ Don't get me wrong, I love visiting London but one problem I have with it is how
 
 ### 8. The bars and pubs make it one of the best places to drink in the world
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/drunk.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/drunk.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -49,7 +49,7 @@ Everyone loves cheap booze but finding the cheapest
 
 ### 7. It has one of the biggest University cultures in the country.
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/university.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/university.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -59,7 +59,7 @@ Cardiff contains multiple University campuses and this makes it a popular choice
 
 ### 6. It has some of the loveliest parks
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/parks.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/parks.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -67,7 +67,7 @@ Cardiff contains multiple University campuses and this makes it a popular choice
 
 ### 5. You can cycle pretty much anywhere.
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/cycle.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/cycle.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -77,7 +77,7 @@ Cardiff is relatively flat, meaning cycling around is somewhat easier than other
 
 ### 4. It has pretty much every restaurant you'd want to visit
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/food.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/food.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -87,7 +87,7 @@ What do you fancy to eat? Maybe a Pizza? Plenty of Italian restaurants. It has c
 
 ### 3. There's a great startup vibe
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/startup.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/startup.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -98,7 +98,7 @@ Welsh ICE is an award winning
 
 ### 2. There are plenty of sports events here.
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/sports.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/sports.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -108,7 +108,7 @@ The Millenium stadium was built in 1999 and is one of the only stadiums in the w
 
 ### 1. The city has great transport links to any other part of the UK (and a relatively small airport)
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/transport.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/transport.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>

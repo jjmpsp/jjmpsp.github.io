@@ -41,6 +41,18 @@
         });
     </script>
 
+    <script type="text/javascript" src="/static/js/jquery.lazy.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.lazy-img').lazy({
+                effect: "fadeIn",
+                effectTime: 300,
+                threshold: 0
+            });
+        });
+    </script>
+
     <link rel="stylesheet" href="/theme/css/bootstrap.css">
     <link rel="stylesheet" href="/theme/css/site.css">
     <link rel="stylesheet" href="/theme/css/syntax.css">
@@ -641,7 +653,7 @@ Scared you won’t fit in here? I bet you will.</p>
 
 <h3 id="10-its-small-enough-to-walk-pretty-much-anywhere-you-need-to-go">10. It’s small enough to walk pretty much anywhere you need to go.</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/walking.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/walking.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -650,7 +662,7 @@ Scared you won’t fit in here? I bet you will.</p>
 <h3 id="9-its-not-quite-london-but-its-not-far-from-it">9. It’s not quite London, but it’s not far from it.</h3>
 
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/london.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/london.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -660,7 +672,7 @@ Scared you won’t fit in here? I bet you will.</p>
 
 <h3 id="8-the-bars-and-pubs-make-it-one-of-the-best-places-to-drink-in-the-world">8. The bars and pubs make it one of the best places to drink in the world</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/drunk.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/drunk.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -670,7 +682,7 @@ Scared you won’t fit in here? I bet you will.</p>
 
 <h3 id="7-it-has-one-of-the-biggest-university-cultures-in-the-country">7. It has one of the biggest University cultures in the country.</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/university.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/university.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -680,7 +692,7 @@ Scared you won’t fit in here? I bet you will.</p>
 
 <h3 id="6-it-has-some-of-the-loveliest-parks">6. It has some of the loveliest parks</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/parks.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/parks.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -688,7 +700,7 @@ Scared you won’t fit in here? I bet you will.</p>
 
 <h3 id="5-you-can-cycle-pretty-much-anywhere">5. You can cycle pretty much anywhere.</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/cycle.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/cycle.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -698,7 +710,7 @@ Scared you won’t fit in here? I bet you will.</p>
 
 <h3 id="4-it-has-pretty-much-every-restaurant-youd-want-to-visit">4. It has pretty much every restaurant you’d want to visit</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/food.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/food.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -708,7 +720,7 @@ Scared you won’t fit in here? I bet you will.</p>
 
 <h3 id="3-theres-a-great-startup-vibe">3. There’s a great startup vibe</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/startup.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/startup.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -719,7 +731,7 @@ Welsh ICE is an award winning</p>
 
 <h3 id="2-there-are-plenty-of-sports-events-here">2. There are plenty of sports events here.</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/sports.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/sports.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
@@ -729,7 +741,7 @@ Welsh ICE is an award winning</p>
 
 <h3 id="1-the-city-has-great-transport-links-to-any-other-part-of-the-uk-and-a-relatively-small-airport">1. The city has great transport links to any other part of the UK (and a relatively small airport)</h3>
 <div class="card mb-3"> 
-    <img class="card-img-top" src="/static/img/posts/cardiff-is-awesome/transport.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="/static/img/posts/cardiff-is-awesome/transport.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff" />
     <div class="card-body bg-light">
         <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
     </div>
