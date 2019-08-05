@@ -26,6 +26,6 @@ From [https://en.wikipedia.org/wiki/Wayne_Enterprises](https://en.wikipedia.org/
     </div>
 </div>
 
-## My Role
+## My Role at Dickies
 
 I worked my way up to a senior level full stack website developer at Dickies, a global leader in workwear clothing. I was in charge of maintaining 13 Dickies e-commerce websites and developing a custom written PHP 7.0 framework. Part of my work involved cleansing, migrating, and normalising 14 years of e-commerce data, and mocking up designs from a designer in code. I also interviewed and hired new developers on behalf of the company’s I.T &amp; Marketing department.

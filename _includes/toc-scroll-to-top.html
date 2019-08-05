@@ -1,12 +1,11 @@
 <div id="float-toc">
     <nav role="navigation" class="table-of-contents">
 
-        {% if include.excludeHierarchy == true %}
-        {%else if %}
+        {% unless include.excludeHierarchy == true %}
             <h3>Table of Contents:</h3>
             {% assign allHtml = "<h1>" | append: include.title | append: "</h1>" | append: content %}
             {% include toc.html html=allHtml %}
-        {% endif %}
+        {% endunless %}
 
         <a href="#">
             <span class="icon grey svg20">
