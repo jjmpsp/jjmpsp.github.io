@@ -74,3 +74,5 @@ This is the Cookie Policy for Joel Murphy's personal website, accessible at [htt
 </ul>
 
 <p><strong>This policy was last updated on the 14<sup>th</sup> of May, 2019.</strong></p>
+
+{% include toc-scroll-to-top.html excludeHierarchy=true %}

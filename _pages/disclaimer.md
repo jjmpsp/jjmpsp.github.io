@@ -11,3 +11,5 @@ In the case of information, the information should be checked thoroughly before 
 
 In the case of code samples, the author (Joel Murphy) cannot be liable for any damages or loss of information that is caused as a result of using the code samples on this website in a production environment. I recommend you backup your work environments frequently to avoid such data loss and encrypt sensitive information.
 
+{% include toc-scroll-to-top.html excludeHierarchy=true %}
+
