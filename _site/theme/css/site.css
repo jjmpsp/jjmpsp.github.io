@@ -321,4 +321,10 @@ span.normal-text {
     #float-toc {
         bottom:80px;
     }
+
+    .breadcrumb{
+        overflow-x: scroll !important;
+        display: -webkit-box !important;
+        display: -moz-box;
+    }
 }
