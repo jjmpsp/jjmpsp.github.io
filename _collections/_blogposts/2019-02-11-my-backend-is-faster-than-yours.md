@@ -10,6 +10,8 @@ tags:
 As a full stack developer, something I've been thinking about for a long time is that there are just so many combinations of tech stacks this day in age.
 Evaluating different frameworks for a website's front-end is pretty easy. My trail of thought usually goes something like the following:
 
+<!--more-->
+
 - Ease of development and don't care about speed? jQuery
 - Speed but lack of ease of development and a lot of re-inventing the wheel? Vanilla JavaScript
 - Cutting edge, component driven? React

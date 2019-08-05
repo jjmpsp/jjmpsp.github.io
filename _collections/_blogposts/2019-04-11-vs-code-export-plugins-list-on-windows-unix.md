@@ -12,6 +12,8 @@ tags:
 You may have a situation where you need to export your config to another machine, or you may want to share your visual studio code plugins list with another developer.
 Luckily, there is a nice way of doing this through the command line.
 
+<!--more-->
+
 Machine A:
 
 In VSCode Powershell terminal :
