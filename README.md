@@ -453,5 +453,8 @@ layout: compress
 ---
 ```
 
+### Specifying elements to be lazy loaded
+http://jquery.eisbehr.de/lazy/
+
 ## Changelog
 TODO
