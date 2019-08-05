@@ -253,20 +253,13 @@ blockquote span {
     color: grey !important;
 }
 
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    #footer {
-        position: fixed;
-        bottom: 0;
-    }
-}
-
 #footer {
     background: #212529;
     min-height: 40px;
     width: 100%;
     color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    bottom: 0;
 }
 
 #website-stats-list{
@@ -316,4 +309,16 @@ span.normal-text {
     background-color: #fff;
     border-radius: 3px;
     border: 1px solid #E6E6E6;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Mobile only */
+@media (max-width: 767px) {
+    #float-toc {
+        bottom:80px;
+    }
 }
