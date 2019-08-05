@@ -25,7 +25,7 @@
 
     <title>
         
-            Ireland &middot; Joel Murphy
+            Hmm... That page is missing. &middot; Joel Murphy
         
     </title>
 
@@ -60,7 +60,7 @@
 
     <meta content="Joel Murphy" property="og:site_name">
 
-<meta content="Ireland" property="og:title">
+<meta content="Hmm... That page is missing." property="og:title">
 
 
 
@@ -68,16 +68,27 @@
 
 
 
-<meta content="Here’s an example for multiple images that uses Bootstrap’s card columns for a Masonry-like layout. It’s not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout. To automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards...." property="og:description">
+<meta content="{% include nav-breadcrumbs.html %}
+          
+It seems the page you have requested is missing. Either it once existed and has been removed, or it never actually existed in the first place.
+
+Please go back and try again, otherwise, here are some recent blog posts to keep you occupied:
 
 
 
-<meta content="http://localhost:4000/travel/europe/ireland.html" property="og:url">
+## Recent Blog Posts
+{% for post in site.blogposts limit:3 %}
+{% include components/post-card.html %}
+{% endfor %}
+
+{% include toc-scroll-to-top.html excludeHierarchy=true %}
+" property="og:description">
 
 
 
-<meta content="2019-08-05T15:41:36+01:00" property="article:published_time">
-<meta content="http://localhost:4000/about/" property="article:author">
+<meta content="http://localhost:4000/404.html" property="og:url">
+
+
 
 
 
@@ -85,14 +96,6 @@
 
 
 
-
-
-
-
-
-<meta content="Ireland" property="article:tag">
-
-<meta content="Travel" property="article:tag">
 
 
 </head>
@@ -443,8 +446,24 @@
         <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content" id="content">
             <div class="card bg-white">
                 <div class="card-body">
-                    <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
-    Ireland
+                    <h1 class="list-title border border-left-0 border-right-0 py-2">
+    
+    Hmm... That page is missing.
+    
+
+    <button class="btn btn-sm btn-primary hidden-xs hidden-md" title="Toggle reading view" id="expand-view">
+        <span class="icon grey">
+            <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Resize_full_screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M6.987,10.987l-2.931,3.031L2,11.589V18h6.387l-2.43-2.081l3.03-2.932L6.987,10.987z M11.613,2l2.43,2.081l-3.03,2.932l2,2
+	l2.931-3.031L18,8.411V2H11.613z"/>
+</svg>
+
+        </span>
+    </button>
 </h1>
 
 <ol class="breadcrumb">
@@ -467,10 +486,6 @@
     
     
     
-    <li class="breadcrumb-item">
-        <a href="/travel">Travel</a>
-    </li>
-    
     
     
     
@@ -479,77 +494,230 @@
     
     
     <li class="breadcrumb-item active">
-        <a href="/travel/europe/ireland.html">Ireland</a>
+        <a href="/404.html">Hmm... That page is missing.</a>
     </li>
 </ol>
 
-<script type="text/javascript" src="/static/js/jquery.vmap.js"></script>
-<script type="text/javascript" src="/static/js/maps/jquery.vmap.world.js" charset="utf-8"></script>
-<link rel="stylesheet" href="/static/css/jqvmap.min.css"/>
-<style>
-    #vmap .jqvmap-zoomin, #vmap .jqvmap-zoomout {
-        width: 17px;
-        height: 17px;
-    }
-</style>
-<script>
-    jQuery(document).ready(function () {
-        jQuery('#vmap').vectorMap({
-            map: 'world_en',
-            backgroundColor: '#00A8DD',
-            selectedRegions: ['AT', 'BE', 'DE'],
-            showTooltip: true,
-            onRegionClick: function(element, code, region)
-            {
-                var message = 'You clicked "'
-                    + region
-                    + '" which has the code: '
-                    + code.toUpperCase();
+<p>It seems the page you have requested is missing. Either it once existed and has been removed, or it never actually existed in the first place.</p>
 
-                alert(message);
-            }
-        });
-    });
-</script>
+<p>Please go back and try again, otherwise, here are some recent blog posts to keep you occupied:</p>
 
-<p>Here’s an example for multiple images that uses Bootstrap’s card columns for a Masonry-like layout. It’s not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout.</p>
+<hr />
 
-<!--more-->
+<h2 id="recent-blog-posts">Recent Blog Posts</h2>
 
-<p>To automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.</p>
+<div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="card-body px-0 pt-0">
+        <h4 class="card-title mb-4">
+            <a href="http://localhost:4000/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html">How to loop over all collection types in Jekyll</a>
+        </h4>
+        <div class="card-text d-flex align-items-center mb-2">
+            <span class="icon grey mr-2">
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
-<p>Here’s the card columns in action.</p>
+<svg version="1.1" id="Calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M17,3h-1v2h-3V3H7v2H4V3H3C1.899,3,1,3.9,1,5v12c0,1.1,0.899,2,2,2h14c1.1,0,2-0.9,2-2V5C19,3.9,18.1,3,17,3z M17,17H3V9h14
+	V17z M6.5,1h-2v3.5h2V1z M15.5,1h-2v3.5h2V1z" />
+</svg>
 
-<div class="card-columns">
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=5b1016b885e7438c4633109d77368d4d&amp;auto=format&amp;fit=crop&amp;w=1651&amp;q=80" />
+            </span>
+            10 Mar 2018
+        </div>
+        <div class="card-text d-flex align-items-center mb-2">
+            <span class="icon grey mr-2 mb-1">
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z" />
+</g>
+</svg>
+
+            </span>
+            <div>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
+                        jekyll
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-liquid">
+                        liquid
+                    </span>
+                
+            </div>
+        </div>
+        <div class="card-text mb-0">
+            <p>Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too.</p>
+
+
+        </div>
+        <a href="http://localhost:4000/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html">Read full post: How to loop over all collection types in Jekyll...</a>
     </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1445962125599-30f582ac21f4?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=38c096c472ba616dc4e8e76a8069c97a&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" />
+</div>
+
+<div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="card-body px-0 pt-0">
+        <h4 class="card-title mb-4">
+            <a href="http://localhost:4000/blogposts/2018-03-10-scaling-how-the-tech-giants-do-it.html">How do tech giants scale to millions or billions of users?</a>
+        </h4>
+        <div class="card-text d-flex align-items-center mb-2">
+            <span class="icon grey mr-2">
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M17,3h-1v2h-3V3H7v2H4V3H3C1.899,3,1,3.9,1,5v12c0,1.1,0.899,2,2,2h14c1.1,0,2-0.9,2-2V5C19,3.9,18.1,3,17,3z M17,17H3V9h14
+	V17z M6.5,1h-2v3.5h2V1z M15.5,1h-2v3.5h2V1z" />
+</svg>
+
+            </span>
+            10 Mar 2018
+        </div>
+        <div class="card-text d-flex align-items-center mb-2">
+            <span class="icon grey mr-2 mb-1">
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z" />
+</g>
+</svg>
+
+            </span>
+            <div>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
+                        jekyll
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-liquid">
+                        liquid
+                    </span>
+                
+            </div>
+        </div>
+        <div class="card-text mb-0">
+            <p>Has the thought of scaling ever crossed your mind?</p>
+
+<p>Keeping a service online is a 24 hour operation. If you work in I.T then theres a chance that 
+you’ve seen first hand just how much people take technology for granted.</p>
+
+<p>Big companies and organisations such as Google, Microsoft, Amazon, Twitter, Facebook, etc.
+all share one common problem: How to scale to Millions, or even Billions of users across the globe. This blog post will discuss some of the most common methods for scaling websites.</p>
+
+
+        </div>
+        <a href="http://localhost:4000/blogposts/2018-03-10-scaling-how-the-tech-giants-do-it.html">Read full post: How do tech giants scale to millions or billions of users?...</a>
     </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1504626835342-6b01071d182e?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=975855d515c9d56352ee3bfe74287f2b&amp;auto=format&amp;fit=crop&amp;w=1651&amp;q=80" />
+</div>
+
+<div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="card-body px-0 pt-0">
+        <h4 class="card-title mb-4">
+            <a href="http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html">Why I ditched wordpress for Jekyll</a>
+        </h4>
+        <div class="card-text d-flex align-items-center mb-2">
+            <span class="icon grey mr-2">
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M17,3h-1v2h-3V3H7v2H4V3H3C1.899,3,1,3.9,1,5v12c0,1.1,0.899,2,2,2h14c1.1,0,2-0.9,2-2V5C19,3.9,18.1,3,17,3z M17,17H3V9h14
+	V17z M6.5,1h-2v3.5h2V1z M15.5,1h-2v3.5h2V1z" />
+</svg>
+
+            </span>
+            10 May 2018
+        </div>
+        <div class="card-text d-flex align-items-center mb-2">
+            <span class="icon grey mr-2 mb-1">
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z" />
+</g>
+</svg>
+
+            </span>
+            <div>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
+                        jekyll
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-wordpress">
+                        wordpress
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-migration">
+                        migration
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-cms">
+                        cms
+                    </span>
+                
+            </div>
+        </div>
+        <div class="card-text mb-0">
+            <p>Wordpress is so stupidly bloated.
+I used to be a wordpress developer myself, but sometimes I asked myself ‘why’.</p>
+
+<p>Wordpress and it’s huge plugin system can be a handle to maintain. Don’t get me wrong, it’s amazing that there are so many plugins actively developed for Wordpress but w</p>
+
+<p>Sometimes websites can have in excess of 10, 20, or 50+ plugins installed. All it takes is for one of those single plugins to have one single security vulnrebility and this is enough to comepletely take down your website. Some wordpress security vulnerabilities can go unseen for months, or even years. What if a plugin developer decides to abandon their masterpiece of a plugin if they’ve taken on other projects? You’re pretty much screwed and the only option you’re left with is to fork and maintain a version of the plugin yourself, or use an alternative plugin. The issues with this is it can take up a lot of time</p>
+
+
+        </div>
+        <a href="http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html">Read full post: Why I ditched wordpress for Jekyll...</a>
     </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=468a8c18f5d811cf03c654b653b5089e&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1506291318501-948562d765d7?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=71ad8e3b7b4bd210182ed5e5c024903b&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1500370414137-9201565cf099?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=95e700b9e28eb7ed7b5769c823741126&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1500402448245-d49c5229c564?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=f19c590b253f803a7f9b643c59017160&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
+</div>
+
+<div id="float-toc">
+    <nav role="navigation" class="table-of-contents">
+
+        
+
+        <a href="#">
+            <span class="icon grey svg20">
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M10,2.5L16.5,9H13v8H7V9H3.5L10,2.5z" />
+</svg>
+
+            </span>
+
+            Jump to top of page
+        </a>
+    </nav>
 </div>
 
                 </div>
