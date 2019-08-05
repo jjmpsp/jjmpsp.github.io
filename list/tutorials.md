@@ -47,4 +47,4 @@ Joel is a huge fan of continuous learning, personal development, and learning ne
     }
 </style> 
 
-{% include toc-scroll-to-top.html title=page.title %}
+{% include toc-scroll-to-top.html excludeHierarchy=true %}
