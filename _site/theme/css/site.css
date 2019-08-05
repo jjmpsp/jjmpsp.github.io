@@ -354,7 +354,11 @@ span.normal-text {
 
     #footer-credits{
         text-align: center;
-        line-height:30px;
+        line-height: 24px;
+    }
+
+    #footer{
+        height: 75px;
     }
 }
 
