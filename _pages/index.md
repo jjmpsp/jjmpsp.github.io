@@ -36,3 +36,4 @@ Welcome to the personal website of Joel Murphy. Here is a message from the autho
 {% include components/post-card.html %}
 {% endfor %}
 
+{% include toc-scroll-to-top.html excludeHierarchy=true %}

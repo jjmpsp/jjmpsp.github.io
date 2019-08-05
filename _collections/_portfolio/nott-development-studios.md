@@ -9,7 +9,7 @@ skills:
   - Web Design
 ---
 
-## About Seekrs
+## About Nott Development Studios (NDS)
 
 Cyberdyne is initially a benign manufacturing corporation at 18144 El Camino Real, Sunnyvale, California. Its products are unsure, possibly computers or processors, but from the equipment in its factory and its high tech-sounding name, it seems possible that Cyberdyne might have been some sort of smaller parts producer for larger manufacturers of high tech equipment.
 
@@ -20,8 +20,9 @@ From [http://terminator.wikia.com/wiki/Cyberdyne_Systems](http://terminator.wiki
 <div class="card mb-3">
     <img class="card-img-top" src = "/static/img/nott-development-studios.png"/>
     <div class="card-body bg-light">
-        <div class="card-text">Screenshot of the Box UK website.</div>
+        <div class="card-text">Screenshot of Nott Development Studios (NDS) website.</div>
     </div>
 </div>
 
-## My Role
+## My Role at Nott Development Studios
+I was a co-founder, full stack developer, and a server administrator at Nott Development Studios. The majority of my time was spent discussing requirements with clients and developing appropriate technology solutions for those requirements.

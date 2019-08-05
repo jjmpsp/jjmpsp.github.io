@@ -14,3 +14,5 @@ I am a keen believer in the 'spirit of sharing' and by nature I like to help oth
 {% else %}
 Unfortunately, I haven't found the time to post any of my talks and presentations just yet. Please check back soon!
 {% endif %}
+
+{% include toc-scroll-to-top.html excludeHierarchy=true %}

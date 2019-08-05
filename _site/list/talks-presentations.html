@@ -474,6 +474,27 @@
 
 <p>Unfortunately, I haven’t found the time to post any of my talks and presentations just yet. Please check back soon!</p>
 
+<div id="float-toc">
+    <nav role="navigation" class="table-of-contents">
+
+        
+        
+
+        <a href="#">
+            <span class="icon grey svg20">
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M10,2.5L16.5,9H13v8H7V9H3.5L10,2.5z" />
+</svg>
+
+            </span>
+
+            Jump to top of page
+        </a>
+    </nav>
+</div>
 
 
                 </div>
@@ -659,7 +680,7 @@
 <footer id="footer">
     <div class="row" style="line-height:40px;margin-left:auto;margin-right:auto;">
         <div style="position:absolute;top:0;left:0;">
-            <p id="toggleStickyFooter" style="font-size: 27px;color: white;cursor:pointer;">⬇</p>
+            <p id="toggleStickyFooter" style="font-size: 27px;color: white;cursor:pointer;" title="Toggle pinned footer">⬇</p>
         </div>
         <div style="display: block;width:100%;text-align: center;">
             &copy; Joel Murphy 2012 - 2019.
@@ -673,7 +694,7 @@
             🕗
         </div>
         <div style="position:absolute;top:0;right:0;">
-            <p id="toggleTableOfContents" style="font-size: 27px;color: white;cursor:pointer;">⬆</p>
+            <p id="toggleTableOfContents" style="font-size: 27px;color: white;cursor:pointer;" title="Toggle Table Of Contents">⬇</p>
         </div>
     </div>
 </footer>
@@ -691,18 +712,22 @@
     $(document).ready(function () {
         $("#toggleStickyFooter").clickToggle(
             function () {
+                $(this).text("⬆");
                 $("#footer").css("position", "relative");
             },
             function () {
+                $(this).text("⬇");
                 $("#footer").css("position", "fixed");
             }
         );
 
         $("#toggleTableOfContents").clickToggle(
             function(){
+                $(this).text("⬆");
                 $("#float-toc").hide();
             },
             function(){
+                $(this).text("⬇");
                 $("#float-toc").show();
             }
         );

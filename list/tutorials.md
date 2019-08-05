@@ -46,3 +46,5 @@ Joel is a huge fan of continuous learning, personal development, and learning ne
         color: #eee;
     }
 </style> 
+
+{% include toc-scroll-to-top.html title=page.title %}

@@ -9,7 +9,6 @@ crumbtitle: About Joel Murphy
 
 ---
 
-
 {% include nav-breadcrumbs.html %}
 
 Jump to: 
@@ -367,3 +366,5 @@ Outside of work, Joel spends the majority of his free time enjoying activities i
 Travelling has been a hobby of Joel’s since leaving school. His goal is to travel as much of the world as possible, starting off with Europe and then going further afield to other continents. 
 
 Joel is always up for trying new things and never sees any opportunity as a waste of time. His motto is: "you have to try everything once in life, if not, you have no place to judge something without actually experiencing it." 
+
+{% include toc-scroll-to-top.html excludeHierarchy=true %}

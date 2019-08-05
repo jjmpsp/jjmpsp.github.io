@@ -56,7 +56,7 @@
 
 
 
-<meta content="About Seekrs Cyberdyne is initially a benign manufacturing corporation at 18144 El Camino Real, Sunnyvale, California. Its products are unsure, possibly computers or processors, but from the equipment in its factory and its high tech-sounding name, it seems possible that Cyberdyne might have been some sort of smaller parts producer for larger manufacturers of high tech equipment. A Series 800 Terminator, which is sent from the future and designed to kill humans, is crushed in..." property="og:description">
+<meta content="About Nott Development Studios (NDS) Cyberdyne is initially a benign manufacturing corporation at 18144 El Camino Real, Sunnyvale, California. Its products are unsure, possibly computers or processors, but from the equipment in its factory and its high tech-sounding name, it seems possible that Cyberdyne might have been some sort of smaller parts producer for larger manufacturers of high tech equipment. A Series 800 Terminator, which is sent from the future and designed to kill humans,..." property="og:description">
 
 
 
@@ -64,7 +64,7 @@
 
 
 
-<meta content="2019-08-05T13:25:51+01:00" property="article:published_time">
+<meta content="2019-08-05T14:53:05+01:00" property="article:published_time">
 <meta content="http://localhost:4000/about/" property="article:author">
 
 
@@ -670,7 +670,7 @@
 </div>
 </div>
 
-<h2 id="about-seekrs">About Seekrs</h2>
+<h2 id="about-nott-development-studios-nds">About Nott Development Studios (NDS)</h2>
 
 <p>Cyberdyne is initially a benign manufacturing corporation at 18144 El Camino Real, Sunnyvale, California. Its products are unsure, possibly computers or processors, but from the equipment in its factory and its high tech-sounding name, it seems possible that Cyberdyne might have been some sort of smaller parts producer for larger manufacturers of high tech equipment.</p>
 
@@ -681,25 +681,30 @@
 <div class="card mb-3">
     <img class="card-img-top" src="/static/img/nott-development-studios.png" />
     <div class="card-body bg-light">
-        <div class="card-text">Screenshot of the Box UK website.</div>
+        <div class="card-text">Screenshot of Nott Development Studios (NDS) website.</div>
     </div>
 </div>
 
-<h2 id="my-role">My Role</h2>
+<h2 id="my-role-at-nott-development-studios">My Role at Nott Development Studios</h2>
+<p>I was a co-founder, full stack developer, and a server administrator at Nott Development Studios. The majority of my time was spent discussing requirements with clients and developing appropriate technology solutions for those requirements.</p>
 
 
 <div id="float-toc">
     <nav role="navigation" class="table-of-contents">
-        <h3>Table of Contents:</h3>
+
         
-        <ul>
+            <h3>Table of Contents:</h3>
+            
+            <ul>
   <li><a href="#">Nott Development Studios</a>
     <ul>
-      <li><a href="#about-seekrs">About Seekrs</a></li>
-      <li><a href="#my-role">My Role</a></li>
+      <li><a href="#about-nott-development-studios-nds">About Nott Development Studios (NDS)</a></li>
+      <li><a href="#my-role-at-nott-development-studios">My Role at Nott Development Studios</a></li>
     </ul>
   </li>
 </ul>
+        
+
         <a href="#">
             <span class="icon grey svg20">
                 <?xml version="1.0" encoding="utf-8"?>
@@ -711,7 +716,8 @@
 </svg>
 
             </span>
-            To the top of this page
+
+            Jump to top of page
         </a>
     </nav>
 </div>
@@ -1017,7 +1023,7 @@
 <footer id="footer">
     <div class="row" style="line-height:40px;margin-left:auto;margin-right:auto;">
         <div style="position:absolute;top:0;left:0;">
-            <p id="toggleStickyFooter" style="font-size: 27px;color: white;cursor:pointer;">⬇</p>
+            <p id="toggleStickyFooter" style="font-size: 27px;color: white;cursor:pointer;" title="Toggle pinned footer">⬇</p>
         </div>
         <div style="display: block;width:100%;text-align: center;">
             &copy; Joel Murphy 2012 - 2019.
@@ -1031,7 +1037,7 @@
             🕗
         </div>
         <div style="position:absolute;top:0;right:0;">
-            <p id="toggleTableOfContents" style="font-size: 27px;color: white;cursor:pointer;">⬆</p>
+            <p id="toggleTableOfContents" style="font-size: 27px;color: white;cursor:pointer;" title="Toggle Table Of Contents">⬇</p>
         </div>
     </div>
 </footer>
@@ -1049,18 +1055,22 @@
     $(document).ready(function () {
         $("#toggleStickyFooter").clickToggle(
             function () {
+                $(this).text("⬆");
                 $("#footer").css("position", "relative");
             },
             function () {
+                $(this).text("⬇");
                 $("#footer").css("position", "fixed");
             }
         );
 
         $("#toggleTableOfContents").clickToggle(
             function(){
+                $(this).text("⬆");
                 $("#float-toc").hide();
             },
             function(){
+                $(this).text("⬇");
                 $("#float-toc").show();
             }
         );

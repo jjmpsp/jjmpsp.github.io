@@ -1,13 +1,19 @@
 <div id="float-toc">
     <nav role="navigation" class="table-of-contents">
-        <h3>Table of Contents:</h3>
-        {% assign allHtml = "<h1>" | append: include.title | append: "</h1>" | append: content %}
-        {% include toc.html html=allHtml %}
+
+        {% if include.excludeHierarchy == true %}
+        {%else if %}
+            <h3>Table of Contents:</h3>
+            {% assign allHtml = "<h1>" | append: include.title | append: "</h1>" | append: content %}
+            {% include toc.html html=allHtml %}
+        {% endif %}
+
         <a href="#">
             <span class="icon grey svg20">
                 {% include entypo/arrow-up.svg %}
             </span>
-            To the top of this page
+
+            Jump to top of page
         </a>
     </nav>
 </div>

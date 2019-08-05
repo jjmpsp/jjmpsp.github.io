@@ -10,3 +10,5 @@ I try to work on projects to practise working with different technologies or jus
 {% for project in site.projects %}
 - [{{ project.title }}]({{ site.baseurl }}{{ project.url }})
 {% endfor %}
+
+{% include toc-scroll-to-top.html excludeHierarchy=true %}

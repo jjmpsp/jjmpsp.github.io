@@ -1,5 +1,6 @@
 body {
     background: url("../../static/img/subtle_dots_@2X.png");
+    font-weight: 400;
 }
 
 .profile-image {
@@ -213,8 +214,9 @@ blockquote span {
     background-color: #e9ecef;
     display: block;
     width: 50%;
-    padding: 20px;
+    padding: 10px 20px;
     border: 1px solid grey;
+    border-bottom: none;
     opacity: 1;
     z-index: 1;
 }
