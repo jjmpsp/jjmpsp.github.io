@@ -98,6 +98,7 @@ body .eupopup-color-inverse .eupopup-head {
 }
 
 body .eupopup-style-compact {
+	display: none;
 	text-align: left;
 	padding: 20px 20px 10px 20px;
 	line-height: 25px;
