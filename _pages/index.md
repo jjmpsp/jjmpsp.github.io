@@ -8,7 +8,7 @@ title: Welcome to joel-murphy.co.uk
 {% include nav-breadcrumbs.html %}
           
 <div class="card mb-3">
-    <img class="card-img-top" src="static/img/joel-cloud-native-wales.jpg" title="Joel at Cloud Native Wales meetup in Cardiff" alt="Joel at Cloud Native Wales meetup in Cardiff" />
+    <img class="card-img-top lazy-img" data-src="static/img/joel-cloud-native-wales.jpg" title="Joel at Cloud Native Wales meetup in Cardiff" alt="Joel at Cloud Native Wales meetup in Cardiff" />
 </div>
 
 Welcome to the personal website of Joel Murphy. Here is a message from the author:
