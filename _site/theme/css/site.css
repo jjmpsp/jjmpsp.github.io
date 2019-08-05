@@ -320,6 +320,7 @@ span.normal-text {
 @media (max-width: 767px) {
     #float-toc {
         bottom:80px;
+        width: 100%;
     }
 
     .breadcrumb{
