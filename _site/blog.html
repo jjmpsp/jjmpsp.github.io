@@ -483,9 +483,19 @@
                     oss
                 </a>
             
+                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-pin"
+                   href="#pin">
+                    pin
+                </a>
+            
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-plugins"
                    href="#plugins">
                     plugins
+                </a>
+            
+                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-powershell"
+                   href="#powershell">
+                    powershell
                 </a>
             
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-server"
@@ -503,6 +513,11 @@
                     studio
                 </a>
             
+                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-taskbar"
+                   href="#taskbar">
+                    taskbar
+                </a>
+            
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-visual"
                    href="#visual">
                     visual
@@ -511,6 +526,11 @@
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-visual-studio-code"
                    href="#visual-studio-code">
                     visual studio code
+                </a>
+            
+                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-windows"
+                   href="#windows">
+                    windows
                 </a>
             
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-wordpress"
@@ -798,9 +818,19 @@
                     oss
                 </a>
             
+                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-pin"
+                   href="#pin">
+                    pin
+                </a>
+            
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-plugins"
                    href="#plugins">
                     plugins
+                </a>
+            
+                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-powershell"
+                   href="#powershell">
+                    powershell
                 </a>
             
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-server"
@@ -818,6 +848,11 @@
                     studio
                 </a>
             
+                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-taskbar"
+                   href="#taskbar">
+                    taskbar
+                </a>
+            
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-visual"
                    href="#visual">
                     visual
@@ -826,6 +861,11 @@
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-visual-studio-code"
                    href="#visual-studio-code">
                     visual studio code
+                </a>
+            
+                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-windows"
+                   href="#windows">
+                    windows
                 </a>
             
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-wordpress"
@@ -1858,7 +1898,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
     <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
-            <a href="http://localhost:4000/blogposts/2019-12-5-windows-10-powershell-copy-app-to-taskbar.html">Looping over all collection types in Jekyll</a>
+            <a href="http://localhost:4000/blogposts/2019-5-5-windows-10-powershell-copy-app-to-taskbar.html">Windows 10 pin program to taskbar with powershell</a>
         </h4>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2">
@@ -1872,7 +1912,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
 </svg>
 
             </span>
-            05 Dec 2019
+            05 May 2019
         </div>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2 mb-1">
@@ -1896,22 +1936,32 @@ Luckily, there is a nice way of doing this through the command line.</p>
             </span>
             <div>
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
-                        jekyll
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-windows">
+                        windows
                     </span>
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-liquid">
-                        liquid
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-pin">
+                        pin
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-taskbar">
+                        taskbar
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-powershell">
+                        powershell
                     </span>
                 
             </div>
         </div>
         <div class="card-text mb-0">
-            <p>Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too.</p>
+            <p>Today I was looking for a solution to create a shortcut to Windows .exe files / Windows binaries / Windows Applications (whatever you want to call them). For future reference, here is a solution which works perfectly with Windows Server 2016 and Windows 10. All credits go to the original author for the starting point. I just made some simple amends and modified the script to take a list of arguments so multiple applications can be added to the Windows Taskbar at the same time.</p>
+
+<p>This solution can be used with configuration management and provisioning tools. All you have to do is supply a list of applications to be pinned and invoke a powershell script. Awesome!</p>
 
 
         </div>
-        <a href="http://localhost:4000/blogposts/2019-12-5-windows-10-powershell-copy-app-to-taskbar.html">Read full post: Looping over all collection types in Jekyll...</a>
+        <a href="http://localhost:4000/blogposts/2019-5-5-windows-10-powershell-copy-app-to-taskbar.html">Read full post: Windows 10 pin program to taskbar with powershell...</a>
     </div>
 </div>
 

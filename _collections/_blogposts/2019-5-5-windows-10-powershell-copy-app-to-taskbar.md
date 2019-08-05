@@ -1,28 +1,17 @@
 ---
-title: Looping over all collection types in Jekyll
+title: Windows 10 pin program to taskbar with powershell
 tags:
-  - jekyll
-  - liquid
+- windows
+- pin
+- taskbar
+- powershell
 ---
-
-Here's how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too.
-
-<!--more-->
-
-The card allows a caption to be aligned with the photo, and the card classes contain a `card-img-top` that ensures the image is responsive within the grid.
-
-<div class="card mb-3">
-    <img class="card-img-top" src="/static/img/jekyll-logo.png" />
-    <div class="card-body bg-light">
-        <div class="card-text">
-            The Peak District on a mosty morning. Image credit, Official <a href="https://jekyllrb.com/">Jekyll website</a>.
-        </div>
-    </div>
-</div>
 
 Today I was looking for a solution to create a shortcut to Windows .exe files / Windows binaries / Windows Applications (whatever you want to call them). For future reference, here is a solution which works perfectly with Windows Server 2016 and Windows 10. All credits go to the original author for the starting point. I just made some simple amends and modified the script to take a list of arguments so multiple applications can be added to the Windows Taskbar at the same time.
 
 This solution can be used with configuration management and provisioning tools. All you have to do is supply a list of applications to be pinned and invoke a powershell script. Awesome!
+
+<!--more-->
 
 {% highlight powershell %}
 
