@@ -14,7 +14,6 @@ I have decided to document my experience in every single country visited with th
 
 <div id="vmap" style="width: 100%; height: 600px;"></div>
 
-
 ## Africa
 <div class="row">
     {% for place in site.travel_africa %}
@@ -105,7 +104,8 @@ I have decided to document my experience in every single country visited with th
     position:relative;
 }
 .container .box .imgBox img {
-    width:100%;
+    width: 100%;
+    height: 100%;
     transition:0.5s;
 }
 .container .box:hover .imgBox img {
