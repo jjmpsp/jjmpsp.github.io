@@ -34,15 +34,10 @@ The HTML source for this card is below, or of course you could look at the raw s
 {% endhighlight %}
 
 {% highlight html %}
-
 {% for collection in site.collections %}
-
   {% assign name = collection.label %}
-
   <section>
-    <h1>{{ name }}</h1>
-   
+    <h1>{{ name }}</h1>   
   </section>
-
 {% endfor %}
 {% endhighlight %}
