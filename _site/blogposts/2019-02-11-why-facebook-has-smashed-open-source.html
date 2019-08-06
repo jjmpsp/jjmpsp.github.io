@@ -1059,28 +1059,30 @@
 </div>
 
 <footer id="footer" class="bg-dark">
-    <div class="row">
-        <div class="col-2 col-md-1">
-            <span id="toggleStickyFooter" title="Toggle pinned footer">⬇</span>
-        </div>
-        <div class="col-8 col-md-10">
-            <div id="footer-credits">
-                &copy; Joel Murphy 2012 - 2019.
-                <a href="https://github.com/jjmpsp/jjmpsp.github.io">This website is open
-                    source</a>.
-                Last update:
-                
-                May
-                9th,
-                2019
-                🕗
+    <div class="container">
+        <div class="row">
+            <div class="col-2 col-md-1">
+                <span id="toggleStickyFooter" title="Toggle pinned footer">⬇</span>
             </div>
+            <div class="col-8 col-md-10">
+                <div id="footer-credits">
+                    &copy; Joel Murphy 2012 - 2019.
+                    <a href="https://github.com/jjmpsp/jjmpsp.github.io">This website is open
+                        source</a>.
+                    Last update:
+                    
+                    May
+                    9th,
+                    2019
+                    🕗
+                </div>
+            </div>
+            <div class="col-2 col-md-1">
+                <span id="toggleTableOfContents" title="Toggle Table Of Contents">⬇</span>
+            </div>
+            <div class="clearfix"></div>
         </div>
-        <div class="col-2 col-md-1">
-            <span id="toggleTableOfContents" title="Toggle Table Of Contents">⬇</span>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+    </div
 </footer>
 
 <script>
@@ -1106,11 +1108,11 @@
         );
 
         $("#toggleTableOfContents").clickToggle(
-            function(){
+            function () {
                 $(this).text("⬆");
                 $("#float-toc").hide();
             },
-            function(){
+            function () {
                 $(this).text("⬇");
                 $("#float-toc").show();
             }
@@ -1152,7 +1154,7 @@
     });
 </script>
 
-<script >
+<script>
     /*!
      * IE10 viewport hack for Surface/desktop Windows 8 bug
      * Copyright 2014-2017 The Bootstrap Authors
