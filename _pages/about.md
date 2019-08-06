@@ -33,6 +33,12 @@ Jump to:
                 $this.next().toggleClass('show');
                 $this.next().slideToggle(350);
             }
+            
+            $('.lazy-img').lazy({
+                effect: "fadeIn",
+                effectTime: 300,
+                threshold: 0
+            });
         });
     });
 </script>
