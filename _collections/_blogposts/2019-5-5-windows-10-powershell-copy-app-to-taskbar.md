@@ -1,5 +1,5 @@
 ---
-title: Windows 10 pin program to taskbar with powershell
+title: How to pin programs to taskbar with powershell in Windows 10 or Windows Server 2012+
 tags:
 - windows
 - pin
