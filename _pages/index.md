@@ -3,6 +3,7 @@ layout: defaults/page
 permalink: index.html
 narrow: false
 title: Welcome to joel-murphy.co.uk
+ogDescription: Homepage for Joel Murphy
 ---
 
 {% include nav-breadcrumbs.html %}
