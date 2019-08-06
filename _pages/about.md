@@ -23,17 +23,20 @@ Jump to:
           	e.preventDefault();
           
             var $this = $(this);
-          
+                      
             if ($this.next().hasClass('show')) {
                 $this.next().removeClass('show');
+                $this.children("span").text("▼")
                 $this.next().slideUp(350);
             } else {
                 $this.parent().parent().find('li .inner').removeClass('show');
                 $this.parent().parent().find('li .inner').slideUp(350);
                 $this.next().toggleClass('show');
+                $this.children("span").text("▲")
                 $this.next().slideToggle(350);
             }
             
+            // Load images contained in accordian  
             $('.lazy-img').lazy({
                 effect: "fadeIn",
                 effectTime: 300,
@@ -93,7 +96,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
 
 <ul class="accordion">
     <li>
-        <a class="toggle" href="javascript:void(0);">Operating Systems</a>
+        <a class="toggle" href="javascript:void(0);">Operating Systems <span style="float:right;">▼</span></a>
         <ul class="inner">
             <li class="mlm15">
                 <table class="table table-bordered">
@@ -148,7 +151,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     </li>
 
     <li>
-        <a class="toggle" href="javascript:void(0);">Back-end Development</a>
+        <a class="toggle" href="javascript:void(0);">Back-end Development <span style="float:right;">▼</span></a>
         <ul class="inner">
             <li class="mlm15">
                 <table class="table table-bordered">
@@ -208,7 +211,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     </li>
 
     <li>
-        <a class="toggle" href="javascript:void(0);">Databases</a>
+        <a class="toggle" href="javascript:void(0);">Databases <span style="float:right;">▼</span></a>
         <ul class="inner">
             <li class="mlm15">
                 <table class="table table-bordered">
@@ -247,7 +250,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     </li>
 
     <li>
-        <a class="toggle" href="javascript:void(0);">Front-End Development</a>
+        <a class="toggle" href="javascript:void(0);">Front-End Development <span style="float:right;">▼</span></a>
         <ul class="inner">
             <li class="mlm15">
                 <table class="table table-bordered">
@@ -366,7 +369,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     </li>
 
     <li>
-        <a class="toggle" href="javascript:void(0);">Dev-Ops, Automation, Containers, and Infrastructure</a>
+        <a class="toggle" href="javascript:void(0);">Dev-Ops, Automation, Containers, and Infrastructure <span style="float:right;">▼</span></a>
         <ul class="inner">
             <li class="mlm15">
                 <table class="table table-bordered">
@@ -436,7 +439,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     </li>
     
     <li>
-        <a class="toggle" href="javascript:void(0);">Hypervisors and Cloud</a>
+        <a class="toggle" href="javascript:void(0);">Hypervisors and Cloud <span style="float:right;">▼</span></a>
         <ul class="inner">
             <li class="mlm15">
                 <table class="table table-bordered">
@@ -471,7 +474,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     </li>
     
      <li>
-        <a class="toggle" href="javascript:void(0);">Software Development Methodologies</a>
+        <a class="toggle" href="javascript:void(0);">Software Development Methodologies <span style="float:right;">▼</span></a>
         <ul class="inner">
             <li class="mlm15">
                 <table class="table table-bordered">
@@ -512,7 +515,7 @@ Outside of work, Joel spends the majority of his free time enjoying activities i
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/crimbo-the-dog.jpg" title="Crimbo the Dog" alt="Crimbo the Dog">
     <div class="card-body bg-light">
         <div class="card-text"> 
-           Crimbo the Dog
+           Crimbo the Dog. 🐶
         </div>
     </div>
 </div>
