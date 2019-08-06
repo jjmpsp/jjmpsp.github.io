@@ -489,8 +489,63 @@
 
 <hr />
 
+<script>
+    $(document).ready(function(){
+        $('.toggle').click(function(e) {
+          	e.preventDefault();
+          
+            var $this = $(this);
+          
+            if ($this.next().hasClass('show')) {
+                $this.next().removeClass('show');
+                $this.next().slideUp(350);
+            } else {
+                $this.parent().parent().find('li .inner').removeClass('show');
+                $this.parent().parent().find('li .inner').slideUp(350);
+                $this.next().toggleClass('show');
+                $this.next().slideToggle(350);
+            }
+        });
+    });
+</script>
+
+<style>
+p {
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+.description {
+  margin: 1em auto 2.25em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul .inner {
+  padding-left: 1em;
+  overflow: hidden;
+  display: none;
+}
+ul li {
+  margin: 0.5em 0;
+}
+ul li a.toggle {
+  width: 100%;
+  display: block;
+  background: #e9ecef;
+  color: #0d0d0d;
+  padding: 0.75em;
+  border-radius: 0.15em;
+  transition: background 0.3s ease;
+}
+ul li a.toggle:hover {
+  background: rgb(120, 192, 168);
+  border-bottom: none !important;
+}
+</style>
+
 <h2 id="skills-overview">Skills Overview</h2>
-<p>Joel is passionate about developing innovative I.T solutions and delivering them to clients, or organisations in an exceptional standard. Over the past decade, Joel has learned to become a team leader, in addition to an expert software developer from running his own businesses and working in multiple digital organisations.</p>
+<p>Joel is passionate about developing innovative IT solutions and delivering them to clients, or organisations in an exceptional standard. Over the past decade, Joel has learned to become a team leader, in addition to an expert software developer from running his own businesses and working in multiple digital organisations.</p>
 
 <p>Joel has worked for small start-up companies, as well as corporations in contracted &amp; employed positions. Due to this, his skills are flexible and tie into many different I.T positions - especially those involving Software Development, or Project Management. Joel is able to fit into existing roles with his skills, or train on a job to acquire skills specific to an organisation’s needs.</p>
 
@@ -500,355 +555,364 @@
 
 <h2 id="technical-skills">Technical skills</h2>
 
-<ul class="skills">
-    <li>Operating Systems
-        
-    <table class="table table-bordered">
-    <thead>
-    <tr>
-    <th scope="col"></th>
-    <th scope="col">Skill Name</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <th scope="row">
-    <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />
-    </th>
-    <td>Windows (XP, Vista, 7, 8, 10)</td>
-    </tr>
-    <tr>
-    <th scope="row">
-    <img class="technology-img" src="static/img/technologies/windowsserver.jpg" title="Windows Server" alt="Windows Server" />
-    </th>
-    <td>Windows Server (2003, 2008, 2012, 2016, 2019)</td>
-    </tr>
-    <tr>
-    <th scope="row">
-    <img class="technology-img" src="static/img/technologies/macos.png" title="Mac OS" alt="Mac OS" />
-    </th>
-    <td>
-    Mac OS
-    </td>
-    </tr>
-    <tr>
-    <th scope="row">
-    <img class="technology-img" src="static/img/technologies/centos.jpg" title="Cent OS" alt="Cent OS" />
-    </th>
-    <td>CentOS</td>
-    </tr>
-    <tr>
-    <th scope="row">
-    <img class="technology-img" src="static/img/technologies/ubuntu.jpg" title="Ubuntu" alt="Ubuntu" />
-    </th>
-    <td>Ubuntu</td>
-    </tr>
-</tbody>
-</table>
+<ul class="accordion">
+    <li>
+        <a class="toggle" href="javascript:void(0);">Operating Systems</a>
+        <ul class="inner">
+            <li>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Skill Icon</th>
+                        <th scope="col">Skill Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                            <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />
+                        </th>
+                        <td>Windows (XP, Vista, 7, 8, 10)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <img class="technology-img" src="static/img/technologies/windowsserver.jpg" title="Windows Server" alt="Windows Server" />
+                        </th>
+                        <td>Windows Server (2003, 2008, 2012, 2016, 2019)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <img class="technology-img" src="static/img/technologies/macos.png" title="Mac OS" alt="Mac OS" />
+                        </th>
+                        <td>
+                            Mac OS
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <img class="technology-img" src="static/img/technologies/centos.jpg" title="Cent OS" alt="Cent OS" />
+                        </th>
+                        <td>CentOS</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <img class="technology-img" src="static/img/technologies/ubuntu.jpg" title="Ubuntu" alt="Ubuntu" />
+                        </th>
+                        <td>Ubuntu</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="toggle" href="javascript:void(0);">Back-end Development</a>
+        <ul class="inner">
+            <li>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Skill Icon</th>
+                        <th scope="col">Skill Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/php.png" title="PHP" alt="PHP" />
+                        </td>
+                        <td>PHP 7+ and PSR standards [<a target="_blank" href="https://www.php-fig.org/psr/">php-fig.org</a>]
+                        </td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/laravel.png" title="Laravel" alt="Laravel" /></td>
+                        <td>Laravel Framework [<a target="_blank" href="https://laravel.com">laravel.com</a>]</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/zend.png" title="Zend" alt="Zend" />
+                        </td>
+                        <td>Zend Framework [<a target="_blank" href="https://framework.zend.com">framework.zend.com</a>]
+                        </td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/wordpress.png" title="WordPress" alt="WordPress" /></td>
+                        <td>WordPress [<a target="_blank" href="https://wordpress.com/">wordpress.com</a>]</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/composer.png" title="Composer" alt="Composer" /></td>
+                        <td>Composer [<a target="_blank" href="https://getcomposer.org">getcomposer.org</a>]</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/phpunit.jpeg" title="PHPUnit" alt="PHPUnit" /></td>
+                        <td>PHPUnit [<a target="_blank" href="https://phpunit.de/">phpunit.de</a>]</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/php.png" title="Windows" alt="Windows" /></td>
+                        <td>XDebug [<a target="_blank" href="https://xdebug.org/">xdebug.org</a>]</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" /></td>
+                        <td>Apache, virtual hosts &amp; htaccess</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="toggle" href="javascript:void(0);">Databases</a>
+        <ul class="inner">
+            <li>
+
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Skill Icon</th>
+                        <th scope="col">Skill Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/mysql.png" title="MySQL Server" alt="MySQL Server" /></td>
+                        <td> MySQL - https://www.mysql.com/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/windows.jpg" title="Microsoft SQL Server" alt="Microsoft SQL Server" /></td>
+                        <td>MS SQL - https://www.microsoft.com/en-us/sql-server/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/mongodb.png" title="MongoDB" alt="MongoDB" /></td>
+                        <td> MongoDB - https://www.mongodb.com/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/postgresql.png" title="PostgreSQL" alt="PostgreSQL" /></td>
+                        <td>PostgreSQL - https://www.postgresql.org/</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="toggle" href="javascript:void(0);">Front-End Development</a>
+        <ul class="inner">
+            <li>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Skill Icon</th>
+                        <th scope="col">Skill Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/html5.png" title="HTML5" alt="HTML5" /></td>
+                        <td>HTML5 - https://www.w3.org/TR/2014/REC-html5-20141028/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/css3.png" title="CSS3" alt="CSS3" />
+                        </td>
+                        <td>CSS3. Transforms, transitions, animations, gradients, shadows, filters, pseudo-elements, media
+                            queries etc.
+                        </td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/bootstrap.png" title="BootStrap" alt="BootStrap" /></td>
+                        <td>Bootstrap [<a target="_blank" href="https://getbootstrap.com/">getbootstrap.com</a>]</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/less.png" title="LESS" alt="LESS" />
+                        </td>
+                        <td>LESS [<a target="_blank" href="https://lesscss.org/">lesscss.org</a>]</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/sass.png" title="LESS" alt="LESS" />
+                        </td>
+                        <td>Sass &amp; SCSS modules [<a target="_blank" href="https://sass-lang.com/">sass-lang.com</a>]
+                        </td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/javascript.jpeg" title="JavaScript" alt="JavaScript" /></td>
+                        <td>Javascript [more]</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/es6.jpg" title="ES6" alt="ES6" /></td>
+                        <td>ES6</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/typescript.jpg" title="TypeScript" alt="TypeScript" /></td>
+                        <td>TypeScript [<a target="_blank" href="https://www.typescriptlang.org/">typescriptlang.org</a>]
+                        </td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/react.png" title="ReactJS" alt="ReactJS" /></td>
+                        <td>React [<a target="_blank" href="https://reactjs.org/">reactjs.org</a>]</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/redux.png" title="Redux" alt="Redux" /></td>
+                        <td>Redux for React [<a target="_blank" href="https://redux.js.org/basics/usagewithreact">redux.js.org]</a>
+                        </td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/angularjs.png" title="AngularJS" alt="AngularJS" /></td>
+                        <td>AngularJS [<a target="_blank" href="https://angularjs.org/">angularjs.org</a>]</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/angularjs.png" title="AngularJS" alt="AngularJS" /></td>
+                        <td>Browserify http://browserify.org/</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/mongodb.png" title="MongoDB" alt="MongoDB" /></td>
+                        <td>Express.js, MongoDB (MEAN stack)</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/coffeescript.png" title="CoffeeScript" alt="CoffeeScript" /></td>
+                        <td>CoffeeScript [<a target="_blank" href="https://coffeescript.org/">coffeescript.org</a>]</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/jquery.png" title="jQuery" alt="jQuery" /></td>
+                        <td>JQuery [<a target="_blank" href="https://jquery.com/">jquery.com</a>]</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/requirejs.png" title="RequireJS" alt="RequireJS" /></td>
+                        <td>RequireJS [<a target="_blank" href="https://requirejs.org/">requirejs.org</a>]</td>
+                    </tr>
+
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/jasmine.png" title="Jasmine" alt="Jasmine" /></td>
+                        <td>Jasmine JS test framework [<a target="_blank" href="https://jasmine.github.io/">jasmine.github.io</a>]
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="toggle" href="javascript:void(0);">Dev-Ops, Automation, Containers, and Infrastructure</a>
+        <ul class="inner">
+            <li>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Skill Icon</th>
+                        <th scope="col">Skill Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/docker.png" title="Docker" alt="Docker" /></td>
+                        <td>Docker - https://www.docker.com/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/vagrant.png" title="Vagrant" alt="Vagrant" />
+                        </td>
+                        <td>Vagrant - https://www.vagrantup.com/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/ansible.png" title="Ansible" alt="Ansible" />
+                        </td>
+                        <td>Ansible - https://www.ansible.com/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/terraform.png" title="Terraform" alt="Terraform" /></td>
+                        <td>Terraform - https://www.terraform.io/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/windows.jpg" title="Packer" alt="Packer" /></td>
+                        <td>Packer - https://www.packer.io/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/kubernetes.png" title="Kubernetes" alt="Kubernetes" /></td>
+                        <td>Kubernetes - https://kubernetes.io/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/travis.jpeg" title="Travis" alt="Travis" /></td>
+                        <td>Travis - https://travis-ci.org</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/heroku.png" title="Heroku" alt="Heroku" /></td>
+                        <td>Heroku - https://www.heroku.com/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/chef.png" title="Chef" alt="Chef" />
+                        </td>
+                        <td>Chef - https://www.chef.io/</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/puppet.png" title="Puppet" alt="Puppet" /></td>
+                        <td>Puppet - https://puppet.com/</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+    </li>
     
-        <ul>
-            <li>
-                Windows (XP, Vista, 7, 8, 10) - https://www.microsoft.com/en-gb/windows
-            </li>
-            <li>
-                Windows Server (2003, 2008, 2012, 2016, 2019) -https://www.microsoft.com/en-gb/cloud-platform/windows-server</li>
-            <li>
-                Mac OS - https://www.apple.com/uk/macos/
-            </li>
-            <li>
-                CentOS - https://www.centos.org/
-            </li>
-            <li>
-                 - https://ubuntu.com/
-            </li>
-        </ul>
-    </li>
-</ul>
-
-<ul class="skills">
-    <li>Back-End Development
-        <ul>
-            <li class="hide-n-slide">
-                <span>
-                    <img class="technology-img" src="static/img/technologies/php.png" title="PHP" alt="PHP" />
-                    PHP [more]
-                </span>
-        
-                <ul style="">
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/php.png" title="PHP" alt="PHP" />                
-                        PHP 7+ and PSR standards [<a target="_blank" href="https://www.php-fig.org/psr/">php-fig.org</a>]
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/laravel.png" title="Laravel" alt="Laravel" />                
-                        Laravel Framework [<a target="_blank" href="https://laravel.com">laravel.com</a>],
-                    </li>
-                    
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/zend.png" title="Zend" alt="Zend" />
-                        Zend Framework [<a target="_blank" href="https://framework.zend.com">framework.zend.com</a>],                   
-                    </li>
-                    
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/php.png" title="Windows" alt="Windows" />
-                        Self-written frameworks
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />
-                        CMS/eCommerce:
-                        <ul>
-                            <li>
-                                <img class="technology-img" src="static/img/technologies/wordpress.png" title="WordPress" alt="WordPress" />
-                                WordPress [<a target="_blank" href="https://wordpress.com/">wordpress.com</a>],
-                            </li>
-                                                
-                            <li>
-                                <img class="technology-img" src="static/img/technologies/opencart.png" title="OpenCart" alt="OpenCart" />
-                                OpenCart [<a target="_blank" href="https://www.opencart.com/">opencart.com</a>]
-                            </li>
-                        </ul>
-                    </li>
-                    
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/php.png" title="PHP Related Tools" alt="PHP Related Rules" />            
-                        PHP Related Tools:
-                        
-                        <ul>
-                            <li>
-                                <img class="technology-img" src="static/img/technologies/composer.png" title="Composer" alt="Composer" />
-                                Composer [<a target="_blank" href="https://getcomposer.org">getcomposer.org</a>],                   
-                            </li>
-                            <li>
-                                <img class="technology-img" src="static/img/technologies/phpunit.jpeg" title="PHPUnit" alt="PHPUnit" />
-                                PHPUnit [<a target="_blank" href="https://phpunit.de/">phpunit.de</a>],
-                            </li>
-                            <li>
-                                <img class="technology-img" src="static/img/technologies/php.png" title="Windows" alt="Windows" />
-                                XDebug [<a target="_blank" href="https://xdebug.org/">xdebug.org</a>]
-                            </li>
-                        </ul>
-                    </li>
-        
-                    <li>
-                       <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />                                
-                        Methodologies: OOP, MVC, IoC &amp; DI, and Design Patterns
-                    </li>
-                </ul>
-            </li>
-        
-            <li>
-                <img class="technology-img" src="static/img/technologies/mysql.png" title="MySQL" alt="MySQL" />
-                MySQL - https://www.mysql.com/
-            </li>
-        
-            <li>
-                <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />
-                Apache, virtual hosts &amp; htaccess
-            </li>
-        </ul>
-    </li>
-</ul>
-
-<ul>
     <li>
-        Databases
-        <ul class="skills">
+        <a class="toggle" href="javascript:void(0);">Hypervisors and Cloud</a>
+        <ul class="inner">
             <li>
-                <img class="technology-img" src="static/img/technologies/mysql.png" title="MySQL Server" alt="MySQL Server" />
-                MySQL - https://www.mysql.com/
-            </li>
-            <li>
-                <img class="technology-img" src="static/img/technologies/windows.jpg" title="Microsoft SQL Server" alt="Microsoft SQL Server" />
-                MS SQL - https://www.microsoft.com/en-us/sql-server/
-            </li>
-            <li>
-                <img class="technology-img" src="static/img/technologies/mongodb.png" title="MongoDB" alt="MongoDB" />
-                MongoDB - https://www.mongodb.com/
-            </li>
-            <li>
-                <img class="technology-img" src="static/img/technologies/postgresql.png" title="PostgreSQL" alt="PostgreSQL" />
-                PostgreSQL - https://www.postgresql.org/
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Skill Icon</th>
+                        <th scope="col">Skill Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/windows.jpg" title="Hyper-v" alt="Hyper-v" />
+                        </td>
+                        <td>Hyper-v Hypervisor</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/virtualbox.png" title="VirtualBox" alt="VirtualBox" /></td>
+                        <td>Virtualbox Hypervisor</td>
+                    </tr>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/technologies/vmware.png" title="VMWare" alt="VMWare" /></td>
+                        <td>VMWare</td>
+                    </tr>
+                    </tbody>
+                </table>
             </li>
         </ul>
     </li>
-</ul>
-
-<ul>
-    <li>
-        <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />          
-        Front-End
-        <ul class="skills">
+    
+     <li>
+        <a class="toggle" href="javascript:void(0);">Software Development Methodologies</a>
+        <ul class="inner">
             <li>
-                <img class="technology-img" src="static/img/technologies/html5.png" title="HTML5" alt="HTML5" />
-                HTML5 - https://www.w3.org/TR/2014/REC-html5-20141028/ 
-            </li>
-        
-            <li class="hide-n-slide">
-                <span>
-                    <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />
-                    CSS3 [more]
-                </span>
-        
-                <ul>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/css3.png" title="CSS3" alt="CSS3" />
-                        Transforms, transitions, animations, gradients, shadows, filters, pseudo-elements, media
-                        queries etc.
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/bootstrap.png" title="BootStrap" alt="BootStrap" />
-                        Bootstrap [<a target="_blank" href="https://getbootstrap.com/">getbootstrap.com</a>]
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/less.png" title="LESS" alt="LESS" />
-                        LESS [<a target="_blank" href="https://lesscss.org/">lesscss.org</a>],
-                     </li>
-                    
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/sass.png" title="LESS" alt="LESS" />
-                        Sass &amp; SCSS modules [<a target="_blank" href="https://sass-lang.com/">sass-lang.com</a>]
-                    </li>
-                </ul>
-            </li>
-        
-            <li class="hide-n-slide">
-                <img class="technology-img" src="static/img/technologies/javascript.jpeg" title="JavaScript" alt="JavaScript" />
-                <span>
-                    Javascript [more]
-                </span>
-        
-                <ul style="">
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/es6.jpg" title="ES6" alt="ES6" />
-                        ES6
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/typescript.jpg" title="TypeScript" alt="TypeScript" />
-                        TypeScript [<a target="_blank" href="https://www.typescriptlang.org/">typescriptlang.org</a>]
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/react.png" title="ReactJS" alt="ReactJS" />
-                        React [<a target="_blank" href="https://reactjs.org/">reactjs.org</a>]
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/redux.png" title="Redux" alt="Redux" />
-                        Redux for React [<a target="_blank" href="https://redux.js.org/basics/usagewithreact">redux.js.org]</a>
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/angularjs.png" title="AngularJS" alt="AngularJS" />
-                        AngularJS [<a target="_blank" href="https://angularjs.org/">angularjs.org</a>], Node,
-                    </li>
-                    
-                    <li>
-                        Browserify http://browserify.org/
-                    </li>
-                    
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/mongodb.png" title="MongoDB" alt="MongoDB" />
-                        Express.js, MongoDB (MEAN stack)
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/coffeescript.png" title="CoffeeScript" alt="CoffeeScript" />
-                        CoffeeScript [<a target="_blank" href="https://coffeescript.org/">coffeescript.org</a>]
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/jquery.png" title="jQuery" alt="jQuery" />
-                        JQuery [<a target="_blank" href="https://jquery.com/">jquery.com</a>]
-                    </li>
-        
-                    <li>
-                       <img class="technology-img" src="static/img/technologies/requirejs.png" title="RequireJS" alt="RequireJS" />
-                        RequireJS [<a target="_blank" href="https://requirejs.org/">requirejs.org</a>]
-                    </li>
-        
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/jasmine.png" title="Jasmine" alt="Jasmine" />
-                        Jasmine JS test framework [<a target="_blank" href="https://jasmine.github.io/">jasmine.github.io</a>]
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-</ul>
-
-<ul>
-    <li>
-        <img class="technology-img" src="static/img/crane.png" title="DevOps &amp; Infrastructure" alt="DevOps &amp; Infrastructure" />
-        DevOps &amp; Infrastructure
-        <ul>
-            <li>
-                <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />
-                Virtualisation and Container Technologies
-                <ul>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/windows.jpg" title="Hyper-v" alt="Hyper-v" />
-                        Hyper-v Hypervisor
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/virtualbox.png" title="VirtualBox" alt="VirtualBox" />
-                        Virtualbox Hypervisor
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/vmware.png" title="VMWare" alt="VMWare" />
-                        VMWare
-                    </li>
-                </ul>
-            </li>
-            <li> 
-                <img class="technology-img" src="static/img/technologies/windows.jpg" title="Windows" alt="Windows" />
-                Dev-Ops &amp; Infrastructure
-                <ul>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/docker.png" title="Docker" alt="Docker" />
-                        Docker - https://www.docker.com/
-                    </li>
-                    <li> 
-                        <img class="technology-img" src="static/img/technologies/vagrant.png" title="Vagrant" alt="Vagrant" />
-                        Vagrant - https://www.vagrantup.com/
-                    </li>
-                    <li> 
-                        <img class="technology-img" src="static/img/technologies/ansible.png" title="Ansible" alt="Ansible" />
-                        Ansible - https://www.ansible.com/
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/terraform.png" title="Terraform" alt="Terraform" /> 
-                        Terraform - https://www.terraform.io/
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/windows.jpg" title="Packer" alt="Packer" />
-                        Packer - https://www.packer.io/
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/kubernetes.png" title="Kubernetes" alt="Kubernetes" />
-                        Kubernetes - https://kubernetes.io/
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/travis.jpeg" title="Travis" alt="Travis" />
-                        Travis - https://travis-ci.org
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/heroku.png" title="Heroku" alt="Heroku" />
-                        Heroku - https://www.heroku.com/
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/chef.png" title="Chef" alt="Chef" />
-                        Chef - https://www.chef.io/
-                    </li>
-                    <li>
-                        <img class="technology-img" src="static/img/technologies/puppet.png" title="Puppet" alt="Puppet" />
-                        Puppet - https://puppet.com/
-                    </li>
-                </ul>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Skill Icon</th>
+                        <th scope="col">Skill Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr scope="row">
+                        <td><img class="technology-img" src="static/img/crane.png" title="DevOps &amp; Infrastructure" alt="DevOps &amp; Infrastructure" /></td>
+                        <td>Methodologies: OOP, MVC, IoC &amp; DI, and Design Patterns</td>
+                    </tr>
+                    </tbody>
+                </table>
             </li>
         </ul>
     </li>

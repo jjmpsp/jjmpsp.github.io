@@ -68,7 +68,7 @@
 
 
 
-<meta content="Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too. The card allows a caption to be aligned with the photo, and the card classes contain a card-img-top that ensures the image is responsive within the grid. The Peak District on a mosty morning. Image credit, Official Jekyll website. The HTML source for this card is below, or of course you..." property="og:description">
+<meta content="Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too. The card allows a caption to be aligned with the photo, and the card classes contain a card-img-top that ensures the image is responsive within the grid. Jekyll, a static site generator. The HTML source for this card is below, or of course you could look at the raw source for..." property="og:description">
 
 
 
@@ -636,12 +636,21 @@
     <img class="card-img-top" src="/static/img/jekyll-logo.png" />
     <div class="card-body bg-light">
         <div class="card-text">
-            The Peak District on a mosty morning. Image credit, Official <a href="https://jekyllrb.com/">Jekyll website</a>.
+            Jekyll, a static site generator.
         </div>
     </div>
 </div>
 
 <p>The HTML source for this card is below, or of course you could look at the raw source for this file in the GitHub repo or on your disk after you have downloaded the repo. WHen looking at the source, you can see the Markdown mingled with the HTML.</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">{ % for collection in site.collections % }
+                       
+ { % assign name = collection.label % }
+ <span class="nt">&lt;section&gt;</span>
+   <span class="nt">&lt;h1&gt;</span>{ { name } }<span class="nt">&lt;/h1&gt;</span>
+ <span class="nt">&lt;/section&gt;</span>
+
+{ % endfor % }</code></pre></figure>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html">  
 
