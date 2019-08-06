@@ -73,8 +73,9 @@ ul li a.toggle {
   transition: background 0.3s ease;
 }
 ul li a.toggle:hover {
-  background: rgb(120, 192, 168);
+  background: #dedfe0;
   border-bottom: none !important;
+  color: black !important;
 }
 </style>
 
@@ -94,7 +95,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     <li>
         <a class="toggle" href="javascript:void(0);">Operating Systems</a>
         <ul class="inner">
-            <li>
+            <li class="mlm15">
                 <table class="table table-bordered">
                     <thead>
                     <tr>
@@ -149,7 +150,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     <li>
         <a class="toggle" href="javascript:void(0);">Back-end Development</a>
         <ul class="inner">
-            <li>
+            <li class="mlm15">
                 <table class="table table-bordered">
                     <thead>
                     <tr>
@@ -209,8 +210,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     <li>
         <a class="toggle" href="javascript:void(0);">Databases</a>
         <ul class="inner">
-            <li>
-
+            <li class="mlm15">
                 <table class="table table-bordered">
                     <thead>
                     <tr>
@@ -249,7 +249,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     <li>
         <a class="toggle" href="javascript:void(0);">Front-End Development</a>
         <ul class="inner">
-            <li>
+            <li class="mlm15">
                 <table class="table table-bordered">
                     <thead>
                     <tr>
@@ -368,7 +368,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     <li>
         <a class="toggle" href="javascript:void(0);">Dev-Ops, Automation, Containers, and Infrastructure</a>
         <ul class="inner">
-            <li>
+            <li class="mlm15">
                 <table class="table table-bordered">
                     <thead>
                     <tr>
@@ -438,7 +438,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     <li>
         <a class="toggle" href="javascript:void(0);">Hypervisors and Cloud</a>
         <ul class="inner">
-            <li>
+            <li class="mlm15">
                 <table class="table table-bordered">
                     <thead>
                     <tr>
@@ -473,7 +473,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
      <li>
         <a class="toggle" href="javascript:void(0);">Software Development Methodologies</a>
         <ul class="inner">
-            <li>
+            <li class="mlm15">
                 <table class="table table-bordered">
                     <thead>
                     <tr>
