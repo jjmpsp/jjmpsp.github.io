@@ -1,5 +1,5 @@
 ---
-title: Italy
+title: Joel's Travels in Italy, Europe
 featuredImage: italy.jpg
 tags:
   - Italy

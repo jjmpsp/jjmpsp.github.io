@@ -1,5 +1,5 @@
 ---
-title: Lithuania
+title: Joel's Travels in Lithuania, Europe
 featuredImage: lithuania.jpg
 tags:
   - Lithuania

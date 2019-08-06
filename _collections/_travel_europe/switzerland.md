@@ -1,5 +1,5 @@
 ---
-title: Switzerland
+title: Joel's Travels in Switzerland, Europe
 featuredImage: switzerland.jpg
 tags:
   - Switzerland

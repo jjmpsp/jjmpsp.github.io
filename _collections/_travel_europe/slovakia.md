@@ -1,5 +1,5 @@
 ---
-title: Slovakia
+title: Joel's Travels in Slovakia, Europe
 featuredImage: slovakia.jpg
 tags:
   - Slovakia

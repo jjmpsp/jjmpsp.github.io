@@ -1,5 +1,5 @@
 ---
-title: Latvia
+title: Joel's Travels in Latvia, Europe
 featuredImage: latvia.jpg
 tags:
   - Latvia

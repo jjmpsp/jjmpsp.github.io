@@ -1,5 +1,5 @@
 ---
-title: Sweden
+title: Joel's Travels in Sweden, Europe
 featuredImage: sweden.jpg
 tags:
   - Sweden

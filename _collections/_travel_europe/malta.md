@@ -1,5 +1,5 @@
 ---
-title: Malta
+title: Joel's Travels in Malta, Europe
 featuredImage: malta.jpg
 tags:
   - Malta

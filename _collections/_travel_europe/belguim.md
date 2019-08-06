@@ -1,5 +1,5 @@
 ---
-title: Belgium
+title: Joel's Travels in Belgium, Europe
 featuredImage: belgium.jpg
 tags:
   - Belgium

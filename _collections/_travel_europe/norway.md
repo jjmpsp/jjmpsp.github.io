@@ -1,5 +1,5 @@
 ---
-title: Norway
+title: Joel's Travels in Norway, Europe
 featuredImage: norway.jpg
 tags:
   - Norway

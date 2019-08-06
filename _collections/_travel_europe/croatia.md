@@ -1,5 +1,5 @@
 ---
-title: Croatia
+title: Joel's Travels in Croatia, Europe
 featuredImage: croatia.jpg
 tags:
   - Croatia

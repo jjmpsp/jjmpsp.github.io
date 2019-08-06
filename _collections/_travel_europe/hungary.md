@@ -1,5 +1,5 @@
 ---
-title: Hungary
+title: Joel's Travels in Hungary, Europe
 featuredImage: hungary.jpg
 tags:
   - Hungary

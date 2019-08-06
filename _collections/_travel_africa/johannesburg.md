@@ -1,5 +1,5 @@
 ---
-title: Johannesburg
+title: Joel's Travels in Johannesburg, Africa
 tags:
   - Johannesburg
   - South Africa

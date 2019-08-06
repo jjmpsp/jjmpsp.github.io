@@ -1,5 +1,5 @@
 ---
-title: Bulgaria
+title: Joel's Travels in Bulgaria, Europe
 featuredImage: bulgaria.jpg
 tags:
   - Bulgaria

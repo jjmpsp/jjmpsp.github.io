@@ -1,5 +1,5 @@
 ---
-title: Spain
+title: Joel's Travels in Spain, Europe
 featuredImage: spain.jpg
 tags:
   - Spain

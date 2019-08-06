@@ -1,5 +1,5 @@
 ---
-title: Serbia
+title: Joel's Travels in Serbia, Europe
 featuredImage: serbia.jpg
 tags:
   - Serbia

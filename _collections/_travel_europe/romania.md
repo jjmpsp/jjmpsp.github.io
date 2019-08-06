@@ -1,5 +1,5 @@
 ---
-title: Romania
+title: Joel's Travels in Romania, Europe
 featuredImage: romania.jpg
 tags:
   - Romania

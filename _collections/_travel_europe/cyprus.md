@@ -1,5 +1,5 @@
 ---
-title: Cyprus
+title: Joel's Travels in Cyprus, Europe
 featuredImage: cyprus.jpg
 tags:
   - Cyprus

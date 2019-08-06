@@ -1,5 +1,5 @@
 ---
-title: Israel
+title: Joel's Travels in Israel
 featuredImage: israel.jpg
 tags:
   - Israel

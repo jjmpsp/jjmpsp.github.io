@@ -1,5 +1,5 @@
 ---
-title: France
+title: Joel's Travels in France, Europe
 featuredImage: france.jpg
 tags:
   - France

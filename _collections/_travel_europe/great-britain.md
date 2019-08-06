@@ -1,5 +1,5 @@
 ---
-title: Great Britain
+title: Joel's Travels in Great Britain, Europe
 featuredImage: great-britain.jpg
 tags:
   - Great Britain

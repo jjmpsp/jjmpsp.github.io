@@ -1,5 +1,5 @@
 ---
-title: Czech Republic
+title: Joel's Travels in Czech Republic, Europe
 featuredImage: czech-republic.jpg
 tags:
   - Czech republic

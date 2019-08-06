@@ -1,5 +1,5 @@
 ---
-title: Slovenia
+title: Joel's Travels in Slovenia, Europe
 featuredImage: slovenia.jpg
 tags:
   - Slovenia

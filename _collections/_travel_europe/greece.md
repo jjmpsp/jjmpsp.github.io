@@ -1,5 +1,5 @@
 ---
-title: Greece
+title: Joel's Travels in Greece, Europe
 featuredImage: greece.jpg
 tags:
   - Greece

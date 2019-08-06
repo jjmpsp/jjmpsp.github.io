@@ -1,5 +1,5 @@
 ---
-title: Netherlands
+title: Joel's Travels in Netherlands, Europe
 featuredImage: netherlands.jpg
 tags:
   - Netherlands

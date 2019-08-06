@@ -1,5 +1,5 @@
 ---
-title: Poland
+title: Joel's Travels in Poland, Europe
 featuredImage: poland.jpg
 tags:
   - Poland

@@ -1,5 +1,5 @@
 ---
-title: Ireland
+title: Joel's Travels in Ireland, Europe
 featuredImage: ireland.jpg
 tags:
   - Ireland

@@ -1,5 +1,5 @@
 ---
-title: Germany
+title: Joel's Travels in Germany, Europe
 featuredImage: germany.jpg
 tags:
   - Germany

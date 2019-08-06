@@ -1,5 +1,5 @@
 ---
-title: Austria
+title: Joel's Travels in Austria, Europe
 featuredImage: austria.jpg
 tags:
   - Vienna

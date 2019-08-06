@@ -1,5 +1,5 @@
 ---
-title: Bosnia & Herzegovina
+title: Joel's Travels in Bosnia & Herzegovina, Europe
 featuredImage: bosnia-herzegovina.jpg
 tags:
   - Bosnia & Herzegovina
