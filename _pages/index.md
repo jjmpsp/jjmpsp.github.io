@@ -20,7 +20,7 @@ Welcome to the personal website of Joel Murphy. Here is a message from the autho
 >
 > You may have already noticed that I've used an absurd amount of emoji's throughout this website. There's no real reason why I've done this but I believe they add a nice personal touch to the content I write. Let's be honest, who doesn't love emojis unless you're a caveman without any sense of humour? <span class="normal-text">👌 🥰 💯</span>
 >
-> If you're here to learn about technology related topics, you may be interested in [my Tutorials](/tutorials), [my Talks & Presentations](/list/talks-presentations.md), and [my Blog Posts](/blog). I try to update these when I have free time (which isn't very often sadly) <span class="normal-text">😔</span>.
+> If you're here to learn about technology related topics, you may be interested in [my Tutorials](/tutorials), [my Talks & Presentations](/list/talks-presentations), and [my Blog Posts](/blog). I try to update these when I have free time (which isn't very often sadly) <span class="normal-text">😔</span>.
 >
 > All of the content published to this website will be available in English. If the content I produce gains some popularity, I'd be more than happy to give permission for it to be translated into other languages. However, please notify me of any planned publications you hope to make ahead of time, as it would be appreciated to get accredited in the form of a link back to the original source <span class="normal-text">🔗</span>.
 >
