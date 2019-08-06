@@ -1,7 +1,7 @@
 ---
 layout: defaults/page
 permalink: disclaimer.html
-title: Disclaimer
+title: Website Disclaimer
 narrow: false
 ---
 

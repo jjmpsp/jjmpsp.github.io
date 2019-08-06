@@ -23,7 +23,12 @@ postType: Blog Post
 
 {{ content }}
 
-{% include toc-scroll-to-top.html title=page.title %}
+
+{% if page.excludeHierarchy == true %}
+    {% include toc-scroll-to-top.html excludeHierarchy=true %}
+{% else %}
+    {% include toc-scroll-to-top.html title=page.title %}
+{% endif %}
 
 <hr>
 

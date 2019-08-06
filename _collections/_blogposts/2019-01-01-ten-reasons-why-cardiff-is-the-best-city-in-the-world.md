@@ -5,6 +5,7 @@ tags:
   - Wales
   - Best
   - City
+excludeHierarchy: true
 ---
 
 The city boasts a range of opportunities to those living in it. 
