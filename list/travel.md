@@ -6,7 +6,7 @@ narrow: false
 ---
 
 <!--
-<script type="text/javascript" src="/static/js/PlacesBeen.js"></script>
+<script  src="/static/js/PlacesBeen.js"></script>
 -->
 
 Travelling is one of my favourite hobbies outside of work, and my goal is to visit as much of the world as possible. As you can imagine, this doesn't always come cheap as money is  but I always try to find the most viable way to explore new places
