@@ -6,6 +6,7 @@ narrow: false
 
 title: About Joel Murphy
 crumbtitle: About Joel Murphy
+ogDescription: About Joel Murphy
 
 ---
 
