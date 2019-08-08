@@ -1,7 +1,7 @@
 ---
 layout: defaults/page
 permalink: credits.html
-title: Credits
+title: Website Credits
 narrow: false
 ---
 
