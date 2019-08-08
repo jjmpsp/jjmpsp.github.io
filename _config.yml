@@ -128,6 +128,10 @@ defaults:
       show_profile: true
       layout: defaults/list
 
+# sass config
+sass:
+  style: compressed
+
 # config for jekyll-html-compress plugin
 compress_html:
   clippings: all
