@@ -37,6 +37,7 @@
     <script src="/theme/js/fullWidthPosts.js"></script>
     <script src="/theme/js/clickToggle.js"></script>
     <script src="/theme/js/footerToggle.js"></script>
+    <script src="/theme/js/listAccordion.js"></script>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
@@ -463,35 +464,6 @@
 <a href="about.html#technical-skills">Technical Skills</a>, <a href="about.html#personal-life">Personal Life</a></p>
 
 <hr />
-
-<script>
-    $(document).ready(function(){
-        $('.toggle').click(function(e) {
-          	e.preventDefault();
-          
-            var $this = $(this);
-                      
-            if ($this.next().hasClass('show')) {
-                $this.next().removeClass('show');
-                $this.children("span").text("▼")
-                $this.next().slideUp(350);
-            } else {
-                $this.parent().parent().find('li .inner').removeClass('show');
-                $this.parent().parent().find('li .inner').slideUp(350);
-                $this.next().toggleClass('show');
-                $this.children("span").text("▲")
-                $this.next().slideToggle(350);
-            }
-            
-            // Load images contained in accordian  
-            $('.lazy-img').lazy({
-                effect: "fadeIn",
-                effectTime: 300,
-                threshold: 0
-            });
-        });
-    });
-</script>
 
 <style>
 p {
