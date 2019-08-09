@@ -309,9 +309,39 @@ span.normal-text {
 .fa-envelope {
   background-color: #444444; }
 
+ul.accordion {
+  list-style: none;
+  padding: 0; }
+ul.accordion .inner {
+  padding-left: 1em;
+  overflow: hidden;
+  display: none; }
+ul.accordion p {
+  font-size: 1.1em;
+  margin: 1em 0; }
+ul.accordion li {
+  margin: 0.5em 0; }
+ul.accordion li ul {
+  list-style: none;
+  padding: 0; }
+ul.accordion li a.toggle {
+  width: 100%;
+  display: block;
+  background: #e9ecef;
+  color: #0d0d0d;
+  padding: 0.75em;
+  border-radius: 0.15em;
+  transition: background 0.3s ease; }
+ul.accordion li a.toggle:hover {
+  background: #dedfe0;
+  border-bottom: none !important;
+  color: black !important; }
+ul.accordion .description {
+  margin: 1em auto 2.25em; }
+
 /* Large devices (desktops, 992px and up) */
 .mlm15 {
-  margin-left: -15px; }
+  margin-left: -15px !important; }
 
 /* Mobile only */
 @media (max-width: 767px) {
