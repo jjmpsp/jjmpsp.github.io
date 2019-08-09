@@ -1,0 +1,33 @@
+{
+  "name": "jjmpsp.github.io",
+  "version": "1.0.0",
+  "description": "Personal website of Joel Murphy",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules\\.bin\\webpack --watch | jekyll serve --livereload --incremental",
+    "build": "node_modules\\.bin\\webpack | bundle exec jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjmpsp/jjmpsp.github.io.git"
+  },
+  "keywords": [
+    "joel",
+    "murphy",
+    "website"
+  ],
+  "author": "Joel Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjmpsp/jjmpsp.github.io/issues"
+  },
+  "homepage": "https://github.com/jjmpsp/jjmpsp.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
