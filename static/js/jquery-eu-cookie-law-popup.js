@@ -248,7 +248,7 @@ $(document).ready( function() {
 	if ($(".eupopup").length > 0) {
 		$(document).euCookieLawPopup().init({
 			'popupTitle' : 'This website is using cookies. ',
-			'popupText' : 'We use cookies to give you the best website experience. If you continue using this website, you agree that you are happy to receive cookies.'
+			'popupText' : 'We use cookies to give you the best website experience. If you continue using this website, you agree that you are happy to receive cookies on this device.'
 		});
 	}
 });

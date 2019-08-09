@@ -20,4 +20,4 @@
         );
         document.head.appendChild(msViewportStyle);
     }
-}())
+}());
