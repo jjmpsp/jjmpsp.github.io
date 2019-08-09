@@ -130,7 +130,7 @@ defaults:
 
 # sass config
 sass:
-  style: compressed
+  style: cCanvas resizeompressed
 
 # config for jekyll-html-compress plugin
 compress_html:
