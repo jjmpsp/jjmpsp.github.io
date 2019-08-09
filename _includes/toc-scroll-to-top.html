@@ -1,7 +1,7 @@
 <div id="float-toc">
     <nav role="navigation" class="table-of-contents">
         {% unless include.excludeHierarchy == true %}
-            <span style="font-size: 10px;position: absolute;top: 10px;right: 15px;">[Click arrows to toggle]</span>
+            <span style="cursor:pointer;font-size: 10px;position: absolute;top: 10px;right: 15px;">[Click arrows to toggle]</span>
             <h3>Table of Contents:</h3>
             {% assign allHtml = "<h1>" | append: include.title | append: "</h1>" | append: content %}
             {% include toc.html html=allHtml %}
