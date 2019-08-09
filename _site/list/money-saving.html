@@ -34,6 +34,8 @@
     <script src="/theme/js/bootstrap.min.js"></script>
 
     <script src="/theme/js/theme.js"></script>
+    <script src="/theme/js/fullWidthPosts.js"></script>
+    <script src="/theme/js/footerToggle.js"></script>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
@@ -647,74 +649,11 @@ Unfortunately, I haven't found the time to post any money saving guides just yet
     </div>
 </footer>
 
-<script>
-    // TODO: Move this function somewhere else
-    jQuery.fn.clickToggle = function (a, b) {
-        function cb() {
-            [b, a][this._tog ^= 1].call(this);
-        }
-
-        return this.on("click", cb);
-    };
-
-    $(document).ready(function () {
-        $("#toggleStickyFooter").clickToggle(
-            function () {
-                $(this).text("⬆");
-                $("#footer").css("position", "relative");
-            },
-            function () {
-                $(this).text("⬇");
-                $("#footer").css("position", "fixed");
-            }
-        );
-
-        $("#toggleTableOfContents").clickToggle(
-            function () {
-                $(this).text("⬆");
-                $("#float-toc").hide();
-            },
-            function () {
-                $(this).text("⬇");
-                $("#float-toc").show();
-            }
-        );
-    });
-</script>
-
 <div class="eupopup eupopup-bottom eupopup-style-compact"></div>
 
 <link href="/static/css/jquery-eu-cookie-law-popup.css" rel="stylesheet">
 <script src="/static/js/js.cookie.min.js"></script>
 <script src="/static/js/jquery-eu-cookie-law-popup.js"></script>
-
-<script>
-    $(document).ready(function () {
-        var expandViewToggled = false;
-        $("#expand-view").click(function () {
-
-            if (!expandViewToggled) {
-                $("#side").attr('style', 'display:none !important');
-                $("#content").addClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
-                expandViewToggled = true;
-            } else {
-                $("#side").removeAttr('style');
-                $("#content").removeClass('col-xs-12 col-md-12 col-lg-12 col-xl-12');
-                expandViewToggled = false;
-            }
-        });
-
-        var target = $('#float-toc');
-        var scrollbar = $("#scroll-value");
-
-        $(document).scroll(function (e) {
-            var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
-            //var opacityPercent = (scrollPercent / 100).toFixed(2);
-            //target.css('opacity', opacityPercent);
-            scrollbar.css("width", scrollPercent + "%");
-        });
-    });
-</script>
 
 <script type="application/ld+json">
     {
