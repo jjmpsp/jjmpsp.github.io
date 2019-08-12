@@ -6,6 +6,16 @@ window.setCookie = function(key, value) {
     document.cookie = key + '=' + value + "; " + expires + ";path=/";
 };
 
+window.getCookie = function(key){
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++) {
+        var c = cookies[i].trim();
+        if (c.indexOf(key) === 0) {
+            return c[key];
+        }
+    }
+};
+
 function showTOC(){
     $("#float-toc").show();
     setCookie("TOC_ACTIVE", true);
