@@ -1,4 +1,5 @@
 .DS_Store
 .idea
+.jekyll_metadata
 
 node_modules/
