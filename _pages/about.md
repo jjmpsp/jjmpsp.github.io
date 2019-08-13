@@ -225,7 +225,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/javascript.jpeg" title="JavaScript" alt="JavaScript"></td>
-                        <td>Javascript [more]</td>
+                        <td>Javascript</td>
                     </tr>
 
                     <tr scope="row">
@@ -262,7 +262,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/angularjs.png" title="AngularJS"
                                  alt="AngularJS"></td>
-                        <td>Browserify http://browserify.org/</td>
+                        <td>Browserify [<a target="_blank" href="http://browserify.org/">browserify.org</a>]</td>
                     </tr>
 
                     <tr scope="row">
