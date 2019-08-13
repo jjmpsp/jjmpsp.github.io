@@ -25,7 +25,7 @@
 
     <title>
         
-            Joel's Travels in Latvia, Europe &middot; Joel Murphy
+            Organising backups in a monthly folder structure &middot; Joel Murphy
         
     </title>
 
@@ -57,7 +57,7 @@
 
     <meta content="Joel Murphy" property="og:site_name">
 
-<meta content="Joel's Travels in Latvia, Europe" property="og:title">
+<meta content="Organising backups in a monthly folder structure" property="og:title">
 
 
 
@@ -65,15 +65,15 @@
 
 
 
-<meta content="Here’s an example for multiple images that uses Bootstrap’s card columns for a Masonry-like layout. It’s not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout. To automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards...." property="og:description">
+<meta content="If you’ve ever thought of completing a degree in Computer Science, then chances are you’re already interested enough in the topic. But is completing a degree in Computer Science really worth the money? In this post I will share my personal experience and give you some hints for learning three years of computer science in a single day. Today I want to share a super handy Powershell snippet for creating monthly archives $LogArchiveDirectory = “G:_awstats_temp”..." property="og:description">
 
 
 
-<meta content="http://localhost:4000/travel/europe/latvia.html" property="og:url">
+<meta content="http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html" property="og:url">
 
 
 
-<meta content="2019-08-13T17:28:24+01:00" property="article:published_time">
+<meta content="2019-03-03T00:00:00+00:00" property="article:published_time">
 <meta content="http://localhost:4000/about/" property="article:author">
 
 
@@ -87,9 +87,15 @@
 
 
 
-<meta content="Latvia" property="article:tag">
+<meta content="powershell" property="article:tag">
 
-<meta content="Travel" property="article:tag">
+<meta content="organised" property="article:tag">
+
+<meta content="backups" property="article:tag">
+
+<meta content="monthly" property="article:tag">
+
+<meta content="archive" property="article:tag">
 
 
 </head>
@@ -415,114 +421,250 @@
         <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content" id="content">
             <div class="card bg-white">
                 <div class="card-body">
-                    <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
-    Joel's Travels in Latvia, Europe
+                    <h1 class="list-title border border-left-0 border-right-0 py-2">
+    Organising backups in a monthly folder structure
+
+    <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
+        <span class="icon grey">
+            <svg version="1.1" id="Resize_full_screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M6.987,10.987l-2.931,3.031L2,11.589V18h6.387l-2.43-2.081l3.03-2.932L6.987,10.987z M11.613,2l2.43,2.081l-3.03,2.932l2,2
+	l2.931-3.031L18,8.411V2H11.613z"/>
+</svg>
+
+        </span>
+    </button>
 </h1>
 
-<ol class="breadcrumb">
-    
-    
-    
-    <li class="breadcrumb-item">
-        <a href="/">Home</a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <li class="breadcrumb-item">
-        <a href="/travel">Travel</a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-    
-    <li class="breadcrumb-item active">
-        <a href="/travel/europe/latvia.html">Joel's Travels in Latvia, Europe</a>
-    </li>
-</ol>
+<div class="d-md-block d-lg-none">
+    <div class="space-before" style="z-index: 0 !important;">
+    <div class="card bg-white mb-3">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>03 Mar 2019</h5>
+            </div>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    <svg version="1.1" class="Icon_Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z"/>
+</g>
+</svg>
 
-<script  src="/static/js/jquery.vmap.js"></script>
-<script  src="/static/js/maps/jquery.vmap.world.js"></script>
-<link rel="stylesheet" href="/static/css/jqvmap.min.css"/>
-<style>
-    #vmap .jqvmap-zoomin, #vmap .jqvmap-zoomout {
-        width: 17px;
-        height: 17px;
-    }
-</style>
-<script>
-    jQuery(document).ready(function () {
-        jQuery('#vmap').vectorMap({
-            map: 'world_en',
-            backgroundColor: '#00A8DD',
-            selectedRegions: ['AT', 'BE', 'DE'],
-            showTooltip: true,
-            onRegionClick: function(element, code, region)
-            {
-                var message = 'You clicked "'
-                    + region
-                    + '" which has the code: '
-                    + code.toUpperCase();
+                </span>
+                
+                    <a href="/blog#powershell"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        powershell
+                    </a>
+                
+                    <a href="/blog#organised"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        organised
+                    </a>
+                
+                    <a href="/blog#backups"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        backups
+                    </a>
+                
+                    <a href="/blog#monthly"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        monthly
+                    </a>
+                
+                    <a href="/blog#archive"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        archive
+                    </a>
+                
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
 
-                alert(message);
-            }
-        });
-    });
-</script>
+                </span>
+                <a href="/blog">Back to all posts</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p>Here’s an example for multiple images that uses Bootstrap’s card columns for a Masonry-like layout. It’s not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout.</p>
+</div>
+
+<div class="share-bar">
+    <h4>Share this Blog Post:</h4>
+    <div class="share-buttons">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Facebook">
+            <i class="fa fa-facebook-official share-button"> facebook</i>
+        </a>
+        <a href="https://twitter.com/intent/tweet?text=Organising backups in a monthly folder structure&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Twitter">
+            <i class="fa fa-twitter share-button"> twitter</i>
+        </a>
+        <a href="https://www.pinterest.com/pin/create/button/?url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Pinterest">
+            <i class="fa fa-pinterest-p share-button"> pinterest</i>
+        </a>
+        <a href="https://www.tumblr.com/share/link?url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Tumblr">
+            <i class="fa fa-tumblr share-button"> tumblr</i>
+        </a>
+        <a href="http://www.reddit.com/submit?url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Reddit">
+            <i class="fa fa-reddit-alien share-button"> reddit</i>
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html&title=Organising backups in a monthly folder structure&summary=&source=Joel Murphy"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on LinkedIn">
+            <i class="fa fa-linkedin share-button"> linkedin</i>
+        </a>
+        <a href="mailto:?subject=Organising backups in a monthly folder structure&amp;body=Check%20out%20this%20site:%20http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           title="Share via Email">
+            <i class="fa fa-envelope share-button"> email</i>
+        </a>
+    </div>
+</div>
+
+<hr>
+
+<p>If you’ve ever thought of completing a degree in Computer Science, then chances are you’re already interested enough in the topic. But is completing a degree in Computer Science really worth the money?</p>
+
+<p>In this post I will share my personal experience and give you some hints for learning three years of computer science in a single day.</p>
 
 <!--more-->
 
-<p>To automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.</p>
+<p>Today I want to share a super handy Powershell snippet for creating monthly archives</p>
 
-<p>Here’s the card columns in action.</p>
+<p>$LogArchiveDirectory = “G:_awstats_temp”</p>
 
-<div class="card-columns">
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=5b1016b885e7438c4633109d77368d4d&amp;auto=format&amp;fit=crop&amp;w=1651&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1445962125599-30f582ac21f4?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=38c096c472ba616dc4e8e76a8069c97a&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1504626835342-6b01071d182e?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=975855d515c9d56352ee3bfe74287f2b&amp;auto=format&amp;fit=crop&amp;w=1651&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=468a8c18f5d811cf03c654b653b5089e&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1506291318501-948562d765d7?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=71ad8e3b7b4bd210182ed5e5c024903b&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1500370414137-9201565cf099?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=95e700b9e28eb7ed7b5769c823741126&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1500402448245-d49c5229c564?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=f19c590b253f803a7f9b643c59017160&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
+<table>
+  <tbody>
+    <tr>
+      <td>get-childitem</td>
+      <td>% {</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$file = $_.FullName
+$date = Get-Date ($_.LastWriteTime)
+$month = $date.month
+$year = $date.year
+
+new-item -type Directory -path "$LogArchiveDirectory\$year\$month" -Force
+move-item $file "$LogArchiveDirectory\$year\$month" }
+</code></pre></div></div>
+
+
+
+
+    <div id="float-toc">
+    <nav role="navigation" class="table-of-contents">
+        
+            <span style="cursor:pointer;font-size: 10px;position: absolute;top: 10px;right: 15px;">[Click arrows to toggle]</span>
+            <h3>Table of Contents:</h3>
+            
+            <ul>
+  <li><a href="#">Organising backups in a monthly folder structure</a></li>
+</ul>
+        
+
+        <a href="#" class="jumpToTop">
+            <span class="icon grey svg20">
+                <svg version="1.1" id="Arrow_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M10,2.5L16.5,9H13v8H7V9H3.5L10,2.5z"/>
+</svg>
+
+            </span>
+
+            Jump to top of page
+        </a>
+    </nav>
 </div>
+
+
+<hr>
+
+<div class="share-bar">
+    <h4>Share this Blog Post:</h4>
+    <div class="share-buttons">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Facebook">
+            <i class="fa fa-facebook-official share-button"> facebook</i>
+        </a>
+        <a href="https://twitter.com/intent/tweet?text=Organising backups in a monthly folder structure&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Twitter">
+            <i class="fa fa-twitter share-button"> twitter</i>
+        </a>
+        <a href="https://www.pinterest.com/pin/create/button/?url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Pinterest">
+            <i class="fa fa-pinterest-p share-button"> pinterest</i>
+        </a>
+        <a href="https://www.tumblr.com/share/link?url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Tumblr">
+            <i class="fa fa-tumblr share-button"> tumblr</i>
+        </a>
+        <a href="http://www.reddit.com/submit?url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on Reddit">
+            <i class="fa fa-reddit-alien share-button"> reddit</i>
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html&title=Organising backups in a monthly folder structure&summary=&source=Joel Murphy"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           title="Share on LinkedIn">
+            <i class="fa fa-linkedin share-button"> linkedin</i>
+        </a>
+        <a href="mailto:?subject=Organising backups in a monthly folder structure&amp;body=Check%20out%20this%20site:%20http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+           title="Share via Email">
+            <i class="fa fa-envelope share-button"> email</i>
+        </a>
+    </div>
+</div>
+
+<hr>
+
+<h4 style="color:#dd4b39;font-weight:500;">Share your thoughts on: 'Organising backups in a monthly folder structure':</h4>
+
+<div id="disqus_thread"></div>
+<script>
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    /*
+     */
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//joel-murphy-co-uk.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
 
                 </div>
             </div>
