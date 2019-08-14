@@ -82,162 +82,6 @@
 
 
 
-    <style>
-        .ham {
-            cursor: pointer;
-            -webkit-tap-highlight-color: transparent;
-            transition: transform 400ms;
-            -moz-user-select: none;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-
-            height: 30px;
-            width: 30px;
-        }
-        .hamRotate.active {
-            transform: rotate(45deg);
-        }
-        .hamRotate180.active {
-            transform: rotate(180deg);
-        }
-        .line {
-            fill:none;
-            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-            stroke:#fff;
-            stroke-width:5.5;
-            stroke-linecap:round;
-        }
-        .ham1 .top {
-            stroke-dasharray: 40 139;
-        }
-        .ham1 .bottom {
-            stroke-dasharray: 40 180;
-        }
-        .ham1.active .top {
-            stroke-dashoffset: -98px;
-        }
-        .ham1.active .bottom {
-            stroke-dashoffset: -138px;
-        }
-        .ham2 .top {
-            stroke-dasharray: 40 121;
-        }
-        .ham2 .bottom {
-            stroke-dasharray: 40 121;
-        }
-        .ham2.active .top {
-            stroke-dashoffset: -102px;
-        }
-        .ham2.active .bottom {
-            stroke-dashoffset: -102px;
-        }
-        .ham3 .top {
-            stroke-dasharray: 40 130;
-        }
-        .ham3 .middle {
-            stroke-dasharray: 40 140;
-        }
-        .ham3 .bottom {
-            stroke-dasharray: 40 205;
-        }
-        .ham3.active .top {
-            stroke-dasharray: 75 130;
-            stroke-dashoffset: -63px;
-        }
-        .ham3.active .middle {
-            stroke-dashoffset: -102px;
-        }
-        .ham3.active .bottom {
-            stroke-dasharray: 110 205;
-            stroke-dashoffset: -86px;
-        }
-        .ham4 .top {
-            stroke-dasharray: 40 121;
-        }
-        .ham4 .bottom {
-            stroke-dasharray: 40 121;
-        }
-        .ham4.active .top {
-            stroke-dashoffset: -68px;
-        }
-        .ham4.active .bottom {
-            stroke-dashoffset: -68px;
-        }
-        .ham5 .top {
-            stroke-dasharray: 40 82;
-        }
-        .ham5 .bottom {
-            stroke-dasharray: 40 82;
-        }
-        .ham5.active .top {
-            stroke-dasharray: 14 82;
-            stroke-dashoffset: -72px;
-        }
-        .ham5.active .bottom {
-            stroke-dasharray: 14 82;
-            stroke-dashoffset: -72px;
-        }
-        .ham6 .top {
-            stroke-dasharray: 40 172;
-        }
-        .ham6 .middle {
-            stroke-dasharray: 40 111;
-        }
-        .ham6 .bottom {
-            stroke-dasharray: 40 172;
-        }
-        .ham6.active .top {
-            stroke-dashoffset: -132px;
-        }
-        .ham6.active .middle {
-            stroke-dashoffset: -71px;
-        }
-        .ham6.active .bottom {
-            stroke-dashoffset: -132px;
-        }
-        .ham7 .top {
-            stroke-dasharray: 40 82;
-        }
-        .ham7 .middle {
-            stroke-dasharray: 40 111;
-        }
-        .ham7 .bottom {
-            stroke-dasharray: 40 161;
-        }
-        .ham7.active .top {
-            stroke-dasharray: 17 82;
-            stroke-dashoffset: -62px;
-        }
-        .ham7.active .middle {
-            stroke-dashoffset: 23px;
-        }
-        .ham7.active .bottom {
-            stroke-dashoffset: -83px;
-        }
-        .ham8 .top {
-            stroke-dasharray: 40 160;
-        }
-        .ham8 .middle {
-            stroke-dasharray: 40 142;
-            transform-origin: 50%;
-            transition: transform 400ms;
-        }
-        .ham8 .bottom {
-            stroke-dasharray: 40 85;
-            transform-origin: 50%;
-            transition: transform 400ms, stroke-dashoffset 400ms;
-        }
-        .ham8.active .top {
-            stroke-dashoffset: -64px;
-        }
-        .ham8.active .middle {
-            transform: rotate(90deg);
-        }
-        .ham8.active .bottom {
-            stroke-dashoffset: -64px;
-        }
-    </style>
 </head>
 
 
@@ -245,7 +89,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
         <div style="width: 100%;background:grey;display: block;height: 2px;clear: both;position: fixed;top: 0px;left: 0px;z-index: 9999;">
-            <div id="scroll-value" style="width:0%;background:#78C0A8;height:2px;"></div>
+            <div id="scroll-value"></div>
         </div>
         <a class="navbar-brand font-weight-bold" href="/index.html">💡💻 Joel Murphy
             💻💡</a>
@@ -519,11 +363,11 @@
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/mongodb.png" title="MongoDB" alt="MongoDB" /></td>
-                        <td>MongoDB - https://www.mongodb.com/</td>
+                        <td>MongoDB - [<a target="_blank" href="https://www.mongodb.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/postgresql.png" title="PostgreSQL" alt="PostgreSQL" /></td>
-                        <td>PostgreSQL - https://www.postgresql.org/</td>
+                        <td>PostgreSQL - [<a target="_blank" href="https://www.postgresql.org/">XXX</a>]</td>
                     </tr>
                     </tbody>
                 </table>
@@ -653,46 +497,46 @@
                     <tbody>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/docker.png" title="Docker" alt="Docker" /></td>
-                        <td>Docker - https://www.docker.com/</td>
+                        <td>Docker - [<a target="_blank" href="https://www.docker.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/vagrant.png" title="Vagrant" alt="Vagrant" />
                         </td>
-                        <td>Vagrant - https://www.vagrantup.com/</td>
+                        <td>Vagrant - [<a target="_blank" href="https://www.vagrantup.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/ansible.png" title="Ansible" alt="Ansible" />
                         </td>
-                        <td>Ansible - https://www.ansible.com/</td>
+                        <td>Ansible - [<a target="_blank" href="https://www.ansible.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/terraform.png" title="Terraform" alt="Terraform" /></td>
-                        <td>Terraform - https://www.terraform.io/</td>
+                        <td>Terraform - [<a target="_blank" href="https://www.terraform.io/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/windows.jpg" title="Packer" alt="Packer" /></td>
-                        <td>Packer - https://www.packer.io/</td>
+                        <td>Packer - [<a target="_blank" href="https://www.packer.io/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/kubernetes.png" title="Kubernetes" alt="Kubernetes" /></td>
-                        <td>Kubernetes - https://kubernetes.io/</td>
+                        <td>Kubernetes - [<a target="_blank" href="https://kubernetes.io/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/travis.jpeg" title="Travis" alt="Travis" /></td>
-                        <td>Travis - https://travis-ci.org</td>
+                        <td>Travis - [<a target="_blank" href="https://travis-ci.org">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/heroku.png" title="Heroku" alt="Heroku" /></td>
-                        <td>Heroku - https://www.heroku.com/</td>
+                        <td>Heroku - [<a target="_blank" href="https://www.heroku.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/chef.png" title="Chef" alt="Chef" />
                         </td>
-                        <td>Chef - https://www.chef.io/</td>
+                        <td>Chef - [<a target="_blank" href="https://www.chef.io/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/technologies/puppet.png" title="Puppet" alt="Puppet" /></td>
-                        <td>Puppet - https://puppet.com/</td>
+                        <td>Puppet - [<a target="_blank" href="https://puppet.com/">XXX</a>]</td>
                     </tr>
                     </tbody>
                 </table>

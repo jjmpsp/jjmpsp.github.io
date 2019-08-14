@@ -169,12 +169,12 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/mongodb.png" title="MongoDB"
                                  alt="MongoDB"></td>
-                        <td>MongoDB - https://www.mongodb.com/</td>
+                        <td>MongoDB - [<a target="_blank" href="https://www.mongodb.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/postgresql.png" title="PostgreSQL"
                                  alt="PostgreSQL"></td>
-                        <td>PostgreSQL - https://www.postgresql.org/</td>
+                        <td>PostgreSQL - [<a target="_blank" href="https://www.postgresql.org/">XXX</a>]</td>
                     </tr>
                     </tbody>
                 </table>
@@ -317,54 +317,54 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/docker.png" title="Docker"
                                  alt="Docker"></td>
-                        <td>Docker - https://www.docker.com/</td>
+                        <td>Docker - [<a target="_blank" href="https://www.docker.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/vagrant.png" title="Vagrant"
                                  alt="Vagrant">
                         </td>
-                        <td>Vagrant - https://www.vagrantup.com/</td>
+                        <td>Vagrant - [<a target="_blank" href="https://www.vagrantup.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/ansible.png" title="Ansible"
                                  alt="Ansible">
                         </td>
-                        <td>Ansible - https://www.ansible.com/</td>
+                        <td>Ansible - [<a target="_blank" href="https://www.ansible.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/terraform.png" title="Terraform"
                                  alt="Terraform"></td>
-                        <td>Terraform - https://www.terraform.io/</td>
+                        <td>Terraform - [<a target="_blank" href="https://www.terraform.io/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/windows.jpg" title="Packer"
                                  alt="Packer"></td>
-                        <td>Packer - https://www.packer.io/</td>
+                        <td>Packer - [<a target="_blank" href="https://www.packer.io/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/kubernetes.png" title="Kubernetes"
                                  alt="Kubernetes"></td>
-                        <td>Kubernetes - https://kubernetes.io/</td>
+                        <td>Kubernetes - [<a target="_blank" href="https://kubernetes.io/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/travis.jpeg" title="Travis"
                                  alt="Travis"></td>
-                        <td>Travis - https://travis-ci.org</td>
+                        <td>Travis - [<a target="_blank" href="https://travis-ci.org">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/heroku.png" title="Heroku"
                                  alt="Heroku"></td>
-                        <td>Heroku - https://www.heroku.com/</td>
+                        <td>Heroku - [<a target="_blank" href="https://www.heroku.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/chef.png" title="Chef" alt="Chef">
                         </td>
-                        <td>Chef - https://www.chef.io/</td>
+                        <td>Chef - [<a target="_blank" href="https://www.chef.io/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/puppet.png" title="Puppet"
                                  alt="Puppet"></td>
-                        <td>Puppet - https://puppet.com/</td>
+                        <td>Puppet - [<a target="_blank" href="https://puppet.com/">XXX</a>]</td>
                     </tr>
                     </tbody>
                 </table>
