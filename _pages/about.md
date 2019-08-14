@@ -159,17 +159,17 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/mysql.png" title="MySQL Server"
                                  alt="MySQL Server"></td>
-                        <td> MySQL - https://www.mysql.com/</td>
+                        <td>MySQL - [<a target="_blank" href="https://www.mysql.com/">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/windows.jpg"
                                  title="Microsoft SQL Server" alt="Microsoft SQL Server"></td>
-                        <td>MS SQL - https://www.microsoft.com/en-us/sql-server/</td>
+                        <td>MS SQL - [<a target="_blank" href="https://www.microsoft.com/en-us/sql-server">XXX</a>]</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/mongodb.png" title="MongoDB"
                                  alt="MongoDB"></td>
-                        <td> MongoDB - https://www.mongodb.com/</td>
+                        <td>MongoDB - https://www.mongodb.com/</td>
                     </tr>
                     <tr scope="row">
                         <td><img class="technology-img lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="  data-src="static/img/technologies/postgresql.png" title="PostgreSQL"
