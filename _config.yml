@@ -6,7 +6,7 @@ url: "https://joel-murphy.co.uk"
 plugins:
   - jekyll-sitemap
 
-exclude: [.idea/]
+exclude: [.idea/,webpack.config.js,node_modules/]
 
 # Conversion
 markdown:         kramdown

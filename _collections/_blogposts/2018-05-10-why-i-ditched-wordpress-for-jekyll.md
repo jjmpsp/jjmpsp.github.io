@@ -7,6 +7,9 @@ tags:
   - cms
 ---
 
+If you've been thinking of moving away from Wordpress and using a static website generator site then this is probably the post for you... In this post I will discuss my reasons for migrating my old Wordpress website to Jekyll.
+
+
 Wordpress is so stupidly bloated.
 I used to be a wordpress developer myself, but sometimes I asked myself 'why'.
 
