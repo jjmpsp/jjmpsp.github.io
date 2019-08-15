@@ -1,5 +1,5 @@
 ---
-title: Organising backups in a monthly folder structure
+title: Organising backups in a monthly folder structure with Powershell
 tags:
   - powershell
   - organised
@@ -8,14 +8,11 @@ tags:
   - archive
 ---
 
-If you've ever thought of completing a degree in Computer Science, then chances are you're already interested enough in the topic. But is completing a degree in Computer Science really worth the money?
-
-In this post I will share my personal experience and give you some hints for learning three years of computer science in a single day.
+Today I want to share a super handy Powershell snippet for creating monthly archives
 
 <!--more-->
 
-Today I want to share a super handy Powershell snippet for creating monthly archives
-
+```
 $LogArchiveDirectory = "G:\_awstats_temp"
 
 get-childitem | % {
@@ -28,3 +25,5 @@ get-childitem | % {
     new-item -type Directory -path "$LogArchiveDirectory\$year\$month" -Force
     move-item $file "$LogArchiveDirectory\$year\$month"
 }
+```
+

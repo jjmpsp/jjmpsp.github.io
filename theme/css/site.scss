@@ -491,7 +491,6 @@ ul.accordion {
   }
 }
 
-W
 #scroll-value {
   width: 0;
   background: #5D9040;
@@ -725,5 +724,18 @@ W
       border: 1px solid #2e83e6;;
       color: #eee;
     }
+  }
+}
+
+
+#tags-filter {
+  a {
+    &:hover{
+      border-bottom: 1px solid rgb(222, 226, 230) !important;
+    }
+  }
+
+  h5 {
+    font-weight: 400;
   }
 }

@@ -25,7 +25,7 @@
 
     <title>
         
-            Organising backups in a monthly folder structure &middot; Joel Murphy
+            Organising backups in a monthly folder structure with Powershell &middot; Joel Murphy
         
     </title>
 
@@ -57,7 +57,7 @@
 
     <meta content="Joel Murphy" property="og:site_name">
 
-<meta content="Organising backups in a monthly folder structure" property="og:title">
+<meta content="Organising backups in a monthly folder structure with Powershell" property="og:title">
 
 
 
@@ -65,7 +65,25 @@
 
 
 
-<meta content="If you’ve ever thought of completing a degree in Computer Science, then chances are you’re already interested enough in the topic. But is completing a degree in Computer Science really worth the money? In this post I will share my personal experience and give you some hints for learning three years of computer science in a single day. Today I want to share a super handy Powershell snippet for creating monthly archives $LogArchiveDirectory = “G:_awstats_temp”..." property="og:description">
+<meta content="Today I want to share a super handy Powershell snippet for creating monthly archives
+
+
+
+$LogArchiveDirectory = "G:\_awstats_temp"
+
+get-childitem | % {
+
+    $file = $_.FullName
+    $date = Get-Date ($_.LastWriteTime)
+    $month = $date.month
+    $year = $date.year
+
+    new-item -type Directory -path "$LogArchiveDirectory\$year\$month" -Force
+    move-item $file "$LogArchiveDirectory\$year\$month"
+}
+
+
+" property="og:description">
 
 
 
@@ -189,7 +207,7 @@
             <div class="card bg-white">
                 <div class="card-body">
                     <h1 class="list-title border border-left-0 border-right-0 py-2">
-    Organising backups in a monthly folder structure
+    Organising backups in a monthly folder structure with Powershell
 
     <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
         <span class="icon grey">
@@ -278,7 +296,7 @@
            title="Share on Facebook">
             <i class="fa fa-facebook-official share-button"> facebook</i>
         </a>
-        <a href="https://twitter.com/intent/tweet?text=Organising backups in a monthly folder structure&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+        <a href="https://twitter.com/intent/tweet?text=Organising backups in a monthly folder structure with Powershell&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on Twitter">
             <i class="fa fa-twitter share-button"> twitter</i>
@@ -298,12 +316,12 @@
            title="Share on Reddit">
             <i class="fa fa-reddit-alien share-button"> reddit</i>
         </a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html&title=Organising backups in a monthly folder structure&summary=&source=Joel Murphy"
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html&title=Organising backups in a monthly folder structure with Powershell&summary=&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
             <i class="fa fa-linkedin share-button"> linkedin</i>
         </a>
-        <a href="mailto:?subject=Organising backups in a monthly folder structure&amp;body=Check%20out%20this%20site:%20http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+        <a href="mailto:?subject=Organising backups in a monthly folder structure with Powershell&amp;body=Check%20out%20this%20site:%20http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
            title="Share via Email">
             <i class="fa fa-envelope share-button"> email</i>
         </a>
@@ -312,33 +330,24 @@
 
 <hr>
 
-<p>If you’ve ever thought of completing a degree in Computer Science, then chances are you’re already interested enough in the topic. But is completing a degree in Computer Science really worth the money?</p>
-
-<p>In this post I will share my personal experience and give you some hints for learning three years of computer science in a single day.</p>
+<p>Today I want to share a super handy Powershell snippet for creating monthly archives</p>
 
 <!--more-->
 
-<p>Today I want to share a super handy Powershell snippet for creating monthly archives</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$LogArchiveDirectory = "G:\_awstats_temp"
 
-<p>$LogArchiveDirectory = “G:_awstats_temp”</p>
+get-childitem | % {
 
-<table>
-  <tbody>
-    <tr>
-      <td>get-childitem</td>
-      <td>% {</td>
-    </tr>
-  </tbody>
-</table>
+    $file = $_.FullName
+    $date = Get-Date ($_.LastWriteTime)
+    $month = $date.month
+    $year = $date.year
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$file = $_.FullName
-$date = Get-Date ($_.LastWriteTime)
-$month = $date.month
-$year = $date.year
-
-new-item -type Directory -path "$LogArchiveDirectory\$year\$month" -Force
-move-item $file "$LogArchiveDirectory\$year\$month" }
+    new-item -type Directory -path "$LogArchiveDirectory\$year\$month" -Force
+    move-item $file "$LogArchiveDirectory\$year\$month"
+}
 </code></pre></div></div>
+
 
 
 
@@ -350,7 +359,7 @@ move-item $file "$LogArchiveDirectory\$year\$month" }
             <h3>Table of Contents:</h3>
             
             <ul>
-  <li><a href="#">Organising backups in a monthly folder structure</a></li>
+  <li><a href="#">Organising backups in a monthly folder structure with Powershell</a></li>
 </ul>
         
 
@@ -379,7 +388,7 @@ move-item $file "$LogArchiveDirectory\$year\$month" }
            title="Share on Facebook">
             <i class="fa fa-facebook-official share-button"> facebook</i>
         </a>
-        <a href="https://twitter.com/intent/tweet?text=Organising backups in a monthly folder structure&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+        <a href="https://twitter.com/intent/tweet?text=Organising backups in a monthly folder structure with Powershell&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on Twitter">
             <i class="fa fa-twitter share-button"> twitter</i>
@@ -399,12 +408,12 @@ move-item $file "$LogArchiveDirectory\$year\$month" }
            title="Share on Reddit">
             <i class="fa fa-reddit-alien share-button"> reddit</i>
         </a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html&title=Organising backups in a monthly folder structure&summary=&source=Joel Murphy"
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html&title=Organising backups in a monthly folder structure with Powershell&summary=&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
             <i class="fa fa-linkedin share-button"> linkedin</i>
         </a>
-        <a href="mailto:?subject=Organising backups in a monthly folder structure&amp;body=Check%20out%20this%20site:%20http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+        <a href="mailto:?subject=Organising backups in a monthly folder structure with Powershell&amp;body=Check%20out%20this%20site:%20http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
            title="Share via Email">
             <i class="fa fa-envelope share-button"> email</i>
         </a>
@@ -413,7 +422,7 @@ move-item $file "$LogArchiveDirectory\$year\$month" }
 
 <hr>
 
-<h4 style="color:#dd4b39;font-weight:500;">Share your thoughts on: 'Organising backups in a monthly folder structure':</h4>
+<h4 style="color:#dd4b39;font-weight:500;">Share your thoughts on: 'Organising backups in a monthly folder structure with Powershell':</h4>
 
 <div id="disqus_thread"></div>
 <script>

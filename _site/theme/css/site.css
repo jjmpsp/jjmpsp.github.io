@@ -368,7 +368,7 @@ ul.accordion .description {
 
   #footer {
     height: 75px; } }
-W #scroll-value {
+#scroll-value {
   width: 0;
   background: #5D9040;
   height: 2px; }
@@ -547,3 +547,8 @@ W #scroll-value {
   background-color: #2e83e6;
   border: 1px solid #2e83e6;
   color: #eee; }
+
+#tags-filter a:hover {
+  border-bottom: 1px solid #dee2e6 !important; }
+#tags-filter h5 {
+  font-weight: 400; }
