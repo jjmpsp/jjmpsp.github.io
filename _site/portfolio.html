@@ -65,7 +65,7 @@
 
 
 
-<meta content="{% include components/all-skills.html %} Showing everything matching: clear I specialise in PHP7+, HTML, CSS/SASS, and Javascript website development as a Full Stack Software Developer. What makes me stand out compared to other developers is that I don’t just make websites, I have an understanding of the tooling, frameworks, and technologies that power them. Front-end tools such as Gulp, Bower, and Webpack are second nature to me, as is developing highly tested backend code to interact..." property="og:description">
+<meta content="{% if page.show_skills %} {% include components/all-skills.html %} {% endif %} Showing everything matching: clear I specialise in PHP7+, HTML, CSS/SASS, and Javascript website development as a Full Stack Software Developer. What makes me stand out compared to other developers is that I don’t just make websites, I have an understanding of the tooling, frameworks, and technologies that power them. Front-end tools such as Gulp, Bower, and Webpack are second nature to me, as is..." property="og:description">
 
 
 
@@ -218,8 +218,9 @@
     </li>
 </ol>
 
-<div class="d-md-block d-lg-none mb-3">
+<div class="d-md-block d-lg-none mb-3" id="tags-filter">
     
+        
 
 
 
@@ -243,7 +244,7 @@
 <ul class="accordion">
     <li>
         <a class="toggle" href="javascript:void(0);">
-            Filter Work Portfolio by Skills: <span style="float:right;">▼</span>
+            Filter Work Portfolio Items by Skills: <span style="float:right;">▼</span>
         </a>
         <ul class="inner" style="display: none;">
             <li class="mlm15">
@@ -307,6 +308,7 @@
         </ul>
     </li>
 </ul>
+    
 </div>
 
 <div id="currently-showing">
@@ -813,97 +815,6 @@
 </div>
         </div>
     </div>
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul class="accordion">
-    <li>
-        <a class="toggle" href="javascript:void(0);">
-            Filter Work Portfolio by Skills: <span style="float:right;">▼</span>
-        </a>
-        <ul class="inner" style="display: none;">
-            <li class="mlm15">
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-doctrine-orm"
-                   href="#doctrine-orm">
-                    Doctrine ORM
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-html"
-                   href="#html">
-                    HTML
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-javascript"
-                   href="#javascript">
-                    JavaScript
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-mysql"
-                   href="#mysql">
-                    MySQL
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-php"
-                   href="#php">
-                    PHP
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-project-management"
-                   href="#project-management">
-                    Project Management
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-team-leadership"
-                   href="#team-leadership">
-                    Team Leadership
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-technical-architecture"
-                   href="#technical-architecture">
-                    Technical Architecture
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-user-interface-design"
-                   href="#user-interface-design">
-                    User Interface Design
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-web-design"
-                   href="#web-design">
-                    Web Design
-                </a>
-                
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-windows-server"
-                   href="#windows-server">
-                    Windows Server
-                </a>
-                
-            </li>
-        </ul>
-    </li>
-</ul>
 
 
 

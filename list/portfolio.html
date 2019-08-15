@@ -5,8 +5,10 @@ narrow: false
 permalink: /portfolio
 ---
 
-<div class="d-md-block d-lg-none mb-3">
-    {% include components/all-skills.html %}
+<div class="d-md-block d-lg-none mb-3" id="tags-filter">
+    {% if page.show_skills %}
+        {% include components/all-skills.html %}
+    {% endif %}
 </div>
 
 <div id="currently-showing">
