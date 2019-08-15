@@ -57,10 +57,10 @@ h2[id]::before {
 .content a:hover {
   text-decoration: none !important;
   border-bottom: 0.5px dashed #777 !important;
-  color: red; }
+  color: #553e98; }
 
 .card-body a:hover {
-  color: red;
+  color: #553e98;
   text-decoration: none !important; }
 
 .card-body a span.hover-underline-dashed {
@@ -569,8 +569,34 @@ ul.accordion .description {
   font-size: 27px; }
 .blog-item .tag-list span {
   font-size: 12px; }
+.blog-item .read-more {
+  font-weight: 500;
+  font-style: italic;
+  color: #553e98; }
 
 .ad-block {
   width: 100%;
   margin-bottom: 15px;
   display: none; }
+
+.typeform-share {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #553e98;
+  color: white;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  padding: 0px 33px;
+  border-radius: 25px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }

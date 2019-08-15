@@ -18,7 +18,7 @@ Joel is a huge fan of continuous learning, personal development, and learning ne
     <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
         <div class="mc-field-group" style="display:flex; justify-content: space-between;">
             <input type="email" placeholder="email@domain.com" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" style="flex-basis: 73%;">
-            <input type="submit" value="Subscribe" name="subscribe" class="heart" style="flex-basis: 25%;">
+            <input type="submit" value="Subscribe" name="subscribe" style="flex-basis: 25%;">
         </div>
     </form>
 </div>
