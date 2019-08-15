@@ -181,7 +181,7 @@
 
 
 
-<main class="container site-container" id="top">
+<main class="container" id="site-container">
     <div class="row">
         <article class="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-12 pb-4 order-sm-last content" id="content">
             <div class="card bg-white">
@@ -311,73 +311,73 @@
 
 <!--more-->
 
-<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="c1"># Function Credit: https://community.spiceworks.com/topic/2165665-pinning-taskbar-items-with-powershell-script</span>
-<span class="k">Function </span><span class="nb">Set</span>-PinTaskbar <span class="o">{</span>
-    <span class="k">Param</span> <span class="o">(</span>
-        <span class="o">[</span>parameter<span class="o">(</span><span class="nv">Mandatory</span><span class="o">=</span><span class="nv">$True</span>, <span class="nv">HelpMessage</span><span class="o">=</span><span class="s2">"Target item to pin"</span><span class="o">)]</span>
-        <span class="o">[</span>ValidateNotNullOrEmpty<span class="o">()]</span>
-        <span class="o">[</span><span class="kt">string</span><span class="o">]</span> <span class="nv">$Target</span>
-        ,
-        <span class="o">[</span>Parameter<span class="o">(</span><span class="nv">Mandatory</span><span class="o">=</span><span class="nv">$False</span>, <span class="nv">HelpMessage</span><span class="o">=</span><span class="s2">"Target item to unpin"</span><span class="o">)]</span>
-        <span class="o">[</span><span class="k">switch</span><span class="o">]</span><span class="nv">$Unpin</span>
-    <span class="o">)</span>
-    <span class="k">If</span> <span class="o">(!(</span><span class="nb">Test-Path</span> <span class="nv">$Target</span><span class="o">))</span> <span class="o">{</span>
-        <span class="nb">Write-Warning</span> <span class="s2">"</span><span class="nv">$Target</span><span class="s2"> does not exist"</span>
-        <span class="k">Break</span>
-    <span class="o">}</span>
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="c"># Function Credit: https://community.spiceworks.com/topic/2165665-pinning-taskbar-items-with-powershell-script</span><span class="w">
+</span><span class="kr">Function</span><span class="w"> </span><span class="nf">Set-PinTaskbar</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="kr">Param</span><span class="w"> </span><span class="p">(</span><span class="w">
+        </span><span class="p">[</span><span class="kt">parameter</span><span class="p">(</span><span class="kt">Mandatory</span><span class="o">=</span><span class="nv">$True</span><span class="p">,</span><span class="w"> </span><span class="kt">HelpMessage</span><span class="o">=</span><span class="s2">"Target item to pin"</span><span class="p">)]</span><span class="w">
+        </span><span class="p">[</span><span class="kt">ValidateNotNullOrEmpty</span><span class="p">()]</span><span class="w">
+        </span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="w"> </span><span class="nv">$Target</span><span class="w">
+        </span><span class="p">,</span><span class="w">
+        </span><span class="p">[</span><span class="kt">Parameter</span><span class="p">(</span><span class="kt">Mandatory</span><span class="o">=</span><span class="nv">$False</span><span class="p">,</span><span class="w"> </span><span class="kt">HelpMessage</span><span class="o">=</span><span class="s2">"Target item to unpin"</span><span class="p">)]</span><span class="w">
+        </span><span class="p">[</span><span class="kt">switch</span><span class="p">]</span><span class="nv">$Unpin</span><span class="w">
+    </span><span class="p">)</span><span class="w">
+    </span><span class="kr">If</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="nf">Test-Path</span><span class="w"> </span><span class="nv">$Target</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nf">Write-Warning</span><span class="w"> </span><span class="s2">"</span><span class="nv">$Target</span><span class="s2"> does not exist"</span><span class="w">
+        </span><span class="kr">Break</span><span class="w">
+    </span><span class="p">}</span><span class="w">
 
-    <span class="nv">$KeyPath1</span>  <span class="o">=</span> <span class="s2">"HKLM:\SOFTWARE\Classes"</span>
-    <span class="nv">$KeyPath2</span>  <span class="o">=</span> <span class="s2">"*"</span>
-    <span class="nv">$KeyPath3</span>  <span class="o">=</span> <span class="s2">"shell"</span>
-    <span class="nv">$KeyPath4</span>  <span class="o">=</span> <span class="s2">"{:}"</span>
-    <span class="nv">$ValueName</span> <span class="o">=</span> <span class="s2">"ExplorerCommandHandler"</span>
-    <span class="nv">$ValueData</span> <span class="o">=</span>
-        <span class="o">(</span><span class="nb">Get-ItemProperty</span> <span class="se">`</span>
-            <span class="o">(</span><span class="s2">"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\"</span> + <span class="se">`</span>
-                <span class="s2">"CommandStore\shell\Windows.taskbarpin"</span><span class="o">)</span>
-        <span class="o">)</span>.ExplorerCommandHandler
+    </span><span class="nv">$KeyPath1</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="s2">"HKLM:\SOFTWARE\Classes"</span><span class="w">
+    </span><span class="nv">$KeyPath2</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="s2">"*"</span><span class="w">
+    </span><span class="nv">$KeyPath3</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="s2">"shell"</span><span class="w">
+    </span><span class="nv">$KeyPath4</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="s2">"{:}"</span><span class="w">
+    </span><span class="nv">$ValueName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"ExplorerCommandHandler"</span><span class="w">
+    </span><span class="nv">$ValueData</span><span class="w"> </span><span class="o">=</span><span class="w">
+        </span><span class="p">(</span><span class="nf">Get-ItemProperty</span><span class="w"> </span><span class="err">`</span><span class="w">
+            </span><span class="p">(</span><span class="s2">"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="err">`</span><span class="w">
+                </span><span class="s2">"CommandStore\shell\Windows.taskbarpin"</span><span class="p">)</span><span class="w">
+        </span><span class="p">)</span><span class="o">.</span><span class="nf">ExplorerCommandHandler</span><span class="w">
 
-    <span class="nv">$Key2</span> <span class="o">=</span> <span class="o">(</span><span class="nb">Get-Item</span> <span class="nv">$KeyPath1</span><span class="o">)</span>.OpenSubKey<span class="o">(</span><span class="nv">$KeyPath2</span>, <span class="nv">$true</span><span class="o">)</span>
-    <span class="nv">$Key3</span> <span class="o">=</span> <span class="nv">$Key2</span>.CreateSubKey<span class="o">(</span><span class="nv">$KeyPath3</span>, <span class="nv">$true</span><span class="o">)</span>
-    <span class="nv">$Key4</span> <span class="o">=</span> <span class="nv">$Key3</span>.CreateSubKey<span class="o">(</span><span class="nv">$KeyPath4</span>, <span class="nv">$true</span><span class="o">)</span>
-    <span class="nv">$Key4</span>.SetValue<span class="o">(</span><span class="nv">$ValueName</span>, <span class="nv">$ValueData</span><span class="o">)</span>
+    </span><span class="nv">$Key2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nf">Get-Item</span><span class="w"> </span><span class="nv">$KeyPath1</span><span class="p">)</span><span class="o">.</span><span class="nf">OpenSubKey</span><span class="p">(</span><span class="nv">$KeyPath2</span><span class="p">,</span><span class="w"> </span><span class="bp">$true</span><span class="p">)</span><span class="w">
+    </span><span class="nv">$Key3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$Key2</span><span class="o">.</span><span class="nf">CreateSubKey</span><span class="p">(</span><span class="nv">$KeyPath3</span><span class="p">,</span><span class="w"> </span><span class="bp">$true</span><span class="p">)</span><span class="w">
+    </span><span class="nv">$Key4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$Key3</span><span class="o">.</span><span class="nf">CreateSubKey</span><span class="p">(</span><span class="nv">$KeyPath4</span><span class="p">,</span><span class="w"> </span><span class="bp">$true</span><span class="p">)</span><span class="w">
+    </span><span class="nv">$Key4</span><span class="o">.</span><span class="nf">SetValue</span><span class="p">(</span><span class="nv">$ValueName</span><span class="p">,</span><span class="w"> </span><span class="nv">$ValueData</span><span class="p">)</span><span class="w">
 
-    <span class="nv">$Shell</span> <span class="o">=</span> <span class="nb">New-Object</span> -ComObject <span class="s2">"Shell.Application"</span>
-    <span class="nv">$Folder</span> <span class="o">=</span> <span class="nv">$Shell</span>.Namespace<span class="o">((</span><span class="nb">Get-Item</span> <span class="nv">$Target</span><span class="o">)</span>.DirectoryName<span class="o">)</span>
-    <span class="nv">$Item</span> <span class="o">=</span> <span class="nv">$Folder</span>.ParseName<span class="o">((</span><span class="nb">Get-Item</span> <span class="nv">$Target</span><span class="o">)</span>.Name<span class="o">)</span>
+    </span><span class="nv">$Shell</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">New-Object</span><span class="w"> </span><span class="nt">-ComObject</span><span class="w"> </span><span class="s2">"Shell.Application"</span><span class="w">
+    </span><span class="nv">$Folder</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$Shell</span><span class="o">.</span><span class="nf">Namespace</span><span class="p">((</span><span class="nf">Get-Item</span><span class="w"> </span><span class="nv">$Target</span><span class="p">)</span><span class="o">.</span><span class="nf">DirectoryName</span><span class="p">)</span><span class="w">
+    </span><span class="nv">$Item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$Folder</span><span class="o">.</span><span class="nf">ParseName</span><span class="p">((</span><span class="nf">Get-Item</span><span class="w"> </span><span class="nv">$Target</span><span class="p">)</span><span class="o">.</span><span class="nf">Name</span><span class="p">)</span><span class="w">
 
-    <span class="c1"># Registry key where the pinned items are located</span>
-    <span class="nv">$RegistryKey</span> <span class="o">=</span> <span class="s2">"HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband"</span>
-    <span class="c1"># Binary registry value where the pinned items are located</span>
-    <span class="nv">$RegistryValue</span> <span class="o">=</span> <span class="s2">"FavoritesResolve"</span>
-    <span class="c1"># Gets the contents into an ASCII format</span>
-    <span class="nv">$CurrentPinsProperty</span> <span class="o">=</span> <span class="o">([</span>system.text.encoding]::ASCII.GetString<span class="o">((</span><span class="nb">Get-ItemProperty</span> -Path <span class="nv">$RegistryKey</span> -Name <span class="nv">$RegistryValue</span> | <span class="nb">Select-Object</span> -ExpandProperty <span class="nv">$RegistryValue</span><span class="o">)))</span>
-    <span class="c1"># Specifies the wildcard of the current executable to be pinned, so that it won't attempt to unpin / repin</span>
-    <span class="nv">$Executable</span> <span class="o">=</span> <span class="s2">"*"</span> + <span class="o">(</span><span class="nb">Split-Path</span> <span class="nv">$Target</span> -Leaf<span class="o">)</span> + <span class="s2">"*"</span>
-    <span class="c1"># Filters the results for only the characters that we are looking for, so that the search will function</span>
-    <span class="o">[</span><span class="kt">string</span><span class="o">]</span><span class="nv">$CurrentPinsResults</span> <span class="o">=</span> <span class="nv">$CurrentPinsProperty</span> -Replace <span class="s1">'[^\x20-\x2f^\x30-\x39\x41-\x5A\x61-\x7F]+'</span>, <span class="s1">''</span>
+    </span><span class="c"># Registry key where the pinned items are located</span><span class="w">
+    </span><span class="nv">$RegistryKey</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband"</span><span class="w">
+    </span><span class="c"># Binary registry value where the pinned items are located</span><span class="w">
+    </span><span class="nv">$RegistryValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"FavoritesResolve"</span><span class="w">
+    </span><span class="c"># Gets the contents into an ASCII format</span><span class="w">
+    </span><span class="nv">$CurrentPinsProperty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">([</span><span class="no">system.text.</span><span class="kt">encoding</span><span class="p">]::</span><span class="nf">ASCII.GetString</span><span class="p">((</span><span class="nf">Get-ItemProperty</span><span class="w"> </span><span class="nt">-Path</span><span class="w"> </span><span class="nv">$RegistryKey</span><span class="w"> </span><span class="nt">-Name</span><span class="w"> </span><span class="nv">$RegistryValue</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Select-Object</span><span class="w"> </span><span class="nt">-ExpandProperty</span><span class="w"> </span><span class="nv">$RegistryValue</span><span class="p">)))</span><span class="w">
+    </span><span class="c"># Specifies the wildcard of the current executable to be pinned, so that it won't attempt to unpin / repin</span><span class="w">
+    </span><span class="nv">$Executable</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"*"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="nf">Split-Path</span><span class="w"> </span><span class="nv">$Target</span><span class="w"> </span><span class="nt">-Leaf</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">"*"</span><span class="w">
+    </span><span class="c"># Filters the results for only the characters that we are looking for, so that the search will function</span><span class="w">
+    </span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="nv">$CurrentPinsResults</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$CurrentPinsProperty</span><span class="w"> </span><span class="o">-Replace</span><span class="w"> </span><span class="s1">'[^\x20-\x2f^\x30-\x39\x41-\x5A\x61-\x7F]+'</span><span class="p">,</span><span class="w"> </span><span class="s1">''</span><span class="w">
 
-    <span class="c1"># Unpin if the application is pinned</span>
-    <span class="k">If</span> <span class="o">(</span><span class="nv">$Unpin</span>.IsPresent<span class="o">)</span> <span class="o">{</span>
-        <span class="k">If</span> <span class="o">(</span><span class="nv">$CurrentPinsResults</span> -like <span class="nv">$Executable</span><span class="o">)</span> <span class="o">{</span>
-            <span class="nv">$Item</span>.InvokeVerb<span class="o">(</span><span class="s2">"{:}"</span><span class="o">)</span>
-        <span class="o">}</span>
-    <span class="o">}</span>
-    <span class="k">Else</span> <span class="o">{</span>
-        <span class="c1"># Only pin the application if it hasn't been pinned</span>
-        <span class="k">If</span> <span class="o">(!(</span><span class="nv">$CurrentPinsResults</span> -like <span class="nv">$Executable</span><span class="o">))</span> <span class="o">{</span>
-            <span class="nv">$Item</span>.InvokeVerb<span class="o">(</span><span class="s2">"{:}"</span><span class="o">)</span>
-        <span class="o">}</span>
-    <span class="o">}</span>
+    </span><span class="c"># Unpin if the application is pinned</span><span class="w">
+    </span><span class="kr">If</span><span class="w"> </span><span class="p">(</span><span class="nv">$Unpin</span><span class="o">.</span><span class="nf">IsPresent</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="kr">If</span><span class="w"> </span><span class="p">(</span><span class="nv">$CurrentPinsResults</span><span class="w"> </span><span class="o">-like</span><span class="w"> </span><span class="nv">$Executable</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nv">$Item</span><span class="o">.</span><span class="nf">InvokeVerb</span><span class="p">(</span><span class="s2">"{:}"</span><span class="p">)</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+    </span><span class="kr">Else</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="c"># Only pin the application if it hasn't been pinned</span><span class="w">
+        </span><span class="kr">If</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="nv">$CurrentPinsResults</span><span class="w"> </span><span class="o">-like</span><span class="w"> </span><span class="nv">$Executable</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nv">$Item</span><span class="o">.</span><span class="nf">InvokeVerb</span><span class="p">(</span><span class="s2">"{:}"</span><span class="p">)</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
     
-    <span class="nv">$Key3</span>.DeleteSubKey<span class="o">(</span><span class="nv">$KeyPath4</span><span class="o">)</span>
-    <span class="k">If</span> <span class="o">(</span><span class="nv">$Key3</span>.SubKeyCount -eq 0 -and <span class="nv">$Key3</span>.ValueCount -eq 0<span class="o">)</span> <span class="o">{</span>
-        <span class="nv">$Key2</span>.DeleteSubKey<span class="o">(</span><span class="nv">$KeyPath3</span><span class="o">)</span>
-    <span class="o">}</span>
-<span class="o">}</span>
+    </span><span class="nv">$Key3</span><span class="o">.</span><span class="nf">DeleteSubKey</span><span class="p">(</span><span class="nv">$KeyPath4</span><span class="p">)</span><span class="w">
+    </span><span class="kr">If</span><span class="w"> </span><span class="p">(</span><span class="nv">$Key3</span><span class="o">.</span><span class="nf">SubKeyCount</span><span class="w"> </span><span class="o">-eq</span><span class="w"> </span><span class="nx">0</span><span class="w"> </span><span class="o">-and</span><span class="w"> </span><span class="nv">$Key3</span><span class="o">.</span><span class="nf">ValueCount</span><span class="w"> </span><span class="o">-eq</span><span class="w"> </span><span class="nx">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nv">$Key2</span><span class="o">.</span><span class="nf">DeleteSubKey</span><span class="p">(</span><span class="nv">$KeyPath3</span><span class="p">)</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
 
-<span class="c1">#Set-PinTaskbar("C:\windows\system32\notepad.exe");</span>
-<span class="c1">#Set-PinTaskbar("C:\windows\system32\calc.exe");</span></code></pre></figure>
+</span><span class="c">#Set-PinTaskbar("C:\windows\system32\notepad.exe");</span><span class="w">
+</span><span class="c">#Set-PinTaskbar("C:\windows\system32\calc.exe");</span></code></pre></figure>
 
 
 
@@ -682,11 +682,11 @@
                         <ul id="website-stats-list">
                             <li>
                                 <a href="">Published Blog Posts:</a> <br>
-                                <div class="stat_count stat_count1">18</div>
+                                <div class="stat_count stat_count1">17</div>
                             </li>
                             <li>
                                 <a href="">Published Tutorials:</a> <br>
-                                <div class="stat_count stat_count2">7</div>
+                                <div class="stat_count stat_count2">5</div>
                             </li>
                             <li>
                                 <a href="">Published Work Portfolio Items:</a> <br>

@@ -1,17 +1,21 @@
 ---
 ---
+  //global selectors
 body {
   background: url("../../static/img/subtle_dots_@2X.png");
   font-weight: 400;
 }
 
-.profile-image {
-  border: 5px solid rgba(0, 0, 0, 0.2);
-}
 
-.site-container {
+#site-container {
   padding-top: 80px;
   padding-bottom: 20px;
+}
+
+#side {
+  .profile-image {
+    border: 5px solid rgba(0, 0, 0, 0.2);
+  }
 }
 
 .icon {
@@ -682,7 +686,7 @@ W
 
 .ham8.active .top {
   stroke-dashoffset: -64px;
-}W
+}
 
 .ham8.active .middle {
   transform: rotate(90deg);
@@ -690,4 +694,36 @@ W
 
 .ham8.active .bottom {
   stroke-dashoffset: -64px;
+}
+
+
+.email-subscription-cta {
+  background: #efefef;
+  padding: 20px;
+
+  h2 {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  .wj-contact-form {
+    input {
+      vertical-align: middle;
+      margin-top: 0.25em;
+      margin-bottom: 0.5em;
+      padding: 0.75em;
+      font-family: monospace, sans-serif;
+      border: 1px solid #444;
+      outline-color: #2e83e6;
+      border-radius: 3px;
+      transition: box-shadow .2s ease;
+    }
+
+    input[type="submit"] {
+      background-color: #2e83e6;
+      border: 1px solid #2e83e6;;
+      color: #eee;
+    }
+  }
 }
