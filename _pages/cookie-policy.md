@@ -27,11 +27,11 @@ This is the Cookie Policy for Joel Murphy's personal website, accessible at [htt
 
 <ul>    
     <li>
-        <p>Email newsletters related cookies</p>
+        <p>Email newsletter related cookies</p>
         <p>This site offers newsletter or email subscription services and cookies may be used to remember if you are already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed users.</p>
     </li>
     <li>
-        <p>Forms related cookies</p>
+        <p>Form related cookies</p>
         <p>When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.</p>
     </li>
     

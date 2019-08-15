@@ -1725,7 +1725,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
     var showPostByTag = function(tag, name) {
         $("#currently-showing").show();
         $(".card-post").hide();
-        $(".tag").removeClass("bg-warning")
+        $(".tag").removeClass("selected")
             .addClass("bg-white")
             .removeClass("text-dark");
         $(".card-post").each(function(idx, card) {
@@ -1733,7 +1733,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
             if (matches.length > 0) $(card).show()
         });
         $(".tag-" + tag).removeClass("bg-white")
-            .addClass("bg-warning")
+            .addClass("selected")
             .addClass("text-dark")
             .blur();
         $("#active-tag").html(name);
@@ -1742,7 +1742,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
     var clearTags = function() {
         $("#currently-showing").hide();
         $(".card-post").show();
-        $(".tag").removeClass("bg-warning")
+        $(".tag").removeClass("selected")
             .addClass("bg-white")
             .removeClass("text-dark");
         document.location.hash = "";

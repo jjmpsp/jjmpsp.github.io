@@ -240,71 +240,73 @@
 
 
 
-<div class="space-before" style="z-index: 0 !important;margin-top:10px;">
-    <div class="card bg-white">
-        <div class="card-body p-2">
-            <div class="card-title">
-                <h5 style="color:#000;font-weight:400;">Filter Work Portfolio by Skills:</h5>
-            </div>
-            
+<ul class="accordion">
+    <li>
+        <a class="toggle" href="javascript:void(0);">
+            Filter Work Portfolio by Skills: <span style="float:right;">▼</span>
+        </a>
+        <ul class="inner" style="display: none;">
+            <li class="mlm15">
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-doctrine-orm"
                    href="#doctrine-orm">
                     Doctrine ORM
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-html"
                    href="#html">
                     HTML
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-javascript"
                    href="#javascript">
                     JavaScript
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-mysql"
                    href="#mysql">
                     MySQL
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-php"
                    href="#php">
                     PHP
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-project-management"
                    href="#project-management">
                     Project Management
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-team-leadership"
                    href="#team-leadership">
                     Team Leadership
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-technical-architecture"
                    href="#technical-architecture">
                     Technical Architecture
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-user-interface-design"
                    href="#user-interface-design">
                     User Interface Design
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-web-design"
                    href="#web-design">
                     Web Design
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-windows-server"
                    href="#windows-server">
                     Windows Server
                 </a>
-            
-        </div>
-    </div>
-</div>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
 </div>
 
 <div id="currently-showing">
@@ -632,7 +634,7 @@
     var showPostByTag = function(tag, name) {
         $("#currently-showing").show();
         $(".card-post").hide();
-        $(".tag").removeClass("bg-warning")
+        $(".tag").removeClass("selected")
             .addClass("bg-white")
             .removeClass("text-dark");
         $(".card-post").each(function(idx, card) {
@@ -640,7 +642,7 @@
             if (matches.length > 0) $(card).show()
         });
         $(".tag-" + tag).removeClass("bg-white")
-            .addClass("bg-warning")
+            .addClass("selected")
             .addClass("text-dark")
             .blur();
         $("#active-tag").html(name);
@@ -649,7 +651,7 @@
     var clearTags = function() {
         $("#currently-showing").hide();
         $(".card-post").show();
-        $(".tag").removeClass("bg-warning")
+        $(".tag").removeClass("selected")
             .addClass("bg-white")
             .removeClass("text-dark");
         document.location.hash = "";
@@ -835,71 +837,73 @@
 
 
 
-<div class="space-before" style="z-index: 0 !important;margin-top:10px;">
-    <div class="card bg-white">
-        <div class="card-body p-2">
-            <div class="card-title">
-                <h5 style="color:#000;font-weight:400;">Filter Work Portfolio by Skills:</h5>
-            </div>
-            
+<ul class="accordion">
+    <li>
+        <a class="toggle" href="javascript:void(0);">
+            Filter Work Portfolio by Skills: <span style="float:right;">▼</span>
+        </a>
+        <ul class="inner" style="display: none;">
+            <li class="mlm15">
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-doctrine-orm"
                    href="#doctrine-orm">
                     Doctrine ORM
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-html"
                    href="#html">
                     HTML
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-javascript"
                    href="#javascript">
                     JavaScript
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-mysql"
                    href="#mysql">
                     MySQL
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-php"
                    href="#php">
                     PHP
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-project-management"
                    href="#project-management">
                     Project Management
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-team-leadership"
                    href="#team-leadership">
                     Team Leadership
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-technical-architecture"
                    href="#technical-architecture">
                     Technical Architecture
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-user-interface-design"
                    href="#user-interface-design">
                     User Interface Design
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-web-design"
                    href="#web-design">
                     Web Design
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-windows-server"
                    href="#windows-server">
                     Windows Server
                 </a>
-            
-        </div>
-    </div>
-</div>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
 
 
 

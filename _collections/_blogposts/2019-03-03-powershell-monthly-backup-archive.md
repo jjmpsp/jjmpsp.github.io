@@ -12,8 +12,8 @@ Today I want to share a super handy Powershell snippet for creating monthly arch
 
 <!--more-->
 
-```
-$LogArchiveDirectory = "G:\_awstats_temp"
+{% highlight powershell %}
+$LogArchiveDirectory = "C:\logs\unorganised"
 
 get-childitem | % {
 
@@ -25,5 +25,5 @@ get-childitem | % {
     new-item -type Directory -path "$LogArchiveDirectory\$year\$month" -Force
     move-item $file "$LogArchiveDirectory\$year\$month"
 }
-```
+{% endhighlight %}
 

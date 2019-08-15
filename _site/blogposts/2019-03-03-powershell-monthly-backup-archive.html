@@ -69,7 +69,7 @@
 
 
 
-$LogArchiveDirectory = "G:\_awstats_temp"
+$LogArchiveDirectory = "C:\logs\unorganised"
 
 get-childitem | % {
 
@@ -81,7 +81,6 @@ get-childitem | % {
     new-item -type Directory -path "$LogArchiveDirectory\$year\$month" -Force
     move-item $file "$LogArchiveDirectory\$year\$month"
 }
-
 
 " property="og:description">
 
@@ -267,19 +266,18 @@ get-childitem | % {
 
 <!--more-->
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$LogArchiveDirectory = "G:\_awstats_temp"
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nv">$LogArchiveDirectory</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"C:\logs\unorganised"</span><span class="w">
 
-get-childitem | % {
+</span><span class="nf">get-childitem</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="p">{</span><span class="w">
 
-    $file = $_.FullName
-    $date = Get-Date ($_.LastWriteTime)
-    $month = $date.month
-    $year = $date.year
+    </span><span class="nv">$file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">$_</span><span class="o">.</span><span class="nf">FullName</span><span class="w">
+    </span><span class="nv">$date</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">Get-Date</span><span class="w"> </span><span class="p">(</span><span class="bp">$_</span><span class="o">.</span><span class="nf">LastWriteTime</span><span class="p">)</span><span class="w">
+    </span><span class="nv">$month</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$date</span><span class="o">.</span><span class="nf">month</span><span class="w">
+    </span><span class="nv">$year</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$date</span><span class="o">.</span><span class="nf">year</span><span class="w">
 
-    new-item -type Directory -path "$LogArchiveDirectory\$year\$month" -Force
-    move-item $file "$LogArchiveDirectory\$year\$month"
-}
-</code></pre></div></div>
+    </span><span class="nf">new-item</span><span class="w"> </span><span class="nt">-type</span><span class="w"> </span><span class="nx">Directory</span><span class="w"> </span><span class="nt">-path</span><span class="w"> </span><span class="s2">"</span><span class="nv">$LogArchiveDirectory</span><span class="s2">\</span><span class="nv">$year</span><span class="s2">\</span><span class="nv">$month</span><span class="s2">"</span><span class="w"> </span><span class="nt">-Force</span><span class="w">
+    </span><span class="nf">move-item</span><span class="w"> </span><span class="nv">$file</span><span class="w"> </span><span class="s2">"</span><span class="nv">$LogArchiveDirectory</span><span class="s2">\</span><span class="nv">$year</span><span class="s2">\</span><span class="nv">$month</span><span class="s2">"</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
 
 
 

@@ -453,6 +453,15 @@ layout: compress
 ---
 ```
 
+### Code syntax highlighting
+This is done by an external plugin. See https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers for full docs.
+
+```
+{% highlight javascript %}
+    ...JS here...
+{% endhighlight %}
+```
+
 ### Specifying elements to be lazy loaded
 http://jquery.eisbehr.de/lazy/
 

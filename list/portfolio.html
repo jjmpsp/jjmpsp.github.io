@@ -50,7 +50,7 @@ permalink: /portfolio
     var showPostByTag = function(tag, name) {
         $("#currently-showing").show();
         $(".card-post").hide();
-        $(".tag").removeClass("bg-warning")
+        $(".tag").removeClass("selected")
             .addClass("bg-white")
             .removeClass("text-dark");
         $(".card-post").each(function(idx, card) {
@@ -58,7 +58,7 @@ permalink: /portfolio
             if (matches.length > 0) $(card).show()
         });
         $(".tag-" + tag).removeClass("bg-white")
-            .addClass("bg-warning")
+            .addClass("selected")
             .addClass("text-dark")
             .blur();
         $("#active-tag").html(name);
@@ -67,7 +67,7 @@ permalink: /portfolio
     var clearTags = function() {
         $("#currently-showing").hide();
         $(".card-post").show();
-        $(".tag").removeClass("bg-warning")
+        $(".tag").removeClass("selected")
             .addClass("bg-white")
             .removeClass("text-dark");
         document.location.hash = "";

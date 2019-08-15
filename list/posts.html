@@ -57,7 +57,7 @@ narrow: false
     var showPostByTag = function(tag, name) {
         $("#currently-showing").show();
         $(".card-post").hide();
-        $(".tag").removeClass("bg-warning")
+        $(".tag").removeClass("selected")
             .addClass("bg-white")
             .removeClass("text-dark");
         $(".card-post").each(function(idx, card) {
@@ -65,7 +65,7 @@ narrow: false
             if (matches.length > 0) $(card).show()
         });
         $(".tag-" + tag).removeClass("bg-white")
-            .addClass("bg-warning")
+            .addClass("selected")
             .addClass("text-dark")
             .blur();
         $("#active-tag").html(name);
@@ -74,7 +74,7 @@ narrow: false
     var clearTags = function() {
         $("#currently-showing").hide();
         $(".card-post").show();
-        $(".tag").removeClass("bg-warning")
+        $(".tag").removeClass("selected")
             .addClass("bg-white")
             .removeClass("text-dark");
         document.location.hash = "";
