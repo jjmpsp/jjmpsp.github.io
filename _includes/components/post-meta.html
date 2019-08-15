@@ -1,10 +1,7 @@
 <div class="space-before" style="z-index: 0 !important;margin-top:10px;">
     <div class="card bg-white mb-3">
         <div class="card-body">
-            <div class="card-title">
-                <span class="icon grey mr-2">
-                    {% include entypo/calendar.svg %}
-                </span>
+            <div class="card-title">gg
                 <date>{{ page.date | date_to_string }}</date>
             </div>
             <div class="d-flex flex-wrap align-items-center">
@@ -12,7 +9,7 @@
                     {%include entypo/price-tag.svg %}
                 </span>
                 {% for tag in page.tags %}
-                    <a href="{{ site.baseurl }}{% link list/posts.html %}#{{ tag | slugify }}"
+                    <a href="{{ site.baseurl }}#{{ tag | slugify }}"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         {{ tag }}
                     </a>
@@ -22,7 +19,7 @@
                 <span class="icon grey mr-1">
                     {% include entypo/arrow-left.svg %}
                 </span>
-                <a href="{{ site.baseurl }}{% link list/posts.html %}">Back to all posts</a>
+
             </div>
         </div>
     </div>

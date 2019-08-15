@@ -1,0 +1,25 @@
+{
+"pages": [
+
+{
+"title": "Three years of computer science in a day",
+"link": "/blogposts/2018-05-10-three-years-of-computer-science-summary.html"
+}
+,
+{
+"title": "Using git as a backup solution is a really bad idea.",
+"link": "/blogposts/2018-10-10-using-git-as-backup-solution-bad-idea.html"
+}
+,
+{
+"title": "Understanding the core concepts of Kubernetes",
+"link": "/blogposts/2018-10-10-understanding-the-core-concepts-of-kubernetes.html"
+}
+]
+
+,"next": "/api/blogposts-3.json"
+
+
+,"prev": "/api/blogposts-1.json"
+
+}

@@ -1,0 +1,18 @@
+{
+"pages": [
+
+{
+"title": "How to pin programs to taskbar with powershell in Windows 10 or Windows Server 2012+",
+"link": "/blogposts/2019-5-5-windows-10-powershell-copy-app-to-taskbar.html"
+}
+,
+{
+"title": "Downloading Google Chrome without internet",
+"link": "/blogposts/2019-07-07-download-google-chrome-without-internet.html"
+}
+]
+
+
+,"prev": "/api/blogposts-5.json"
+
+}

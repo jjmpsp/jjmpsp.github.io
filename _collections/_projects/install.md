@@ -74,7 +74,6 @@ This is Jekyll so you are able into the HTML and make this theme do what you nee
 
 ## HTML Content
 
-Jekyll lets you mix HTML into Markdown in the content, so it is possible to utilise Bootstrap 4's components. The [blog posts]({{ site.baseurl }}{% link list/posts.html %}) have some examples.
-
+Jekyll lets you mix HTML into Markdown in the content, so it is possible to utilise Bootstrap 4's components.
 
 

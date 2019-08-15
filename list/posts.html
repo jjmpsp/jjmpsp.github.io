@@ -1,8 +1,11 @@
 ---
 title: Joel's Blog posts by year
 show_tags: true
-permalink: blog
+permalink: /blog/
 narrow: false
+pagination:
+    collection: blogposts
+    enabled: true
 ---
 
 <div class="d-md-block d-lg-none mb-3" id="tags-filter">
@@ -20,8 +23,7 @@ narrow: false
 </div>
 
 {% capture written_year %}'None'{% endcapture %}
-{% for post in site.blogposts %}
-
+{% for post in paginator.posts %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 
     {% if year != written_year %}
@@ -32,8 +34,53 @@ narrow: false
     {% endif %}
 
     {% include components/post-card.html %}
-
 {% endfor %}
+
+<!-- Just some nice to have styles for the pager buttons -->
+<style>
+    ul.pager { text-align: center; list-style: none; }
+    ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+    .selected{ background-color: magenta; }
+</style>
+
+<div class="home">
+    {% if paginator.total_pages > 1 %}
+
+    <ul class="pager">
+        {% if paginator.first_page %}
+        <li class="previous">
+            <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">First</a>
+        </li>
+        {% endif %}
+
+        {% if paginator.previous_page %}
+        <li class="previous">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        </li>
+        {% endif %}
+
+        {% if paginator.page_trail %}
+        {% for trail in paginator.page_trail %}
+        <li {% if page.url == trail.path %}class="selected"{% endif %}>
+            <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
+        </li>
+        {% endfor %}
+        {% endif %}
+
+        {% if paginator.next_page %}
+        <li class="next">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        </li>
+        {% endif %}
+
+        {% if paginator.last_page %}
+        <li class="previous">
+            <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">Last</a>
+        </li>
+        {% endif %}
+    </ul>
+    {% endif %}
+</div>
 
 {% include toc-scroll-to-top.html excludeHierarchy=true %}
 
