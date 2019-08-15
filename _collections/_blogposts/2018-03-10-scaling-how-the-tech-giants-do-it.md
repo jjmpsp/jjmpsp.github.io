@@ -15,7 +15,7 @@ all share one common problem: How to scale to Millions, or even Billions of user
 
 <!--more-->
 
-The foundations of the internet.
+To understand scaling we must understand the foundations of the internet.
 
 Keep in mind that the internet is just a massive network of connected computers.
 

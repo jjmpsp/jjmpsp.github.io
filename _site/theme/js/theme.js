@@ -1,16 +1,12 @@
-/*!
+$(document).ready(function () {
+    'use strict';
+
+    /*!
     * IE10 viewport hack for Surface/desktop Windows 8 bug
     * Copyright 2014-2017 The Bootstrap Authors
     * Copyright 2014-2017 Twitter, Inc.
     * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
     */
-
-// See the Getting Started docs for more information:
-// https://getbootstrap.com/getting-started/#support-ie10-width
-
-(function () {
-    'use strict';
-
     if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
         var msViewportStyle = document.createElement('style');
         msViewportStyle.appendChild(
@@ -20,4 +16,21 @@
         );
         document.head.appendChild(msViewportStyle);
     }
-}());
+
+    /*!
+    * Random ad display
+    */
+    const adBlockElem = $(".ad-block");
+    let adCount = adBlockElem.length;
+    console.log(adCount);
+
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    const randomInt = getRandomInt(adCount);
+    console.log(randomInt)
+    $(adBlockElem[randomInt]).show();
+});
+
+

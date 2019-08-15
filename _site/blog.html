@@ -66,7 +66,9 @@
 
 
 <meta content="
-    {% include components/all-tags.html %}
+    {% if page.show_tags %}
+        {% include components/all-tags.html %}
+    {% endif %}
 
 
 
@@ -250,6 +252,7 @@
 
 <div class="d-md-block d-lg-none mb-3" id="tags-filter">
     
+        
 
 
 
@@ -270,206 +273,209 @@
 
 
 
-<div class="space-before" style="z-index: 0 !important;margin-top:10px;">
-    <div class="card bg-white">
-        <div class="card-body p-2">
-            <div class="card-title">
-                <h5>Filter Blog Posts by Tag:</h5>
-            </div>
-            
+<ul class="accordion">
+    <li>
+        <a class="toggle" href="javascript:void(0);">
+            Filter Blog Posts by Tag: <span style="float:right;">▼</span>
+        </a>
+        <ul class="inner" style="display: none;">
+            <li class="mlm15">
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-best"
                    href="#best">
                     Best
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-cardiff"
                    href="#cardiff">
                     Cardiff
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-city"
                    href="#city">
                     City
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-wales"
                    href="#wales">
                     Wales
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-archive"
                    href="#archive">
                     archive
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-automation"
                    href="#automation">
                     automation
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-backend"
                    href="#backend">
                     backend
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-backups"
                    href="#backups">
                     backups
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-chrome"
                    href="#chrome">
                     chrome
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-cms"
                    href="#cms">
                     cms
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-code"
                    href="#code">
                     code
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-computers"
                    href="#computers">
                     computers
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-development"
                    href="#development">
                     development
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-download"
                    href="#download">
                     download
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-ethics"
                    href="#ethics">
                     ethics
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-export"
                    href="#export">
                     export
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-facebook"
                    href="#facebook">
                     facebook
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-google"
                    href="#google">
                     google
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-jekyll"
                    href="#jekyll">
                     jekyll
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-lazy"
                    href="#lazy">
                     lazy
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-liquid"
                    href="#liquid">
                     liquid
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-migration"
                    href="#migration">
                     migration
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-monthly"
                    href="#monthly">
                     monthly
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-offline"
                    href="#offline">
                     offline
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-open-source"
                    href="#open-source">
                     open source
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-organised"
                    href="#organised">
                     organised
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-oss"
                    href="#oss">
                     oss
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-pin"
                    href="#pin">
                     pin
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-plugins"
                    href="#plugins">
                     plugins
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-powershell"
                    href="#powershell">
                     powershell
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-server"
                    href="#server">
                     server
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-smart-home"
                    href="#smart-home">
                     smart home
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-studio"
                    href="#studio">
                     studio
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-taskbar"
                    href="#taskbar">
                     taskbar
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-visual"
                    href="#visual">
                     visual
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-visual-studio-code"
                    href="#visual-studio-code">
                     visual studio code
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-windows"
                    href="#windows">
                     windows
                 </a>
-            
+                
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-wordpress"
                    href="#wordpress">
                     wordpress
                 </a>
-            
-        </div>
-    </div>
-</div>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+    
 </div>
 
 <div id="currently-showing">
@@ -492,7 +498,7 @@
         
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html">How to loop over all collection types in Jekyll</a>
@@ -525,7 +531,7 @@
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -552,7 +558,7 @@
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2018-03-10-scaling-how-the-tech-giants-do-it.html">How do tech giants scale to millions or billions of users?</a>
@@ -585,7 +591,7 @@
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -618,7 +624,7 @@ all share one common problem: How to scale to Millions, or even Billions of user
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2018-05-10-three-years-of-computer-science-summary.html">Three years of computer science in a day</a>
@@ -651,7 +657,7 @@ all share one common problem: How to scale to Millions, or even Billions of user
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -680,7 +686,7 @@ all share one common problem: How to scale to Millions, or even Billions of user
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html">Why I ditched wordpress for Jekyll</a>
@@ -713,7 +719,7 @@ all share one common problem: How to scale to Millions, or even Billions of user
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -755,7 +761,7 @@ I used to be a wordpress developer myself, but sometimes I asked myself ‘why�
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2018-10-10-understanding-the-core-concepts-of-kubernetes.html">Understanding the core concepts of Kubernetes</a>
@@ -788,7 +794,7 @@ I used to be a wordpress developer myself, but sometimes I asked myself ‘why�
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -828,7 +834,7 @@ Git is a version control system and this should be its only purpose. You should 
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2018-10-10-using-git-as-backup-solution-bad-idea.html">Using git as a backup solution is a really bad idea.</a>
@@ -861,7 +867,7 @@ Git is a version control system and this should be its only purpose. You should 
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -902,7 +908,7 @@ Git is a version control system and this should be its only purpose. You should 
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2018-10-11-gdpr-waste-of-time.html">GDPR - Was it a waste of time?</a>
@@ -935,7 +941,7 @@ Git is a version control system and this should be its only purpose. You should 
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -975,7 +981,7 @@ Git is a version control system and this should be its only purpose. You should 
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2018-11-11-how-far-should-we-go-with-automation.html">How far should we go with Automation?</a>
@@ -1008,7 +1014,7 @@ Git is a version control system and this should be its only purpose. You should 
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-automation">
                         automation
@@ -1056,7 +1062,7 @@ Git is a version control system and this should be its only purpose. You should 
         
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2019-01-01-ten-reasons-why-cardiff-is-the-best-city-in-the-world.html">10 Reasons Why Cardiff Is the Best City In The World</a>
@@ -1089,7 +1095,7 @@ Git is a version control system and this should be its only purpose. You should 
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-cardiff">
                         Cardiff
@@ -1131,7 +1137,7 @@ Scared you won’t fit in here? I bet you will.</p>
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2019-02-02-best-resources-for-jekyll-website-development.html">Top resources for Jekyll Website Development</a>
@@ -1164,7 +1170,7 @@ Scared you won’t fit in here? I bet you will.</p>
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -1194,7 +1200,7 @@ To keep things simple, Liquid allows you to perform operations on . ‘piped thr
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2019-02-02-new-emojis-for-2019.html">New emoji set for 2019</a>
@@ -1227,7 +1233,7 @@ To keep things simple, Liquid allows you to perform operations on . ‘piped thr
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
                         jekyll
@@ -1263,7 +1269,7 @@ Apple will soon implement the new unicode character set into their Operating Sys
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2019-02-11-my-backend-is-faster-than-yours.html">My backend is faster than yours...</a>
@@ -1296,7 +1302,7 @@ Apple will soon implement the new unicode character set into their Operating Sys
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-backend">
                         backend
@@ -1326,7 +1332,7 @@ Evaluating different frameworks for a website’s front-end is pretty easy. My t
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2019-02-11-why-facebook-has-smashed-open-source.html">My backend is faster than yours...</a>
@@ -1359,7 +1365,7 @@ Evaluating different frameworks for a website’s front-end is pretty easy. My t
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-facebook">
                         facebook
@@ -1398,10 +1404,10 @@ Evaluating different frameworks for a website’s front-end is pretty easy. My t
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
-            <a href="http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html">Organising backups in a monthly folder structure</a>
+            <a href="http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html">Organising backups in a monthly folder structure with Powershell</a>
         </h4>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2">
@@ -1431,7 +1437,7 @@ Evaluating different frameworks for a website’s front-end is pretty easy. My t
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-powershell">
                         powershell
@@ -1456,13 +1462,11 @@ Evaluating different frameworks for a website’s front-end is pretty easy. My t
             </div>
         </div>
         <div class="card-text mb-0">
-            <p>If you’ve ever thought of completing a degree in Computer Science, then chances are you’re already interested enough in the topic. But is completing a degree in Computer Science really worth the money?</p>
-
-<p>In this post I will share my personal experience and give you some hints for learning three years of computer science in a single day.</p>
+            <p>Today I want to share a super handy Powershell snippet for creating monthly archives</p>
 
 
         </div>
-        <a href="http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html">Read full post: Organising backups in a monthly folder structure...</a>
+        <a href="http://localhost:4000/blogposts/2019-03-03-powershell-monthly-backup-archive.html">Read full post: Organising backups in a monthly folder structure with Powershell...</a>
     </div>
 </div>
 
@@ -1472,7 +1476,7 @@ Evaluating different frameworks for a website’s front-end is pretty easy. My t
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2019-04-11-vs-code-export-plugins-list-on-windows-unix.html">How to export Visual Studio Code Plugins list</a>
@@ -1505,7 +1509,7 @@ Evaluating different frameworks for a website’s front-end is pretty easy. My t
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-visual">
                         visual
@@ -1549,7 +1553,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2019-5-5-windows-10-powershell-copy-app-to-taskbar.html">How to pin programs to taskbar with powershell in Windows 10 or Windows Server 2012+</a>
@@ -1582,7 +1586,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-windows">
                         windows
@@ -1619,7 +1623,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
 
     
 
-    <div class="card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
+    <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
             <a href="http://localhost:4000/blogposts/2019-07-07-download-google-chrome-without-internet.html">Downloading Google Chrome without internet</a>
@@ -1652,7 +1656,7 @@ Luckily, there is a nice way of doing this through the command line.</p>
 </svg>
 
             </span>
-            <div>
+            <div class="tag-list">
                 
                     <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-google">
                         google
@@ -1755,12 +1759,12 @@ Luckily, there is a nice way of doing this through the command line.</p>
         <div class="card-body text-center">
             
             <div class="card-text" style="border: 1px dotted #888888;padding:20px;margin-bottom:20px;">
-    <p class="card-text">
+    <div class="profile-image-container">
         <a href="/index.html">
             <img class="profile-image rounded-circle w-75 animated pulse" src="/theme/img/avatar.jpg"
                  title="Picture of Joel Murphy" alt="Picture of Joel Murphy"/>
         </a>
-    </p>
+    </div>
 
     <h4 class="card-title" style="color:#000;font-weight:400;">Joel Murphy</h4>
     <div>Senior Full Stack Developer and R&D expert by day. Cloud, DevOps, Infrastructure, and SysAdmin specialist by night.</div>
@@ -1792,11 +1796,11 @@ Luckily, there is a nice way of doing this through the command line.</p>
 
 
             <a href="/list/money-saving.html">
-                <img class="img-responsive lazy-img" style="width:100%;margin-bottom: 15px;" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/money-saving-tips-banner.png" alt="Money Saving Tips by Joel">
+                <img class="img-responsive ad-block" src="/static/img/money-saving-tips-banner.png" alt="Money Saving Tips by Joel">
             </a>
 
             <a href="/list/product-reviews.html">
-                <img class="img-responsive lazy-img" style="width:100%;margin-bottom: 15px;" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/product-reviews-banner.png" alt="Product Reviews by Joel">
+                <img class="img-responsive ad-block" src="/static/img/product-reviews-banner.png" alt="Product Reviews by Joel">
             </a>
 
             <div style="border: 1px dotted #888888;padding:20px;">
@@ -1897,230 +1901,6 @@ Luckily, there is a nice way of doing this through the command line.</p>
 </div>
         </div>
     </div>
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="space-before" style="z-index: 0 !important;margin-top:10px;">
-    <div class="card bg-white">
-        <div class="card-body p-2">
-            <div class="card-title">
-                <h5>Filter Blog Posts by Tag:</h5>
-            </div>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-best"
-                   href="#best">
-                    Best
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-cardiff"
-                   href="#cardiff">
-                    Cardiff
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-city"
-                   href="#city">
-                    City
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-wales"
-                   href="#wales">
-                    Wales
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-archive"
-                   href="#archive">
-                    archive
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-automation"
-                   href="#automation">
-                    automation
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-backend"
-                   href="#backend">
-                    backend
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-backups"
-                   href="#backups">
-                    backups
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-chrome"
-                   href="#chrome">
-                    chrome
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-cms"
-                   href="#cms">
-                    cms
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-code"
-                   href="#code">
-                    code
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-computers"
-                   href="#computers">
-                    computers
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-development"
-                   href="#development">
-                    development
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-download"
-                   href="#download">
-                    download
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-ethics"
-                   href="#ethics">
-                    ethics
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-export"
-                   href="#export">
-                    export
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-facebook"
-                   href="#facebook">
-                    facebook
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-google"
-                   href="#google">
-                    google
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-jekyll"
-                   href="#jekyll">
-                    jekyll
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-lazy"
-                   href="#lazy">
-                    lazy
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-liquid"
-                   href="#liquid">
-                    liquid
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-migration"
-                   href="#migration">
-                    migration
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-monthly"
-                   href="#monthly">
-                    monthly
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-offline"
-                   href="#offline">
-                    offline
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-open-source"
-                   href="#open-source">
-                    open source
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-organised"
-                   href="#organised">
-                    organised
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-oss"
-                   href="#oss">
-                    oss
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-pin"
-                   href="#pin">
-                    pin
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-plugins"
-                   href="#plugins">
-                    plugins
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-powershell"
-                   href="#powershell">
-                    powershell
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-server"
-                   href="#server">
-                    server
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-smart-home"
-                   href="#smart-home">
-                    smart home
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-studio"
-                   href="#studio">
-                    studio
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-taskbar"
-                   href="#taskbar">
-                    taskbar
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-visual"
-                   href="#visual">
-                    visual
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-visual-studio-code"
-                   href="#visual-studio-code">
-                    visual studio code
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-windows"
-                   href="#windows">
-                    windows
-                </a>
-            
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-wordpress"
-                   href="#wordpress">
-                    wordpress
-                </a>
-            
-        </div>
-    </div>
-</div>
 
 
 

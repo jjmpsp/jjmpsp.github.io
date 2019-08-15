@@ -1,17 +1,19 @@
 {% include utilities/group-by-array.html collection=site.blogposts field="tags" %}
 
-<div class="space-before" style="z-index: 0 !important;margin-top:10px;">
-    <div class="card bg-white">
-        <div class="card-body p-2">
-            <div class="card-title">
-                <h5>Filter Blog Posts by Tag:</h5>
-            </div>
-            {% for tag in group_names %}
+<ul class="accordion">
+    <li>
+        <a class="toggle" href="javascript:void(0);">
+            Filter Blog Posts by Tag: <span style="float:right;">▼</span>
+        </a>
+        <ul class="inner" style="display: none;">
+            <li class="mlm15">
+                {% for tag in group_names %}
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-{{ tag | slugify }}"
                    href="#{{tag | slugify}}">
                     {{ tag }}
                 </a>
-            {% endfor %}
-        </div>
-    </div>
-</div>
+                {% endfor %}
+            </li>
+        </ul>
+    </li>
+</ul>

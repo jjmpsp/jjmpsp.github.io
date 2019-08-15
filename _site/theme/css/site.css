@@ -347,15 +347,19 @@ ul.accordion .description {
   margin-top: 10px; }
 
 /* Mobile only */
+@media (max-width: 572px) {
+  .profile-image-container {
+    width: 180px;
+    margin: 0 auto 10px; } }
 @media (max-width: 767px) {
   #float-toc {
     bottom: 75px;
     width: 100%; }
 
   .breadcrumb {
-    overflow-x: scroll !important;
     display: -webkit-box !important;
-    display: -moz-box; }
+    display: -moz-box;
+    overflow-x: auto !important; }
 
   #toggleStickyFooter, #toggleTableOfContents {
     line-height: 70px;
@@ -548,7 +552,25 @@ ul.accordion .description {
   border: 1px solid #2e83e6;
   color: #eee; }
 
+#tags-filter ul.accordion ul {
+  border: 1px solid #e9ecef;
+  display: block;
+  padding: 10px 25px;
+  border-top: none;
+  margin-top: -2px; }
 #tags-filter a:hover {
   border-bottom: 1px solid #dee2e6 !important; }
 #tags-filter h5 {
   font-weight: 400; }
+
+.blog-item h4 {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 27px; }
+.blog-item .tag-list span {
+  font-size: 12px; }
+
+.ad-block {
+  width: 100%;
+  margin-bottom: 15px;
+  display: none; }

@@ -13,16 +13,13 @@ postType: Blog Post
     </button>
 </h1>
 
-<div class="">
-    {% include components/post-meta.html %}
-</div>
-
 {% include social-share-bar.html postType=layout.postType %}
 
 <hr>
 
 {{ content }}
 
+{% include components/post-meta.html %}
 
 {% if page.excludeHierarchy == true %}
     {% include toc-scroll-to-top.html excludeHierarchy=true %}

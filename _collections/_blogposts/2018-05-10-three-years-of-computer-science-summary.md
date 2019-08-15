@@ -12,6 +12,7 @@ In this post I will share my personal experience and give you some hints for lea
 <!--more-->
 
 So was it worth it? For the experience: Yes
+
 For the actual learning content: No
 
 Before you even consider completing any degree you should absolutely consider what you expect from it. Degrees are very expensive and although the debt goes un-noticed to many, there's a chance that it may have an impact on you forever
