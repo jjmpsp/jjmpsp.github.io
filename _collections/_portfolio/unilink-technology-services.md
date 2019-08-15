@@ -11,18 +11,12 @@ skills:
 
 ## About Unilink Technology Services
 
-Wayne Enterprises, Inc., also known as WayneCorp, is a fictional company appearing in American comic books published by DC Comics, commonly in association with the superhero Batman.
-
-The American diversified multinational conglomerate is owned and chaired by Bruce Wayne, who is also Batman. Wayne Enterprises is a green company based out of Gotham City and headquartered in Wayne Tower.
-
-Wayne Enterprises and the Wayne Foundation are largely run by Bruce Wayne's business manager Lucius Fox. Fox makes most company decisions on Bruce Wayne's behalf, since Wayne's time is largely occupied as the vigilante Batman.
-
-From [https://en.wikipedia.org/wiki/Wayne_Enterprises](https://en.wikipedia.org/wiki/Wayne_Enterprises).
+[TODO]
 
 <div class="card mb-3">
     <img class="card-img-top" src = "/static/img/unilink.png"/>
     <div class="card-body bg-light">
-        <div class="card-text">Screenshot of my work.</div>
+        <div class="card-text">Screenshot of Unilink Technology Services Website.</div>
     </div>
 </div>
 

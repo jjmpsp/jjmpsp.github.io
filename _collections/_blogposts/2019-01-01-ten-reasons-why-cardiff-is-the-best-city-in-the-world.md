@@ -21,9 +21,9 @@ Here are my top 10 reasons why I think Cardiff is the greatest City in the world
 
 ### 10. It's small enough to walk pretty much anywhere you need to go.
 <div class="card mb-3"> 
-    <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/walking.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
+    <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/walking.gif" title="Joel and Regan night out in Cardiff" alt="Cardiff walking">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">Fancy a walk?</div>
     </div>
 </div>
 
@@ -32,7 +32,7 @@ Here are my top 10 reasons why I think Cardiff is the greatest City in the world
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/london.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">Do the London tube trains even stop?</div>
     </div>
 </div>
 
@@ -42,7 +42,7 @@ Don't get me wrong, I love visiting London but one problem I have with it is how
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/drunk.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">Did someone say beer?! 👀</div>
     </div>
 </div>
 
@@ -52,7 +52,7 @@ Everyone loves cheap booze but finding the cheapest
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/university.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text"> Students. Students everywhere...</div>
     </div>
 </div>
 
@@ -62,7 +62,7 @@ Cardiff contains multiple University campuses and this makes it a popular choice
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/parks.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">It does rain a lot in these parks however</div>
     </div>
 </div>
 
@@ -70,7 +70,7 @@ Cardiff contains multiple University campuses and this makes it a popular choice
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/cycle.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">Imagine burning calories without even trying</div>
     </div>
 </div>
 
@@ -80,7 +80,7 @@ Cardiff is relatively flat, meaning cycling around is somewhat easier than other
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/food.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">Get in mah belleh.</div>
     </div>
 </div>
 
@@ -90,7 +90,7 @@ What do you fancy to eat? Maybe a Pizza? Plenty of Italian restaurants. It has c
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/startup.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">So there's plenty of opportunity to make Millions</div>
     </div>
 </div>
 
@@ -101,7 +101,7 @@ Welsh ICE is an award winning
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/sports.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">Don't do this. Nobody likes foul play!</div>
     </div>
 </div>
 
@@ -111,7 +111,7 @@ The Millenium stadium was built in 1999 and is one of the only stadiums in the w
 <div class="card mb-3"> 
     <img class="card-img-top lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/static/img/posts/cardiff-is-awesome/transport.gif" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
-        <div class="card-text"> Joel and Regan on a night out in Cardiff.</div>
+        <div class="card-text">Fasten your seat belts, folks.</div>
     </div>
 </div>
 
