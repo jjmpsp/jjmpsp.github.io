@@ -2,7 +2,13 @@
 .idea
 .jekyll_metadata
 
-# Revert ignoring bootstrap as I may need to edit it from source in future and track changes
+# Revert ignoring bootstrap as I need to edit it from source in future and track changes
+# Leaving in the below example, as found the comments handy
+#!/.vs/              <== include this folder to source control, folder only, nothing else
+#/.vs/*              <== but ignore all files and sub-folder inside this folder
+#!/.vs/ProjectSettings.json <== but include this file to source control
+#!/.vs/config/       <== then include this folder to source control, folder only, nothing else
+#!/.vs/config/*      <== then include all files inside the folder
 !/node_modules/
 /node_modules/*
 !/node_modules/bootstrap/

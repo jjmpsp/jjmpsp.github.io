@@ -456,18 +456,28 @@ layout: compress
 ### Code syntax highlighting
 This is done by an external plugin. See https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers for full docs.
 
-```
+````
 {% highlight javascript %}
     ...JS here...
 {% endhighlight %}
-```
+````
 
 ### Specifying elements to be lazy loaded
 http://jquery.eisbehr.de/lazy/
 
 ### Modifying bootstrap styles
-```"bootstrap": "^4.3.1"``` has been included as a dev dependency within package.json.
+````"bootstrap": "^4.3.1"```` has been included as a dev dependency within package.json.
 To modify bootstrap styles, open this 
+
+Bootstrap's package.json includes the following commands and tasks:
+
+| Task         | Description                                                                                                      |
+|--------------|------------------------------------------------------------------------------------------------------------------|
+| npm run dist | npm run dist creates the /dist/ directory with compiled files. Uses Sass, Autoprefixer, and UglifyJS.            |
+| npm test     | Same as npm run dist plus it runs tests locally                                                                  |
+| npm run docs | Builds and lints CSS and JavaScript for docs. You can then run the documentation locally via npm run docs-serve. |
+
+Run npm run to see all the npm scripts.
 
 ## Changelog
 TODO
