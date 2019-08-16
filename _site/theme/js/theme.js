@@ -22,14 +22,12 @@ $(document).ready(function () {
     */
     const adBlockElem = $(".ad-block");
     let adCount = adBlockElem.length;
-    console.log(adCount);
 
     function getRandomInt(max) {
         return Math.floor(Math.random() * Math.floor(max));
     }
 
     const randomInt = getRandomInt(adCount);
-    console.log(randomInt)
     $(adBlockElem[randomInt]).show();
 });
 
