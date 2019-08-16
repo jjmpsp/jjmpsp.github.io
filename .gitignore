@@ -14,3 +14,5 @@ _algolia_api_key
 /node_modules/*
 !/node_modules/bootstrap/
 !/node_modules/bootstrap/*
+!/node_modules/@fortawesome/
+!/node_modules/@fortawesome/*

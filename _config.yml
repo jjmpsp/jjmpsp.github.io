@@ -32,6 +32,13 @@ pagination:
   limit: 0
 ############################################################
 
+# Algolia search
+############################################################
+algolia:
+  application_id: 'FU05W4UZFC'
+  index_name: 'prod_index'
+  search_only_api_key: 'f25af87c01b2ae2f6578f8d6d0a5497b'
+############################################################
 
 # Conversion
 markdown:         kramdown
