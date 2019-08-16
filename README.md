@@ -465,5 +465,9 @@ This is done by an external plugin. See https://github.com/rouge-ruby/rouge/wiki
 ### Specifying elements to be lazy loaded
 http://jquery.eisbehr.de/lazy/
 
+### Modifying bootstrap styles
+```"bootstrap": "^4.3.1"``` has been included as a dev dependency within package.json.
+To modify bootstrap styles, open this 
+
 ## Changelog
 TODO
