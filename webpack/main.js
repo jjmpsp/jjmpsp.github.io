@@ -1,4 +1,6 @@
-const css = require('./node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css').toString();
-console.log(css);
+const css = require('./test.css').toString();
 
-console.log('DEBUG');
+
+console.log('START DEBUG');
+console.log(css);
+console.log('END DEBUG');

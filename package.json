@@ -2,7 +2,7 @@
   "name": "jjmpsp.github.io",
   "version": "1.0.0",
   "description": "Personal website of Joel Murphy",
-  "main": "main.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node_modules\\.bin\\webpack --watch | jekyll serve --livereload --incremental",
@@ -25,9 +25,8 @@
   "homepage": "https://github.com/jjmpsp/jjmpsp.github.io#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.0.0-rc.1",
     "@fortawesome/fontawesome-free": "^5.10.1",
-    "babel-loader": "^8.0.6",
-    "babel-preset-env": "^1.7.0",
     "bootstrap": "^4.3.1",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
