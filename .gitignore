@@ -4,4 +4,4 @@
 
 node_modules/
 # Revert ignoring bootstrap as I may need to edit it from source in future and track changes
-!node_modules/bootstrap/
+!/node_modules/bootstrap/
