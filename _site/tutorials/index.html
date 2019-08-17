@@ -64,11 +64,11 @@
 
 
 
-<meta content="Joel is a huge fan of continuous learning, personal development, and learning new skills. Joel spends a great amount of time and money resources on new learning materials. He shares this knowledge on his personal website as he believes everyone should be able to receive a free education in topics schools don't teach. {% for tutorial in site.tutorials %} - [{{ tutorial.title }}]({{ site.baseurl }}{{ tutorial.url }}) {% endfor %} Stay in the loop Want..." property="og:description">
+<meta content="Joel is a huge fan of continuous learning, personal development, and learning new skills. Joel spends a great amount of time and money resources on new learning materials. He shares this knowledge on his personal website as he believes everyone should be able to receive a free education in topics schools don't teach. {% for tutorial in site.tutorials %} - [{{ tutorial.title }}]({{ site.baseurl }}{{ tutorial.url }}) {% endfor %} {% include pagination.html %} Stay..." property="og:description">
 
 
 
-<meta content="http://localhost:4000/tutorials" property="og:url">
+<meta content="http://localhost:4000/tutorials/index.html" property="og:url">
 
 
 
@@ -196,6 +196,13 @@
     
     
     
+    <li class="breadcrumb-item">
+        <a href="/tutorials">Tutorials</a>
+    </li>
+    
+    
+    
+    
     
     
     
@@ -213,7 +220,7 @@
     
     
     <li class="breadcrumb-item active">
-        <a href="/tutorials">Joel's Tutorials</a>
+        <a href="/tutorials/index.html">Joel's Tutorials</a>
     </li>
 </ol>
 
@@ -236,6 +243,43 @@
     <p><a href="/tutorials/how-to-make-a-website-load-faster-in-2019.html">How to make a website load faster in 2019 using modern optimisation techniques</a></p>
   </li>
 </ul>
+
+<div style="margin:20px 0;">
+    <style>
+    ul.pager { text-align: center; list-style: none; }
+    ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+    .selected{ background-color: magenta; }
+</style>
+
+<div class="home">
+    
+
+    <ul class="pager">
+        
+        <li class="previous">
+            <a href="/tutorials/">First</a>
+        </li>
+        
+
+        
+
+        
+
+        
+        <li class="next">
+            <a href="/tutorials/page/2/">Older Posts &rarr;</a>
+        </li>
+        
+
+        
+        <li class="previous">
+            <a href="/tutorials/page/2/">Last</a>
+        </li>
+        
+    </ul>
+    
+</div>
+</div>
 
 <div class="email-subscription-cta">
     <h2>Stay in the loop</h2>

@@ -3,6 +3,9 @@ title: Joel's Tutorials
 narrow: false
 permalink: /tutorials
 show_profile: true
+pagination:
+    collection: tutorials
+    enabled: true
 ---
 
 Joel is a huge fan of continuous learning, personal development, and learning new skills. Joel spends a great amount of time and money resources on new learning materials. He shares this knowledge on his personal website as he believes everyone should be able to receive a free education in topics schools don't teach.  
@@ -10,6 +13,10 @@ Joel is a huge fan of continuous learning, personal development, and learning ne
 {% for tutorial in site.tutorials %}
 - [{{ tutorial.title }}]({{ site.baseurl }}{{ tutorial.url }})
 {% endfor %}
+
+<div style="margin:20px 0;">
+    {% include pagination.html %}
+</div>
 
 <div class="email-subscription-cta">
     <h2>Stay in the loop</h2>

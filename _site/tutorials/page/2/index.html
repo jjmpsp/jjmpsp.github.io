@@ -25,7 +25,7 @@
 
     <title>
         
-            Joel's Travels in Great Britain, Europe &middot; Joel Murphy
+            Joel's Tutorials - page 2 &middot; Joel Murphy
         
     </title>
 
@@ -56,7 +56,7 @@
 
     <meta content="Joel Murphy" property="og:site_name">
 
-<meta content="Joel's Travels in Great Britain, Europe" property="og:title">
+<meta content="Joel's Tutorials - page 2" property="og:title">
 
 
 
@@ -64,16 +64,13 @@
 
 
 
-<meta content="Here’s an example for multiple images that uses Bootstrap’s card columns for a Masonry-like layout. It’s not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout. To automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards...." property="og:description">
+<meta content="Joel is a huge fan of continuous learning, personal development, and learning new skills. Joel spends a great amount of time and money resources on new learning materials. He shares this knowledge on his personal website as he believes everyone should be able to receive a free education in topics schools don't teach. {% for tutorial in site.tutorials %} - [{{ tutorial.title }}]({{ site.baseurl }}{{ tutorial.url }}) {% endfor %} {% include pagination.html %} Stay..." property="og:description">
 
 
 
-<meta content="http://localhost:4000/travel/europe/great-britain.html" property="og:url">
+<meta content="http://localhost:4000/tutorials/page/2/index.html" property="og:url">
 
 
-
-<meta content="2019-08-17T16:19:15+01:00" property="article:published_time">
-<meta content="http://localhost:4000/about/" property="article:author">
 
 
 
@@ -81,14 +78,6 @@
 
 
 
-
-
-
-
-
-<meta content="Great Britain" property="article:tag">
-
-<meta content="Travel" property="article:tag">
 
 
 
@@ -181,8 +170,19 @@
         <article class="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-12 pb-4 order-sm-last content" id="content">
             <div class="card bg-white">
                 <div class="card-body">
-                    <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
-    Joel's Travels in Great Britain, Europe
+                    <h1 class="list-title border border-left-0 border-right-0 py-2">
+    Joel's Tutorials - page 2
+
+    <button class="btn btn-sm btn-primary hidden-xs hidden-md" title="Toggle reading view" id="expand-view">
+        <span class="icon grey">
+            <svg version="1.1" id="Resize_full_screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M6.987,10.987l-2.931,3.031L2,11.589V18h6.387l-2.43-2.081l3.03-2.932L6.987,10.987z M11.613,2l2.43,2.081l-3.03,2.932l2,2
+	l2.931-3.031L18,8.411V2H11.613z"/>
+</svg>
+
+        </span>
+    </button>
 </h1>
 
 <ol class="breadcrumb">
@@ -196,21 +196,21 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <li class="breadcrumb-item">
-        <a href="/travel">Travel</a>
+        <a href="/tutorials">Tutorials</a>
     </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -220,77 +220,89 @@
     
     
     <li class="breadcrumb-item active">
-        <a href="/travel/europe/great-britain.html">Joel's Travels in Great Britain, Europe</a>
+        <a href="/tutorials/page/2/index.html">Joel's Tutorials - page 2</a>
     </li>
 </ol>
 
-<script  src="/static/js/jquery.vmap.js"></script>
-<script  src="/static/js/maps/jquery.vmap.world.js"></script>
-<link rel="stylesheet" href="/static/css/jqvmap.min.css"/>
-<style>
-    #vmap .jqvmap-zoomin, #vmap .jqvmap-zoomout {
-        width: 17px;
-        height: 17px;
-    }
+Joel is a huge fan of continuous learning, personal development, and learning new skills. Joel spends a great amount of time and money resources on new learning materials. He shares this knowledge on his personal website as he believes everyone should be able to receive a free education in topics schools don't teach.  
+
+
+- [How to avoid scope creep in I.T projects](/tutorials/how-to-avoid-scope-creep-in-it-projects.html)
+
+- [How to create Docker containers for Windows](/tutorials/how-to-create-docker-containers-for-windows.html)
+
+- [How to get started with software development](/tutorials/how-to-get-started-with-software-development.html)
+
+- [How to install SQL Server Drivers for Apache and PHP on Windows](/tutorials/how-to-install-mssql-drivers-on-windows-apache-php.html)
+
+- [How to make a website load faster in 2019 using modern optimisation techniques](/tutorials/how-to-make-a-website-load-faster-in-2019.html)
+
+
+<div style="margin:20px 0;">
+    <style>
+    ul.pager { text-align: center; list-style: none; }
+    ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+    .selected{ background-color: magenta; }
 </style>
-<script>
-    jQuery(document).ready(function () {
-        jQuery('#vmap').vectorMap({
-            map: 'world_en',
-            backgroundColor: '#00A8DD',
-            selectedRegions: ['AT', 'BE', 'DE'],
-            showTooltip: true,
-            onRegionClick: function(element, code, region)
-            {
-                var message = 'You clicked "'
-                    + region
-                    + '" which has the code: '
-                    + code.toUpperCase();
 
-                alert(message);
-            }
-        });
-    });
-</script>
+<div class="home">
+    
 
-<p>Here’s an example for multiple images that uses Bootstrap’s card columns for a Masonry-like layout. It’s not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout.</p>
+    <ul class="pager">
+        
+        <li class="previous">
+            <a href="/tutorials/">First</a>
+        </li>
+        
 
-<!--more-->
+        
+        <li class="previous">
+            <a href="/tutorials/">&larr; Newer Posts</a>
+        </li>
+        
 
-<p>To automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.</p>
+        
 
-<p>Here’s the card columns in action.</p>
+        
 
-<div class="card-columns">
+        
+        <li class="previous">
+            <a href="/tutorials/page/2/">Last</a>
+        </li>
+        
+    </ul>
     
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=5b1016b885e7438c4633109d77368d4d&amp;auto=format&amp;fit=crop&amp;w=1651&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1445962125599-30f582ac21f4?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=38c096c472ba616dc4e8e76a8069c97a&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1504626835342-6b01071d182e?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=975855d515c9d56352ee3bfe74287f2b&amp;auto=format&amp;fit=crop&amp;w=1651&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=468a8c18f5d811cf03c654b653b5089e&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1506291318501-948562d765d7?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=71ad8e3b7b4bd210182ed5e5c024903b&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1500370414137-9201565cf099?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=95e700b9e28eb7ed7b5769c823741126&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" />
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1500402448245-d49c5229c564?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=f19c590b253f803a7f9b643c59017160&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" />
-    </div>
-    
+</div>
+</div>
+
+<div class="email-subscription-cta">
+    <h2>Stay in the loop</h2>
+    <h4>Want to be notified of recent tutorials, blog posts, money saving tips, and other news?</h4>
+    <p>Subscribe today - it's free of charge and you can opt out at any time if it's not for you.</p> 
+    <form action="" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+        <div class="mc-field-group" style="display:flex; justify-content: space-between;">
+            <input type="email" placeholder="email@domain.com" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" style="flex-basis: 73%;">
+            <input type="submit" value="Subscribe" name="subscribe" style="flex-basis: 25%;">
+        </div>
+    </form>
+</div>
+
+<div id="float-toc">
+    <nav role="navigation" class="table-of-contents">
+        
+
+        <a href="#" class="jumpToTop">
+            <span class="icon grey svg20">
+                <svg version="1.1" id="Arrow_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M10,2.5L16.5,9H13v8H7V9H3.5L10,2.5z"/>
+</svg>
+
+            </span>
+
+            Jump to top of page
+        </a>
+    </nav>
 </div>
 
                 </div>

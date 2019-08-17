@@ -5,6 +5,8 @@ title: Website Credits
 narrow: false
 ---
 
+{% include nav-breadcrumbs.html %}
+
 I'd like to thank everyone who contributed towards making my site functional and awesome.
 
 ### Theme

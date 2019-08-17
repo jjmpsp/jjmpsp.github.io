@@ -2,5 +2,3 @@ const fontAwesomeCSS = require('.././node_modules/@fortawesome/fontawesome-free/
 const bootstrapCSS = require('.././theme/css/bootstrap.css').toString();
 const siteCSS = require('.././_site/theme/css/site.css').toString();
 const syntaxCSS = require('.././theme/css/syntax.css').toString();
-
-console.log(bootstrapCSS);

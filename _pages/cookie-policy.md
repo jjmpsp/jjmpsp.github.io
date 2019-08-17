@@ -4,8 +4,9 @@ permalink: cookie-policy.html
 title: Cookie Policy
 narrow: false
 ---
+{% include nav-breadcrumbs.html %}
 
-### Cookie Policy for Joel Murphy
+### Cookie Policy for joel-murphy.co.uk
 
 This is the Cookie Policy for Joel Murphy's personal website, accessible at [https://joel-murphy.co.uk/cookie-polcicy.html](https://joel-murphy.co.uk/cookie-policy.html).
 
