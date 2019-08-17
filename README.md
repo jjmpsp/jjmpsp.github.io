@@ -479,5 +479,11 @@ Bootstrap's package.json includes the following commands and tasks:
 
 Run npm run to see all the npm scripts.
 
+### Generating an index for algolia
+This site uses algolia for search functionality. When a substantial change is made to content, a reindex should be issued.
+An admin key available from https://www.algolia.com/apps/FU05W4UZFC/api-keys/all should be copied into a file called _algolia_api_key
+
+Now run ````bundle exec jekyll algolia```` to create and upload an index.
+
 ## Changelog
 TODO
