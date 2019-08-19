@@ -3,6 +3,8 @@ title: Product Reviews
 narrow: false
 permalink: list/product-reviews.html
 show_profile: true
+description: Product reviews by Joel Murphy.
+ogDescription: Product reviews by Joel Murphy.
 ---
 
 {% for product_review in site.product_reviews %}

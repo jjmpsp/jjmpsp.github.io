@@ -7,8 +7,8 @@ tags:
 
 Has the thought of scaling ever crossed your mind?
 
-Keeping a service online is a 24 hour operation. If you work in I.T then theres a chance that 
-you've seen first hand just how much people take technology for granted.
+Keeping a service online is a 24 hour operation. If you work an environment where you rely on I.T then there's a chance that 
+you've seen first hand just how much people take technology for granted. If you work in I.T then you'll definitely be more than aware of this.
 
 Big companies and organisations such as Google, Microsoft, Amazon, Twitter, Facebook, etc.
 all share one common problem: How to scale to Millions, or even Billions of users across the globe. This blog post will discuss some of the most common methods for scaling websites.
