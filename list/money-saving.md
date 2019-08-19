@@ -3,6 +3,8 @@ title: Money Saving Guides
 narrow: false
 permalink: list/money-saving.html
 show_profile: true
+description: Money saving tips, money saving guides, and money saving glitches from a money saving enthusiast.
+ogDescription: Money saving tips, money saving guides, and money saving glitches from a money saving enthusiast.
 ---
 
 {% if site.money_savings %}

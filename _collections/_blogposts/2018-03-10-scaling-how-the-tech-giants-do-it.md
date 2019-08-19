@@ -34,3 +34,6 @@ So with those foundations, how do
 Container technologies.
 
 The thing is about 
+
+You have to ensure your application is service driven and completely resilient to errors
+This involves heavily testing your application and all associated 
