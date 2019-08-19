@@ -254,7 +254,7 @@ $(document).ready( function() {
 });
 
 $(document).bind("user_cookie_consent_changed", function(event, object) {
-	console.log("User cookie consent changed: " + $(object).attr('consent') );
+	//console.log("User cookie consent changed: " + $(object).attr('consent') );
 });
 
 }(jQuery));
