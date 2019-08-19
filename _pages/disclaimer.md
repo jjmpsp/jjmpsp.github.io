@@ -3,6 +3,8 @@ layout: defaults/page
 permalink: disclaimer.html
 title: Website Disclaimer
 narrow: false
+description: Website disclaimer and terms of use for joel-murphy.co.uk.
+ogDescription: Website disclaimer and terms of use for joel-murphy.co.uk. 
 ---
 
 {% include nav-breadcrumbs.html %}
