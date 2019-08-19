@@ -1,5 +1,7 @@
 ---
 title: How to make a website load faster in 2019 using modern optimisation techniques 
+description: A tutorial explaining methods of optimising websites for speed and scale.
+ogDescription: A tutorial explaining methods of optimising websites for speed and scale.
 ---
 
 So you've just finished writing your first website, but for some reason your website is loading incredibly slow. At first you're probably used to dealing with waiting for your slow loading website, but this is wasted time and you should really do something about it. This guide will give you some pointers on how to (or why you should) solve your slow loading website issues.

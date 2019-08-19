@@ -3,6 +3,8 @@ layout: defaults/page
 permalink: credits.html
 title: Website Credits
 narrow: false
+description: A special mention for all those who helped make joel-murphy.co.uk possible.
+ogDescription: A special mention for all those who helped make joel-murphy.co.uk possible.
 ---
 
 {% include nav-breadcrumbs.html %}
