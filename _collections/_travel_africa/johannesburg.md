@@ -13,8 +13,9 @@ images:
 - /static/img/travel/IMG_5619.JPG
 - /static/img/travel/IMG_5623.JPG
 - /static/img/travel/IMG_5652.JPG
-description: 
-ogDescription: 
+
+description: A guide to travelling Johannesburg in South Africa by Joel Murphy.
+ogDescription: A guide to travelling Johannesburg in South Africa by Joel Murphy.
 ---
 
 {{ site.baseurl }} ss

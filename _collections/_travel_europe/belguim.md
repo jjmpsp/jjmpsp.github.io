@@ -14,8 +14,8 @@ images:
   - https://images.unsplash.com/photo-1500370414137-9201565cf099?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=95e700b9e28eb7ed7b5769c823741126&auto=format&fit=crop&w=668&q=80
   - https://images.unsplash.com/photo-1500402448245-d49c5229c564?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19c590b253f803a7f9b643c59017160&auto=format&fit=crop&w=1650&q=80
 
-description: 
-ogDescription: 
+description: A guide to travelling Belguim in Europe by Joel Murphy.
+ogDescription: A guide to travelling Belguim in Europe by Joel Murphy.
 ---
 
 Here's an example for multiple images that uses Bootstrap's card columns for a Masonry-like layout. It's not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout.

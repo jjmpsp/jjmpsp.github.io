@@ -3,10 +3,10 @@ layout: defaults/page
 permalink: about.html
 title: About Joel Murphy
 narrow: false
-
 title: About Joel Murphy
 crumbtitle: About Joel Murphy
-ogDescription: About Joel Murphy
+description: Information about Joel Murphy, including technical expertise, personal interests, and life achievements. 
+ogDescription: Information about Joel Murphy, including technical expertise, personal interests, and life achievements. 
 
 ---
 

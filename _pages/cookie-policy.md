@@ -3,6 +3,8 @@ layout: defaults/page
 permalink: cookie-policy.html
 title: Cookie Policy
 narrow: false
+description: An overview of how cookies are used on joel-murphy.co.uk.
+ogDescription: An overview of how cookies are used on joel-murphy.co.uk.
 ---
 {% include nav-breadcrumbs.html %}
 
