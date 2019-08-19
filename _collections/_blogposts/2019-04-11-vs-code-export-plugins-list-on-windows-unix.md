@@ -7,6 +7,8 @@ tags:
   - visual studio code
   - export
   - plugins
+description: 
+ogDescription: 
 ---
 
 You may have a situation where you need to export your config to another machine, or you may want to share your visual studio code plugins list with another developer.

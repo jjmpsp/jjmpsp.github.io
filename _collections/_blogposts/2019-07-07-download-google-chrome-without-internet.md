@@ -5,6 +5,8 @@ tags:
   - chrome
   - offline
   - download
+description: A short tutorial showing how to download google's chrome standalone installer.
+ogDescription: A short tutorial showing how to download google's chrome standalone installer.
 ---
 
 You may have hit a situation where you need to install Google Chrome on a machine without internet. This is particularly the case when I'm managing servers without external internet access.

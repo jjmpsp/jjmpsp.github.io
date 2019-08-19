@@ -3,6 +3,8 @@ title: My backend is faster than yours...
 tags:
   - backend
   - server
+description: 
+ogDescription: 
 ---
 
 *Warning:* Dirty minded people have probably read this title wrong 🍑

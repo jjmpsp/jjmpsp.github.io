@@ -5,6 +5,8 @@ tags:
   - wordpress
   - migration
   - cms
+description: 
+ogDescription: 
 ---
 
 If you've been thinking of moving away from Wordpress and using a static website generator site then this is probably the post for you... In this post I will discuss my reasons for migrating my old Wordpress website to Jekyll.

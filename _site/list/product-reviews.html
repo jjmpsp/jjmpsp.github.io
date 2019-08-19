@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Product reviews by Joel Murphy.">
     <meta name="author" content="Joel Murphy">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png"/>
@@ -56,12 +56,7 @@
 
 
 
-<meta content="{% for product_review in site.product_reviews %}
-- [{{ product_review.title }}]({{ site.baseurl }}{{ product_review.url }})
-{% endfor %}
-
-{% include toc-scroll-to-top.html excludeHierarchy=true %}
-" property="og:description">
+<meta content="Product reviews by Joel Murphy." property="og:description">
 
 
 

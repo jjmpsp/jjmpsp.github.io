@@ -1,5 +1,7 @@
 ---
 title: How to find the cheapest price for Amazon Products
+description: How to find products cheaper on Amazon
+ogDescription: How to find products cheaper on Amazon
 ---
 
 If you've ever shopped on Amazon before then you may have noticed that prices fluctuate often.

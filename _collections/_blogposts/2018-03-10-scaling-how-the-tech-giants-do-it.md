@@ -3,6 +3,8 @@ title: How do tech giants scale to millions or billions of users?
 tags:
   - jekyll
   - liquid
+description: 
+ogDescription: 
 ---
 
 Has the thought of scaling ever crossed your mind?

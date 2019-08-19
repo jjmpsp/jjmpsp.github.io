@@ -6,6 +6,8 @@ tags:
   - Best
   - City
 excludeHierarchy: true
+description: 
+ogDescription: 
 ---
 
 The city boasts a range of opportunities to those living in it. 

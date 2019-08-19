@@ -13,6 +13,8 @@ images:
 - /static/img/travel/IMG_5619.JPG
 - /static/img/travel/IMG_5623.JPG
 - /static/img/travel/IMG_5652.JPG
+description: 
+ogDescription: 
 ---
 
 {{ site.baseurl }} ss

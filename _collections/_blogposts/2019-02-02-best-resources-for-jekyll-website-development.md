@@ -3,6 +3,8 @@ title: Top resources for Jekyll Website Development
 tags:
   - jekyll
   - development
+description: 
+ogDescription: 
 ---
 
 ## A little bit about Jekyll

@@ -5,6 +5,8 @@ tags:
 - pin
 - taskbar
 - powershell
+description: 
+ogDescription: 
 ---
 
 Today I was looking for a solution to create a shortcut to Windows .exe files / Windows binaries / Windows Applications (whatever you want to call them). For future reference, here is a solution which works perfectly with Windows Server 2016 and Windows 10. All credits go to the original author for the starting point. I just made some simple amends and modified the script to take a list of arguments so multiple applications can be added to the Windows Taskbar at the same time.

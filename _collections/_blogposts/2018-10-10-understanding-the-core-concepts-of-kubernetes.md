@@ -5,6 +5,8 @@ tags:
   - wordpress
   - migration
   - cms
+description: 
+ogDescription: 
 ---
 
 Way too often I hear of newbie developers losing their work due to using git as their primary backup solution for their project.

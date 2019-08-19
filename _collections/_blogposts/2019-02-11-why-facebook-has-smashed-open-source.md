@@ -4,6 +4,8 @@ tags:
   - facebook
   - open source
   - oss
+description: 
+ogDescription: 
 ---
 
 During my usual R&D web browsing at work, I discovered the following video on Youtube which documents the creation of GraphQL. 

@@ -6,6 +6,8 @@ tags:
   - backups
   - monthly
   - archive
+description: 
+ogDescription: 
 ---
 
 Today I want to share a super handy Powershell snippet for creating monthly archives

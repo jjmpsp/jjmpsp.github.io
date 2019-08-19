@@ -1,12 +1,13 @@
 ---
 title: How far should we go with Automation?
-
 tags:
   - automation
   - computers
   - lazy
   - smart home
   - ethics
+description: 
+ogDescription: 
 ---
 
 There's no doubt about it that the I.T field is a great field to work in. The masses of knowledge you gain from working in different companies mean your skills actually become transferrable to a whole lot of other industries too.

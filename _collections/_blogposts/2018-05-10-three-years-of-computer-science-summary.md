@@ -3,6 +3,8 @@ title: Three years of computer science in a day
 tags:
   - jekyll
   - liquid
+description: 
+ogDescription: 
 ---
 
 If you've ever thought of completing a degree in Computer Science, then chances are you're already interested enough in the topic. But is completing a degree in Computer Science really worth the money?
