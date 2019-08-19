@@ -3,7 +3,8 @@ layout: defaults/page
 permalink: index.html
 narrow: false
 title: Welcome to joel-murphy.co.uk
-ogDescription: Homepage for Joel Murphy
+description: Homepage for Joel Murphy. A Senior Full Stack Developer, R&D, Cloud, DevOps, Infrastructure, and SysAdmin specialist from Cardiff, Wales, UK.
+ogDescription: Homepage for Homepage for Joel Murphy. A Senior Full Stack Developer, R&D, Cloud, DevOps, Infrastructure, and SysAdmin specialist from Cardiff, Wales, UK. 
 ---
 
 {% include nav-breadcrumbs.html %}
