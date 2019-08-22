@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Sample code demonstrating how to loop over any collection type in Jekyll">
     <meta name="author" content="Joel Murphy">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png"/>
@@ -25,7 +25,7 @@
 
     <title>
         
-            How to loop over all collection types in Jekyll &middot; Joel Murphy
+            How to loop over any collection type in Jekyll &middot; Joel Murphy
         
     </title>
 
@@ -48,7 +48,7 @@
 
     <meta content="Joel Murphy" property="og:site_name">
 
-<meta content="How to loop over all collection types in Jekyll" property="og:title">
+<meta content="How to loop over any collection type in Jekyll" property="og:title">
 
 
 
@@ -56,7 +56,7 @@
 
 
 
-<meta content="Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too. The card allows a caption to be aligned with the photo, and the card classes contain a card-img-top that ensures the image is responsive within the grid. Jekyll, a static site generator. The HTML source for this card is below, or of course you could look at the raw source for..." property="og:description">
+<meta content="Sample code demonstrating how to loop over any collection type in Jekyll" property="og:description">
 
 
 
@@ -79,6 +79,8 @@
 
 
 <meta content="jekyll" property="article:tag">
+
+<meta content="collections" property="article:tag">
 
 <meta content="liquid" property="article:tag">
 
@@ -201,7 +203,7 @@
 
 
 <h1 class="list-title border border-left-0 border-right-0 py-2">
-    How to loop over all collection types in Jekyll
+    How to loop over any collection type in Jekyll
 
     <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
         <span class="icon grey">
@@ -223,7 +225,7 @@
            title="Share on Facebook">
             <i class="fa fa-facebook-official share-button"> facebook</i>
         </a>
-        <a href="https://twitter.com/intent/tweet?text=How to loop over all collection types in Jekyll&url=https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
+        <a href="https://twitter.com/intent/tweet?text=How to loop over any collection type in Jekyll&url=https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on Twitter">
             <i class="fa fa-twitter share-button"> twitter</i>
@@ -243,12 +245,12 @@
            title="Share on Reddit">
             <i class="fa fa-reddit-alien share-button"> reddit</i>
         </a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html&title=How to loop over all collection types in Jekyll&summary=&source=Joel Murphy"
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html&title=How to loop over any collection type in Jekyll&summary=Sample code demonstrating how to loop over any collection type in Jekyll&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
             <i class="fa fa-linkedin share-button"> linkedin</i>
         </a>
-        <a href="mailto:?subject=How to loop over all collection types in Jekyll&amp;body=Check%20out%20this%20site:%20https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
+        <a href="mailto:?subject=How to loop over any collection type in Jekyll&amp;body=Check%20out%20this%20site:%20https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
            title="Share via Email">
             <i class="fa fa-envelope share-button"> email</i>
         </a>
@@ -261,8 +263,6 @@
 
 <!--more-->
 
-<p>The card allows a caption to be aligned with the photo, and the card classes contain a <code class="highlighter-rouge">card-img-top</code> that ensures the image is responsive within the grid.</p>
-
 <div class="card mb-3">
     <img class="card-img-top" src="/static/img/jekyll-logo.png" />
     <div class="card-body bg-light">
@@ -271,8 +271,6 @@
         </div>
     </div>
 </div>
-
-<p>The HTML source for this card is below, or of course you could look at the raw source for this file in the GitHub repo or on your disk after you have downloaded the repo. WHen looking at the source, you can see the Markdown mingled with the HTML.</p>
 
 <figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">{ % for collection in site.collections % }
                        
@@ -363,6 +361,11 @@
                         jekyll
                     </a>
                 
+                    <a href="#collections"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        collections
+                    </a>
+                
                     <a href="#liquid"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         liquid
@@ -392,7 +395,7 @@
             <h3>Table of Contents:</h3>
             
             <ul>
-  <li><a href="#">How to loop over all collection types in Jekyll</a></li>
+  <li><a href="#">How to loop over any collection type in Jekyll</a></li>
 </ul>
         
 
@@ -421,7 +424,7 @@
            title="Share on Facebook">
             <i class="fa fa-facebook-official share-button"> facebook</i>
         </a>
-        <a href="https://twitter.com/intent/tweet?text=How to loop over all collection types in Jekyll&url=https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
+        <a href="https://twitter.com/intent/tweet?text=How to loop over any collection type in Jekyll&url=https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on Twitter">
             <i class="fa fa-twitter share-button"> twitter</i>
@@ -441,12 +444,12 @@
            title="Share on Reddit">
             <i class="fa fa-reddit-alien share-button"> reddit</i>
         </a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html&title=How to loop over all collection types in Jekyll&summary=&source=Joel Murphy"
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html&title=How to loop over any collection type in Jekyll&summary=Sample code demonstrating how to loop over any collection type in Jekyll&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
             <i class="fa fa-linkedin share-button"> linkedin</i>
         </a>
-        <a href="mailto:?subject=How to loop over all collection types in Jekyll&amp;body=Check%20out%20this%20site:%20https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
+        <a href="mailto:?subject=How to loop over any collection type in Jekyll&amp;body=Check%20out%20this%20site:%20https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
            title="Share via Email">
             <i class="fa fa-envelope share-button"> email</i>
         </a>
@@ -455,7 +458,7 @@
 
 <hr>
 
-<h4 style="color:#dd4b39;font-weight:500;">Share your thoughts on: 'How to loop over all collection types in Jekyll':</h4>
+<h4 style="color:#dd4b39;font-weight:500;">Share your thoughts on: 'How to loop over any collection type in Jekyll':</h4>
 
 <div id="disqus_thread"></div>
 <script>
