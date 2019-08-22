@@ -438,7 +438,7 @@ Joel is a Level 3 Cisco Certified technician and holds a technical 2<sup>nd</sup
     <img class="card-img-top lazy-img"  src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="static/img/joel-and-regan-night-out-in-cardiff.jpg" title="Joel and Regan night out in Cardiff" alt="Joel and Regan night out in Cardiff">
     <div class="card-body bg-light">
         <div class="card-text"> 
-           Joel and Regan on a night out in Cardiff. 🍻
+           Joel & Regan on a night out in Cardiff.  🍻
         </div>
     </div>
 </div>
