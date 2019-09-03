@@ -26,12 +26,13 @@ Amazon themselves have also been known to do 'special deals' on Amazon prime (wh
 As I've previously written about, one of my personal favourite methods of saving money is by using cashback sites such as Quidco and TopCashBack.
 These two methods allow you to make a small percentage of a sale back in the form of real money or credit. Currently, Quidco are offering a 4% bonus 
 
-For example, save £100 in Quidco by earning cashback, then withdraw your credit against an amazon gift voucher, and you essentially get £4 of additional free credit, meaning you have a total of £104 to spend against any purchase you wish on Amazon! Quite a neat trick to be fair.
+For example, save £100 in Quidco by earning cashback, then withdraw your credit against an amazon gift voucher, and you essentially get £4 of additional free credit, meaning you have a total of £104 to spend against any purchase you wish on Amazon! Free money on top of free money is quite a neat trick to be fair.
 
 Make the most of add-on item opportunities
 Amazon often list add-on items for cheaper than their RRP just to get people to try bulk up their order to over £20 to get free delivery. This is extremely clever marketing by Amazon, but the benefit to us consumers is that we can get products cheaper than they're meant to be in the first place.
 E.g.
 
 By the way, if you've ever been searching for ways of bulking up your order total to over £20, there's also a website for this which lists some of the cheaper products.
+BasketFiller
 
 That concludes today's money saving post. Do you know of any other methods to save money on Amazon? If so, please let me know in the comments!

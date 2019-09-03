@@ -1,5 +1,4 @@
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{{ page.description }}">
@@ -35,6 +34,7 @@
 
     <script  src="{{ site.baseurl }}/static/js/main-bundle.js"></script>
 
+    {% if jekyll.environment == "production" %}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({
@@ -42,6 +42,7 @@
             enable_page_level_ads: true,
         });
     </script>
+    {% endif %}
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC%7CVarela+Round" rel="stylesheet">
 

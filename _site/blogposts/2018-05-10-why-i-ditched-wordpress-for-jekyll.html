@@ -223,6 +223,9 @@
 
 <div class="share-bar">
     <h4>Share this Blog Post:</h4>
+
+    <i class="fab fa-linkedin"></i>
+
     <div class="share-buttons">
         <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
@@ -252,7 +255,7 @@
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html&title=Why I ditched wordpress for Jekyll&summary=&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
-            <i class="fa fa-linkedin share-button"> linkedin</i>
+            <i class="fab fa-linkedin share-button"> linkedin</i>
         </a>
         <a href="mailto:?subject=Why I ditched wordpress for Jekyll&amp;body=Check%20out%20this%20site:%20http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html"
            title="Share via Email">
@@ -265,12 +268,14 @@
 
 <p>If you’ve been thinking of moving away from Wordpress and using a static website generator site then this is probably the post for you… In this post I will discuss my reasons for migrating my old Wordpress website to Jekyll.</p>
 
+<!--more-->
+
 <p>Wordpress is so stupidly bloated.
 I used to be a wordpress developer myself, but sometimes I asked myself ‘why’.</p>
 
 <p>Wordpress and it’s huge plugin system can be a handle to maintain. Don’t get me wrong, it’s amazing that there are so many plugins actively developed for Wordpress but w</p>
 
-<p>Sometimes websites can have in excess of 10, 20, or 50+ plugins installed. All it takes is for one of those single plugins to have one single security vulnrebility and this is enough to comepletely take down your website. Some wordpress security vulnerabilities can go unseen for months, or even years. What if a plugin developer decides to abandon their masterpiece of a plugin if they’ve taken on other projects? You’re pretty much screwed and the only option you’re left with is to fork and maintain a version of the plugin yourself, or use an alternative plugin. The issues with this is it can take up a lot of time</p>
+<p>Sometimes websites can have in excess of 10, 20, 50, to 100+ plugins installed. All it takes is for one of those plugins to have one single security vulnrebility and this is enough to comepletely take down your website. Some wordpress security vulnerabilities can go unseen for months, or even years. What if a plugin developer decides to abandon their masterpiece of a plugin if they’ve taken on other projects? You’re pretty much screwed and the only option you’re left with is to fork and maintain a version of the plugin yourself, or use an alternative plugin. The issues with this is it can take up a lot of time</p>
 
 <!--more-->
 
@@ -300,110 +305,10 @@ I used to be a wordpress developer myself, but sometimes I asked myself ‘why�
 
 <p>You can customise a lot more than you think, just by using pre-html renderers and configuration defined in a YAML file.</p>
 
-<p>Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too.</p>
+<p>Static websites are a lot faster</p>
 
-<!--more-->
-
-<p>The card allows a caption to be aligned with the photo, and the card classes contain a <code class="highlighter-rouge">card-img-top</code> that ensures the image is responsive within the grid.</p>
-
-<div class="card mb-3">
-    <img class="card-img-top" src="/static/img/christmas_in_cardiff.jpg" />
-    <div class="card-body bg-light">
-        <div class="card-text">
-            The Peak District on a mosty morning.
-        </div>
-    </div>
-</div>
-
-<p>The HTML source for this card is below, or of course you could look at the raw source for this file in the GitHub repo or on your disk after you have downloaded the repo. WHen looking at the source, you can see the Markdown mingled with the HTML.</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>blogposts<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>money_savings<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>portfolio<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>posts<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>product_reviews<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>projects<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>travel<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>travel_africa<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>travel_europe<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span>
-
-
-
-  
-
-  <span class="nt">&lt;section&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>tutorials<span class="nt">&lt;/h1&gt;</span>
-   
-  <span class="nt">&lt;/section&gt;</span></code></pre></figure>
+<p>There’s no need for maintaining a database
+This point kind of goes hand-in-hand as being a positive and a negative when developing websites. Managing a database has become pretty easy nowadays thanks to the numerous amount of backup scripts and dozens of storage providers available to us. But why even bother managing a database unless you have to? By having a static website you can focus</p>
 
 
 <div class="space-before" style="z-index: 0 !important;margin-top:10px;">
@@ -497,6 +402,9 @@ I used to be a wordpress developer myself, but sometimes I asked myself ‘why�
 
 <div class="share-bar">
     <h4>Share this Blog Post:</h4>
+
+    <i class="fab fa-linkedin"></i>
+
     <div class="share-buttons">
         <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
@@ -526,7 +434,7 @@ I used to be a wordpress developer myself, but sometimes I asked myself ‘why�
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html&title=Why I ditched wordpress for Jekyll&summary=&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
-            <i class="fa fa-linkedin share-button"> linkedin</i>
+            <i class="fab fa-linkedin share-button"> linkedin</i>
         </a>
         <a href="mailto:?subject=Why I ditched wordpress for Jekyll&amp;body=Check%20out%20this%20site:%20http://localhost:4000/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html"
            title="Share via Email">
@@ -777,7 +685,7 @@ I used to be a wordpress developer myself, but sometimes I asked myself ‘why�
                             </li>
                             <li>
                                 <a href="">Published Money Saving Posts:</a> <br>
-                                <div class="stat_count stat_count4">1</div>
+                                <div class="stat_count stat_count4">2</div>
                             </li>
                         </ul>
                     </div>

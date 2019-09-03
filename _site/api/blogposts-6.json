@@ -2,6 +2,11 @@
 "pages": [
 
 {
+"title": "How to export Visual Studio Code Plugins list",
+"link": "/blogposts/2019-04-11-vs-code-export-plugins-list-on-windows-unix.html"
+}
+,
+{
 "title": "How to pin programs to taskbar with powershell in Windows 10 or Windows Server 2012+",
 "link": "/blogposts/2019-5-5-windows-10-powershell-copy-app-to-taskbar.html"
 }

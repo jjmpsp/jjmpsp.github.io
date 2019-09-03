@@ -1,10 +1,10 @@
 // Theme CSS
-const fontAwesomeCSS = require('.././node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css').toString();
 const bootstrapCSS = require('.././theme/css/bootstrap.css').toString();
 const siteCSS = require('.././_site/theme/css/site.css').toString();
 const syntaxCSS = require('.././theme/css/syntax.css').toString();
 
 // Theme JS
+const fontAwesome = require('.././node_modules/@fortawesome/fontawesome-free/js/all.min.js').toString();
 const lazyLoadJS = require('.././theme/js/lazyLoad.js').toString();
 const themeJS = require('.././theme/js/theme.js').toString();
 const fullWidthPostsJS = require('.././theme/js/fullWidthPosts.js').toString();

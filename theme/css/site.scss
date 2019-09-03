@@ -804,4 +804,8 @@ ul.accordion {
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  &:hover{
+    color: inherit !important;
+  }
 }

@@ -34,14 +34,6 @@
     <script src="/theme/js/bootstrap.min.js"></script>
     <script src="/static/js/jquery.lazy.min.js"></script>
 
-    <script src="/theme/js/lazyLoad.js"></script>
-    <script src="/theme/js/theme.js"></script>
-    <script src="/theme/js/fullWidthPosts.js"></script>
-    <script src="/theme/js/clickToggle.js"></script>
-    <script src="/theme/js/footerToggle.js"></script>
-    <script src="/theme/js/listAccordion.js"></script>
-    <script src="/theme/js/jumpToTop.js"></script>
-
     <script  src="/static/js/main-bundle.js"></script>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -64,7 +56,7 @@
 
 
 
-<meta content="Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too. The card allows a caption to be aligned with the photo, and the card classes contain a card-img-top that ensures the image is responsive within the grid. The Peak District on a mosty morning. The HTML source for this card is below, or of course you could look at the raw..." property="og:description">
+<meta content="If you’ve ever worked on an IT project, you’ll already know that one of the most difficult parts of managing technical projects is avoiding ‘scope creep’. This post aims to demystify ‘scope creep’ and give you a better understanding of how to manage scope creep in IT projects. If you’re unaware of what the term ‘Scope creep’ is then chances are that you’re very early on in your software development career. You’ll often find that..." property="og:description">
 
 
 
@@ -72,7 +64,7 @@
 
 
 
-<meta content="2019-08-19T11:48:22+01:00" property="article:published_time">
+<meta content="2019-09-02T12:05:24+01:00" property="article:published_time">
 <meta content="http://localhost:4000/about/" property="article:author">
 
 
@@ -234,6 +226,9 @@
 
 <div class="share-bar">
     <h4>Share this Tutorial:</h4>
+
+    <i class="fab fa-linkedin"></i>
+
     <div class="share-buttons">
         <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/tutorials/how-to-avoid-scope-creep-in-it-projects.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
@@ -263,7 +258,7 @@
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tutorials/how-to-avoid-scope-creep-in-it-projects.html&title=How to avoid scope creep in I.T projects&summary=&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
-            <i class="fa fa-linkedin share-button"> linkedin</i>
+            <i class="fab fa-linkedin share-button"> linkedin</i>
         </a>
         <a href="mailto:?subject=How to avoid scope creep in I.T projects&amp;body=Check%20out%20this%20site:%20http://localhost:4000/tutorials/how-to-avoid-scope-creep-in-it-projects.html"
            title="Share via Email">
@@ -274,31 +269,40 @@
 
 <hr>
 
-<p>Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too.</p>
+<p>If you’ve ever worked on an IT project, you’ll already know that one of the most difficult parts of managing technical projects is avoiding ‘scope creep’. This post aims to demystify ‘scope creep’ and give you a better understanding of how to manage  scope creep in IT projects.</p>
 
 <!--more-->
 
-<p>The card allows a caption to be aligned with the photo, and the card classes contain a <code class="highlighter-rouge">card-img-top</code> that ensures the image is responsive within the grid.</p>
+<p>If you’re unaware of what the term ‘Scope creep’ is then chances are that you’re very early on in your software development career.</p>
 
-<div class="card mb-3">
-    <img class="card-img-top" src="/static/img/christmas_in_cardiff.jpg" />
-    <div class="card-body bg-light">
-        <div class="card-text">
-            The Peak District on a mosty morning.
-        </div>
-    </div>
-</div>
+<p>You’ll often find that business managers, and higher up managers like to feel like they’re in charge of developers but the truth is they should have more respect for developers as they’re the workers who write the code that’s powering applications and business logic for the products they manage. Without you they wouldn’t have a job in the first place. With that in mind, it’s important that you stand your ground in making sure you make yourself comfortable with the project before jumping straight to writing code.</p>
 
-<p>The HTML source for this card is below, or of course you could look at the raw source for this file in the GitHub repo or on your disk after you have downloaded the repo. WHen looking at the source, you can see the Markdown mingled with the HTML.</p>
+<p>Identify stakeholders. 
+If you’re a software developer, contractor, or project manager then the first thing you should do is sit in the shoes of the project stakeholders. If you’re having a hard time finding out who this is then ask yourself “who wants software built for them?” - is it a neighbour, a different department at a company, or maybe your parents.</p>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card mb-3"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"card-img-top"</span> <span class="na">src=</span><span class="s">"https://drscdn.500px.org/photo/127767019/q%3D80_m%3D1500/v2?webp=true&amp;sig=dd1fa4580c459472969cd4992068922f311f12cf263cf08b39615cfc1812286b"</span><span class="nt">/&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-body bg-light"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-text"</span><span class="nt">&gt;</span>
-            The Peak District on a mosty morning.
-        <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+<p>Identify the complete product requirements. Listing absolutely every feature is a challenging, yet rewarding task. The more of an understanding you have of a requirement</p>
+
+<p>Set project deliverables 
+This is the most important rule of them all. Outline what you’re going to be creating for your client</p>
+
+<p>Write a contract early on.</p>
+
+<p>Use project management tools to track your progress. 
+Tools such as Trello are perfect for outlining project requirements.</p>
+
+<p>Prefix your git branch names with ‘dsc’ so you can easily identify which branches are ‘nice to have’ features</p>
+
+<p>Feature/21-dsc-social-share</p>
+
+<p>DSC = Development Scope Creep</p>
+
+<p>Depending on your software development lifecycle, you may disagree of the above naming convention. Personally, it’s an approach I like taking as it allows me to give a lower priority focus on features that contain the DSC prefix. It also makes it easy to search for branches directly from a command line or git client.</p>
+
+<p>Make your code modular in the first place.
+Writing code that is modular not only means you can use it in future projects, but making changes becomes a quicker process. If you’re wondering how you can write modular code then you probably need to read up on design patterns, Object Orientated Code, and reflection to getter a better idea of how to write software with a pluggable architecture.</p>
+
+<p>By following the above guidance you should instantly start to become a more successful developer and make your job a lot easier than it once was.</p>
+
 
 
 <div id="float-toc">
@@ -330,6 +334,9 @@
 
 <div class="share-bar">
     <h4>Share this Tutorial:</h4>
+
+    <i class="fab fa-linkedin"></i>
+
     <div class="share-buttons">
         <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/tutorials/how-to-avoid-scope-creep-in-it-projects.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
@@ -359,7 +366,7 @@
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tutorials/how-to-avoid-scope-creep-in-it-projects.html&title=How to avoid scope creep in I.T projects&summary=&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
-            <i class="fa fa-linkedin share-button"> linkedin</i>
+            <i class="fab fa-linkedin share-button"> linkedin</i>
         </a>
         <a href="mailto:?subject=How to avoid scope creep in I.T projects&amp;body=Check%20out%20this%20site:%20http://localhost:4000/tutorials/how-to-avoid-scope-creep-in-it-projects.html"
            title="Share via Email">
@@ -624,7 +631,7 @@
                             </li>
                             <li>
                                 <a href="">Published Money Saving Posts:</a> <br>
-                                <div class="stat_count stat_count4">1</div>
+                                <div class="stat_count stat_count4">2</div>
                             </li>
                         </ul>
                     </div>
