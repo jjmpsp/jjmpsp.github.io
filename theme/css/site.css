@@ -600,3 +600,5 @@ ul.accordion .description {
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+.typeform-share:hover {
+  color: inherit !important; }

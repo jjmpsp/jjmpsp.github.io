@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -36,13 +35,7 @@
 
     <script  src="/static/js/main-bundle.js"></script>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-9259836823539954",
-            enable_page_level_ads: true,
-        });
-    </script>
+    
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC%7CVarela+Round" rel="stylesheet">
 
@@ -56,7 +49,7 @@
 
 
 
-<meta content="If you’re getting errors in your PHP application when running sqlsrv_ functions, such as sqlsrv_connect() or sqlsrv_query(), this is more than likely because Microsoft’s Drivers for PHP for SQL Server have been mis-configured, or haven’t been installed yet in Apache. Installing the drivers is pretty straightforward if you’ve got a guide in front of you, which is exactly what this post aims to cover. Some of the most common errors people face when installing Microsoft’s..." property="og:description">
+<meta content="If you’re getting errors in your PHP application when running sqlsrv_ functions, such as sqlsrv_connect() or sqlsrv_query(), this is more than likely because Microsoft’s Drivers for PHP for SQL Server have been mis-configured, or haven’t been installed yet in Apache. Installing the drivers is pretty straightforward if you’ve got a guide in front of you, which is exactly what this post aims to cover. If this link dies in future for whatever reason, just do..." property="og:description">
 
 
 
@@ -64,7 +57,7 @@
 
 
 
-<meta content="2019-08-22T19:11:57+00:00" property="article:published_time">
+<meta content="2019-09-03T16:42:47+00:00" property="article:published_time">
 <meta content="https://joel-murphy.co.uk/about/" property="article:author">
 
 
@@ -236,6 +229,9 @@
 
 <div class="share-bar">
     <h4>Share this Tutorial:</h4>
+
+    <i class="fab fa-linkedin"></i>
+
     <div class="share-buttons">
         <a href="https://www.facebook.com/sharer/sharer.php?u=https://joel-murphy.co.uk/tutorials/how-to-install-mssql-drivers-on-windows-apache-php.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
@@ -265,7 +261,7 @@
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://joel-murphy.co.uk/tutorials/how-to-install-mssql-drivers-on-windows-apache-php.html&title=How to install SQL Server Drivers for Apache and PHP on Windows&summary=&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
-            <i class="fa fa-linkedin share-button"> linkedin</i>
+            <i class="fab fa-linkedin share-button"> linkedin</i>
         </a>
         <a href="mailto:?subject=How to install SQL Server Drivers for Apache and PHP on Windows&amp;body=Check%20out%20this%20site:%20https://joel-murphy.co.uk/tutorials/how-to-install-mssql-drivers-on-windows-apache-php.html"
            title="Share via Email">
@@ -281,6 +277,21 @@
 <p>Installing the drivers is pretty straightforward if you’ve got a guide in front of you, which is exactly what this post aims to cover.</p>
 
 <!--more-->
+
+<p>If this link dies in future for whatever reason, just do a quick Google search for your PHP version:</p>
+
+<p>‘PHP Version 7.3.6’</p>
+
+<p>‘sqlsrv drivers 7.3’</p>
+
+<p>Compiler	MSVC15 (Visual C++ 2017)
+Architecture	x64
+Debug Build	no
+Thread Safety	enabled
+Thread API	Windows Threads</p>
+
+<p>To locate your extensions directory, check php.ini output:
+extension_dir	C:/Users/joel/Desktop/Bitnami/php/ext	C:/Users/jo209050/Desktop/Bitnami/php/ext</p>
 
 <p>Some of the most common errors people face when installing Microsoft’s Drivers for PHP for SQL Server are:</p>
 <ul>
@@ -304,14 +315,25 @@ Forgetting to restart Apache.</li>
     <span class="nb">phpinfo</span><span class="p">();</span> <span class="c1">// This displays a fancy table showing all environment configurations.</span>
 </code></pre></div></div>
 
-<p>Locate your PHP.ini file and add the following line to your</p>
+<p>In this particular example, I am using a custom Bitnami installation as my environment, so my config file is located at:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>extension=php_sqlsrv_72_ts.dll  
+<p>Loaded Configuration File	C:\Users\joel\Desktop\Bitnami\php\php.ini</p>
+
+<p>Locate your PHP.ini file and add the following line to it:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>extension=php_sqlsrv_73_ts.dll  
 </code></pre></div></div>
+
+<p>extension=php_sqlsrv_73_ts_x64.dll</p>
 
 <p>Now restart apache.</p>
 
+<p>C:\Users\joel\Desktop\Bitnami\apache2\bin&gt;httpd.exe -n “moodleApache-1” -k restart</p>
+
 <p>You should now see <code class="highlighter-rouge">sqlsrv</code> listed in your PHP configuration file</p>
+
+<p>Now copy the .dll files to your extensions directory:
+C:\Users\joel\Desktop\Bitnami\php\ext</p>
 
 <p>If you don’t see sqlsrv support in the list then you may have configured something incorrectly. Be sure that you’re definitely using the correct .dll for your installation.</p>
 
@@ -347,6 +369,9 @@ Forgetting to restart Apache.</li>
 
 <div class="share-bar">
     <h4>Share this Tutorial:</h4>
+
+    <i class="fab fa-linkedin"></i>
+
     <div class="share-buttons">
         <a href="https://www.facebook.com/sharer/sharer.php?u=https://joel-murphy.co.uk/tutorials/how-to-install-mssql-drivers-on-windows-apache-php.html"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
@@ -376,7 +401,7 @@ Forgetting to restart Apache.</li>
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://joel-murphy.co.uk/tutorials/how-to-install-mssql-drivers-on-windows-apache-php.html&title=How to install SQL Server Drivers for Apache and PHP on Windows&summary=&source=Joel Murphy"
            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share on LinkedIn">
-            <i class="fa fa-linkedin share-button"> linkedin</i>
+            <i class="fab fa-linkedin share-button"> linkedin</i>
         </a>
         <a href="mailto:?subject=How to install SQL Server Drivers for Apache and PHP on Windows&amp;body=Check%20out%20this%20site:%20https://joel-murphy.co.uk/tutorials/how-to-install-mssql-drivers-on-windows-apache-php.html"
            title="Share via Email">
@@ -629,7 +654,7 @@ Forgetting to restart Apache.</li>
                         <ul id="website-stats-list">
                             <li>
                                 <a href="">Published Blog Posts:</a> <br>
-                                <div class="stat_count stat_count1">17</div>
+                                <div class="stat_count stat_count1">18</div>
                             </li>
                             <li>
                                 <a href="">Published Tutorials:</a> <br>
