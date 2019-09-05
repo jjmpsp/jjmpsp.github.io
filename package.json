@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set JEKYLL_ENV=development && jekyll serve --livereload --incremental && node_modules\\.bin\\webpack --watch ",
-    "build": "set JEKYLL_ENV=development && bundle exec jekyll build | node_modules\\.bin\\webpack"
+    "start": "set JEKYLL_ENV=development && bundle exec jekyll serve --incremental && node_modules\\.bin\\webpack --watch ",
+    "build": "set JEKYLL_ENV=development && bundle exec jekyll build && node_modules\\.bin\\webpack"
   },
   "repository": {
     "type": "git",

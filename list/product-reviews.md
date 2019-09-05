@@ -1,7 +1,7 @@
 ---
 title: Product Reviews
 narrow: false
-permalink: list/product-reviews.html
+permalink: product-reviews
 show_profile: true
 description: Product reviews by Joel Murphy.
 ogDescription: Product reviews by Joel Murphy.

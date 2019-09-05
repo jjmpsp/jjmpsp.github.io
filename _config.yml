@@ -7,7 +7,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
 
-exclude: [.idea/,webpack.config.js,node_modules/]
+exclude: [.idea/,webpack/,webpack.config.js,node_modules/,package.json]
 
 # Pagination:
 ############################################################
@@ -17,7 +17,7 @@ pagination:
   enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: true
+  debug: false
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: 'blogposts'
