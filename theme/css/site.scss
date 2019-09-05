@@ -75,7 +75,7 @@ h2[id]::before {
 
   a:hover {
     text-decoration: none !important;
-    border-bottom: 0.5px dashed #777 !important;
+    border-bottom: 0.5px dashed #777;
     color: #553e98;
   }
 }
@@ -352,51 +352,47 @@ span.normal-text {
   font-size: 15px;
 }
 
-.share-buttons a:hover {
-  border-bottom-style: none !important;
-}
-
 .share-button {
   margin: 0 3px 10px 0;
   padding: 5px 10px 5px 10px;
   border: 2px solid white;
-}
 
-.share-button:hover {
-  border: 2px solid black;
+  &.facebook {
+    background-color: #3b5998;
+  }
+
+  &.twitter {
+    background-color: #55acee;
+  }
+
+  &.pinterest {
+    background-color: #cb2027;
+  }
+
+  &.tumblr {
+    background-color: #32506d;
+  }
+
+  &.reddit {
+    background-color: #ff4500;
+  }
+
+  &.linkedin {
+    background-color: #007bb5;
+  }
+
+  &.email {
+    background-color: #444444;
+  }
+
+  &:hover {
+    border: 2px solid black !important;
+  }
 }
 
 .share-buttons a:hover {
   color: #ffffff;
   text-decoration: none;
-}
-
-.fa-facebook-official {
-  background-color: #3b5998;
-}
-
-.fa-twitter {
-  background-color: #55acee;
-}
-
-.fa-pinterest-p {
-  background-color: #cb2027;
-}
-
-.fa-tumblr {
-  background-color: #32506d;
-}
-
-.fa-reddit-alien {
-  background-color: #ff4500;
-}
-
-.fa-linkedin {
-  background-color: #007bb5;
-}
-
-.fa-envelope {
-  background-color: #444444;
 }
 
 ul.accordion {

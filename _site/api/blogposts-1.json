@@ -2,6 +2,11 @@
 "pages": [
 
 {
+"title": "MySQL to MS SQL Migration (without SSMA)",
+"link": "/blogposts/2018-03-10-mysql-to-mssql-migration.html"
+}
+,
+{
 "title": "How do tech giants scale to millions or billions of users?",
 "link": "/blogposts/2018-03-10-scaling-how-the-tech-giants-do-it.html"
 }
@@ -9,11 +14,6 @@
 {
 "title": "How to loop over any collection type in Jekyll",
 "link": "/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
-}
-,
-{
-"title": "Why I ditched wordpress for Jekyll",
-"link": "/blogposts/2018-05-10-why-i-ditched-wordpress-for-jekyll.html"
 }
 ]
 
