@@ -224,6 +224,8 @@ blockquote span {
 #website-stats-list {
   list-style: none;
   margin-left: -30px; }
+#website-stats-list a {
+  font-weight: 600; }
 
 .stat_count {
   color: #efefef;
