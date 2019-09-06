@@ -1,5 +1,5 @@
 ---
-title: MySQL to MS SQL Migration (without SSMA)
+title: MySQL to MS SQL Database Migration (without SSMA)
 tags:
   - database
   - migration

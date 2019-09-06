@@ -1,12 +1,12 @@
-window.setCookie = function(key, value) {
+window.setCookie = function (key, value) {
     var d = new Date();
     var expiresInDays = 30 * 24 * 60 * 60 * 1000;
-    d.setTime( d.getTime() + expiresInDays );
+    d.setTime(d.getTime() + expiresInDays);
     var expires = "expires=" + d.toGMTString();
     document.cookie = key + '=' + value + "; " + expires + ";path=/";
 };
 
-window.getCookie = function(key){
+window.getCookie = function (key) {
     var cookies = document.cookie.split(";");
     for (var i = 0; i < cookies.length; i++) {
         var c = cookies[i].trim();
@@ -16,34 +16,34 @@ window.getCookie = function(key){
     }
 };
 
-function showTOC(){
+function showTOC() {
     $("#float-toc").show();
     setCookie("TOC_ACTIVE", true);
 }
 
-function hideTOC(){
+function hideTOC() {
     $("#float-toc").hide();
     setCookie("TOC_ACTIVE", false);
 }
 
-function dockStickyFooter(){
-    $("#footer").css("position", "relative");
+function dockStickyFooter() {
+    $("#footer").show().css("position", "fixed");
     setCookie("FOOTER_DOCKED", true);
 }
 
-function undockStickyFooter(){
-    $("#footer").css("position", "fixed");
-    setCookie("FOOTER_DOCKED", true);
+function undockStickyFooter() {
+    $("#footer").show().css("position", "relative");
+    setCookie("FOOTER_DOCKED", false);
 }
 
 $(document).ready(function () {
     $("#toggleStickyFooter").clickToggle(
         function () {
-            $(this).text("⬆");
+            $(this).text("⬇");
             dockStickyFooter();
         },
         function () {
-            $(this).text("⬇");
+            $(this).text("⬆");
             undockStickyFooter();
         }
     );
@@ -51,17 +51,21 @@ $(document).ready(function () {
     $("#toggleTableOfContents").clickToggle(
         function () {
             $(this).text("⬇");
-            hideTOC();
+            showTOC(this);
         },
         function () {
-            $(this).text("⬆");
-            showTOC(this);
+            $(this).text("⬇");
+            hideTOC();
         }
     );
 });
 
 
-$(document).ready(function(){
-    hideTOC()
-    dockStickyFooter();
+$(document).ready(function () {
+    //hideTOC();
+    undockStickyFooter();
+
+
+    // Get docked settings from cookies
+
 });

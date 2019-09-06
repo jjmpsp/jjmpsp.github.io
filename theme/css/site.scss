@@ -219,13 +219,13 @@ blockquote span {
   text-decoration: none;
   color: #000;
   background-color: #e9ecef;
-  display: block;
   width: 50%;
   padding: 10px 20px;
   border: 1px solid grey;
   border-bottom: none;
   opacity: 1;
   z-index: 1;
+  display: none;
 }
 
 .svg20 svg {
@@ -267,6 +267,7 @@ blockquote span {
   color: rgba(255, 255, 255, 0.5);
   position: fixed;
   bottom: 0;
+  display: none;
 }
 
 #toggleStickyFooter {
@@ -805,7 +806,7 @@ ul.accordion {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  &:hover{
+  &:hover {
     color: inherit !important;
   }
 }
