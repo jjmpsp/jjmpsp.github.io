@@ -345,7 +345,7 @@ ul.accordion .description {
     margin: 0 auto 10px; } }
 @media (max-width: 767px) {
   #float-toc {
-    bottom: 75px;
+    bottom: 100px;
     width: 100%; }
 
   .breadcrumb {

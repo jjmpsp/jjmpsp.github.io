@@ -7,7 +7,6 @@ const fontAwesome = require('.././node_modules/@fortawesome/fontawesome-free/js/
 const lazyLoadJS = require('.././theme/js/lazyLoad.js').toString();
 const themeJS = require('.././theme/js/theme.js').toString();
 const fullWidthPostsJS = require('.././theme/js/fullWidthPosts.js').toString();
-const clickToggleJS = require('.././theme/js/clickToggle.js').toString();
 const footerToggleJS = require('.././theme/js/footerToggle.js').toString();
 const listAccordionJS = require('.././theme/js/listAccordion.js').toString();
 const jumpToTopJS = require('.././theme/js/jumpToTop.js').toString();
