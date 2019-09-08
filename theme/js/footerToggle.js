@@ -54,7 +54,7 @@ $(document).ready(function () {
             showTOC(this);
         },
         function () {
-            $(this).text("⬇");
+            $(this).text("⬆");
             hideTOC();
         }
     );
