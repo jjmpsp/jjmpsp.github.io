@@ -147,10 +147,10 @@
                     <a href="https://github.com/jjmpsp/jjmpsp.github.io">This website is open
                         source</a>.
                     Last update:
-                    <date>{% assign d = site.lastUpdated | date: "%-d" %}
-                    {{ site.lastUpdated | date: "%B" }}
+                    <date>{% assign d = site.time | date: "%-d" %}
+                    {{ site.time | date: "%B" }}
                     {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or
-                    "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ site.lastUpdated | date: "%Y" }} </date> 🕗
+                    "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ site.time | date: "%Y" }} </date> 🕗
                 </div>
             </div>
             <div class="col-2 col-md-1">

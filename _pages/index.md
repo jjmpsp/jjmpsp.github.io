@@ -38,4 +38,8 @@ Welcome to the personal website of Joel Murphy. Here is a message from the autho
 {% include components/post-card.html %}
 {% endfor %}
 
+<h4 style="color:red;">Looking for more?</h4>
+Good news! There's plenty more to explore View more blog posts
+If you're looking for an entire website overview, then you may be interested in the [Website Sitemap](/sitemap.html) page for this website.
+
 {% include toc-scroll-to-top.html excludeHierarchy=true %}
