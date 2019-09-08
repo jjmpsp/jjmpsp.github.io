@@ -810,3 +810,21 @@ ul.accordion {
     color: inherit !important;
   }
 }
+
+.PageNavigation {
+  font-size: 14px;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+
+  a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+  }
+
+  .next {
+    text-align: right;
+  }
+}
