@@ -828,3 +828,19 @@ ul.accordion {
     text-align: right;
   }
 }
+
+ul.pager {
+  text-align: center;
+  list-style: none;
+
+  li {
+    display: inline;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+
+    .selected {
+      background-color: magenta;
+    }
+  }
+}
