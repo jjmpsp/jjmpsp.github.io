@@ -618,3 +618,11 @@ ul.pager li {
   margin: 5px; }
 ul.pager li .selected {
   background-color: magenta; }
+
+.docked-footer-margin {
+  margin-bottom: 60px !important; }
+
+/* Mobile only */
+@media (max-width: 572px) {
+  .docked-footer-margin {
+    margin-bottom: 150px !important; } }

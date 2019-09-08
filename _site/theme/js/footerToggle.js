@@ -40,12 +40,14 @@ function hideTOC() {
 function dockStickyFooter() {
     $("#footer").show().css("position", "fixed");
     setCookie("FOOTER_DOCKED", true);
+    $("body").addClass("docked-footer-margin");
     footerDocked = true;
 }
 
 function undockStickyFooter() {
     $("#footer").show().css("position", "relative");
     setCookie("FOOTER_DOCKED", false);
+    $("body").removeClass("docked-footer-margin");
     footerDocked = false;
 }
 
