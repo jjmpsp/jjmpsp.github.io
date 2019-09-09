@@ -645,3 +645,6 @@ ul.pager li .selected {
 @media (max-width: 572px) {
   .docked-footer-margin {
     margin-bottom: 150px !important; } }
+.comment-heading {
+  color: #dd4b39;
+  font-weight: 500; }

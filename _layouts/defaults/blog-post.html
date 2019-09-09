@@ -3,7 +3,7 @@ layout: default
 postType: Blog Post
 ---
 
-<div style="display: flex;align-items: center;margin-bottom:10px;" class="border border-left-0 border-right-0 py-2">
+<div class="d-flex align-items-center border border-left-0 border-right-0 py-2 mb-3">
     <div style="flex:1;flex-basis: 80%;">
         <h1 class="list-title">
             {{ page.title }}
@@ -48,6 +48,6 @@ postType: Blog Post
 
 <hr>
 
-<h4 style="color:#dd4b39;font-weight:500;">Share your thoughts on: '{{ page.title }}':</h4>
+<h4 class="comment-heading">Share your thoughts on: '{{ page.title }}':</h4>
 
 {% include disqus-comments.html %}
