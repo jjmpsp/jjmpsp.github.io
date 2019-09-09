@@ -19,8 +19,8 @@ The term 'app' has become very popular in recent years and is short for 'applica
 
 An 'app' is just a container for a collection of machine code. In application development terms, we also call this an executable.
 
-Right down what you want the app to do and why.
-
+Write down what you want the app to do and why.
+If you're looking for an example of an existing project, be sure to check out my post on how I rebuilt this website using Jekyll. Feel free to use this advice as a starting point for your own projects. 
 Who? What? Why? When? Where?
 
 Part of my work as a systems analyst involves looking at complex systems and asking these questions.
