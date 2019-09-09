@@ -13,7 +13,7 @@ ogDescription: Website sitemap for joel-murphy.co.uk.
 {% include nav-breadcrumbs.html %}
 
 ## Website Sitemap
-I want to make it as easy as possible to explore the content on this website. If you're looking for something in particular then you can use the [search functionality of my website](/search/), or you can use this sitemap page to search for content by page name.
+I want to make it as easy as possible to explore the content on this website. If you're looking for something in particular then you can use the [search functionality of my website](/search), or you can use this sitemap page to search for content by page name.
 
 {% for page in site.pages %}
 {% if page.exclude != true %}
