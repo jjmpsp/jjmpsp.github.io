@@ -76,26 +76,43 @@
                         {% endunless %}
                         {% endfor %}
 
+                        {% assign productreviews_counter = 0 %}
+                        {% for item in site.product_reviews %}
+                        {% unless item.published == false %}
+                        {% assign productreviews_counter=productreviews_counter | plus:1 %}
+                        {% endunless %}
+                        {% endfor %}
+
                         <ul id="website-stats-list">
                             <li>
                                 <a href="/blog">Published Blog Posts:</a> <br>
-                                <div class="stat_count stat_count1">{{ blog_counter }}</div>
+                                <a href="/blog">
+                                    <div class="stat_count stat_count1">{{ blog_counter }}</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/tutorials">Published Tutorials:</a> <br>
-                                <div class="stat_count stat_count2">{{ tutorial_counter }}</div>
+                                <a href="/tutorials">
+                                    <div class="stat_count stat_count2">{{ tutorial_counter }}</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/portfolio">Published Work Portfolio Items:</a> <br>
-                                <div class="stat_count stat_count3">{{ portfolio_counter }}</div>
+                                <a href="/portfolio">
+                                    <div class="stat_count stat_count3">{{ portfolio_counter }}</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/money-saving">Published Money Saving Posts:</a> <br>
-                                <div class="stat_count stat_count4">{{ moneysaving_counter }}</div>
+                                <a href="/money-saving">
+                                    <div class="stat_count stat_count4">{{ moneysaving_counter }}</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/product-reviews">Published Product Reviews:</a> <br>
-                                <div class="stat_count stat_count5">{{ moneysaving_counter }}</div>
+                                <a href="/product-reviews">
+                                    <div class="stat_count stat_count5">{{ productreviews_counter }}</div>
+                                </a>
                             </li>
                         </ul>
                         <span class="badge badge-secondary">New!</span> <a href="/search/">Search for content</a> on this website

@@ -80,3 +80,28 @@ Warning: openssl_pkey_export(): cannot get key from parameter 1 in
 C:\web\auth\saml2\setuplib.php on line 84
 ```
 
+
+Current PHP version: 7.3.6
+*** OPENSSL_CONF
+string(58) "C:\Users\jo209050\Desktop\Bitnami/apache2/conf/openssl.cnf"
+
+*** Errors before calling openssl_pkey_new
+string(51) "error:02001003:system library:fopen:No such process"
+string(53) "error:2006D080:BIO routines:BIO_new_file:no such file"
+string(63) "error:0E064002:configuration file routines:CONF_load:system lib"
+string(68) "error:0E06D06C:configuration file routines:NCONF_get_string:no value"
+string(68) "error:0E06D06C:configuration file routines:NCONF_get_string:no value"
+string(68) "error:0E06D06C:configuration file routines:NCONF_get_string:no value"
+string(68) "error:0E06D06C:configuration file routines:NCONF_get_string:no value"
+string(68) "error:0E06D06C:configuration file routines:NCONF_get_string:no value"
+
+*** Calling openssl_pkey_new
+Resource id #21
+
+https://www.php.net/manual/en/function.openssl-pkey-new.php
+
+
+OpenSSL support	enabled
+OpenSSL Library Version	OpenSSL 1.1.1c 28 May 2019
+OpenSSL Header Version	OpenSSL 1.1.1b 26 Feb 2019
+Openssl default config	C:\Program Files\Common Files\SSL/openssl.cnf

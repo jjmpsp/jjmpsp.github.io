@@ -7,7 +7,7 @@ description: Ever wondered how websites can handle so much traffic without going
 ogDescription: Ever wondered how websites can handle so much traffic without going down? This blog post explains how to scale internet services to a large amount of users. 
 ---
 
-Has the thought of scaling ever crossed your mind? This post explains the foundations of scaling theory and the requirements for scaling internet web applications to a large scale. 
+Has the thought of scaling ever crossed your mind? This post explains the foundations of scaling theory and the requirements for building scalable, reliable, and performant large-scale web applications and web services. 
 
 <!--more-->
 
