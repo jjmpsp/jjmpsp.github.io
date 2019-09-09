@@ -18,7 +18,7 @@ Jump to:
 ---
 
 ## Skills Overview
-Joel is passionate about developing innovative IT solutions and delivering them to clients, or organisations in an exceptional standard. Over the past decade, Joel has learned to become a team leader, in addition to an expert software developer from running his own businesses and working in multiple digital organisations.
+Joel is passionate about developing innovative I.T solutions and delivering them to clients, or organisations in an exceptional standard. Over the past decade, Joel has learned to become a team leader, in addition to an expert software developer from running his own businesses and working in multiple digital organisations.
 
 Joel has worked for small start-up companies, as well as corporations in contracted & employed positions. Due to this, his skills are flexible and tie into many different I.T positions - especially those involving Software Development, or Project Management. Joel is able to fit into existing roles with his skills, or train on a job to acquire skills specific to an organisation’s needs.
 
