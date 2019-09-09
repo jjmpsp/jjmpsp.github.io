@@ -594,7 +594,7 @@ ul.accordion .description {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 .typeform-share:hover {
-  color: inherit !important; }
+  color: white !important; }
 
 .PageNavigation {
   font-size: 14px;
