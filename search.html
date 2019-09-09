@@ -210,6 +210,112 @@
 
 <h2 id="search-for-content">Search for content</h2>
 
+<p>Please use the search box below for searching for content on joel-murphy.co.uk.</p>
+
+<div id="search-searchbar"></div>
+
+<div class="post-list" id="search-hits">
+
+</div>
+
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css" />
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css" />
+
+<script>
+    const search = instantsearch({
+        appId: 'FU05W4UZFC',
+        apiKey: 'f25af87c01b2ae2f6578f8d6d0a5497b',
+        indexName: 'prod_index'
+    });
+
+    const hitTemplate = function (hit) {
+        let date = '';
+        if (hit.date) {
+            date = moment.unix(hit.date).format('MMM D, YYYY');
+        }
+
+        let url = `${hit.url}`;
+
+        const title = hit._highlightResult.title.value;
+        const content = hit._highlightResult.html.value;
+
+        return `
+        <div class="post-item">
+            <span class="post-meta">${date}</span>
+            <h2><a class="post-link" href="${url}">${title}</a></h2>
+            <div class="post-snippet">${content}</div>
+        </div>`;
+    }
+
+
+    search.addWidget(
+        instantsearch.widgets.searchBox({
+            container: '#search-searchbar',
+            placeholder: 'Search content on joel-murphy.co.uk...',
+            poweredBy: true
+        })
+    );
+
+    search.addWidget(
+        instantsearch.widgets.hits({
+            container: '#search-hits',
+            templates: {
+                item: hitTemplate
+            }
+        })
+    );
+
+    search.start();
+</script>
+
+<style>
+    .ais-search-box {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .post-item {
+        margin-bottom: 30px;
+    }
+
+    .post-link .ais-Highlight {
+        color: #111;
+        font-style: normal;
+        text-decoration: underline;
+    }
+
+    .post-breadcrumbs {
+        color: #424242;
+        display: block;
+    }
+
+    .post-breadcrumb {
+        font-size: 18px;
+        color: #424242;
+    }
+
+    .post-breadcrumb .ais-Highlight {
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .post-snippet .ais-Highlight {
+        color: #2a7ae2;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .post-snippet img {
+        display: none;
+    }
+</style>
+
 <div id="float-toc">
     <nav role="navigation" class="table-of-contents">
         
@@ -428,26 +534,39 @@
                         
                         
 
+                        
+                        
+
                         <ul id="website-stats-list">
                             <li>
                                 <a href="/blog">Published Blog Posts:</a> <br>
-                                <div class="stat_count stat_count1">19</div>
+                                <a href="/blog">
+                                    <div class="stat_count stat_count1">19</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/tutorials">Published Tutorials:</a> <br>
-                                <div class="stat_count stat_count2">5</div>
+                                <a href="/tutorials">
+                                    <div class="stat_count stat_count2">5</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/portfolio">Published Work Portfolio Items:</a> <br>
-                                <div class="stat_count stat_count3">9</div>
+                                <a href="/portfolio">
+                                    <div class="stat_count stat_count3">9</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/money-saving">Published Money Saving Posts:</a> <br>
-                                <div class="stat_count stat_count4">2</div>
+                                <a href="/money-saving">
+                                    <div class="stat_count stat_count4">2</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/product-reviews">Published Product Reviews:</a> <br>
-                                <div class="stat_count stat_count5">2</div>
+                                <a href="/product-reviews">
+                                    <div class="stat_count stat_count5">0</div>
+                                </a>
                             </li>
                         </ul>
                         <span class="badge badge-secondary">New!</span> <a href="/search/">Search for content</a> on this website

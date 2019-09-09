@@ -308,6 +308,29 @@ Warning: openssl_pkey_export(): cannot get key from parameter 1 in
 C:\web\auth\saml2\setuplib.php on line 84
 </code></pre></div></div>
 
+<p>Current PHP version: 7.3.6
+*** OPENSSL_CONF
+string(58) “C:\Users\jo209050\Desktop\Bitnami/apache2/conf/openssl.cnf”</p>
+
+<p>*** Errors before calling openssl_pkey_new
+string(51) “error:02001003:system library:fopen:No such process”
+string(53) “error:2006D080:BIO routines:BIO_new_file:no such file”
+string(63) “error:0E064002:configuration file routines:CONF_load:system lib”
+string(68) “error:0E06D06C:configuration file routines:NCONF_get_string:no value”
+string(68) “error:0E06D06C:configuration file routines:NCONF_get_string:no value”
+string(68) “error:0E06D06C:configuration file routines:NCONF_get_string:no value”
+string(68) “error:0E06D06C:configuration file routines:NCONF_get_string:no value”
+string(68) “error:0E06D06C:configuration file routines:NCONF_get_string:no value”</p>
+
+<p>*** Calling openssl_pkey_new
+Resource id #21</p>
+
+<p>https://www.php.net/manual/en/function.openssl-pkey-new.php</p>
+
+<p>OpenSSL support	enabled
+OpenSSL Library Version	OpenSSL 1.1.1c 28 May 2019
+OpenSSL Header Version	OpenSSL 1.1.1b 26 Feb 2019
+Openssl default config	C:\Program Files\Common Files\SSL/openssl.cnf</p>
 
 
 <div class="space-before" style="z-index: 0 !important;margin-top:10px;">
@@ -652,26 +675,39 @@ C:\web\auth\saml2\setuplib.php on line 84
                         
                         
 
+                        
+                        
+
                         <ul id="website-stats-list">
                             <li>
                                 <a href="/blog">Published Blog Posts:</a> <br>
-                                <div class="stat_count stat_count1">19</div>
+                                <a href="/blog">
+                                    <div class="stat_count stat_count1">19</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/tutorials">Published Tutorials:</a> <br>
-                                <div class="stat_count stat_count2">5</div>
+                                <a href="/tutorials">
+                                    <div class="stat_count stat_count2">5</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/portfolio">Published Work Portfolio Items:</a> <br>
-                                <div class="stat_count stat_count3">9</div>
+                                <a href="/portfolio">
+                                    <div class="stat_count stat_count3">9</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/money-saving">Published Money Saving Posts:</a> <br>
-                                <div class="stat_count stat_count4">2</div>
+                                <a href="/money-saving">
+                                    <div class="stat_count stat_count4">2</div>
+                                </a>
                             </li>
                             <li>
                                 <a href="/product-reviews">Published Product Reviews:</a> <br>
-                                <div class="stat_count stat_count5">2</div>
+                                <a href="/product-reviews">
+                                    <div class="stat_count stat_count5">0</div>
+                                </a>
                             </li>
                         </ul>
                         <span class="badge badge-secondary">New!</span> <a href="/search/">Search for content</a> on this website
