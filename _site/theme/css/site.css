@@ -365,6 +365,17 @@ ul.accordion .description {
 
   #footer {
     height: 100px; } }
+#scroll-value-container {
+  width: 100%;
+  background: grey;
+  display: block;
+  height: 2px;
+  clear: both;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; }
+
 #scroll-value {
   width: 0;
   background: #5D9040;
@@ -540,7 +551,7 @@ ul.accordion .description {
   outline-color: #2e83e6;
   border-radius: 3px;
   transition: box-shadow .2s ease; }
-.email-subscription-cta .wj-contact-form input[type="submit"] {
+.email-subscription-cta .wj-contact-form input[type=" submit "] {
   background-color: #2e83e6;
   border: 1px solid #2e83e6;
   color: #eee; }

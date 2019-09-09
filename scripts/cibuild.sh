@@ -17,7 +17,7 @@ mkdir _site
 git clone https://${GH_TOKEN}@github.com/jjmpsp/jjmpsp.github.io.git --branch master _site
 
 # build with Jekyll into "_site"
-bundle exec jekyll build
+environment=production bundle exec jekyll build
 
 # push
 cd _site
