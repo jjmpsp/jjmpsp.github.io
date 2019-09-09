@@ -2,6 +2,11 @@
 "pages": [
 
 {
+"title": "Organising backups in a monthly folder structure with Powershell",
+"link": "/blogposts/2019-03-03-powershell-monthly-backup-archive.html"
+}
+,
+{
 "title": "How to export Visual Studio Code Plugins list",
 "link": "/blogposts/2019-04-11-vs-code-export-plugins-list-on-windows-unix.html"
 }
@@ -10,12 +15,9 @@
 "title": "How to pin programs to taskbar with powershell in Windows 10 or Windows Server 2012+",
 "link": "/blogposts/2019-5-5-windows-10-powershell-copy-app-to-taskbar.html"
 }
-,
-{
-"title": "Downloading Google Chrome without internet",
-"link": "/blogposts/2019-07-07-download-google-chrome-without-internet.html"
-}
 ]
+
+,"next": "/api/blogposts-7.json"
 
 
 ,"prev": "/api/blogposts-5.json"

@@ -77,7 +77,6 @@ $(document).ready(function () {
     }
 
     $("#toggleStickyFooter").click(function () {
-        console.log('stickyfooter='+footerDocked);
         if (footerDocked) {
             undockStickyFooter();
             $(this).text("⬆");
@@ -88,7 +87,6 @@ $(document).ready(function () {
     });
 
     $("#toggleTableOfContents").click(function () {
-        console.log('tocactive='+tocActive);
         if (tocActive) {
             hideTOC();
             $(this).text("⬆");
