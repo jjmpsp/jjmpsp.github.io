@@ -67,7 +67,7 @@
 
 
 
-<meta content="2019-09-09T16:34:21+00:00" property="article:published_time">
+<meta content="2019-09-16T16:25:34+00:00" property="article:published_time">
 <meta content="https://joel-murphy.co.uk/about/" property="article:author">
 
 
@@ -415,13 +415,13 @@ Writing code that is modular not only means you can use it in future projects, b
         var tpl =
             "<li class='nav-item'>\
                 <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
-            </li>"
+            </li>";
         $("h2").each(function (idx, h2) {
-            $(h2).attr("id", "header" + idx)
-            var name = $(h2).text().trim()
-            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
-            var header = $(dom_string)
-            $(".header-list").append(header)
+            $(h2).attr("id", "header" + idx);
+            var name = $(h2).text().trim();
+            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx);
+            var header = $(dom_string);
+            $(".header-list").append(header);
         })
     })
 </script>
@@ -634,7 +634,7 @@ Writing code that is modular not only means you can use it in future projects, b
                             <li>
                                 <a href="/blog">Published Blog Posts:</a> <br>
                                 <a href="/blog">
-                                    <div class="stat_count stat_count1">19</div>
+                                    <div class="stat_count stat_count1">20</div>
                                 </a>
                             </li>
                             <li>
@@ -708,7 +708,7 @@ Writing code that is modular not only means you can use it in future projects, b
                     Last update:
                     <date>
                     September
-                    9th, 2019 </date> 🕗
+                    16th, 2019 </date> 🕗
                 </div>
             </div>
             <div class="col-2 col-md-1">
