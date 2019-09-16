@@ -34,12 +34,17 @@ Welcome to the personal website of Joel Murphy. Here is a message from the autho
 ------
 
 ## Recent Blog Posts
-{% for post in site.blogposts limit:3 %}
+{% assign posts = site.blogposts | sort: 'date' | reverse %}
+{% for post in posts limit:3 %}
 {% include components/post-card.html %}
 {% endfor %}
 
-<h4 style="color:red;">👀 Looking for more content?</h4>
-Good news! There's plenty more to explore View more blog posts
+<h4 style="color:#dd4b39;font-weight:600;">👀 Looking for more content?</h4>
+Good news: There's plenty more to explore!
+
+- View more [Blog Posts](/blog/)
+- [View Tutorials](/tutorials/)
+
 If you're looking for an entire website overview, then you may be interested in the [Website Sitemap](/sitemap.html) page for this website.
 
 {% include toc-scroll-to-top.html excludeHierarchy=true %}

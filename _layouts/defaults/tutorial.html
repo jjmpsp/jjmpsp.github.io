@@ -40,13 +40,13 @@ postType: Tutorial
         var tpl =
             "<li class='nav-item'>\
                 <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
-            </li>"
+            </li>";
         $("h2").each(function (idx, h2) {
-            $(h2).attr("id", "header" + idx)
-            var name = $(h2).text().trim()
-            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
-            var header = $(dom_string)
-            $(".header-list").append(header)
+            $(h2).attr("id", "header" + idx);
+            var name = $(h2).text().trim();
+            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx);
+            var header = $(dom_string);
+            $(".header-list").append(header);
         })
     })
 </script>

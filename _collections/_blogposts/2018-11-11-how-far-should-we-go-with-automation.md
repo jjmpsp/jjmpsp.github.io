@@ -21,7 +21,7 @@ But in all honesty, what's the actual point of this?
 <div class="card mb-3">
     <img class="card-img-top" src = "/static/img/light_switch.jpg"/>
     <div class="card-body bg-light">
-        <div class="card-text">Screenshot of project.</div>
+        <div class="card-text">A good ol' light switch.</div>
     </div>
 </div>
 

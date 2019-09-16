@@ -2,12 +2,11 @@
 title: How to get started with software development
 ---
 
-
-
 Many people I speak to say they're really interested in getting started with writing software, but have no actual clue where to get started with software development. Hopefully this tutorial will give you a good starting point into the magical world of software development and spark some light bulb moments to some people's minds.
 
 In this tutorial I will discuss some of the programming languages out there and how they have developed over time.
 
+<!--more-->
 
 ## Figure out what you actually want to build before you start
 What's your end goal?

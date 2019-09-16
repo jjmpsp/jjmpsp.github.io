@@ -15,6 +15,11 @@
 "title": "How to loop over any collection type in Jekyll",
 "link": "/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html"
 }
+,
+{
+"title": "Debugging OpenSSL Error 02001003 in PHP",
+"link": "/blogposts/2018-03-11-open-ssl-php-debugging-error-02001003.html"
+}
 ]
 
 ,"next": "/api/blogposts-2.json"

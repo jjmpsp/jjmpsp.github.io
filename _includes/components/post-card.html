@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="card-text mb-0">
-            {{ post.excerpt }}
+            {{ post.excerpt | strip_html }}
         </div>
         <a href="{{ post.url | absolute_url }}" class="read-more">Read full post: {{ post.title }}...</a>
     </div>
