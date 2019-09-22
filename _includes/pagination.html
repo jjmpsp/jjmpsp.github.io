@@ -10,7 +10,7 @@
 
         {% if paginator.previous_page %}
         <li class="page-item previous">
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link">&larr; Newer Posts</a>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link">&larr;</a>
         </li>
         {% endif %}
 
@@ -24,7 +24,7 @@
 
         {% if paginator.next_page %}
         <li class="page-item next">
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link">Older Posts &rarr;</a>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link">&rarr;</a>
         </li>
         {% endif %}
 
