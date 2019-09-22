@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic");
 body {
   background: url("../../static/img/subtle_dots_@2X.png");
-  font-weight: 400; }
+  font-weight: 300 !important; }
+body a {
+  font-weight: 400 !important; }
 
 #site-container {
   padding-top: 80px;
@@ -198,7 +200,8 @@ blockquote span {
 .breadcrumb-item.active a {
   pointer-events: none;
   cursor: default;
-  color: grey !important; }
+  color: grey !important;
+  font-weight: 300 !important; }
 
 #footer {
   min-height: 40px;
@@ -223,6 +226,8 @@ blockquote span {
 #footer-credits {
   text-align: center;
   line-height: 40px; }
+#footer-credits a {
+  color: #5D9040 !important; }
 
 #website-stats-list {
   list-style: none;
@@ -657,6 +662,7 @@ ul.accordion .description {
   .container {
     max-width: 100% !important; } }
 .top-breadcrumb {
-  display: block !important; }
+  display: block !important;
+  margin: 10px 0 !important; }
 .top-breadcrumb li {
   display: inline; }
