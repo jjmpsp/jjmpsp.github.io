@@ -574,7 +574,8 @@ ul.accordion .description {
 .blog-item h4 {
   font-weight: 500;
   text-transform: capitalize;
-  font-size: 27px; }
+  font-size: 27px;
+  margin-bottom: 0.9rem !important; }
 .blog-item .tag-list span {
   font-size: 12px; }
 .blog-item .read-more {
