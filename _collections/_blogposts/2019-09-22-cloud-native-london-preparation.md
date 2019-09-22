@@ -264,7 +264,7 @@ Day 1
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >TBA: Top Secret Cloud-Native Security Lessons</a>
+                        <span class="title h4"    >TBA: Top Secret Cloud-Native Security Lessons</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -295,7 +295,7 @@ Day 1
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
-                        <a class="title h4"    >Lightning Talk: How to Explain Docker to Your Grandma</a>
+                        <span class="title h4"    >Lightning Talk: How to Explain Docker to Your Grandma</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -316,7 +316,7 @@ Day 1
                     </div>
 
                     <label>
-                        <a class="title h4"    >15 minute Lightning Talk (TBC)</a>
+                        <span class="title h4"    >15 minute Lightning Talk (TBC)</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -347,7 +347,7 @@ Day 1
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
-                        <a class="title h4"    >Keynote: Preparing for the Quantum Revolution</a>
+                        <span class="title h4"    >Keynote: Preparing for the Quantum Revolution</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -405,7 +405,7 @@ Day 2
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
-                        <a class="title h4"    >Keynote:  Learning To Be Successful at “Being Wrong”™ In The Cloud</a>
+                        <span class="title h4"    >Keynote:  Learning To Be Successful at “Being Wrong”™ In The Cloud</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -439,7 +439,7 @@ Day 2
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >Introduction to service mesh with Istio and Kiali</a>
+                        <span class="title h4"    >Introduction to service mesh with Istio and Kiali</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -470,7 +470,7 @@ Day 2
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >Using Kubeflow Pipelines for building machine learning pipelines</a>
+                        <span class="title h4"    >Using Kubeflow Pipelines for building machine learning pipelines</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -504,7 +504,7 @@ Day 2
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >Istio service mesh vs AWS App Mesh: how about both?</a>
+                        <span class="title h4"    >Istio service mesh vs AWS App Mesh: how about both?</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -535,7 +535,7 @@ Day 2
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
-                        <a class="title h4"    >Keynote: Is DevOps Still Relevant In A Cloud Native World? (Enterprise Edition)</a>
+                        <span class="title h4"    >Keynote: Is DevOps Still Relevant In A Cloud Native World? (Enterprise Edition)</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -569,7 +569,7 @@ Day 2
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >Cloud-Native Microservices with RSocket</a>
+                        <span class="title h4"    >Cloud-Native Microservices with RSocket</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -600,7 +600,7 @@ Day 2
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >Lightning Talk: Serverless: Patterns, Limitations and Pitfalls</a>
+                        <span class="title h4"    >Lightning Talk: Serverless: Patterns, Limitations and Pitfalls</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -624,7 +624,7 @@ Day 2
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >Lightning Talk: Discovery, Consul and Inversion of Control for the infrastructure</a>
+                        <span class="title h4"    >Lightning Talk: Discovery, Consul and Inversion of Control for the infrastructure</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -655,7 +655,7 @@ Day 2
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
-                        <a class="title h4"    >Keynote: Cultivating Production Excellence</a>
+                        <span class="title h4"    >Keynote: Cultivating Production Excellence</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -706,7 +706,7 @@ Day 3
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
-                        <a class="title h4"    >How We Broke the World Record for Computing Digits of Pi (31.4 trillion!)</a>
+                        <span class="title h4">How We Broke the World Record for Computing Digits of Pi (31.4 trillion!)</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -740,7 +740,7 @@ Day 3
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4" >Busier than Barclaycard on Black Friday</a>
+                        <span class="title h4" >Busier than Barclaycard on Black Friday</span>
                     </label>
                     <div class="supplementary" >
                         <p class="h5 subheader">
@@ -777,7 +777,7 @@ Day 3
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >How to Break Builds and Influence People - Ordnance Survey's Ongoing Cloud Native Journey</a>
+                        <span class="title h4"    >How to Break Builds and Influence People - Ordnance Survey's Ongoing Cloud Native Journey</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -810,7 +810,7 @@ Day 3
                         </div>
                         <div class="flex-child-shrink">
                             <div class="session_review future"  >
-                                <a class="has-tip left"             >
+                                <span class="has-tip left">
                                     <div class="emoji">
                                         <img src="//d2rrjv931ezem9.cloudfront.net/packs/generic_3-ab52a44b7abea44d0b1ea7b37c7c4ef7.png">
                                     </div>
@@ -820,7 +820,7 @@ Day 3
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >Serverless 2.0: Get Started With The PLONK Stack</a>
+                        <span class="title h4" >Serverless 2.0: Get Started With The PLONK Stack</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -853,17 +853,17 @@ Day 3
                         </div>
                         <div class="flex-child-shrink">
                             <div class="session_review future"  >
-                                <a class="has-tip left"             >
+                                <span class="has-tip left">
                                     <div class="emoji">
                                         <img src="//d2rrjv931ezem9.cloudfront.net/packs/generic_3-ab52a44b7abea44d0b1ea7b37c7c4ef7.png">
                                     </div>
-                                </a>
+                                </span>
                             </div>
                         </div>
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
-                        <a class="title h4"    >Keynote: Introducing Ecstasy: A Cloud Native, General Purpose Programming Language</a>
+                        <span class="title h4">Keynote: Introducing Ecstasy: A Cloud Native, General Purpose Programming Language</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -896,17 +896,17 @@ Day 3
                         </div>
                         <div class="flex-child-shrink">
                             <div class="session_review future"  >
-                                <a class="has-tip left"             >
+                                <span class="has-tip left">
                                     <div class="emoji">
                                         <img src="//d2rrjv931ezem9.cloudfront.net/packs/generic_3-ab52a44b7abea44d0b1ea7b37c7c4ef7.png">
                                     </div>
-                                </a>
+                                </span>
                             </div>
                         </div>
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
-                        <a class="title h4"    >Cloud Native Patterns</a>
+                        <span class="title h4">Cloud Native Patterns</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
@@ -936,17 +936,17 @@ Day 3
                         </div>
                         <div class="flex-child-shrink">
                             <div class="session_review future"  >
-                                <a class="has-tip left"             >
+                                <span class="has-tip left">
                                     <div class="emoji">
                                         <img src="//d2rrjv931ezem9.cloudfront.net/packs/generic_3-ab52a44b7abea44d0b1ea7b37c7c4ef7.png">
                                     </div>
-                                </a>
+                                </span>
                             </div>
                         </div>
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
-                        <a class="title h4"    >Keynote: Quality for 'Cloud Natives': What Changes When Your Systems Are Complex And Distributed?</a>
+                        <span class="title h4">Keynote: Quality for 'Cloud Natives': What Changes When Your Systems Are Complex And Distributed?</span>
                     </label>
                     <div class="supplementary"    >
                         <p class="h5 subheader">
