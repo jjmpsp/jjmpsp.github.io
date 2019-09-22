@@ -582,7 +582,7 @@ ul.accordion .description {
   font-weight: 500;
   font-style: italic;
   color: #553e98;
-  display: block;
+  display: inline-block;
   margin-top: 10px; }
 
 .ad-block {
