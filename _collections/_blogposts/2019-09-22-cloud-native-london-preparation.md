@@ -802,19 +802,10 @@ Day 3
                 <div class="card-section">
                     <div class="flex-container align-justify align-bottom">
                         <div class="flex-child-grow">
-                            <div class="listing-avatar-group grid-x"    >
+                            <div class="listing-avatar-group grid-x">
                                 <div class="cell shrink">
                                     <img title="Alex Ellis" class="expert-avatar" alt="" src="https://res.cloudinary.com/skillsmatter/image/upload/c_fill,w_96,h_96,g_face/v1503415849/caroe7v1lzglvxgvu7dc.jpg">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="flex-child-shrink">
-                            <div class="session_review future"  >
-                                <span class="has-tip left">
-                                    <div class="emoji">
-                                        <img src="//d2rrjv931ezem9.cloudfront.net/packs/generic_3-ab52a44b7abea44d0b1ea7b37c7c4ef7.png">
-                                    </div>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -851,15 +842,6 @@ Day 3
                                 </div>
                             </div>
                         </div>
-                        <div class="flex-child-shrink">
-                            <div class="session_review future"  >
-                                <span class="has-tip left">
-                                    <div class="emoji">
-                                        <img src="//d2rrjv931ezem9.cloudfront.net/packs/generic_3-ab52a44b7abea44d0b1ea7b37c7c4ef7.png">
-                                    </div>
-                                </span>
-                            </div>
-                        </div>
                     </div>
                     <span style="background-color: #5F3486;" class="label theme">All levels</span>
                     <label>
@@ -894,15 +876,6 @@ Day 3
                                 </div>
                             </div>
                         </div>
-                        <div class="flex-child-shrink">
-                            <div class="session_review future"  >
-                                <span class="has-tip left">
-                                    <div class="emoji">
-                                        <img src="//d2rrjv931ezem9.cloudfront.net/packs/generic_3-ab52a44b7abea44d0b1ea7b37c7c4ef7.png">
-                                    </div>
-                                </span>
-                            </div>
-                        </div>
                     </div>
                     <span style="background-color: #009DE0;" class="label theme">Intermediate</span>
                     <label>
@@ -932,15 +905,6 @@ Day 3
                                 <div class="cell shrink">
                                     <img title="Sarah Wells" class="expert-avatar" alt="" src="https://res.cloudinary.com/skillsmatter/image/upload/c_fill,w_96,h_96,g_face/v1489401689/z9czrmdntomux8uaj1ck.jpg">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="flex-child-shrink">
-                            <div class="session_review future"  >
-                                <span class="has-tip left">
-                                    <div class="emoji">
-                                        <img src="//d2rrjv931ezem9.cloudfront.net/packs/generic_3-ab52a44b7abea44d0b1ea7b37c7c4ef7.png">
-                                    </div>
-                                </span>
                             </div>
                         </div>
                     </div>
