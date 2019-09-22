@@ -940,6 +940,9 @@ Day 3
 
 
 <style>
+#external {
+    border: 0.1px solid black;
+}
 #external h1 {
   font-size: 2em;
   margin: 0.67em 0;
