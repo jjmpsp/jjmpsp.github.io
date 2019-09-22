@@ -58,7 +58,7 @@ This will fire up a powershell terminal. If you've done some work with Linux Doc
 This is how you will inspect the windows container for underlying issues. As a step further you an do things such as configure WinRM for advanced control over the container without using the docker binary. That's outside of the scope of this tutorial though.
 
 <div class="card mb-3">
-    <img class="card-img-top" src=""{{ site.baseurl }}/static/img/tutorials/docker-windows-containers-powershell.PNG" title="Windows Docker Containers" alt="Windows Docker Containers" />
+    <img class="card-img-top" src="{{ site.baseurl }}/static/img/tutorials/docker-windows-containers-powershell.PNG" title="Windows Docker Containers" alt="Windows Docker Containers" />
 </div>
 
 Nice! You can exit out of this container by simply typing 'exit' - it couldn't be easier really.

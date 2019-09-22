@@ -226,8 +226,8 @@ blockquote span {
 #footer-credits {
   text-align: center;
   line-height: 40px; }
-#footer-credits a:hover {
-  color: #553e98 !important; }
+#footer-credits a {
+  color: #5D9040 !important; }
 
 #website-stats-list {
   list-style: none;

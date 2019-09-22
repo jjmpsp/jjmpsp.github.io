@@ -6,7 +6,7 @@ url: "https://joel-murphy.co.uk"
 plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
-  - jekyll-last-modified-at
+
 
 exclude: [.idea/,webpack/,webpack.config.js,node_modules/,package.json]
 
