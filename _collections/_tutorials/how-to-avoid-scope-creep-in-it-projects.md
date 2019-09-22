@@ -1,5 +1,10 @@
 ---
 title:  How to avoid scope creep in I.T projects
+tags:
+  - how to
+  - avoid
+  - scope
+  - creep
 ---
 
 If you've ever worked on an IT project, you'll already know that one of the most difficult parts of managing technical projects is avoiding 'scope creep'. This post aims to demystify 'scope creep' and give you a better understanding of how to manage  scope creep in IT projects. 

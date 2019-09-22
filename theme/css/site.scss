@@ -397,13 +397,19 @@ span.normal-text {
   }
 }
 
-.share-buttons a:hover {
-  color: #ffffff;
-  text-decoration: none;
+.share-buttons {
+  a {
+    display: inline-block;
+    line-height: 18px;
+
+    &:hover {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
 }
 
 ul.accordion {
-
   list-style: none;
   padding: 0;
 

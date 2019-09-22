@@ -1,12 +1,14 @@
+###
+### This is a modified version of _config.yml for dev environments only
+### This file excludes plugins with long runtimes, reducing build times.
+###
 # Outputting
 permalink: /:categories/:year/:month/:day/:title.html
 
 # Jekyll sitemap plugin config - https://github.com/jekyll/jekyll-sitemap
 url: "https://joel-murphy.co.uk"
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate-v2
-  - jekyll-last-modified-at
 
 exclude: [.idea/,webpack/,webpack.config.js,node_modules/,package.json]
 
