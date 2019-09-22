@@ -938,6 +938,7 @@ Day 3
     </div>
 </div>
 
+So yeah, an exciting week ahead! I'll be sure to blog about topics I find interesting. 
 
 <style>
 #external {
