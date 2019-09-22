@@ -1,5 +1,11 @@
 ---
 title: How to get started with software development
+tags:
+  - software
+  - development
+  - guide
+  - path
+  - tutorial
 ---
 
 Many people I speak to say they're really interested in getting started with writing software, but have no actual clue where to get started with software development. Hopefully this tutorial will give you a good starting point into the magical world of software development and spark some light bulb moments to some people's minds.

@@ -1,5 +1,11 @@
 ---
 title: How to make a website load faster in 2019 using modern optimisation techniques 
+tags:
+  - website
+  - optimisation
+  - development
+  - page
+  - speed
 description: A tutorial explaining methods of optimising websites for speed and scale.
 ogDescription: A tutorial explaining methods of optimising websites for speed and scale.
 ---

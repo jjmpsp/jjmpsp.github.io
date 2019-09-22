@@ -1,5 +1,10 @@
 ---
 title: How to create Docker containers for Windows using Microsoft's windowsservercore Docker image
+tags:
+  - docker
+  - windows
+  - container
+  - tutorial
 ---
 
 This tutorial describes how to develop Docker containers for Windows using Microsoft's windowsservercore Docker image.
