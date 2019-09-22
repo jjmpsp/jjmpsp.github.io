@@ -8,7 +8,7 @@ description: My learning goals for the end of 2019
 ogDescription: My learning goals for the end of 2019
 ---
 
-As the final quarter of 2019 has approached us, I'm setting out some learning objectives
+As the final quarter of 2019 has approached us, I'm setting out some personal learning objectives
 for the next 3 months. This post describes my learning objectives and why I've chosen those particular subjects.
 
 <!--more-->
