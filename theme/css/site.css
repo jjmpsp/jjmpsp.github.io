@@ -207,7 +207,8 @@ blockquote span {
   color: rgba(255, 255, 255, 0.5);
   position: fixed;
   bottom: 0;
-  display: none; }
+  display: none;
+  z-index: 999; }
 
 #toggleStickyFooter {
   font-size: 26px;
@@ -576,7 +577,9 @@ ul.accordion .description {
 .blog-item .read-more {
   font-weight: 500;
   font-style: italic;
-  color: #553e98; }
+  color: #553e98;
+  display: block;
+  margin-top: 10px; }
 
 .ad-block {
   width: 100%;
@@ -627,17 +630,6 @@ ul.accordion .description {
 .PageNavigation .next {
   text-align: right; }
 
-ul.pager {
-  text-align: center;
-  list-style: none; }
-ul.pager li {
-  display: inline;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 5px; }
-ul.pager li .selected {
-  background-color: magenta; }
-
 .docked-footer-margin {
   margin-bottom: 60px !important; }
 
@@ -648,3 +640,15 @@ ul.pager li .selected {
 .comment-heading {
   color: #dd4b39;
   font-weight: 500; }
+
+.pagination .page-link:hover {
+  border-bottom: 1px solid #dee2e6 !important; }
+
+/* TODO: Modify core bootstrap in future */
+/* Override bootstrap responsive fixed widths */
+@media (min-width: 576px) {
+  .container {
+    max-width: 100% !important; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 100% !important; } }
