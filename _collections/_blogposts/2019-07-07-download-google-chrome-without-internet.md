@@ -1,5 +1,5 @@
 ---
-title: Downloading Google Chrome without internet
+title: Downloading Google Chrome for a remote machine without internet access
 tags:
   - google
   - chrome

@@ -269,6 +269,7 @@ blockquote span {
   position: fixed;
   bottom: 0;
   display: none;
+  z-index: 999;
 }
 
 #toggleStickyFooter {
@@ -788,6 +789,8 @@ ul.accordion {
     font-weight: 500;
     font-style: italic;
     color: #553e98;
+    display: block;
+    margin-top: 10px;
   }
 }
 
@@ -851,22 +854,6 @@ ul.accordion {
   }
 }
 
-ul.pager {
-  text-align: center;
-  list-style: none;
-
-  li {
-    display: inline;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 5px;
-
-    .selected {
-      background-color: magenta;
-    }
-  }
-}
-
 .docked-footer-margin {
   margin-bottom: 60px !important;
 }
@@ -881,4 +868,29 @@ ul.pager {
 .comment-heading {
   color: #dd4b39;
   font-weight: 500;
+}
+
+
+.pagination{
+  .page-link {
+    &:hover{
+      border-bottom: 1px solid #dee2e6 !important;
+    }
+  }
+}
+
+
+
+/* TODO: Modify core bootstrap in future */
+/* Override bootstrap responsive fixed widths */
+@media (min-width: 576px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
 }
