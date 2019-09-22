@@ -877,14 +877,13 @@ ul.accordion {
 }
 
 
-.pagination{
+.pagination {
   .page-link {
-    &:hover{
+    &:hover {
       border-bottom: 1px solid #dee2e6 !important;
     }
   }
 }
-
 
 
 /* TODO: Modify core bootstrap in future */
@@ -898,5 +897,14 @@ ul.accordion {
 @media (min-width: 768px) {
   .container {
     max-width: 100% !important;
+  }
+}
+
+
+.top-breadcrumb {
+  display: block !important;
+
+  li {
+    display: inline;
   }
 }

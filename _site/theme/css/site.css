@@ -655,3 +655,7 @@ ul.accordion .description {
 @media (min-width: 768px) {
   .container {
     max-width: 100% !important; } }
+.top-breadcrumb {
+  display: block !important; }
+.top-breadcrumb li {
+  display: inline; }
