@@ -299,6 +299,9 @@ span.normal-text {
 .share-button:hover {
   border: 2px solid black !important; }
 
+.share-buttons a {
+  display: inline-block;
+  line-height: 18px; }
 .share-buttons a:hover {
   color: #ffffff;
   text-decoration: none; }

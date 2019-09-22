@@ -487,3 +487,11 @@ Now run ````bundle exec jekyll algolia```` to create and upload an index.
 
 ## Changelog
 TODO
+
+Open command prompt as admin
+Modify gemfile to inlcude plugin
+Modify _config.yml plugins section
+Run ````bundle install```` in command prompt to install new dependancy.
+
+To load a version of config.yml which doesn't include resource hogging plugins, run:
+```` jekyll serve --config _config_dev.yml````
