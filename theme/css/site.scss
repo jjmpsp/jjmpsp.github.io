@@ -3,7 +3,11 @@
   //global selectors
 body {
   background: url("../../static/img/subtle_dots_@2X.png");
-  font-weight: 400;
+  font-weight: 300 !important;
+
+  a {
+    font-weight: 400 !important;
+  }
 }
 
 
@@ -259,6 +263,7 @@ blockquote span {
   pointer-events: none;
   cursor: default;
   color: grey !important;
+  font-weight: 300 !important;
 }
 
 #footer {
@@ -287,6 +292,10 @@ blockquote span {
 #footer-credits {
   text-align: center;
   line-height: 40px;
+
+  a {
+    color: #5D9040 !important;
+  }
 }
 
 #website-stats-list {
@@ -904,6 +913,7 @@ ul.accordion {
 
 .top-breadcrumb {
   display: block !important;
+  margin: 10px 0 !important;
 
   li {
     display: inline;
