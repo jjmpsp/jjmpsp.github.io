@@ -14,7 +14,7 @@ In this tutorial I will discuss some of the programming languages out there and 
 
 <!--more-->
 
-## Figure out what you actually want to build before you start
+## Figure out what you actually want to build before progressing further
 What's your end goal?
 Ask yourself what you want to create and why.
 

@@ -11,25 +11,30 @@ ogDescription: Cloud Native London 2019 Preparations
 
 ## My week ahead
 
-This week I'll be travelling to London to attend Cloud Native London, a tech conference discussing some of the best Cloud developments in the industry.
+This week I'll be travelling to London to attend a tech conference called [Cloud Native London 2019](https://skillsmatter.com/conferences/11723-cloudnative-london-2019), which is a 4 day event to discuss all things Cloud related.
+ 
+Cloud Native London is an event I've been looking forward to for the the past 5 months, since discovering a meetup event called "Cloud Native Wales" in my hometown (Cardiff if you didn't know already).  
 
-This is an event I've been looking forward to for a very long time.
-
-It's currently 12pm on a Sunday afternoon and raining in Cardiff. Yesterday was an incredible day as far as weather in 
-September goes but now it really does feel like winter is approaching.
-what a great opportunity to write a blog update on life events and get some development work done! It's the week of Cloud Native London this week so I'm going to discuss what I've got planned for the week.
+In this blog post I want to discuss my plans for the week and what I hope to get out of attending the event.
 
 <!--more-->
 
-<img src="{{ site.baseurl }}/static/img/posts/featured/cloud-native-london.jpg" class="img-fluid" style="border-radius: 25px;margin: 0 20px 20px 0;">
-   
-I have a keen interest in cloud, automation, scaling, dev-ops practises, open source, etc. in addition to the software development practises I use at work and feel like it’s important to stay on top of developments in the industry. I find one of the best ways of exploring new technologies is to attend events to learn how different organisations are implementing and measuring the success of different systems & methodologies.
+<img src="{{ site.baseurl }}/static/img/posts/featured/cloud-native-london.jpg" class="img-fluid" style="border-radius: 25px;margin: 0 20px 10px 0;">
 
+For those of you who follow this blog, or know me in real life, you'll know that I have a keen interest in cloud, automation, scaling & distributed computing, dev-ops practises, open source, etc... in addition to the software development practises I use at work. I feel like it’s important to stay on top of developments in the industry to keep my skills fresh and active. Personally, I find one of the best ways of exploring new technologies is to attend events to learn how different organisations are implementing and measuring the success of different systems & methodologies. This allows you to focus on what other people are testing out, rather than having to constantly research technologies yourself, saving you a tremendous amount of time in the long run.
 
+Cloud Native London is a 3 day event where some of the greatest experts in the I.T field gather together to discuss developments in Clouds, Containers, Virtualisation, and how different technologies can be implemented for different business needs. One such technology that's gaining huge popularity in recent years is Kubernetes. In my opinion, Sarah Wells of Financial times is  the best public speaker in the field and is an early adpopter of Kubernetes. Here's a video of her keynote at KubeCon in 2018, just in case you're intererested in watching it:  
 
-https://skillsmatter.com/conferences/11723-cloudnative-london-2019
+<div class='youtube-embed-container'>
+    <iframe src='https://www.youtube.com/embed/H06qrNmGqyE' frameborder='0' allowfullscreen></iframe>
+</div>
+<br>
+In preparation for this event, I want to make others aware of the work I'm doing with Cloud technologies (Docker development etc.) and hope to make some valuable connections in the industry and get my name known for future business opportunities. Unfortunately, I didn't realise until today that I've run out of business cards, so handing them out at Cloud Native London isn't going to happen.
+ 
+ Tickets for the event are completely sold out, meaning there will hopefully be plenty of like-minded people there to connect with and have a good time with. 
 
-For a long time I've been planning on 
+## Cloud Native London Event Agenda:
+Here is my agenda for the event, showing which talks and presentations I'll be participating in: 
 
 <div id="external">
     <div id="my-schedule">
@@ -938,11 +943,18 @@ Day 3
     </div>
 </div>
 
-So yeah, an exciting week ahead! I'll be sure to blog about topics I find interesting. 
+
+## Tracks I'm looking forward to                                                
+"Cloud Native Patterns" and "Learning To Be Successful at “Being Wrong” In The Cloud" are two of the tracks I'm looking forward to the most out of the entire of the event. I'm also really interested in meeting Sarah Wells in person. 
+   
+Hopefully there will be some freebies and tech goodies given away during the event, if there is then I'll be sure to take advantage of them :D    
+
+So yeah, an exciting week ahead! I'll be sure to blog about topics I find interesting and update you all on how the event went.
 
 <style>
 #external {
-    border: 0.1px solid black;
+    border: 0.1px solid #efefef;
+    margin-bottom: 10px;
 }
 #external h1 {
   font-size: 2em;
@@ -2512,7 +2524,7 @@ So yeah, an exciting week ahead! I'll be sure to blog about topics I find intere
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  padding: 8px;
+  
   padding: 0.5rem;
 }
 #external .card-section > :last-child {
@@ -2585,7 +2597,7 @@ So yeah, an exciting week ahead! I'll be sure to blog about topics I find intere
 #external label {
   display: block;
   margin: 0;
-  font-size: 14px;
+  
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.8;
@@ -2598,7 +2610,7 @@ So yeah, an exciting week ahead! I'll be sure to blog about topics I find intere
 #external p {
   margin: 0;
   padding: 0;
-  margin-bottom: 16px;
+  
   margin-bottom: 1rem;
   font-size: inherit;
   line-height: 1.6;
@@ -2627,35 +2639,35 @@ So yeah, an exciting week ahead! I'll be sure to blog about topics I find intere
   color: #cacaca;
 }
 #external h1 {
-  font-size: 24px;
+  
   font-size: 1.5rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 8px;
+  
   margin-bottom: 0.5rem;
 }
 #external h2 {
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 8px;
+  
   margin-bottom: 0.5rem;
-  font-size: 20px;
+  
   font-size: 1.25rem;
 }
 #external .h4 {
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 8px;
+  
   margin-bottom: 0.5rem;
-  font-size: 18px;
+  
   font-size: 1.125rem;
 }
 #external .h5 {
-  font-size: 17px;
+  
   font-size: 1.0625rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 8px;
+  
   margin-bottom: 0.5rem;
 }
 @media print, screen and (min-width: 40em) {
@@ -2685,9 +2697,9 @@ So yeah, an exciting week ahead! I'll be sure to blog about topics I find intere
   border: 0;
 }
 #external .subheader {
-  margin-top: 3.2px;
+  
   margin-top: 0.2rem;
-  margin-bottom: 8px;
+  
   margin-bottom: 0.5rem;
   font-weight: 400;
   line-height: 1.4;
@@ -2723,11 +2735,11 @@ So yeah, an exciting week ahead! I'll be sure to blog about topics I find intere
   }
 }
 #external .grid-container {
-  padding-right: 10px;
+  
   padding-right: 0.625rem;
-  padding-left: 10px;
+  
   padding-left: 0.625rem;
-  max-width: 1024px;
+  
   max-width: 64rem;
   margin-left: auto;
   margin-right: auto;

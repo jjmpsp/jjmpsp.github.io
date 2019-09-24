@@ -7,11 +7,15 @@ description: New Book added to my reading list - Learn Azure in a month of lunch
 ogDescription: New Book added to my reading list - Learn Azure in a month of lunches.
 ---
 
-I'm excited to announce I've added a new book to my reading list today.
+I'm excited to announce I've added a new book to my reading list today: [Learn Azure in a Month of Lunches](https://www.manning.com/books/learn-azure-in-a-month-of-lunches).
 
 <!--more-->
 
-I've been using Azure for years now, but never really got into the nitty gritty of the platform. I've decided that I'm going to specialise in the Azure platform as I see lots of potential for it in the future.
+I've been using Azure for years now, but never really got into the nitty gritty of the platform. 
+
+Since I decided I'm going to specialise in becoming an expert with the Azure platform,
+ 
+ as I see lots of potential for it in the future.
 Cost is something I've always been concerned about with cloud services
 
 Learn Azure in a Month of Lunches
