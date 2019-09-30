@@ -11,9 +11,9 @@ ogDescription: Cloud Native London 2019 Preparations
 
 ## My week ahead
 
-This week I'll be travelling to London to attend a tech conference called [Cloud Native London 2019](https://skillsmatter.com/conferences/11723-cloudnative-london-2019). Cloud Native London is a 3 day event which was setup to discuss all things Cloud related.
+This week I'll be travelling to London to attend a tech conference called [Cloud Native London 2019](https://skillsmatter.com/conferences/11723-cloudnative-london-2019). Cloud Native London is a 3 day event which was established to discuss all things Cloud related.
  
-Cloud Native London is an event I've been looking forward to for the the past 5 months, since discovering a meetup event called "Cloud Native Wales" in my hometown (Cardiff if you didn't know already).  
+Cloud Native London is an event I've been looking forward to attending for the the past 5 months, since discovering a meetup event called "Cloud Native Wales" in my hometown (Cardiff if you didn't know already).  
 
 In this blog post I want to discuss my plans for the week and what I hope to get out of attending the event.
 
@@ -946,10 +946,11 @@ Day 3
 
 ## Tracks I'm looking forward to                                                
 "Cloud Native Patterns" and "Learning To Be Successful at “Being Wrong” In The Cloud" are two of the tracks I'm looking forward to the most out of the entire of the event. I'm also really interested in meeting Sarah Wells in person. 
-   
-Hopefully there will be some freebies and tech goodies given away during the event, if there is then I'll be sure to take advantage of them :D    
-
+      
+## Closing Comments
 So yeah, an exciting week ahead! I'll be sure to blog about topics I find interesting and update you all on how the event went.
+
+Hopefully there will be some freebies and tech goodies given away during the event, if there is then I'll be sure to take advantage of them :D 
 
 <style>
 #external {
