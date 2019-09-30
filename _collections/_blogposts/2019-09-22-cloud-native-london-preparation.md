@@ -9,8 +9,7 @@ description: Cloud Native London 2019 Preparations
 ogDescription: Cloud Native London 2019 Preparations
 ---
 
-## My week ahead
-
+## My week ahead (23/09/2019 to 27/09/2019):
 This week I'll be travelling to London to attend a tech conference called [Cloud Native London 2019](https://skillsmatter.com/conferences/11723-cloudnative-london-2019). Cloud Native London is a 3 day event which was setup to discuss all things Cloud related.
  
 Cloud Native London is an event I've been looking forward to for the the past 5 months, since discovering a meetup event called "Cloud Native Wales" in my hometown (Cardiff if you didn't know already).  

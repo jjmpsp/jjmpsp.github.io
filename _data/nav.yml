@@ -1,20 +1,8 @@
-- title: 🏠 Home
-  href: index.html
-
-- title: ℹ About Joel
-  href: about.html
+- title: 🍎 Money Saving Guides
+  href: money-saving
 
 - title: 🍎 Tutorials
   href: tutorials
 
 - title: 📖 Blog Posts
   href: blog
-
-- title: 🤓 Personal Projects
-  href: projects
-
-- title: 👨 Work Portfolio
-  href: portfolio
-
-- title: ✈ Travel
-  href: travel
