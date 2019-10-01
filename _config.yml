@@ -158,6 +158,11 @@ defaults:
       show_profile: true
       layout: defaults/money-saving
   - scope:
+      path: "_product-reviews"
+      values:
+        show_profile: true
+        layout: defaults/money-saving
+  - scope:
       path: "list"
     values:
       show_profile: true

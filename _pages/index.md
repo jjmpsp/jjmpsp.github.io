@@ -34,7 +34,7 @@ Welcome to the personal website of Joel Murphy. Here is a message from the autho
 ------
 
 ## Recent Blog Posts
-{% assign posts = site.posts | sort: 'date' | reverse %}
+{% assign posts = site.blogposts | sort: 'date' | reverse %}
 {% for post in posts limit:3 %}
 {% include components/post-card.html %}
 {% endfor %}
@@ -46,5 +46,7 @@ Good news: There's plenty more to explore!
 - [View Tutorials](/tutorials/)
 
 If you're looking for an entire website overview, then you may be interested in the [Website Sitemap](/sitemap.html) page for this website.
+
+{% include subscription-form.md %}
 
 {% include toc-scroll-to-top.html excludeHierarchy=true %}

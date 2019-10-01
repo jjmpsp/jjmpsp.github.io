@@ -16,7 +16,7 @@ skills:
 <div class="card mb-3">
     <img class="card-img-top" src = "/static/img/promixx.png"/>
     <div class="card-body bg-light">
-        <div class="card-text">Screenshot of my work.</div>
+        <div class="card-text">Browser screen capture of the Promixx website.</div>
     </div>
 </div>
 

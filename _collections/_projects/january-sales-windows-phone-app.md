@@ -2,7 +2,7 @@
 title: January Sales (Windows Phone app)
 ---
 
-Introduction
+## Introduction
 January Sales is a Windows phone app for calculating the prices of products inclusive of their sale value.
 
 App description (what was originally submitted to the app store)

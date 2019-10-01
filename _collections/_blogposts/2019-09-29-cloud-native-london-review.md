@@ -100,7 +100,7 @@ Busier than Barclaycard on Black Friday
 [Stew Norriss]()
 
 How to Break Builds and Influence People - Ordnance Survey's Ongoing Cloud Native Journey
-[Phil Peters](https://www.linkedin.com/in/phil-peters-software/) and [Andy Bridle](https://skillsmatter.com/legacy_profile/andy-bridle)
+[Phil Peters](https://twitter.com/_PhilPeters) and [Andy Bridle](https://skillsmatter.com/legacy_profile/andy-bridle)
 
 Serverless 2.0: Get Started With The PLONK Stack
 [Alex Ellis](https://twitter.com/alexellisuk)
