@@ -163,6 +163,11 @@ defaults:
         show_profile: true
         layout: defaults/money-saving
   - scope:
+      path: "_resources"
+    values:
+      show_profile: true
+      layout: defaults/list
+  - scope:
       path: "list"
     values:
       show_profile: true
