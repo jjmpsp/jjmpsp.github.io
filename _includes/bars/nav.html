@@ -1,11 +1,47 @@
 <header>
+    <style>
+        .megamenu {
+            position: static
+        }
+
+        .megamenu .dropdown-menu {
+            background: none;
+            border: none;
+            width: 100%
+        }
+
+        .custom-dropdown {
+            background: #3f4449;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            margin: 0 !important;
+            border: 0 !important;
+        }
+
+        .custom-dropdown ul {
+            padding: 0 !important;
+        }
+
+
+        @media (min-width: 991px) {
+            nav.navbar {
+                padding: 0rem 1rem !important;
+            }
+        }
+
+        nav.navbar ul li a.nav-link {
+            padding: 20px 10px;
+        }
+
+        li.nav-item.dropdown.show {
+            background: #80808026;
+        }
+    </style>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
-        <div id="scroll-value-container">
-            <div id="scroll-value"></div>
-        </div>
-        <a class="navbar-brand font-weight-bold" href="{{ site.baseurl }}{% link _pages/index.md %}">💡💻 {{site.name}}
+        <a class="navbar-brand font-weight-bold" href="{{ site.url }}">💡💻 {{site.name}}
             💻💡</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" aria-controls="navbars"
+                aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarContent">
             <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
                 <path class="line top"
                       d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20">
@@ -18,8 +54,38 @@
                 </path>
             </svg>
         </button>
-        <div class="collapse navbar-collapse" id="navbarContent">
+        <div id="scroll-value-container">
+            <div id="scroll-value"></div>
+        </div>
+        <div id="navbarContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        ℹ About Joel
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/about.html" class="nav-link text-small">ℹ Overview</a></li>
+                            <li class="nav-item"><a href="/about/personal-life.html" class="nav-link text-small">ℹ
+                                Personal Life</a></li>
+                            <li class="nav-item"><a href="/about/technical-skills.html" class="nav-link text-small">ℹ
+                                Technical Skills</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        ℹ Tech Showcase
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/projects" class="nav-link text-small">🤓 Personal Projects</a></li>
+                            <li class="nav-item"><a href="/portfolio" class="nav-link text-small">👨 Work Portfolio</a></li>
+                        </ul>
+                    </div>
+                </li>
                 {% for item in site.data.nav %}
                 <li class="nav-item">
                     <a href='{% if item.href contains ":" %}{% else %}{{ site.baseurl }}/{% endif %}{{ item.href }}'
@@ -28,6 +94,73 @@
                     </a>
                 </li>
                 {% endfor %}
+                <li class="nav-item dropdown megamenu">
+                    <a id="megamneu" href="" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"
+                       class="nav-link dropdown-toggle">
+                        ✈ Travel</a>
+                    <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                        <div class="container">
+                            <div class="row rounded-0 m-0 shadow-sm" style="background: #3f4449;">
+                                <div class="col-lg-12">
+                                    <div class="p-4">
+                                        <div class="row">
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travels in
+                                                    Europe</h6>
+                                                <ul class="list-unstyled">
+                                                    {% for place in site.travel_europe limit:10 %}
+                                                    <li class="nav-item cool">
+                                                        <a href="{{ place.url }}" class="nav-link text-small">{{
+                                                            place.title
+                                                            }}</a>
+                                                    </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travels in
+                                                    Africa</h6>
+                                                <ul class="list-unstyled">
+                                                    {% for place in site.travel_africa limit:10 %}
+                                                    <li class="nav-item cool">
+                                                        <a href="{{ place.url }}" class="nav-link text-small">{{
+                                                            place.title
+                                                            }}</a>
+                                                    </li>
+                                                    {% endfor %}
+                                                </ul>
+                                                <hr>
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travel
+                                                    Guides</h6>
+                                                <ul class="list-unstyled">
+                                                    {% for guide in site.travel_guides limit:10 %}
+                                                    <li class="nav-item cool">
+                                                        <a href="{{ guide.url }}" class="nav-link text-small">{{
+                                                            guide.title
+                                                            }}</a>
+                                                    </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Interactive
+                                                    Travel Map</h6>
+                                                <p style="color:rgba(255, 255, 255, 0.75);">
+                                                    <span class="badge badge-secondary">New!</span> Explore the entire
+                                                    world map and find content I've shared for each country by using the
+                                                    <a href="/travel">interactive map feature</a> on joel-murphy.co.uk.
+                                                </p>
+                                                <img src="{{ site.baseurl }}/static/img/map.png" class="img-fluid"
+                                                     alt="Explore the map">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>

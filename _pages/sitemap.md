@@ -1,7 +1,7 @@
 ---
 layout: defaults/page
 permalink: sitemap.html
-title: Website sitemap
+title: Sitemap for joel-murphy.co.uk
 narrow: false
 title: Website sitemap for joel-murphy.co.uk
 crumbtitle: Website sitemap

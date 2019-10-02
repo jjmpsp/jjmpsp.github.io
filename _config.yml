@@ -7,7 +7,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
 
-
 exclude: [.idea/,webpack/,webpack.config.js,node_modules/,package.json]
 
 # Pagination:
@@ -53,7 +52,7 @@ role:             Senior Full Stack Developer and R&D expert by day. Cloud, DevO
 avatar:           /theme/img/avatar.jpg
 
 # The theme uses the baseurl throughout, which is useful for running the entire
-# site under a subdir, like for athis GitHub Pages deployment as a project site.
+# site under a subdir, like for athis GitHub Pages deployment as a project site.
 baseurl: ""
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
@@ -90,6 +89,10 @@ collections:
     output: true
     title: Travel in Europe
     permalink: /travel/europe/:name.html
+  travel_guides:
+    output: true
+    title: Travel Guides
+    permalink: /travel-guides/:name.html
   product_reviews:
     output: true
     title: Product Reviews
@@ -97,15 +100,14 @@ collections:
   money_savings:
     output: true
     title: Money Saving
-    permalink: /:collection/:name.html
-
+    permalink: /money-saving-guides/:name.html
 
 defaults:
   # Turn the profile sidebar on for all pages by default, except for the
   # collections, where it is off and replaced by useful things on the sidebar.
-  # To override this one a page, use
+  # To override this one a page, use
   #    show_profile: false
-  # to hide the profile.
+  # to hide the profile.
   - scope:
       path: ""
     values:
@@ -146,15 +148,25 @@ defaults:
       show_profile: true
       layout: defaults/travel
   - scope:
-      path: "_product-reviews"
+      path: "_travel_guides"
     values:
       show_profile: true
-      layout: defaults/product-review
+      layout: defaults/travel
   - scope:
       path: "_money_savings"
     values:
       show_profile: true
       layout: defaults/money-saving
+  - scope:
+      path: "_product-reviews"
+      values:
+        show_profile: true
+        layout: defaults/money-saving
+  - scope:
+      path: "_resources"
+    values:
+      show_profile: true
+      layout: defaults/list
   - scope:
       path: "list"
     values:

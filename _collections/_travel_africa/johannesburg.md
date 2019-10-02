@@ -1,5 +1,5 @@
 ---
-title: Joel's Travels in Johannesburg, Africa
+title: Joel's Travels in Johannesburg, South Africa
 tags:
   - Johannesburg
   - South Africa
@@ -17,8 +17,6 @@ images:
 description: A guide to travelling Johannesburg in South Africa by Joel Murphy.
 ogDescription: A guide to travelling Johannesburg in South Africa by Joel Murphy.
 ---
-
-{{ site.baseurl }} ss
 
 Here's an example for multiple images that uses Bootstrap's card columns for a Masonry-like layout. It's not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout.
 

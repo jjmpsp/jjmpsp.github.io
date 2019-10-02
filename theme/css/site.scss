@@ -3,10 +3,10 @@
   //global selectors
 body {
   background: url("../../static/img/subtle_dots_@2X.png");
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 
   a {
-    font-weight: 400 !important;
+    font-weight: 500 !important;
   }
 }
 
@@ -862,6 +862,7 @@ ul.accordion {
 
     &:hover {
       border: 1px solid rgba(0, 0, 0, 0.125) !important;
+      background: lightgrey;
     }
   }
 
@@ -923,5 +924,18 @@ ul.accordion {
 
   li {
     display: inline;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    overflow-y: scroll;
+    max-height: 90vh;
+  }
+
+  #navbarContent > ul > li.nav-item.dropdown.megamenu .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }

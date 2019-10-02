@@ -24,7 +24,7 @@
 
     <title>
         
-            Joel's Travels in Johannesburg, Africa &middot; Joel Murphy
+            Joel's Travels in Johannesburg, South Africa &middot; Joel Murphy
         
     </title>
 
@@ -43,7 +43,7 @@
 
     <meta content="Joel Murphy" property="og:site_name">
 
-<meta content="Joel's Travels in Johannesburg, Africa" property="og:title">
+<meta content="Joel's Travels in Johannesburg, South Africa" property="og:title">
 
 
 
@@ -59,7 +59,7 @@
 
 
 
-<meta content="2019-09-22T19:20:43+01:00" property="article:published_time">
+<meta content="2019-10-01T16:37:55+01:00" property="article:published_time">
 <meta content="http://localhost:4000/about/" property="article:author">
 
 
@@ -85,13 +85,49 @@
 
 <body>
 <header>
+    <style>
+        .megamenu {
+            position: static
+        }
+
+        .megamenu .dropdown-menu {
+            background: none;
+            border: none;
+            width: 100%
+        }
+
+        .custom-dropdown {
+            background: #3f4449;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            margin: 0 !important;
+            border: 0 !important;
+        }
+
+        .custom-dropdown ul {
+            padding: 0 !important;
+        }
+
+
+        @media (min-width: 991px) {
+            nav.navbar {
+                padding: 0rem 1rem !important;
+            }
+        }
+
+        nav.navbar ul li a.nav-link {
+            padding: 20px 10px;
+        }
+
+        li.nav-item.dropdown.show {
+            background: #80808026;
+        }
+    </style>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
-        <div id="scroll-value-container">
-            <div id="scroll-value"></div>
-        </div>
-        <a class="navbar-brand font-weight-bold" href="/index.html">💡💻 Joel Murphy
+        <a class="navbar-brand font-weight-bold" href="http://localhost:4000">💡💻 Joel Murphy
             💻💡</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" aria-controls="navbars"
+                aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarContent">
             <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
                 <path class="line top"
                       d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20">
@@ -104,20 +140,43 @@
                 </path>
             </svg>
         </button>
-        <div class="collapse navbar-collapse" id="navbarContent">
+        <div id="scroll-value-container">
+            <div id="scroll-value"></div>
+        </div>
+        <div id="navbarContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                
-                <li class="nav-item">
-                    <a href='/index.html'
-                       class="nav-link">
-                        🏠 Home
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        ℹ About Joel
                     </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/about.html" class="nav-link text-small">ℹ Overview</a></li>
+                            <li class="nav-item"><a href="/about/personal-life.html" class="nav-link text-small">ℹ
+                                Personal Life</a></li>
+                            <li class="nav-item"><a href="/about/technical-skills.html" class="nav-link text-small">ℹ
+                                Technical Skills</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        ℹ Tech Showcase
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/projects" class="nav-link text-small">🤓 Personal Projects</a></li>
+                            <li class="nav-item"><a href="/portfolio" class="nav-link text-small">👨 Work Portfolio</a></li>
+                        </ul>
+                    </div>
                 </li>
                 
                 <li class="nav-item">
-                    <a href='/about.html'
+                    <a href='/money-saving'
                        class="nav-link">
-                        ℹ About Joel
+                        🍎 Money Saving Guides
                     </a>
                 </li>
                 
@@ -135,27 +194,127 @@
                     </a>
                 </li>
                 
-                <li class="nav-item">
-                    <a href='/projects'
-                       class="nav-link">
-                        🤓 Personal Projects
-                    </a>
+                <li class="nav-item dropdown megamenu">
+                    <a id="megamneu" href="" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"
+                       class="nav-link dropdown-toggle">
+                        ✈ Travel</a>
+                    <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                        <div class="container">
+                            <div class="row rounded-0 m-0 shadow-sm" style="background: #3f4449;">
+                                <div class="col-lg-12">
+                                    <div class="p-4">
+                                        <div class="row">
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travels in
+                                                    Europe</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/austria.html" class="nav-link text-small">Joel's Travels in Austria, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/belguim.html" class="nav-link text-small">Joel's Travels in Belgium, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/bosnia-herzegovina.html" class="nav-link text-small">Joel's Travels in Bosnia & Herzegovina, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/bulgaria.html" class="nav-link text-small">Joel's Travels in Bulgaria, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/croatia.html" class="nav-link text-small">Joel's Travels in Croatia, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/cyprus.html" class="nav-link text-small">Joel's Travels in Cyprus, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/czech-republic.html" class="nav-link text-small">Joel's Travels in Czech Republic, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/france.html" class="nav-link text-small">Joel's Travels in France, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/germany.html" class="nav-link text-small">Joel's Travels in Germany, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/great-britain.html" class="nav-link text-small">Joel's Travels in Great Britain, Europe</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travels in
+                                                    Africa</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/africa/johannesburg.html" class="nav-link text-small">Joel's Travels in Johannesburg, South Africa</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                                <hr>
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travel
+                                                    Guides</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/best-e-readers-for-travelling.html" class="nav-link text-small">Best E-Readers for travelling</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-find-cheap-flights-from-uk-airports.html" class="nav-link text-small">How to find cheap flights from UK airports</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-find-cheap-travel-to-uk-airports.html" class="nav-link text-small">How to find cheap travel to UK airports</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-plan-an-interrail-trip-around-europe.html" class="nav-link text-small">How to plan an interrail trip around Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/package-holidays-are-they-worth-it.html" class="nav-link text-small">Package holidays: Are they really worth it?</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/top-tips-for-travelling-on-hand-luggage.html" class="nav-link text-small">Top tips for travelling on hand luggage</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/why-you-need-a-currency-card-for-your-travels.html" class="nav-link text-small">Why you need a currency card for your travels and how to get one</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Interactive
+                                                    Travel Map</h6>
+                                                <p style="color:rgba(255, 255, 255, 0.75);">
+                                                    <span class="badge badge-secondary">New!</span> Explore the entire
+                                                    world map and find content I've shared for each country by using the
+                                                    <a href="/travel">interactive map feature</a> on joel-murphy.co.uk.
+                                                </p>
+                                                <img src="/static/img/map.png" class="img-fluid"
+                                                     alt="Explore the map">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </li>
-                
-                <li class="nav-item">
-                    <a href='/portfolio'
-                       class="nav-link">
-                        👨 Work Portfolio
-                    </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href='/travel'
-                       class="nav-link">
-                        ✈ Travel
-                    </a>
-                </li>
-                
             </ul>
         </div>
     </nav>
@@ -170,7 +329,7 @@
             <div class="card bg-white">
                 <div class="card-body">
                     <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
-    Joel's Travels in Johannesburg, Africa
+    Joel's Travels in Johannesburg, South Africa
 </h1>
 
 <nav class="breadcrumb top-breadcrumb">
@@ -208,7 +367,7 @@
     
     
     <li class="breadcrumb-item active">
-        <a href="/travel/africa/johannesburg.html">Joel's Travels in Johannesburg, Africa</a>
+        <a href="/travel/africa/johannesburg.html">Joel's Travels in Johannesburg, South Africa</a>
     </li>
 </nav>
 
@@ -240,8 +399,6 @@
         });
     });
 </script>
-
-<p>ss</p>
 
 <p>Here’s an example for multiple images that uses Bootstrap’s card columns for a Masonry-like layout. It’s not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout.</p>
 
@@ -293,7 +450,7 @@
             
             <div class="card-text" style="border: 1px dotted #888888;padding:20px;margin-bottom:20px;">
     <div class="profile-image-container">
-        <a href="/index.html">
+        <a href="">
             <img class="profile-image rounded-circle w-75 animated pulse" src="/theme/img/avatar.jpg"
                  title="Picture of Joel Murphy" alt="Picture of Joel Murphy"/>
         </a>
@@ -309,8 +466,8 @@
     <img src="/static/img/html.png" alt="HTML Icon">
     <img src="/static/img/js.png" alt="JS Icon">
     <img src="/static/img/css.png" alt="CSS Icon">
-    <a href="/about.html#technical-skills"
-       style="border-radius: 25px;display:block;color:white!important;margin-top:10px; background: #553e98;padding:12px 10px;font-weight:600;">
+    <a href="/about/technical-skills.html"
+       style="font-family: Helvetica, Arial, sans-serif;border-radius: 25px;display:block;color:white!important;margin-top:10px; background: #553e98;padding:12px 10px;font-weight:600 !important;">
         See Joel's Full Skillset
     </a>
 </div>
@@ -335,7 +492,7 @@
 
             <div style="border: 1px dotted #888888;padding:20px;">
     <h5 style="color:#000;font-weight:400;">🖇️ Joel's Social Media profiles:</h5>
-    <p>Joel elsewhere on the internet:</p>
+    <p>Joel's social profiles elsewhere on the internet:</p>
     <p class="card-text">
         
         <a href="https://www.linkedin.com/in/joeljmurphy/" target="_blank" class="d-flex align-items-center mb-1">
@@ -496,7 +653,7 @@
                             <li>
                                 <a href="/blog">Published Blog Posts:</a> <br>
                                 <a href="/blog">
-                                    <div class="stat_count stat_count1">22</div>
+                                    <div class="stat_count stat_count1">30</div>
                                 </a>
                             </li>
                             <li>
@@ -506,13 +663,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/portfolio">Published Work Portfolio Items:</a> <br>
+                                <a href="/portfolio">Published Website Portfolio Items:</a> <br>
                                 <a href="/portfolio">
                                     <div class="stat_count stat_count3">9</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="/money-saving">Published Money Saving Posts:</a> <br>
+                                <a href="/money-saving">Published Money Saving Guides:</a> <br>
                                 <a href="/money-saving">
                                     <div class="stat_count stat_count4">2</div>
                                 </a>
@@ -520,7 +677,7 @@
                             <li>
                                 <a href="/product-reviews">Published Product Reviews:</a> <br>
                                 <a href="/product-reviews">
-                                    <div class="stat_count stat_count5">0</div>
+                                    <div class="stat_count stat_count5">1</div>
                                 </a>
                             </li>
                         </ul>
@@ -569,8 +726,8 @@
                         source</a>.
                     Last update:
                     <date>
-                    September
-                    22nd, 2019 </date> 🕗
+                    October
+                    1st, 2019 </date> 🕗
                 </div>
             </div>
             <div class="col-2 col-md-1">

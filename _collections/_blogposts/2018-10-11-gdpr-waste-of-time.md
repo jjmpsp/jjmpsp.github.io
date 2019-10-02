@@ -2,7 +2,6 @@
 title: GDPR - Was it a waste of time?
 tags:
   - gdpr
-  - 
 description: This post discusses the effect GDPR has had on internet use
 ogDescription: 
 description: This post discusses the effect GDPR has had on internet use
