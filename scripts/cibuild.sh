@@ -19,10 +19,19 @@ git clone https://${GH_TOKEN}@github.com/jjmpsp/jjmpsp.github.io.git --branch ma
 # build with Jekyll into "_site"
 JEKYLL_ENV=production bundle exec jekyll build
 
-# push
-cd _site
-git config user.email "contact@joel-murphy.co.uk"
-git config user.name "Joel Murphy"
-git add --all
-git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force origin master
+
+
+# Push source files of website to 'staging-build' branch
+if [ $TRAVIS_BRANCH == "staging" ]; then
+  cd _site
+  git config user.email "contact@joel-murphy.co.uk"
+  git config user.name "Joel Murphy"
+  git add --all
+  git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+  git push --force origin staging-build
+
+  echo "Staging branch has been deployed to staging repository..."
+  exit 0
+fi
+
+exit 0
