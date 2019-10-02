@@ -28,9 +28,10 @@ if [ $TRAVIS_BRANCH == "staging" ]; then
   git config user.name "Joel Murphy"
   git add --all
   git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+  git push --set-upstream origin staging-build
   git push --force origin staging-build
 
-  echo "Staging branch has been deployed to staging repository..."
+  echo "Staging branch has been deployed to staging repository...."
   exit 0
 fi
 
