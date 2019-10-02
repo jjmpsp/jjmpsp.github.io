@@ -28,6 +28,12 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 # push
 cd _site
+
+if [ $TRAVIS_REPO_SLUG == "jjmpsp-staging/jjmpsp-staging.github.io" ]; then
+  echo "staging.joel-murphy.co.uk" > CNAME
+  echo -e "User-agent: *\nDisallow: /" > robots.txt
+fi
+
 git config user.email "contact@joel-murphy.co.uk"
 git config user.name "Joel Murphy"
 git add --all
