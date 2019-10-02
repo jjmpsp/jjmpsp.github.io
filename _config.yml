@@ -159,9 +159,9 @@ defaults:
       layout: defaults/money-saving
   - scope:
       path: "_product-reviews"
-      values:
-        show_profile: true
-        layout: defaults/money-saving
+    values:
+      show_profile: true
+      layout: defaults/product-review
   - scope:
       path: "_resources"
     values:
