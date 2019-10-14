@@ -97,7 +97,7 @@ Cognitive
 - May easily distracted by animation
 - Stick to left hand alignment
 - Don’t use acronyms and abbreviations
-- Tooltip popups on abbreviationss
+- Tooltip popups on abbreviations
 - Use images and text. Just images are bad
 - Avoid flickering blinking and moving images and images of text
 - If images flicker at a rate of more than 3 flashes per second, don’t use them
