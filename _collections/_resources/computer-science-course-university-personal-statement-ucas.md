@@ -10,7 +10,6 @@ description: Sample code demonstrating how to loop over any collection type in J
 ogDescription: Sample code demonstrating how to loop over any collection type in Jekyll
 ---
 
-
 This is the personal statement that I sent along with my UCAS application to get into University.
 
 If you’re looking for an example / sample personal statement for a computer science course application at University, feel free to use mine as an example. I don’t care about plagiarism or anything like that ;D

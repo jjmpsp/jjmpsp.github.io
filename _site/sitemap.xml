@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/blogposts/2013-11-11-launch-cardiff-hackathon.html</loc>
-<lastmod>2019-10-02T14:34:36+01:00</lastmod>
+<lastmod>2019-10-14T14:11:36+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blogposts/2013-11-12-young-rewired-state-growify-team.html</loc>
@@ -106,7 +106,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/blogposts/2019-08-22-new-book-learn-azure-in-a-month-of-lunches.html</loc>
-<lastmod>2019-10-02T14:34:36+01:00</lastmod>
+<lastmod>2019-10-14T14:11:12+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blogposts/2019-09-16-learning-objectives-for-q4.html</loc>
@@ -114,11 +114,15 @@
 </url>
 <url>
 <loc>http://localhost:4000/blogposts/2019-09-22-cloud-native-london-preparation.html</loc>
-<lastmod>2019-10-02T14:34:36+01:00</lastmod>
+<lastmod>2019-10-14T14:11:12+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blogposts/2019-09-29-cloud-native-london-review.html</loc>
 <lastmod>2019-10-02T14:34:36+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogposts/2019-10-03-wcag-accessibility-training.html</loc>
+<lastmod>2019-10-14T14:11:36+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/money-saving-guides/how-to-find-products-cheap-on-amazon.html</loc>
@@ -369,6 +373,10 @@
 <lastmod>2019-10-02T14:00:05+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/tutorials/how-to-create-multiple-environments-for-github-pages.html</loc>
+<lastmod>2019-10-14T14:11:36+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/tutorials/how-to-get-started-with-software-development.html</loc>
 <lastmod>2019-10-02T14:00:05+01:00</lastmod>
 </url>
@@ -462,6 +470,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/page/6/</loc>
+<lastmod>2019-10-02T14:00:09+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/page/7/</loc>
 <lastmod>2019-10-02T14:00:09+01:00</lastmod>
 </url>
 <url>
