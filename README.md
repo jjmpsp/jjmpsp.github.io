@@ -495,3 +495,8 @@ Run ````bundle install```` in command prompt to install new dependancy.
 
 To load a version of config.yml which doesn't include resource hogging plugins, run:
 ```` jekyll serve --config _config_dev.yml````
+
+
+Debugging
+
+jekyll serve --trace --verbose

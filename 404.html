@@ -80,13 +80,49 @@
 
 <body>
 <header>
+    <style>
+        .megamenu {
+            position: static
+        }
+
+        .megamenu .dropdown-menu {
+            background: none;
+            border: none;
+            width: 100%
+        }
+
+        .custom-dropdown {
+            background: #3f4449;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            margin: 0 !important;
+            border: 0 !important;
+        }
+
+        .custom-dropdown ul {
+            padding: 0 !important;
+        }
+
+
+        @media (min-width: 991px) {
+            nav.navbar {
+                padding: 0rem 1rem !important;
+            }
+        }
+
+        nav.navbar ul li a.nav-link {
+            padding: 20px 10px;
+        }
+
+        li.nav-item.dropdown.show {
+            background: #80808026;
+        }
+    </style>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
-        <div id="scroll-value-container">
-            <div id="scroll-value"></div>
-        </div>
-        <a class="navbar-brand font-weight-bold" href="/index.html">💡💻 Joel Murphy
+        <a class="navbar-brand font-weight-bold" href="https://joel-murphy.co.uk">💡💻 Joel Murphy
             💻💡</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" aria-controls="navbars"
+                aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarContent">
             <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
                 <path class="line top"
                       d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20">
@@ -99,20 +135,43 @@
                 </path>
             </svg>
         </button>
-        <div class="collapse navbar-collapse" id="navbarContent">
+        <div id="scroll-value-container">
+            <div id="scroll-value"></div>
+        </div>
+        <div id="navbarContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                
-                <li class="nav-item">
-                    <a href='/index.html'
-                       class="nav-link">
-                        🏠 Home
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        ℹ About Joel
                     </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/about.html" class="nav-link text-small">ℹ Overview</a></li>
+                            <li class="nav-item"><a href="/about/personal-life.html" class="nav-link text-small">ℹ
+                                Personal Life</a></li>
+                            <li class="nav-item"><a href="/about/technical-skills.html" class="nav-link text-small">ℹ
+                                Technical Skills</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        ℹ Tech Showcase
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/projects" class="nav-link text-small">🤓 Personal Projects</a></li>
+                            <li class="nav-item"><a href="/portfolio" class="nav-link text-small">👨 Work Portfolio</a></li>
+                        </ul>
+                    </div>
                 </li>
                 
                 <li class="nav-item">
-                    <a href='/about.html'
+                    <a href='/money-saving'
                        class="nav-link">
-                        ℹ About Joel
+                        🍎 Money Saving Guides
                     </a>
                 </li>
                 
@@ -130,27 +189,127 @@
                     </a>
                 </li>
                 
-                <li class="nav-item">
-                    <a href='/projects'
-                       class="nav-link">
-                        🤓 Personal Projects
-                    </a>
+                <li class="nav-item dropdown megamenu">
+                    <a id="megamneu" href="" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"
+                       class="nav-link dropdown-toggle">
+                        ✈ Travel</a>
+                    <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                        <div class="container">
+                            <div class="row rounded-0 m-0 shadow-sm" style="background: #3f4449;">
+                                <div class="col-lg-12">
+                                    <div class="p-4">
+                                        <div class="row">
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travels in
+                                                    Europe</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/austria.html" class="nav-link text-small">Joel's Travels in Austria, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/belguim.html" class="nav-link text-small">Joel's Travels in Belgium, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/bosnia-herzegovina.html" class="nav-link text-small">Joel's Travels in Bosnia & Herzegovina, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/bulgaria.html" class="nav-link text-small">Joel's Travels in Bulgaria, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/croatia.html" class="nav-link text-small">Joel's Travels in Croatia, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/cyprus.html" class="nav-link text-small">Joel's Travels in Cyprus, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/czech-republic.html" class="nav-link text-small">Joel's Travels in Czech Republic, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/france.html" class="nav-link text-small">Joel's Travels in France, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/germany.html" class="nav-link text-small">Joel's Travels in Germany, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/great-britain.html" class="nav-link text-small">Joel's Travels in Great Britain, Europe</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travels in
+                                                    Africa</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/africa/johannesburg.html" class="nav-link text-small">Joel's Travels in Johannesburg, South Africa</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                                <hr>
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travel
+                                                    Guides</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/best-e-readers-for-travelling.html" class="nav-link text-small">Best E-Readers for travelling</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-find-cheap-flights-from-uk-airports.html" class="nav-link text-small">How to find cheap flights from UK airports</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-find-cheap-travel-to-uk-airports.html" class="nav-link text-small">How to find cheap travel to UK airports</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-plan-an-interrail-trip-around-europe.html" class="nav-link text-small">How to plan an interrail trip around Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/package-holidays-are-they-worth-it.html" class="nav-link text-small">Package holidays: Are they really worth it?</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/top-tips-for-travelling-on-hand-luggage.html" class="nav-link text-small">Top tips for travelling on hand luggage</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/why-you-need-a-currency-card-for-your-travels.html" class="nav-link text-small">Why you need a currency card for your travels and how to get one</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Interactive
+                                                    Travel Map</h6>
+                                                <p style="color:rgba(255, 255, 255, 0.75);">
+                                                    <span class="badge badge-secondary">New!</span> Explore the entire
+                                                    world map and find content I've shared for each country by using the
+                                                    <a href="/travel">interactive map feature</a> on joel-murphy.co.uk.
+                                                </p>
+                                                <img src="/static/img/map.png" class="img-fluid"
+                                                     alt="Explore the map">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </li>
-                
-                <li class="nav-item">
-                    <a href='/portfolio'
-                       class="nav-link">
-                        👨 Work Portfolio
-                    </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href='/travel'
-                       class="nav-link">
-                        ✈ Travel
-                    </a>
-                </li>
-                
             </ul>
         </div>
     </nav>
@@ -227,7 +386,7 @@
 <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
-            <a href="https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html">How to loop over any collection type in Jekyll</a>
+            <a href="https://joel-murphy.co.uk/blogposts/2019-10-03-wcag-accessibility-training.html">WCAG 2.1 accessibility training</a>
         </h4>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2">
@@ -237,7 +396,7 @@
 </svg>
 
             </span>
-            10 Mar 2018
+            03 Oct 2019
         </div>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2 mb-1">
@@ -257,35 +416,201 @@
             </span>
             <div class="tag-list">
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
-                        jekyll
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-wcag">
+                        wcag
                     </span>
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-collections">
-                        collections
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-accessibility">
+                        accessibility
                     </span>
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-liquid">
-                        liquid
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-training">
+                        training
                     </span>
                 
             </div>
         </div>
         <div class="card-text mb-0">
-            Here’s how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too.
+            Dac training – Digital accessibility centre
 
-s
+WCAG 2.1
+Best design, techniques, code samples.
 
+Accessibility is ensuring that all web based platforms and applications are accessible to ALL regardless of ability or age.
+
+Equality act 2010 – avoid legal action
+
+Positive PR in healthcare
+
+WCAG 2.1
+POUR Principles
+
+  Perceivable
+  Operable
+  Understandable
+  Robust
+
+
+13 guidelines
+78 success criteria
+
+A – High priority
+AA – Medium priority
+AAA – Low priority
+
+4 basic user groups:
+
+  Physical (disabled physically)
+  Cognitive (asperges, autism)
+  Hearing (deaf from birth, partial hearing loss)
+  Vision (low vision or blindness)
+
+
+Types of assistive technologies
+
+Desktop
+
+  Voiceover (Mac)
+  Jaws (Windows)
+  NVDA (freeware)
+  Switch control / keyboard only
+  Speeach to text (Dragon Naturally speaking)
+  Zoom / magnification
+
+
+Mobile
+Text to speech for Android (Talkback)
+
+  Speech To Text for android (s-voice)
+  Switch control for android
+  Text to speech for ios (voiceover)
+  Speech to text for ios (siri)
+  Etc.
+
+
+Low vision
+Ziad (the speaker) only has 5% vision in his right eye.
+“Developers haven’t made any difference – they’ve made THE DIFFERENCE”
+Ziad has regained independence thanks to assistive technology. People’s lives are improved from this sort of work.
+
+Text may not be large enough to read so would need to resize to zoom into content
+Contract between text and the background may not be sufficient (W3C ratio 4.5.:1)
+Do not cause content to update elsewhere on screen after selecting an item
+
+Do not use ‘maximum scale 1’ as this completely disables zoom on mobile 
+Ensure content does not update on screen after making a selection
+Carousels tend to cause problems for screen readers as they constantly read out text. If you have to use a carousel on a page then be sure to add a pause button to make it more accessible
+
+Popups and modals steal focus and are bad for screen readers
+
+UX design best practise – colour contrast. Colour contrast analyser is a good free tool for this
+
+Colour contrast to meet AA standard is 7:1
+
+Do not use colour as the only indicator for a currently selected item on page (use aria metadata instead)
+
+Physical
+Keyboard controls is controlled by the tab key 
+Spacebar or enter is used to active elements and links
+
+Don’t use buttons as links
+
+Dragon voice activation has a series of commands for interacting with webpage elements. E.g. ‘Click link’, ‘Click box’
+
+Focus highlighting on background should have a good contrast. E.g. light blue on blue is useless
+
+Captchas are not good at all for accessibility. Use a fallback.
+
+Cognitive
+
+  Reading age may be lower
+  Busy page layout can be confusing (KISS)
+  Dyslexia needs to be considered (font-style, text alignment)
+  May easily distracted by animation
+  Stick to left hand alignment
+  Don’t use acronyms and abbreviations
+  Tooltip popups on abbreviations
+  Use images and text. Just images are bad
+  Avoid flickering blinking and moving images and images of text
+  If images flicker at a rate of more than 3 flashes per second, don’t use them
+
+
+Hearing
+Close Captions (CC) on videos
+Open captions are available to everybody as they’re always there
+Closed captions can be toggled as an optional feature
+This is the difference between open and closed captions 
+VTML or web VTT file formats for videos. This can be specified in HTML video tags
+“Flesch Kincaid” language test
+
+Blind users
+Ensure users are notified before opening a new layer or pop up
+Ensure focus is placed on the new layer or pop up and trapped within the pop up when it appears.
+All images should have a valid alt attribute
+Give information about the image in relevance to the content on the page 
+‘Aria-hidden=”true”’ won’t be shown by assistive technology
+Class=”sr-only”  only screenreaders can see the specific element
+Open in new windows – show an icon so screenreaders are made aware that a link opens in a new window
+Pagination – go to first page is read out as two left chevrons
+Download buttons to files – Show filetype to user and download size
+Aria-label overrides text on an element which is really handy for creating appropriate texts for screenreaders
+Skiplinks should be used to skip to main content to avoid the user having to scoll down the page
+Page title – ({name of current page} – {name of website})
+Tables – use a &lt;caption&gt; element to describe a table in the same way you would use a heading. A caption helps users find, navigate, and understand tables
+Use the ‘scope’ attribute to help distinguish between rows and columns.
+Headings should be hierarchical. Css should be used to style headings, not actual headings.
+Headings should never be empty
+Fieldsets should be used with grouped elements such as radio buttons and checkboxes.
+Use “aria-invalid” attribute for adding errors to a form
+Hint text is useful in forms as it can be used to provide a real example
+Give users enough time to complete a particular action on a webpage
+Notify a user if a session is about to timeout (adhere to security)
+Hint: Mobile number inputs – ensure it’s possible to input a space or specify it’s not possible to use them.
+Use lang=”cy” for welsh content on an individual element basis
+‘View more link’ &lt;- be more descriptive with these. E.g. ‘View more vanancies at {CompanyName}”
+‘Axe’ is a free extension for chrome that can be downloaded to inspect and validate aria labels.
+
+Provide a page on the website giving accessibility instructions
+
+Accessibility ratings are done on a page-by-page basis
+
+HTML5 and aria
+
+&lt;header&gt; for headers
+&lt;nav&gt; for navigations
+&lt;main&gt; for main content
+&lt;section&gt; or &lt;article&gt; for semantics
+&lt;aside&gt; complementary information
+&lt;footer&gt; the footer
+
+Aria-role
+https://www.sitepoint.com/how-to-use-aria-effectively-with-html5/
+
+aria-current for navigation (breadcrumb trails, step processes, etc)
+
+aria-labelledby can group together content by different ids
+
+aria-describedby is useful for hint texts. They are very similar to aria-labels but are read out differently by screenreaders
+
+aria-alert &amp; aria-live speaks things out straight.
+
+Aria-tab
+
+Aria-expanded
+
+‘Sortsite’ is a spidering tool that runs fully automated accessibility checks
+
+Along with automated testing, UAT is always helpful for testing UX and accessibility.
 
         </div>
-        <a href="https://joel-murphy.co.uk/blogposts/2018-03-10-looping-over-all-collections-in-jekyll.html" class="read-more">Read full post: How to loop over any collection type in Jekyll...</a>
+        <a href="https://joel-murphy.co.uk/blogposts/2019-10-03-wcag-accessibility-training.html" class="read-more">Read full post: WCAG 2.1 accessibility training...</a>
     </div>
 </div>
 
 <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
-            <a href="https://joel-murphy.co.uk/blogposts/2018-03-10-mysql-to-mssql-database-migration.html">MySQL to MS SQL Database Migration (without SSMA)</a>
+            <a href="https://joel-murphy.co.uk/blogposts/2019-09-29-cloud-native-london-review.html">Cloud Native London 2019 Review</a>
         </h4>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2">
@@ -295,7 +620,7 @@ s
 </svg>
 
             </span>
-            10 Mar 2018
+            29 Sep 2019
         </div>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2 mb-1">
@@ -315,41 +640,41 @@ s
             </span>
             <div class="tag-list">
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-database">
-                        database
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-cloud">
+                        cloud
                     </span>
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-migration">
-                        migration
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-native">
+                        native
                     </span>
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-mysql">
-                        mysql
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-london">
+                        london
                     </span>
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-mssql">
-                        mssql
-                    </span>
-                
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-php">
-                        php
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-review">
+                        review
                     </span>
                 
             </div>
         </div>
         <div class="card-text mb-0">
-            This post describes methods you can use to migrate a MySQL database to MSSQL (Microsoft SQL) with the least amount of effort
+            Home after a busy few days at Cloud Native London!
+
+If you haven’t spotted my previous blog post already: (Cloud Native London Preparations), then be sure to read it now as this post is a follow-up post to that post.
+
+Last week I took a visit to London to attend a tech conference called Cloud Native London 2019 to learn more about the state of Cloud Native Development; Including the tools that are being developed by the community and how different organisations are implementing such tools into their work flows.
 
 
         </div>
-        <a href="https://joel-murphy.co.uk/blogposts/2018-03-10-mysql-to-mssql-database-migration.html" class="read-more">Read full post: MySQL to MS SQL Database Migration (without SSMA)...</a>
+        <a href="https://joel-murphy.co.uk/blogposts/2019-09-29-cloud-native-london-review.html" class="read-more">Read full post: Cloud Native London 2019 Review...</a>
     </div>
 </div>
 
 <div class="blog-item card card-post w-100 border-top-0 border-left-0 border-right-0 rounded-0 mb-4">
     <div class="card-body px-0 pt-0">
         <h4 class="card-title mb-4">
-            <a href="https://joel-murphy.co.uk/blogposts/2018-03-10-scaling-how-the-tech-giants-do-it.html">How do tech giants scale to millions or billions of users?</a>
+            <a href="https://joel-murphy.co.uk/blogposts/2019-09-22-cloud-native-london-preparation.html">Cloud Native London 2019 Preparations</a>
         </h4>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2">
@@ -359,7 +684,7 @@ s
 </svg>
 
             </span>
-            10 Mar 2018
+            22 Sep 2019
         </div>
         <div class="card-text d-flex align-items-center mb-2">
             <span class="icon grey mr-2 mb-1">
@@ -379,22 +704,35 @@ s
             </span>
             <div class="tag-list">
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-jekyll">
-                        jekyll
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-cloud">
+                        cloud
                     </span>
                 
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-liquid">
-                        liquid
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-native">
+                        native
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-london">
+                        london
+                    </span>
+                
+                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-preparation">
+                        preparation
                     </span>
                 
             </div>
         </div>
         <div class="card-text mb-0">
-            Has the thought of scaling ever crossed your mind? This post explains the foundations of scaling theory and the requirements for building scalable, reliable, and performant large-scale web applications and web services.
+            My week ahead (23/09/2019 to 27/09/2019):
+This week I’ll be travelling to London to attend a tech conference called Cloud Native London 2019. Cloud Native London is a 3 day event which was established to discuss all things Cloud related.
+
+Cloud Native London is an event I’ve been looking forward to attending for the the past 5 months, since discovering a meetup event called “Cloud Native Wales” in my hometown (Cardiff if you didn’t know already).
+
+In this blog post I want to discuss my plans for the week and what I hope to get out of attending the event.
 
 
         </div>
-        <a href="https://joel-murphy.co.uk/blogposts/2018-03-10-scaling-how-the-tech-giants-do-it.html" class="read-more">Read full post: How do tech giants scale to millions or billions of users?...</a>
+        <a href="https://joel-murphy.co.uk/blogposts/2019-09-22-cloud-native-london-preparation.html" class="read-more">Read full post: Cloud Native London 2019 Preparations...</a>
     </div>
 </div>
 
@@ -425,7 +763,7 @@ s
             
             <div class="card-text" style="border: 1px dotted #888888;padding:20px;margin-bottom:20px;">
     <div class="profile-image-container">
-        <a href="/index.html">
+        <a href="">
             <img class="profile-image rounded-circle w-75 animated pulse" src="/theme/img/avatar.jpg"
                  title="Picture of Joel Murphy" alt="Picture of Joel Murphy"/>
         </a>
@@ -441,8 +779,8 @@ s
     <img src="/static/img/html.png" alt="HTML Icon">
     <img src="/static/img/js.png" alt="JS Icon">
     <img src="/static/img/css.png" alt="CSS Icon">
-    <a href="/about.html#technical-skills"
-       style="border-radius: 25px;display:block;color:white!important;margin-top:10px; background: #553e98;padding:12px 10px;font-weight:600;">
+    <a href="/about/technical-skills.html"
+       style="font-family: Helvetica, Arial, sans-serif;border-radius: 25px;display:block;color:white!important;margin-top:10px; background: #553e98;padding:12px 10px;font-weight:600 !important;">
         See Joel's Full Skillset
     </a>
 </div>
@@ -628,23 +966,23 @@ s
                             <li>
                                 <a href="/blog">Published Blog Posts:</a> <br>
                                 <a href="/blog">
-                                    <div class="stat_count stat_count1">23</div>
+                                    <div class="stat_count stat_count1">31</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="/tutorials">Published Tutorials:</a> <br>
                                 <a href="/tutorials">
-                                    <div class="stat_count stat_count2">5</div>
+                                    <div class="stat_count stat_count2">6</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="/portfolio">Published Work Portfolio Items:</a> <br>
+                                <a href="/portfolio">Published Website Portfolio Items:</a> <br>
                                 <a href="/portfolio">
                                     <div class="stat_count stat_count3">9</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="/money-saving">Published Money Saving Posts:</a> <br>
+                                <a href="/money-saving">Published Money Saving Guides:</a> <br>
                                 <a href="/money-saving">
                                     <div class="stat_count stat_count4">2</div>
                                 </a>
@@ -652,7 +990,7 @@ s
                             <li>
                                 <a href="/product-reviews">Published Product Reviews:</a> <br>
                                 <a href="/product-reviews">
-                                    <div class="stat_count stat_count5">0</div>
+                                    <div class="stat_count stat_count5">1</div>
                                 </a>
                             </li>
                         </ul>
@@ -701,8 +1039,8 @@ s
                         source</a>.
                     Last update:
                     <date>
-                    September
-                    30th, 2019 </date> 🕗
+                    October
+                    14th, 2019 </date> 🕗
                 </div>
             </div>
             <div class="col-2 col-md-1">
