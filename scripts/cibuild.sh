@@ -35,6 +35,7 @@ cd _site
 if [ $TRAVIS_REPO_SLUG == "jjmpsp-staging/jjmpsp-staging.github.io" ]; then
   echo "staging.joel-murphy.co.uk" > CNAME
   echo -e "User-agent: *\nDisallow: /" > robots.txt
+  echo "This repository acts as a staging repository for joel-murphy.co.uk. Please see https://github.com/jjmpsp/jjmpsp.github.io for full source code." > README.md
 fi
 
 git config user.email "contact@joel-murphy.co.uk"
