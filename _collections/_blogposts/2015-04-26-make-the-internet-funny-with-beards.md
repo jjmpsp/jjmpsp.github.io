@@ -15,7 +15,9 @@ ogDescription: Sample code demonstrating how to loop over any collection type in
 <p><br>So who remembers who this &nbsp;classic bearded woman is? Why yes, it’s&nbsp;Conchita wurst from 2012’s EuroVision competition.</p>
 <hr>
 <p>Today I’d like to share what’s probably the most impressive Google Chrome extension I’ve ever seen.</p>
-<p><span id="more-264"></span></p>
+
+<!--more-->
+
 <p>Two clever guys named&nbsp;<a href="http://www.caa.tuwien.ac.at/cvl/staff/david-fankhauser/">David Fankhauser</a> and <a href="https://byteq.com/en#about">Benjamin Grössing</a>&nbsp;have created&nbsp;<a href="https://wurstify.me/">Wurstify</a>, an extension for adding a ‘Wurst’ beard to every single image on the internet that has a face in it. Pointless, yes. Fun, definitely!</p>
 <p>The extension itself seems to make use of some clever face detection algorithms for plotting beards of varying&nbsp;thicknesses on faces. I don’t know how the authors of the extension are going to handle the masses of traffic coming to their servers when this has a big user base, but for now let’s just enjoy this tool whilst it lasts.</p>
 <p>The authors of the extension claim you can ‘wurstify’&nbsp;Facebook Friends,&nbsp;News Photos, or even the&nbsp;whole Web (even the darkest corners of it) – lol</p>

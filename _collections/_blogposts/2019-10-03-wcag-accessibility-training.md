@@ -15,6 +15,9 @@ Best design, techniques, code samples.
 
 Accessibility is ensuring that all web based platforms and applications are accessible to ALL regardless of ability or age.
 
+<!--more-->
+
+
 Equality act 2010 – avoid legal action
 
 Positive PR in healthcare

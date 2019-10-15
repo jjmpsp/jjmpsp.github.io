@@ -10,7 +10,6 @@ ogDescription: Sample code demonstrating how to loop over any collection type in
 
 Here's how to put a single image into a post, using a Bootstrap 4 card. This shows how to mingle Markdown with HTML, too.
 
-s
 <!--more-->
 
 <div class="card mb-3">

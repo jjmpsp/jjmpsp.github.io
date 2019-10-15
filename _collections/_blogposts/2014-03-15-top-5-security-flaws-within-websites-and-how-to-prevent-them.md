@@ -20,6 +20,9 @@ ogDescription: Sample code demonstrating how to loop over any collection type in
 		<div class="getsocial gs-inline-group"></div>
 <p><br><a href="http://localhost:81/wordpress/wp-content/uploads/2014/03/web-exploits.png"><img class="alignnone size-full wp-image-156" alt="web-exploits" src="http://localhost:81/wordpress/wp-content/uploads/2014/03/web-exploits.png" width="560" height="250"></a></p>
 <p>So we’re now into 2014 and websites are starting to become way more advanced by implementing new technologies such as AJAX, fancy web forms and even web sockets.&nbsp;However, little do webmaster’s realise that they’re opening a space for huge security flaws within their websites / web applications / web services for malicious hackers to take advantage of.&nbsp;It could be that a hacker wants to take down your service just for the fun of it, or maybe you’ve become a serious business competitor of theirs and so they want to take down your service as soon as possible so they start making more sales. Or maybe a hacker just thinks they have balls because they can actually do this kinda thing behind a keyboard – when in fact they’d probably soil themselves right in front of you if you tracked them down and confronted them asking why they hacked your website :p</p>
+
+<!--more-->
+
 <p>There are many reasons why you should be extremely cautious about web security, but that isn’t what this post is about – so let’s move on.</p>
 <p>In this post I will discuss the top 5 security flaws I see way too often on the web. I will also give some pointers on how to learn more about these exploits and fix them so your web applications no longer get hacked.</p>
 <p><span id="more-62"></span><br>

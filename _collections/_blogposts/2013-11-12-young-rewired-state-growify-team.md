@@ -17,6 +17,8 @@ ogDescription: Sample code demonstrating how to loop over any collection type in
 <p><br><a href="http://localhost:81/wordpress/wp-content/uploads/2014/01/YRS-2013.jpg"><img src="http://localhost:81/wordpress/wp-content/uploads/2014/01/YRS-2013.jpg" alt="YRS-2013" width="559" height="252" class="alignnone size-full wp-image-74"></a></p>
 <p>During August 2013 I took part in an event called <a href="https://youngrewiredstate.org/">Young Rewired State</a>. This was my third year taking part in the event, but my first as a mentor.</p>
 
+<!--more-->
+
 <p>I have blogged about Young Rewired State before on my old blog, but just in case you are unaware of what the event is here’s a brief description:</p>
 <blockquote><p>Young Rewired State is a week long event for Young coders (18 or under) based in the United Kingdom. The aim of the event is to get more young people coding and  interacting with open government datasets.</p></blockquote>
 <p>Previously, the Cardiff Young Rewired State event had been held at <a href="http://www.sequence.co.uk/">Sequence</a>, however this year it was held at <a href="http://www.boxuk.com/">Box UK</a>.</p>

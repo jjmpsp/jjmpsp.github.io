@@ -3,7 +3,21 @@ layout: default
 postType: Portfolio Item
 ---
 
-<h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">{{ page.title }}</h1>
+<div class="d-flex align-items-center border border-left-0 border-right-0 py-2 mb-3">
+    <div style="flex:1;flex-basis: 80%;">
+        <h1 class="list-title">
+            {{ page.title }}
+        </h1>
+    </div>
+
+    <div style="flex:1;">
+        <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
+        <span class="icon">
+            {% include entypo/resize-full-screen.svg %}
+        </span>
+        </button>
+    </div>
+</div>
 
 {% include nav-breadcrumbs.html %}
 

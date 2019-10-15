@@ -4,7 +4,7 @@ title: "Fitbit Flex 2013 Edition Product Review"
 
 <div class="entry-content">
 		<div class="getsocial gs-inline-group"></div>
-<p><br><a href="http://localhost:81/wordpress/wp-content/uploads/2014/01/fitbit-flex.jpg"><img class="alignnone size-full wp-image-106" alt="fitbit-flex" src="http://localhost:81/wordpress/wp-content/uploads/2014/01/fitbit-flex.jpg" width="960" height="640"></a></p>
+<p><img alt="fitbit-flex" src="/static/img/product-reviews/fitbit-flex.jpg" class="img-fluid"></p>
 <p><strong>Overview</strong></p>
 <p>This post will be a short review explaining what a Fitbit Flex is, what a&nbsp;Fitbit Flex can do, and how to use the Fitbit Flex. I should point out that this is a personal review and that I am in no way affiliated with Fitbit, nor will I gain any income from Fitbit Flex affiliate sales by&nbsp;writing this post.</p>
 <p>&nbsp;<br>

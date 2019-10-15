@@ -14,7 +14,9 @@ ogDescription: Sample code demonstrating how to loop over any collection type in
 
 <p>Back in October 2013, I took part in an event called Launch48 with my good friends <a href="http://sidengo.com/mrhysjones">Matthew Jones</a>,&nbsp;Nathan Ahmad<a id="js_28" href="https://www.facebook.com/nathan.ahmad" data-hovercard="/ajax/hovercard/user.php?id=545126489"></a>&nbsp;and <a href="http://luke-berry.co.uk/">Luke Berry</a>.</p>
 <p>The aim of the event was simple: Work with strangers that you’ve never met before for 48 hours straight to build a startup that’s going to make millions (umm yeah).</p>
-<p><span id="more-54"></span></p>
+
+<!--more-->
+
 <p>As stressful as the event may sound, it was actually pretty fun.&nbsp;Although the actual time working on stuff was probably about 20 hours when we included going home and eating within the time that we had – this made it even more of a manic weekend.</p>
 <p>The idea that I worked on was called WannaBeASpaceman? and was pitched by&nbsp;<a href="http://amieduggan.com/">Amie</a>.</p>
 <p>To sum up&nbsp;WannaBeASpaceman in a short sentence:</p>

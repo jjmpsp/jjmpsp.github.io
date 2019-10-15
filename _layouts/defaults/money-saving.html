@@ -3,23 +3,25 @@ layout: default
 postType: Money Saving Tip
 ---
 
-<h1 class="list-title border border-left-0 border-right-0 py-2">
-    {{ page.title }}
+<div class="d-flex align-items-center border border-left-0 border-right-0 py-2 mb-3">
+    <div style="flex:1;flex-basis: 80%;">
+        <h1 class="list-title">
+            {{ page.title }}
+        </h1>
+    </div>
 
-    <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
-        <span class="icon grey">
+    <div style="flex:1;">
+        <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
+        <span class="icon">
             {% include entypo/resize-full-screen.svg %}
         </span>
-    </button>
-</h1>
+        </button>
+    </div>
+</div>
 
 {% include nav-breadcrumbs.html %}
 
 <hr>
-
-<div class="d-md-block d-lg-none">
-    {% include components/project-meta.html %}
-</div>
 
 {{ content }}
 

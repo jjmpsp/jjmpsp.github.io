@@ -20,6 +20,9 @@ ogDescription: Sample code demonstrating how to loop over any collection type in
 <p><iframe style="border: 1px solid rgb(204, 204, 204); margin-bottom: 5px; max-width: 100%; width: 517px; height: 432px;" src="//www.slideshare.net/slideshow/embed_code/key/KvSpB9DJQ4V0pA" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe></p>
 <div style="margin-bottom: 5px;"><strong> <a title="6 Snapchat Hacks Too Easy To Ignore" href="//www.slideshare.net/vaynerchuk/6-snapchat-hacks-too-easy-to-ignore" target="_blank">6 Snapchat Hacks Too Easy To Ignore</a> </strong> from <strong><a href="//www.slideshare.net/vaynerchuk" target="_blank">Gary Vaynerchuk</a></strong></div>
 <div style="margin-bottom: 5px;"></div>
+
+<!--more-->
+
 <p>But&nbsp;what does this mean for webmasters? Should we simply ignore any social interaction with Snapchat as there isn’t an official Snapchat API available? Before, the answer to this would have been <strong>Yes!</strong>&nbsp;But now the answer to this is N<strong>o</strong>!</p>
 <p>A few months ago, Snapchat added a new feature to its mobile apps where users could add friends by scanning their unique ‘SnapCode’. A SnapCode is essentially snapchat’s own implementation&nbsp;of the QR code specification. You can see an example SnapCode in the screenshot below:</p>
 <p><img class="aligncenter wp-image-295 size-medium" src="http://localhost:81/wordpress/wp-content/uploads/2015/05/image-169x300.jpg" alt="image" width="169" height="300"></p>

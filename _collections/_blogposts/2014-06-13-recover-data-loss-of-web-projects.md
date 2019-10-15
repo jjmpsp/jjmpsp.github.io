@@ -1,14 +1,12 @@
 ---
-title: Top 5 security flaws within websites and how to prevent them
+title: Recover data loss of web projects
 tags:
-  - encryption
-  - exploit
-  - hacking
-  - sql injection
-  - xss
-  - web
-  - security
-  - vulnerability
+  - html
+  - css
+  - javascript
+  - data
+  - loss
+  - recovery
 description: Sample code demonstrating how to loop over any collection type in Jekyll
 ogDescription: Sample code demonstrating how to loop over any collection type in Jekyll
 ---
@@ -22,6 +20,9 @@ ogDescription: Sample code demonstrating how to loop over any collection type in
 <p>As I went to push the project up to GitHub, I noticed that there were some changes to the repository that had to be pulled first. As tired as I was, I went ahead and pulled these changes without actually realising that I was syncing my work with the incorrect repository! Then I headed off to bed for some well needed sleep.</p>
 <p>The next day I came on and freaked out to see that ALL of my work had gone – everything. I was like “wtf man, has someone been on my laptop whilst I was sleeping and deleted everything?”. Then I began to investigate.</p>
 <p><span id="more-240"></span></p>
+
+<!--more-->
+
 <p>I opened my project in Finder and noticed that all PHP files were in fact gone from the directory. However, I also noticed that the project folder structure was still intact.</p>
 <p>I then opened Sublime Text and noticed that all PHP files were inside the temporary file buffer, all code within them had gone, but they could be saved as empty files. I tried undoing changes, but unfortunately there weren’t any to undo. Damn.</p>
 <p>I then decided to delete the .git folder and re-initialise the repository to see what was going on* (big mistake – see later comments).</p>
