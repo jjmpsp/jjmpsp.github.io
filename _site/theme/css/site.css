@@ -296,7 +296,7 @@ ul.accordion .description { margin: 1em auto 2.25em; }
 
 .typeform-share:hover { color: white !important; }
 
-.PageNavigation { font-size: 14px; width: auto; overflow: hidden; display: flex; justify-content: space-between; }
+.PageNavigation { font-size: 14px; width: auto; overflow: hidden; display: flex; justify-content: space-between; text-transform: capitalize; }
 
 .PageNavigation a { display: block; width: 50%; float: left; margin: 1em 0; border: 1px solid rgba(0, 0, 0, 0.125); flex-basis: 40%; padding: 10px 20px; font-weight: 600; }
 
