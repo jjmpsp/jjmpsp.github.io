@@ -96,7 +96,7 @@ collections:
   product_reviews:
     output: true
     title: Product Reviews
-    permalink: /:collection/:name.html
+    permalink: /product-reviews/:name.html
   money_savings:
     output: true
     title: Money Saving
