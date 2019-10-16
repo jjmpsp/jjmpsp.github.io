@@ -849,6 +849,7 @@ ul.accordion {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  text-transform: capitalize;
 
   a {
     display: block;
