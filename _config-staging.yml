@@ -158,7 +158,7 @@ defaults:
       show_profile: true
       layout: defaults/money-saving
   - scope:
-      path: "_product-reviews"
+      path: "_product_reviews"
     values:
       show_profile: true
       layout: defaults/product-review
