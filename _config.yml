@@ -173,6 +173,23 @@ defaults:
       show_profile: true
       layout: defaults/list
 
+autopages:
+  enabled: true
+  tags:
+    layouts:
+      - autopage_tags.html
+    enabled: true
+  categories:
+    layouts:
+      - autopage_categories.html
+    enabled: true
+  collections:
+    enabled: false
+    slugify:
+      mode: 'ascii'
+      cased: true
+
+
 # sass config
 sass:
   style: cCanvas resizeompressed
