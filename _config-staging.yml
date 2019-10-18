@@ -9,9 +9,11 @@ plugins:
 
 exclude: [.idea/,webpack/,webpack.config.js,node_modules/,package.json]
 
+# MailChimp
+mailchimp-list: https://googlemail.us20.list-manage.com/subscribe/post?u=0a4730fc7f81b842673215929&amp;id=12006885ec
+
 # Pagination:
 ############################################################
-
 pagination:
   # Site-wide kill switch, if disabled here then it doesn't run at all
   enabled: true
