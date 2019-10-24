@@ -1,5 +1,5 @@
 ---
-title: WCAG 2.1 accessibility training
+title: WCAG 2.1 accessibility training notes
 tags:
   - wcag
   - accessibility

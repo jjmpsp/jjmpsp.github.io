@@ -1,5 +1,5 @@
 ---
-title: Launch 48 Cardiff
+title: Launch 48 Cardiff - event summary
 tags:
   - jekyll
   - collections

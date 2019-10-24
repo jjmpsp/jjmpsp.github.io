@@ -39,14 +39,6 @@ ogDescription: Homepage for Homepage for Joel Murphy. A Senior Full Stack Develo
 {% include components/post-card.html %}
 {% endfor %}
 
-<h4 style="color:#dd4b39;font-weight:600;">👀 Looking for more content?</h4>
-Good news: There's plenty more to explore!
-
-- View more [Blog Posts](/blog/)
-- [View Tutorials](/tutorials/)
-
-If you're looking for an entire website overview, then you may be interested in the [Website Sitemap](/sitemap.html) page for this website.
-
 {% include subscription-form.md %}
 
 {% include toc-scroll-to-top.html excludeHierarchy=true %}

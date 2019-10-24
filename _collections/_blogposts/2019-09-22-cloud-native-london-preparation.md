@@ -9,7 +9,7 @@ description: Cloud Native London 2019 Preparations
 ogDescription: Cloud Native London 2019 Preparations
 ---
 
-## My week ahead (23/09/2019 to 27/09/2019):
+## My week ahead in London (23/09/2019 to 27/09/2019):
 This week I'll be travelling to London to attend a tech conference called [Cloud Native London 2019](https://skillsmatter.com/conferences/11723-cloudnative-london-2019). Cloud Native London is a 3 day event which was established to discuss all things Cloud related.
  
 Cloud Native London is an event I've been looking forward to attending for the the past 5 months, since discovering a meetup event called "Cloud Native Wales" in my hometown (Cardiff if you didn't know already).  
@@ -18,7 +18,7 @@ In this blog post I want to discuss my plans for the week and what I hope to get
 
 <!--more-->
 
-<img src="{{ site.baseurl }}/static/img/posts/featured/cloud-native-london.jpg" class="img-fluid" style="border-radius: 25px;margin: 0 20px 10px 0;">
+<img src="{{ site.baseurl }}/static/img/posts/featured/cloud-native-london.jpg" class="img-fluid">
 
 For those of you who follow this blog, or know me in real life, you'll know that I have a keen interest in cloud, automation, scaling & distributed computing, dev-ops practises, open source, etc... in addition to the software development practises I use at work. I feel like it’s important to stay on top of developments in the industry to keep my skills fresh and active. Personally, I find one of the best ways of exploring new technologies is to attend events to learn how different organisations are implementing and measuring the success of different systems & methodologies. This allows you to focus on what other people are testing out, rather than having to constantly research technologies yourself, saving you a tremendous amount of time in the long run.
 

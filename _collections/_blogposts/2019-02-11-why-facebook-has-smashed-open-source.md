@@ -1,5 +1,5 @@
 ---
-title: Why Facebook has smashed Open Source and other tech companies should be following suit
+title: Why Facebook has smashed Open Source and other tech companies should be following their lead
 tags:
   - facebook
   - open source

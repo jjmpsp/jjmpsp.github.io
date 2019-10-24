@@ -328,4 +328,48 @@ ul.accordion .description { margin: 1em auto 2.25em; }
 @media (max-width: 991px) { .navbar-nav { overflow-y: scroll; max-height: 90vh; }
   #navbarContent > ul > li.nav-item.dropdown.megamenu .container { padding-left: 0 !important; padding-right: 0 !important; } }
 
+.circle-loader { border: 1px solid rgba(0, 0, 0, 0.2); border-left-color: #5cb85c; animation: loader-spin 1.2s infinite linear; position: relative; display: inline-block; vertical-align: top; border-radius: 50%; width: 7em; height: 7em; }
+
+.load-complete { -webkit-animation: none; animation: none; border-color: #5cb85c; transition: border 500ms ease-out; }
+
+.checkmark { display: none; }
+
+.checkmark.draw:after { animation-duration: 800ms; animation-timing-function: ease; animation-name: checkmark; transform: scaleX(-1) rotate(135deg); }
+
+.checkmark:after { opacity: 1; height: 3.5em; width: 1.75em; transform-origin: left top; border-right: 3px solid #5cb85c; border-top: 3px solid #5cb85c; content: ''; left: 1.75em; top: 3.5em; position: absolute; }
+
+@keyframes loader-spin { 0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); } }
+
+@keyframes checkmark { 0% { height: 0;
+    width: 0;
+    opacity: 1; }
+  20% { height: 0;
+    width: 1.75em;
+    opacity: 1; }
+  40% { height: 3.5em;
+    width: 1.75em;
+    opacity: 1; }
+  100% { height: 3.5em;
+    width: 1.75em;
+    opacity: 1; } }
+
+.author-image { height: 24px; width: 24px; border-radius: 20px; }
+
+.crumb-item { display: inline-block; background: #e9ecef; border: 1px solid rgba(0, 0, 0, 0.1); margin-right: 6px; border-radius: 20px; padding: 0 5px; font-size: 13px; }
+
+.crumb-item span { line-height: 24px; }
+
+.more-content-container { background: #553e98; padding: 20px; }
+
+.more-content-container h4 { color: #ffffff; font-weight: 600; }
+
+.more-content-container p { color: #ffffff; }
+
+.more-content-container .pill-link-item { margin-top: 10px; border: 1px solid white; padding: 5px 15px; border-radius: 12px; }
+
+.more-content-container .pill-link-item a { color: white !important; }
+
+.more-content-container .pill-link-item a:hover { border-bottom: 1px dotted white !important; }
+
 /*# sourceMappingURL=site.css.map */

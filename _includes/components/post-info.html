@@ -1,0 +1,21 @@
+<aside>
+    <div class="crumb-item">
+        <img src="https://staging.joel-murphy.co.uk/theme/img/avatar.jpg" alt="Joel Murphy thumbnail" class="author-image">
+        <span>By Joel Murphy</span>
+    </div>
+    <div class="crumb-item">
+    <span>
+        <i class="fas fa-clock fa-xs" style="color: #553e98;"></i>
+        {% assign words = content | number_of_words %}
+        {% if words < 270 %}
+        1 minute
+        {% else %}
+        {{ words | divided_by:135 }} minutes
+        {% endif %}
+        read
+    </span>
+    </div>
+    <div class="crumb-item">
+        <span><i class="fas fa-calendar fa-xs" style="color: #553e98;"></i> <date>{{ page.date | date_to_string }}</date></span>
+    </div>
+</aside>

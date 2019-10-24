@@ -52,11 +52,17 @@ postType: TravelPost
 
 {{ content }}
 
-<div class="PageNavigation">
-    {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-    {% endif %}
-    {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-    {% endif %}
-</div>
+{% include toc-scroll-to-top.html title=page.title %}
+
+<hr>
+
+{% include social-share-bar.html postType=layout.postType %}
+
+<hr>
+
+{% include post-pagination.html postType=layout.postType %}
+
+<hr>
+
+<h4 style="color:#dd4b39;font-weight:500;">Share your thoughts on: '{{ page.title }}':</h4>
+{% include disqus-comments.html %}

@@ -80,4 +80,10 @@ Photo by Tim Trad on Unsplash
 
 <div>Creane Icon made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
+404 image
+https://pixabay.com/images/id-1350918/
+
+Under construction image
+https://pixabay.com/illustrations/under-construction-404-web-site-928246/
+
 {% include toc-scroll-to-top.html excludeHierarchy=true %}

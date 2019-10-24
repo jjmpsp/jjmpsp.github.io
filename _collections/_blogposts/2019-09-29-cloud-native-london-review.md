@@ -9,7 +9,9 @@ description: Cloud Native London 2019 Review
 ogDescription: Cloud Native London 2019 Review
 ---
 
-## Home after a busy few days at Cloud Native London!
+<img src="{{ site.baseurl }}/static/img/posts/cloud-native-london/london-to-cardiff.PNG" class="img-fluid">
+
+## On the bus back home to Cardiff after a few busy days at Cloud Native London!
 
 If you haven't spotted my previous blog post already: [(Cloud Native London Preparations)](/blogposts/2019-09-22-cloud-native-london-preparation.html), then be sure to read it now as this post is a follow-up post to that post.
 
@@ -19,7 +21,7 @@ Last week I took a visit to London to attend a tech conference called [Cloud Nat
 
 As you can see from the below image, I've got an absurd amount of notes which I noted down during my time watching tracks and keynotes from speakers.
 
-<img src="{{ site.baseurl }}/static/img/posts/cloud-native-london/notes.jpg" class="img-fluid" style="border-radius: 25px;margin: 0 20px 10px 0;">
+<img src="{{ site.baseurl }}/static/img/posts/cloud-native-london/notes.jpg" class="img-fluid">
 
 In this post I've summarised these notes as part of a joint effort to digitise them and to share knowledge with others.
 

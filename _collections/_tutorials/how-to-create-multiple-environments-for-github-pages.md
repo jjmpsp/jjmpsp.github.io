@@ -1,5 +1,5 @@
 ---
-title: How to create multiple environments for GitHub Pages us
+title: How to create multiple environments for GitHub Pages
 tags:
   - jekyll
   - collections
