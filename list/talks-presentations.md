@@ -1,7 +1,7 @@
 ---
 title: Talks & Presentations
 narrow: false
-permalink: list/talks-presentations.html
+permalink: /talks-presentations/
 show_profile: true
 description:  Talks and Presentations by Joel Murphy.
 ogDescription: Talks and Presentations by Joel Murphy. 
