@@ -1,7 +1,7 @@
 ---
 layout: defaults/travel
 title: Joel's travels
-permalink: travel
+permalink: /travel/
 narrow: false
 description:  Travel experiences of Joel Murphy.
 ogDescription: Travel experiences of Joel Murphy.

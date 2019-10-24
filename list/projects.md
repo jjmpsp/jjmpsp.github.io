@@ -1,7 +1,7 @@
 ---
 title: Joel's Personal Projects
 narrow: false
-permalink: projects
+permalink: /projects/
 show_profile: true
 description:  Personal technology projects of Joel Murphy.
 ogDescription: Personal technology projects of Joel Murphy. 

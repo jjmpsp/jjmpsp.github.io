@@ -1,7 +1,7 @@
 ---
 title: Money Saving Guides
 narrow: false
-permalink: money-saving
+permalink: /money-saving/
 show_profile: true
 description: Money saving tips, money saving guides, and money saving glitches from a money saving enthusiast.
 ogDescription: Money saving tips, money saving guides, and money saving glitches from a money saving enthusiast.
