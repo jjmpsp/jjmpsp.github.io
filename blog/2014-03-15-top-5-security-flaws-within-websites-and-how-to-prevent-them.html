@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sample code demonstrating how to loop over any collection type in Jekyll">
+    <meta name="author" content="Joel Murphy">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="194x194" href="/static/favicon/favicon-194x194.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/favicon/android-chrome-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png"/>
+    <link rel="manifest" href="/site.webmanifest"/>
+    <link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#656565"/>
+    <meta name="apple-mobile-web-app-title" content="Joel Murphy"/>
+    <meta name="application-name" content="Joel Murphy"/>
+    <meta name="msapplication-TileColor" content="#2b5797"/>
+    <meta name="msapplication-TileImage" content="/static/favicon/mstile-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
+
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+    <title>
+        
+            Top 5 security flaws within websites and how to prevent them &middot; Joel Murphy
+        
+    </title>
+
+    <script src="/theme/js/jquery-3.2.1.min.js"></script>
+    <script src="/theme/js/popper.min.js"></script>
+    <script src="/theme/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery.lazy.min.js"></script>
+
+    <link rel="stylesheet" href="/theme/css/site.css"/>
+
+    <script  src="/static/js/main-bundle.js"></script>
+
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9259836823539954",
+            enable_page_level_ads: true,
+        });
+    </script>
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC%7CVarela+Round" rel="stylesheet">
+
+    <meta content="Joel Murphy" property="og:site_name">
+
+<meta content="Top 5 security flaws within websites and how to prevent them" property="og:title">
+
+
+
+<meta content="article" property="og:type">
+
+
+
+<meta content="Sample code demonstrating how to loop over any collection type in Jekyll" property="og:description">
+
+
+
+<meta content="https://joel-murphy.co.uk/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html" property="og:url">
+
+
+
+<meta content="2014-03-15T00:00:00+00:00" property="article:published_time">
+<meta content="https://joel-murphy.co.uk/about/" property="article:author">
+
+
+
+<meta content="https://joel-murphy.co.uk/assets/images/medium-images/main-site-image.jpg" property="og:image">
+
+
+
+
+
+
+
+
+<meta content="encryption" property="article:tag">
+
+<meta content="exploit" property="article:tag">
+
+<meta content="hacking" property="article:tag">
+
+<meta content="sql injection" property="article:tag">
+
+<meta content="xss" property="article:tag">
+
+<meta content="web" property="article:tag">
+
+<meta content="security" property="article:tag">
+
+<meta content="vulnerability" property="article:tag">
+
+
+</head>
+
+
+<body>
+<header>
+    <style>
+        .megamenu {
+            position: static
+        }
+
+        .megamenu .dropdown-menu {
+            background: none;
+            border: none;
+            width: 100%
+        }
+
+        .custom-dropdown {
+            background: #3f4449;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            margin: 0 !important;
+            border: 0 !important;
+        }
+
+        .custom-dropdown ul {
+            padding: 0 !important;
+        }
+
+
+        @media (min-width: 991px) {
+            nav.navbar {
+                padding: 0rem 1rem !important;
+            }
+        }
+
+        nav.navbar ul li a.nav-link {
+            padding: 20px 10px;
+        }
+
+        li.nav-item.dropdown.show {
+            background: #80808026;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
+        <a class="navbar-brand font-weight-bold" href="https://joel-murphy.co.uk">💡💻 Joel Murphy
+            💻💡</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" aria-controls="navbars"
+                aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarContent">
+            <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path class="line top"
+                      d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20">
+                </path>
+                <path class="line middle"
+                      d="m 70,50 h -40">
+                </path>
+                <path class="line bottom"
+                      d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20">
+                </path>
+            </svg>
+        </button>
+        <div id="scroll-value-container">
+            <div id="scroll-value"></div>
+        </div>
+        <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        ℹ About Joel
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/about.html" class="nav-link text-small">ℹ Overview</a></li>
+                            <li class="nav-item"><a href="/about/personal-life.html" class="nav-link text-small">ℹ
+                                Personal Life</a></li>
+                            <li class="nav-item"><a href="/about/technical-skills.html" class="nav-link text-small">ℹ
+                                Technical Skills</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        🤓 Technology Showcase
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/projects/" class="nav-link text-small">🤓 Personal Projects</a></li>
+                            <li class="nav-item"><a href="/talks-presentations/" class="nav-link text-small">🤓 Talks & Presentations</a></li>
+                            <li class="nav-item"><a href="/portfolio/" class="nav-link text-small">👨 Work Portfolio</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        📚 Posts & Guides
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                        <ul class="list-unstyled">
+                            <li class="nav-item">
+                                <a href="/blog/" class="nav-link">
+                                    📖 Blog Posts
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/money-saving/" class="nav-link">
+                                    💰 Money Saving Tips, Tricks, & Guides
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/tutorials/" class="nav-link">
+                                    🍎 Tutorials
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink4" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        💾 I.T Consultancy
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="/consultancy" class="nav-link text-small">🤓 Cloud Consultancy</a></li>
+                            <li class="nav-item"><a href="/consultancy" class="nav-link text-small">🤓 Software Development Consultancy</a></li>
+                            <li class="nav-item"><a href="/consultancy" class="nav-link text-small">🤓 Web Development Consultancy</a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                <li class="nav-item dropdown megamenu">
+                    <a id="megamneu" href="#" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"
+                       class="nav-link dropdown-toggle">
+                        ✈ Travel</a>
+                    <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                        <div class="container">
+                            <div class="row rounded-0 m-0 shadow-sm" style="background: #3f4449;">
+                                <div class="col-lg-12">
+                                    <div class="p-4">
+                                        <div class="row">
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travels in
+                                                    Europe</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/austria.html" class="nav-link text-small">Joel's Travels in Austria, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/belguim.html" class="nav-link text-small">Joel's Travels in Belgium, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/bosnia-herzegovina.html" class="nav-link text-small">Joel's Travels in Bosnia & Herzegovina, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/bulgaria.html" class="nav-link text-small">Joel's Travels in Bulgaria, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/croatia.html" class="nav-link text-small">Joel's Travels in Croatia, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/cyprus.html" class="nav-link text-small">Joel's Travels in Cyprus, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/czech-republic.html" class="nav-link text-small">Joel's Travels in Czech Republic, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/france.html" class="nav-link text-small">Joel's Travels in France, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/germany.html" class="nav-link text-small">Joel's Travels in Germany, Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/europe/great-britain.html" class="nav-link text-small">Joel's Travels in Great Britain, Europe</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travels in
+                                                    Africa</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel/africa/johannesburg.html" class="nav-link text-small">Joel's Travels in Johannesburg, South Africa</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                                <hr>
+                                                <h6 class="font-weight-bold text-uppercase text-light">Joel's Travel
+                                                    Guides</h6>
+                                                <ul class="list-unstyled">
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/best-e-readers-for-travelling.html" class="nav-link text-small">Best E-Readers for travelling</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-find-cheap-flights-from-uk-airports.html" class="nav-link text-small">How to find cheap flights from UK airports</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-find-cheap-flights-to-from-uk-airports.html" class="nav-link text-small">How to find cheap flights to or from UK airports from anywhere in the World</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/how-to-plan-an-interrail-trip-around-europe.html" class="nav-link text-small">How to plan an interrail trip around Europe</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/package-holidays-are-they-worth-it.html" class="nav-link text-small">Package holidays: Are they really worth it?</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/top-tips-for-travelling-on-hand-luggage.html" class="nav-link text-small">Top tips for travelling on hand luggage</a>
+                                                    </li>
+                                                    
+                                                    <li class="nav-item cool">
+                                                        <a href="/travel-guides/why-you-need-a-currency-card-for-your-travels.html" class="nav-link text-small">Why you need a currency card for your travels and how to get one</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase text-light">Interactive
+                                                    Travel Map</h6>
+                                                <p style="color:rgba(255, 255, 255, 0.75);">
+                                                    <span class="badge badge-secondary">New!</span> Explore the entire
+                                                    world map and find content I've shared for each country by using the
+                                                    <a href="/travel">interactive map feature</a> on joel-murphy.co.uk.
+                                                </p>
+                                                <img src="/static/img/map.png" class="img-fluid"
+                                                     alt="Explore the map">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+
+<main class="container" id="site-container">
+    <div class="row">
+        <article class="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-12 pb-4 order-sm-last content" id="content">
+            <div class="card bg-white">
+                <div class="card-body">
+                    <div class="d-flex align-items-center border border-left-0 border-right-0 py-2 mb-3">
+    <div style="flex:1;flex-basis: 80%;">
+        <h1 class="list-title">
+            Top 5 security flaws within websites and how to prevent them
+        </h1>
+    </div>
+
+    <div style="flex:1;">
+        <button class="btn btn-sm btn-primary hidden-xs hidden-md" id="expand-view">
+        <span class="icon">
+            <svg version="1.1" id="Resize_full_screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M6.987,10.987l-2.931,3.031L2,11.589V18h6.387l-2.43-2.081l3.03-2.932L6.987,10.987z M11.613,2l2.43,2.081l-3.03,2.932l2,2
+	l2.931-3.031L18,8.411V2H11.613z"/>
+</svg>
+
+        </span>
+        </button>
+    </div>
+</div>
+
+<nav class="breadcrumb top-breadcrumb">
+    
+    
+    
+    <li class="breadcrumb-item">
+        <a href="/">Home</a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    <li class="breadcrumb-item">
+        <a href="/blog">Blog Posts</a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="breadcrumb-item active">
+        <a href="/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html">Top 5 security flaws within websites and how to prevent them</a>
+    </li>
+</nav>
+
+<aside>
+    <div class="crumb-item">
+        <img src="https://staging.joel-murphy.co.uk/theme/img/avatar.jpg" alt="Joel Murphy thumbnail" class="author-image">
+        <span>By Joel Murphy</span>
+    </div>
+    <div class="crumb-item">
+    <span>
+        <i class="fas fa-clock fa-xs" style="color: #553e98;"></i>
+        
+        
+        21 minutes
+        
+        read
+    </span>
+    </div>
+    <div class="crumb-item">
+        <span><i class="fas fa-calendar fa-xs" style="color: #553e98;"></i> <date>15 Mar 2014</date></span>
+    </div>
+</aside>
+
+
+<hr>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Archived Post:</strong> This post has been marked as 'archived' and only exists for historical purposes. As a result of this, some information in this post may be outdated or no longer supported.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<article id="post-62" class="post-62 post type-post status-publish format-standard hentry category-programming tag-application tag-cross tag-encryption tag-exploit tag-hacking tag-injection tag-php tag-prevention tag-scripting tag-security tag-service tag-site tag-sql tag-vulnerability tag-web tag-xss">
+			<div class="entry-content">
+		<div class="getsocial gs-inline-group"></div>
+<p><br /><a href="http://localhost:81/wordpress/wp-content/uploads/2014/03/web-exploits.png"><img class="alignnone size-full wp-image-156" alt="web-exploits" src="http://localhost:81/wordpress/wp-content/uploads/2014/03/web-exploits.png" width="560" height="250" /></a></p>
+<p>So we’re now into 2014 and websites are starting to become way more advanced by implementing new technologies such as AJAX, fancy web forms and even web sockets.&nbsp;However, little do webmaster’s realise that they’re opening a space for huge security flaws within their websites / web applications / web services for malicious hackers to take advantage of.&nbsp;It could be that a hacker wants to take down your service just for the fun of it, or maybe you’ve become a serious business competitor of theirs and so they want to take down your service as soon as possible so they start making more sales. Or maybe a hacker just thinks they have balls because they can actually do this kinda thing behind a keyboard – when in fact they’d probably soil themselves right in front of you if you tracked them down and confronted them asking why they hacked your website :p</p>
+
+<!--more-->
+
+<p>There are many reasons why you should be extremely cautious about web security, but that isn’t what this post is about – so let’s move on.</p>
+<p>In this post I will discuss the top 5 security flaws I see way too often on the web. I will also give some pointers on how to learn more about these exploits and fix them so your web applications no longer get hacked.</p>
+<p><span id="more-62"></span><br />
+<strong><strong>Security flaw #</strong>5:</strong></p>
+<h3>Ajax security exploits</h3>
+<p>Ajax is a cool technology, but one major problem with it is that people who are implementing it into their websites don’t really understand some of the potential security flaws that pop up from using it.</p>
+<p>One rule when creating backend systems:</p>
+<blockquote><p>Never allow user input… If you do, clean the input or do some sort of error checking with it so that it isn’t possible for users to perform malicious operations on your web server!</p></blockquote>
+<p>You should always keep this rule in mind when developing backend code.</p>
+<p><strong>Sample ajax exploit vulnerability</strong></p>
+<p>Recently, I was messing around with a pretty cool theme changer I found on a website showing off HTML 5 and CSS3 website designs. The website itself looked fantastic, but it’s coding turned out to be a nightmare… I decided to take a look at how the theme changer worked, and to my surprise, it turned out that it sent out an ajax request that set a cookie, followed by another ajax request to read a php file directly from the server’s disk, included it into the page so that the PHP pre-processor rendered it on the fly and then used Javascript&nbsp;to append the rendered html to the page’s DOM. <strong>This may seem like a clever method of creating such a script, but this is extremely unsafe</strong>.</p>
+<p>I was able to perform a <a href="http://en.wikipedia.org/wiki/Directory_traversal_attack" target="_blank">Directory Traversal Attack</a> on the server and display the entire contents of it just by going up a few directories. <strong>A hacker could do a lot with information about your server, and could potentially screw things up so you have no option but to completely rebuild your server.</strong></p>
+<p>Assuming the vulnerable script looked something like this:</p>
+<div id="wpshdo_1" class="wp-synhighlighter-outer"><div id="wpshdt_1" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_1"></a><a id="wpshat_1" class="wp-synhighlighter-title" href="#codesyntax_1" onclick="javascript:wpsh_toggleBlock(1)" title="Click to show/hide code block">vulnerable-script.php (server side)</a></td><td align="right"><a href="#codesyntax_1" onclick="javascript:wpsh_code(1)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_1" onclick="javascript:wpsh_print(1)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_1" class="wp-synhighlighter-inner" style="display: block;"><pre class="php" style="font-family:monospace;"><span class="kw2">&lt;?php</span>
+<span class="re0">$template</span> <span class="sy0">=</span> <span class="st_h">'html5-green-theme.php'</span><span class="sy0">;</span>
+<span class="kw1">if</span> <span class="br0">(</span><a href="http://www.php.net/isset"><span class="kw3">isset</span></a><span class="br0">(</span><span class="re0">$_COOKIE</span><span class="br0">[</span><span class="st_h">'TEMPLATE'</span><span class="br0">]</span><span class="br0">)</span><span class="br0">)</span>
+<span class="re0">$template</span> <span class="sy0">=</span> <span class="re0">$_COOKIE</span><span class="br0">[</span><span class="st_h">'TEMPLATE'</span><span class="br0">]</span><span class="sy0">;</span>
+<span class="kw1">include</span> <span class="br0">(</span><span class="st0">"/home/users/username/public/templates/"</span> <span class="sy0">.</span> <span class="re0">$template</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="sy1">?&gt;</span></pre></div></div>
+<p>I could send the following http web request along with a modified cookie (making the server think that this is a genuine request):</p>
+<div id="wpshdo_2" class="wp-synhighlighter-outer"><div id="wpshdt_2" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_2"></a><a id="wpshat_2" class="wp-synhighlighter-title" href="#codesyntax_2" onclick="javascript:wpsh_toggleBlock(2)" title="Click to show/hide code block">HTTP request exploiting the vulnerable file</a></td><td align="right"><a href="#codesyntax_2" onclick="javascript:wpsh_code(2)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_2" onclick="javascript:wpsh_print(2)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_2" class="wp-synhighlighter-inner" style="display: block;"><pre class="php" style="font-family:monospace;">GET <span class="sy0">/</span>vulnerable<span class="sy0">-</span>script<span class="sy0">.</span>php HTTP<span class="sy0">/</span><span class="nu19">1.0</span>
+Cookie<span class="sy0">:</span> TEMPLATE<span class="sy0">=../../../../../../../../../</span>etc<span class="sy0">/</span>passwd</pre></div></div>
+<p>Boom! We are now able to read any file on a server, or display users of the server – making it easier for us to hack other things.</p>
+<p><strong>Advice on how to fix this security flaw:</strong></p>
+<p>Just don’t use a cookie for implementing this type of functionality. A simple solution to this problem would be just storing the source of the html file in a database field, rather than reading the file directly from a disk. If you must use an include in this way though, just add some validation for checking if the script should be allowed to include files from a certain directory or something.</p>
+<p>&nbsp;</p>
+<p><strong><strong>Security flaw #</strong>4:</strong></p>
+<h3>SQL injections</h3>
+<p>One of the most common attacks on websites is SQL injections. You’d think by now that they’d finally start to disappear, but people still tend to forget about them or use deprecated functions (functions that should no longer be used as there are better solutions available) and so huge security holes are opened up to user &amp; application data!</p>
+<p><strong>Examples of an SQL injection attack:</strong></p>
+<p>There is a fantastic wiki entry on <a href="http://en.wikipedia.org/wiki/SQL_injection">SQL injections</a>, so I’m just going to <a href="http://en.wikipedia.org/wiki/SQL_injection">link you there</a> instead.</p>
+<p>All I’m saying is don’t create queries like this, or you’re just asking for trouble:<br />
+</p><div id="wpshdo_3" class="wp-synhighlighter-outer"><div id="wpshdt_3" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_3"></a><a id="wpshat_3" class="wp-synhighlighter-title" href="#codesyntax_3" onclick="javascript:wpsh_toggleBlock(3)" title="Click to show/hide code block">Vulnerable SQL code</a></td><td align="right"><a href="#codesyntax_3" onclick="javascript:wpsh_code(3)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_3" onclick="javascript:wpsh_print(3)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_3" class="wp-synhighlighter-inner" style="display: block;"><pre class="php" style="font-family:monospace;">SELECT <span class="sy0">*</span> FROM users WHERE email <span class="sy0">=</span> <span class="st_h">'$someVariable'</span><span class="sy0">;</span></pre></div></div><p></p>
+<p>Why you ask? read the wiki entry, it’ll explain SQL injection to you way better than I will.</p>
+<p><strong>Advice on how to fix SQL injection security flaws:</strong></p>
+<ul>
+<li>Use prepared statements for your queries. Prepared statements are safer than using the standard mysql() functions as they automatically filter user inputs wherever you specify. PDO is an Object Orientated abstraction of native database drivers, so it’s compatible with many database technologies (not just mysql). This makes managing your code easier if you ever decide to port your script for another DBMS software.</li>
+</ul>
+<div id="wpshdo_4" class="wp-synhighlighter-outer"><div id="wpshdt_4" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_4"></a><a id="wpshat_4" class="wp-synhighlighter-title" href="#codesyntax_4" onclick="javascript:wpsh_toggleBlock(4)" title="Click to show/hide code block">PDO database query</a></td><td align="right"><a href="#codesyntax_4" onclick="javascript:wpsh_code(4)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_4" onclick="javascript:wpsh_print(4)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_4" class="wp-synhighlighter-inner" style="display: block;"><pre class="php" style="font-family:monospace;"><span class="co1">// Instantiate a new PDO object</span>
+<span class="re0">$db</span> <span class="sy0">=</span> <span class="kw2">new</span> PDO<span class="br0">(</span><span class="st_h">'mysql:dbname=user_management;host=localhost'</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="co1">// Prepare a query for being escaped</span>
+<span class="re0">$statement</span> <span class="sy0">=</span> <span class="re0">$db</span><span class="sy0">-&gt;</span><span class="me1">prepare</span><span class="br0">(</span><span class="st_h">'SELECT * FROM users WHERE email = :email'</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="co1">// execute the query, passing in the parameters to replace</span>
+<span class="re0">$statement</span><span class="sy0">-&gt;</span><span class="me1">execute</span><span class="br0">(</span><a href="http://www.php.net/array"><span class="kw3">array</span></a><span class="br0">(</span><span class="st_h">':email'</span> <span class="sy0">=&gt;</span> <span class="re0">$email</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="co1">// fetch results as array</span>
+<span class="re0">$results</span> <span class="sy0">=</span> <span class="re0">$statement</span><span class="sy0">-&gt;</span><span class="me1">fetchAll</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<ul>
+<li>Turn off errors from the php configuration, or just be lazy and use the following code at the top of your source files:</li>
+</ul>
+<div id="wpshdo_5" class="wp-synhighlighter-outer"><div id="wpshdt_5" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_5"></a><a id="wpshat_5" class="wp-synhighlighter-title" href="#codesyntax_5" onclick="javascript:wpsh_toggleBlock(5)" title="Click to show/hide code block">Turn off PHP error reporting</a></td><td align="right"><a href="#codesyntax_5" onclick="javascript:wpsh_code(5)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_5" onclick="javascript:wpsh_print(5)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_5" class="wp-synhighlighter-inner" style="display: block;"><pre class="php" style="font-family:monospace;"><span class="kw2">&lt;?php</span>
+	<a href="http://www.php.net/error_reporting"><span class="kw3">error_reporting</span></a><span class="br0">(</span>0<span class="br0">)</span><span class="sy0">;</span>
+<span class="sy1">?&gt;</span></pre></div></div>
+<p>This stops people from seeing that a table doesn’t exist, and so it makes it harder to ‘guess’ table names or perform <a href="https://www.owasp.org/index.php/Blind_SQL_Injection">blind SQL injection attacks</a>.</p>
+<ul>
+<li>Don’t make your table names really obvious. E.g. ‘tbl_passwords’ is more likely to be guessed in a few tries, compared to ‘super_long_table_name_passwords’. This obviously adds some complexity to your website / web application, but it really does make it harder for hackers to perform blind SQL injection attacks on your service – if they ever do find a vulnerability within it.</li>
+<li>Hash passwords and encrypt sensitive data. This is a no brainer really, but older systems still tend to store data in plain text! I actually gained entry into a pretty big education system created by my local council a few years ago. I only did this to prove a point that it could be done – I was however rather shocked to find plaintext passwords displayed in their database along with my personal email address! This really made me up my game with security of data. Oh and they promised me an award for finding this exploit too – which I never got… Awww. <img src="http://localhost:81/wordpress/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" /></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Security flaw #3:</strong></p>
+<h3>Dynamically coding user id’s into forms.</h3>
+<p>A lot of people will wonder why this ‘exploit’ is even at number 3 within this list, but believe it or not, I tend to see this a lot whilst browsing website source code. Allow me to demonstrate.</p>
+<p><strong>Assuming we have the following exploitable html form:</strong></p>
+<div id="wpshdo_6" class="wp-synhighlighter-outer"><div id="wpshdt_6" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_6"></a><a id="wpshat_6" class="wp-synhighlighter-title" href="#codesyntax_6" onclick="javascript:wpsh_toggleBlock(6)" title="Click to show/hide code block">Exploitable html form</a></td><td align="right"><a href="#codesyntax_6" onclick="javascript:wpsh_code(6)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_6" onclick="javascript:wpsh_print(6)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_6" class="wp-synhighlighter-inner" style="display: block;"><pre class="html4strict" style="font-family:monospace;"><span class="sc2">&lt;<a href="http://december.com/html/4/element/form.html"><span class="kw2">form</span></a> <span class="kw3">action</span><span class="sy0">=</span><span class="st0">"update-email.php"</span> <span class="kw3">method</span><span class="sy0">=</span><span class="st0">"POST"</span>&gt;</span>
+	<span class="sc2">&lt;<a href="http://december.com/html/4/element/input.html"><span class="kw2">input</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"text"</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">"new_email"</span>&gt;</span>
+	<span class="sc2">&lt;<a href="http://december.com/html/4/element/input.html"><span class="kw2">input</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"hidden"</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">"user_id"</span> <span class="kw3">value</span><span class="sy0">=</span><span class="st0">"3373"</span>&gt;</span>
+	<span class="sc2">&lt;<a href="http://december.com/html/4/element/input.html"><span class="kw2">input</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"submit"</span> <span class="kw3">value</span><span class="sy0">=</span><span class="st0">"Update my email address"</span>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/form.html"><span class="kw2">form</span></a>&gt;</span></pre></div></div><br />
+It looks harmless, right? Wrong. By having that ‘user_id’ field in there, you are basically allowing anyone to change anyone else’s email address. So what you’re saying? It’s just an email address linked to my account right? Yeah possibly (depending on your system) but does your website contain a recover password function too? If it does, you’ve just allowed anyone to gain access to another users account in seconds!<p></p>
+<p>Even <strong>Facebook</strong> were vulnerable to this type of attack a few months ago! Crazy right? You’ll be happy to know that the exploit doesn’t work any longer, but you can <a href="http://blog.fin1te.net/post/53949849983/hijacking-a-facebook-account-with-sms">read about how this hack happened on the exploit author’s blog.</a></p>
+<p><strong>How to prevent from these types of hacks within my system?</strong></p>
+<ul>
+<li>Don’t include a user_id field within forms!</li>
+<li>Depend on a session instead.</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong><strong>Security flaw #2</strong>:</strong></p>
+<h3>Cross site scripting (XSS) attacks</h3>
+<p>Do you have a comment form on your website? Yes? Are you validating all inputs as much as possible? No? Well I suggest that you fix this right now as you are prone to users executing Javascript on your page without your knowledge!</p>
+<p><strong>Cross site scripting example</strong></p>
+<p>Imagine I posted the following string of text as a comment to a website:</p>
+<div id="wpshdo_7" class="wp-synhighlighter-outer"><div id="wpshdt_7" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_7"></a><a id="wpshat_7" class="wp-synhighlighter-title" href="#codesyntax_7" onclick="javascript:wpsh_toggleBlock(7)" title="Click to show/hide code block">Simple XSS demo</a></td><td align="right"><a href="#codesyntax_7" onclick="javascript:wpsh_code(7)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_7" onclick="javascript:wpsh_print(7)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_7" class="wp-synhighlighter-inner" style="display: block;"><pre class="javascript" style="font-family:monospace;"><span class="sy0">&lt;</span>script<span class="sy0">&gt;</span>
+<span class="kw3">alert</span><span class="br0">(</span><span class="st0">"Hello random user"</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="sy0">&lt;/</span>script<span class="sy0">&gt;</span></pre></div></div>
+<p>If the website doesn’t prevent against XSS attacks then I would get a lovely alert box like the following every time that page was visited:</p>
+<p><a href="http://localhost:81/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-15-at-13.28.14.png"><img class="alignnone size-full wp-image-192" alt="Screen Shot 2014-03-15 at 13.28.14" src="http://localhost:81/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-15-at-13.28.14.png" width="420" height="154" /></a></p>
+<p>By this point your website users are gonna be like “wuuut? how did that happen?” But in fact, this is actually just the start of the attack. An attacker could go way further than this and steal cookie data from a client’s browser with the following code:</p>
+<div id="wpshdo_8" class="wp-synhighlighter-outer"><div id="wpshdt_8" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_8"></a><a id="wpshat_8" class="wp-synhighlighter-title" href="#codesyntax_8" onclick="javascript:wpsh_toggleBlock(8)" title="Click to show/hide code block">Cross site scripting example</a></td><td align="right"><a href="#codesyntax_8" onclick="javascript:wpsh_code(8)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_8" onclick="javascript:wpsh_print(8)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_8" class="wp-synhighlighter-inner" style="display: block;"><pre class="javascript" style="font-family:monospace;"><span class="sy0">&lt;</span>script<span class="sy0">&gt;</span>
+	<span class="kw3">alert</span><span class="br0">(</span>document.<span class="me1">cookie</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="sy0">&lt;/</span>script<span class="sy0">&gt;</span></pre></div></div>
+<p>I recently discovered a slightly more complicated exploit than this on a social networking website called&nbsp;<a href="http://www.unii.com/">Unii</a>. The funny thing is that I managed trigger 380 calls of my exploited code in just a few hours! Now I’m not the type of person that would hack a website in this way, but I could have easily stole 380+ accounts in no time. I reported this exploit to the website administrator and suggested a fix for them.</p>
+<p><strong>How to prevent XSS (Cross Site Scripting)?</strong></p>
+<p>Within PHP it’s really simple. Just do this every time you’re echoing a string:</p>
+<div id="wpshdo_9" class="wp-synhighlighter-outer"><div id="wpshdt_9" class="wp-synhighlighter-expanded"><table border="0" width="100%"><tbody><tr><td align="left" width="80%"><a name="#codesyntax_9"></a><a id="wpshat_9" class="wp-synhighlighter-title" href="#codesyntax_9" onclick="javascript:wpsh_toggleBlock(9)" title="Click to show/hide code block">Prevent XSS attacks with PHP</a></td><td align="right"><a href="#codesyntax_9" onclick="javascript:wpsh_code(9)" title="Show code only"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" /></a>&nbsp;<a href="#codesyntax_9" onclick="javascript:wpsh_print(9)" title="Print code"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" /></a>&nbsp;<a href="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/About.html" target="_blank" title="Show plugin information"><img border="0" style="border: 0 none" src="http://localhost:81/wordpress/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" /></a>&nbsp;</td></tr></tbody></table></div><div id="wpshdi_9" class="wp-synhighlighter-inner" style="display: block;"><pre class="php" style="font-family:monospace;"><span class="kw2">&lt;?php</span>
+<span class="re0">$string</span> <span class="sy0">=</span> <span class="st_h">'&lt;script&gt;alert("Hello random user");&lt;/script&gt;'</span><span class="sy0">;</span>
+<span class="kw1">echo</span> <a href="http://www.php.net/htmlspecialchars"><span class="kw3">htmlspecialchars</span></a><span class="br0">(</span><span class="re0">$string</span><span class="sy0">,</span> <span class="kw4">ENT_QUOTES</span><span class="sy0">,</span> <span class="st_h">'UTF-8'</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="sy1">?&gt;</span></pre></div></div>
+<p>&nbsp;</p>
+<p><strong><strong>Security flaw #1</strong>:</strong></p>
+<h3>Sloppy coding and lack of code testing.</h3>
+<p>Yes, that’s right. The main reason people are hacking your website is because you’re just not testing your code enough before you release it to the wild.</p>
+<p>Here are a few pointers that I have for people to create better code for the web:</p>
+<ul>
+<li>Create automated tests.</li>
+<li>Ask real people to test your application.</li>
+<li>Get a decent browser such as Google Chrome and use the network inspection tool to monitor traffic, ensuring no sensitive data is transferred between requests.</li>
+<li>Create a test site on another domain with the same server setup. Always remember to protect the test site from being accessed by non testers. A good way around this is creating an I.P whitelist.</li>
+<li>Always test the unexpected. Not everyone uses your system in the same way.</li>
+<li>Always add limits to functions. E.g. Why would a user need to guess their password 5 times in the space of 1 minute? Is there a bot trying to brute force account credentials?</li>
+<li>Always Google for multiple code examples and compare your code against them. If your code contains segments from each example you find, chances are it’s going to be less prone to errors.</li>
+<li>Research information security every now and then. I like to keep an eye on the <a href="http://security.stackexchange.com/">Information Security website over at StackExchange and look at some of the questions people ask.</a></li>
+</ul>
+<p><strong>Post conclusion:</strong></p>
+<p>Perfecting any sort of web project takes a lot of time and patience. I have been working on websites for over 6 years now and I still tend to find new ways of exploiting them.</p>
+<p>Hopefully this post will inspire some of you to think more about your coding style and start writing better code to accommodate for some of the unusual (or unthought of) scenarios that I have pointed out above. You should use this post as a reference for when you’re developing new ideas to accommodate for stopping some of the most common website attacks.</p>
+<p>Of course there are many other exploits out there, but these are just some of the more common ones that I tend to come across within websites.</p>
+<p>My next post will be a guide on how to create the perfect development workflow with GitHub and an Apache server without any user interaction. This post will also cover more security related aspects of web development, so if you liked this post be sure to check it out <img src="http://localhost:81/wordpress/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Thanks for reading!</p>
+<pre>DISCLAIMER: I only research security vulnerabilities for my own benefit. I am sharing this information with you so that you have a general security checklist for when developing new websites or services.&nbsp;You should not use these methods for performing unlawful attacks on vulnerable websites. Instead, you should notify webmaster's of the security flaw(s) in their website and point them into the right direction on how to fix their coding mistakes. A link to this post would be a good starting point ;)</pre>
+			</div>
+</article>
+
+
+<div class="space-before" style="z-index: 0 !important;margin-top:10px;">
+    <div class="card bg-white mb-3">
+        <div class="card-body">
+            <div class="card-title">
+                Posted on <date>15 Mar 2014</date> by Joel Murphy. Last updated: <date>October 15, 2019</date>.
+            </div>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    <svg version="1.1" class="Icon_Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z"/>
+</g>
+</svg>
+
+                </span>
+                
+                    <a href="https://joel-murphy.co.uk/tag/encryption/"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        encryption
+                    </a>
+                
+                    <a href="https://joel-murphy.co.uk/tag/exploit/"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        exploit
+                    </a>
+                
+                    <a href="https://joel-murphy.co.uk/tag/hacking/"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        hacking
+                    </a>
+                
+                    <a href="https://joel-murphy.co.uk/tag/sql-injection/"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        sql injection
+                    </a>
+                
+                    <a href="https://joel-murphy.co.uk/tag/xss/"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        xss
+                    </a>
+                
+                    <a href="https://joel-murphy.co.uk/tag/web/"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        web
+                    </a>
+                
+                    <a href="https://joel-murphy.co.uk/tag/security/"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        security
+                    </a>
+                
+                    <a href="https://joel-murphy.co.uk/tag/vulnerability/"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        vulnerability
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="PageNavigation">
+    
+    <a class="prev" href="/blog/2013-11-12-young-rewired-state-growify-team.html">&laquo; Young Rewired State 2013 - Team Growify</a>
+    
+    
+    <a class="next" href="/blog/2014-06-13-recover-data-loss-of-web-projects.html">Recover data loss of web projects &raquo;</a>
+    
+</div>
+
+
+    <div id="float-toc">
+    <nav role="navigation" class="table-of-contents">
+        
+            <span style="cursor:pointer;font-size: 10px;position: absolute;top: 10px;right: 15px;">[Click arrows to toggle]</span>
+            <h3>Table of Contents:</h3>
+            
+            <ul>
+  <li><a href="#">Top 5 security flaws within websites and how to prevent them</a>
+      - {:.} <a href="#">Ajax security exploits</a>
+      - {:.} <a href="#">SQL injections</a>
+      - {:.} <a href="#">Dynamically coding user id’s into forms.</a>
+      - {:.} <a href="#">Cross site scripting (XSS) attacks</a>
+      - {:.} <a href="#">Sloppy coding and lack of code testing.</a></li>
+</ul>
+        
+
+        <a href="#" class="jumpToTop">
+            <span class="icon grey svg20">
+                <svg version="1.1" id="Arrow_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M10,2.5L16.5,9H13v8H7V9H3.5L10,2.5z"/>
+</svg>
+
+            </span>
+
+            Take me to the top of this page
+        </a>
+    </nav>
+</div>
+
+
+<hr>
+
+<div class="share-bar">
+    <h4>Share this Blog Post:</h4>
+
+    <div class="share-buttons">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://joel-murphy.co.uk/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           class="share-button facebook"
+           title="Share on Facebook">
+            <i class="fab fa-facebook"> </i> facebook
+        </a>
+        <a href="https://twitter.com/intent/tweet?text=Top 5 security flaws within websites and how to prevent them&url=https://joel-murphy.co.uk/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           class="share-button twitter"
+           title="Share on Twitter">
+            <i class="fab fa-twitter"> </i> twitter
+        </a>
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://joel-murphy.co.uk/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           class="share-button pinterest"
+           title="Share on Pinterest">
+            <i class="fab fa-pinterest-p"> </i> pinterest
+        </a>
+        <a href="https://www.tumblr.com/share/link?url=https://joel-murphy.co.uk/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           class="share-button tumblr"
+           title="Share on Tumblr">
+            <i class="fab fa-tumblr"> </i> tumblr
+        </a>
+        <a href="http://www.reddit.com/submit?url=https://joel-murphy.co.uk/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+           class="share-button reddit"
+           title="Share on Reddit">
+            <i class="fab fa-reddit"> </i> reddit
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://joel-murphy.co.uk/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html&title=Top 5 security flaws within websites and how to prevent them&summary=Sample code demonstrating how to loop over any collection type in Jekyll&source=Joel Murphy"
+           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           class="share-button linkedin"
+           title="Share on LinkedIn">
+            <i class="fab fa-linkedin"> </i> linkedin
+        </a>
+        <a href="mailto:?subject=Top 5 security flaws within websites and how to prevent them&amp;body=Check%20out%20this%20site:%20https://joel-murphy.co.uk/blog/2014-03-15-top-5-security-flaws-within-websites-and-how-to-prevent-them.html"
+           class="share-button email"
+           title="Share via Email">
+            <i class="far fa-envelope"> </i> email
+        </a>
+    </div>
+</div>
+
+<hr>
+
+<h4 class="comment-heading">Share your thoughts on: 'Top 5 security flaws within websites and how to prevent them':</h4>
+
+
+<div id="disqus_thread"></div>
+<script>
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    /*
+     */
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//joel-murphy-co-uk.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+                </div>
+            </div>
+            <div class="more-content-container">
+                <h4>👀 Looking for more content?</h4>
+                <p>There's plenty more content to explore:</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item pill-link-item">
+                        <a href="/blog/">Blog Posts</a>
+                    </li>
+                    <li class="list-inline-item pill-link-item">
+                        <a href="/tutorials/">Tutorials</a>
+                    </li>
+                    <li class="list-inline-item pill-link-item">
+                        <a href="/portfolio/">Portfolio Items</a>
+                    </li>
+                    <li class="list-inline-item pill-link-item">
+                        <a href="/money-saving/">Money Saving Guides</a>
+                    </li>
+                    <li class="list-inline-item pill-link-item">
+                        <a href="/product-reviews/">Product Reviews</a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <aside class="col-lg-4 col-xl-4 col-md-4 col-sm-4 col-xs-12 order-sm-first side" id="side">
+            
+    <div class="card bg-white">
+        <div class="card-body text-center">
+            
+            <div class="card-text" style="border: 1px solid rgba(0,0,0,0.1);padding:20px;margin-bottom:20px;">
+    <div class="profile-image-container">
+        <a href="">
+            <img class="profile-image rounded-circle w-75 animated pulse" src="/theme/img/avatar.jpg"
+                 title="Picture of Joel Murphy" alt="Picture of Joel Murphy"/>
+        </a>
+    </div>
+
+    <h4 class="card-title" style="color:#000;font-weight:400;">Joel Murphy</h4>
+    <div>Senior Full Stack Developer and R&D expert by day. Cloud, DevOps, Infrastructure, and SysAdmin specialist by night.</div>
+    <a href="https://www.google.co.uk/maps/place/Cardiff,Wales" target="_blank" class="d-block text-center" style="font-weight: 500;margin-top: 10px;">
+        <i class="fas fa-map-marker" style="color: #c03144;"></i> Cardiff, Wales, UK
+    </a>
+    <br>
+    <img src="/static/img/php.png" alt="PHP Icon">
+    <img src="/static/img/html.png" alt="HTML Icon">
+    <img src="/static/img/js.png" alt="JS Icon">
+    <img src="/static/img/css.png" alt="CSS Icon">
+    <a href="/about/technical-skills.html"
+       style="font-family: Helvetica, Arial, sans-serif;border-radius: 25px;display:block;color:white!important;margin-top:10px; background: #553e98;padding:12px 10px;font-weight:600 !important;">
+        See Joel's Full Skillset
+    </a>
+</div>
+
+<div class="card-text" style="border: 1px solid rgba(0,0,0,0.1);padding:20px;margin-bottom:20px;">
+    <h5 style="color:#000;font-weight:400;"clo>💼 Current Job Role:</h5>
+    <div>
+        <img src="/static/img/nhs_wales.png" alt="NHS NWIS Logo">
+    </div>
+    <p style="margin-top:10px;">Proudly working at the NHS to enhance their I.T systems with the aim of improving
+        health-care across Wales.</p>
+</div>
+
+
+            <a href="/money-saving/">
+                <img class="img-responsive ad-block" src="/static/img/money-saving-tips-banner.png" alt="Money Saving Tips by Joel">
+            </a>
+
+            <a href="/product-reviews/">
+                <img class="img-responsive ad-block" src="/static/img/product-reviews-banner.png" alt="Product Reviews by Joel">
+            </a>
+
+            <div style="border: 1px solid rgba(0,0,0,0.1);padding:20px;">
+    <h5 style="color:#000;font-weight:400;">🖇️ Joel's Social Media profiles:</h5>
+    <p>Joel's social profiles elsewhere on the internet:</p>
+    <p class="card-text">
+        
+        <a href="https://www.linkedin.com/in/joeljmurphy/" target="_blank" class="d-flex align-items-center mb-1">
+            <span class="icon grey mr-3">
+                <svg version="1.1" class="Icon_LinkedIn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M5,3c0,1.1-0.7,2-2,2C1.8,5,1,4.1,1,3.1C1,2,1.8,1,3,1S5,1.9,5,3z M1,19h4V6H1V19z M14.6,6.2c-2.1,0-3.3,1.2-3.8,2h-0.1
+	l-0.2-1.7H6.9C6.9,7.6,7,8.9,7,10.4V19h4v-7.1c0-0.4,0-0.7,0.1-1c0.3-0.7,0.8-1.6,1.9-1.6c1.4,0,2,1.2,2,2.8V19h4v-7.4
+	C19,7.9,17.1,6.2,14.6,6.2z"/>
+</svg>
+
+            </span>
+            <span class="hover-underline-dashed">LinkedIn</span>
+        </a>
+        
+        <a href="https://stackoverflow.com/users/1007680/joel-murphy" target="_blank" class="d-flex align-items-center mb-1">
+            <span class="icon grey mr-3">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BCBBBB;}
+	.st1{fill:#F48023;}
+</style>
+<polygon class="st0" points="84.4,93.8 84.4,70.6 92.1,70.6 92.1,101.5 22.6,101.5 22.6,70.6 30.3,70.6 30.3,93.8 "/>
+<path class="st1" d="M38.8,68.4l37.8,7.9l1.6-7.6l-37.8-7.9L38.8,68.4z M43.8,50.4l35,16.3l3.2-7l-35-16.4L43.8,50.4z M53.5,33.2
+	l29.7,24.7l4.9-5.9L58.4,27.3L53.5,33.2z M72.7,14.9l-6.2,4.6l23,31l6.2-4.6L72.7,14.9z M38,86h38.6v-7.7H38V86z"/>
+</svg>
+
+            </span>
+            <span class="hover-underline-dashed">Stack Overflow</span>
+        </a>
+        
+        <a href="https://www.facebook.com/joel.murphy.378" target="_blank" class="d-flex align-items-center mb-1">
+            <span class="icon grey mr-3">
+                <svg version="1.1" class="Icon_Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M17,1H3C1.9,1,1,1.9,1,3v14c0,1.101,0.9,2,2,2h7v-7H8V9.525h2V7.475c0-2.164,1.212-3.684,3.766-3.684l1.803,0.002v2.605
+	h-1.197C13.378,6.398,13,7.144,13,7.836v1.69h2.568L15,12h-2v7h4c1.1,0,2-0.899,2-2V3C19,1.9,18.1,1,17,1z"/>
+</svg>
+
+            </span>
+            <span class="hover-underline-dashed">Facebook</span>
+        </a>
+        
+        <a href="https://www.twitter.com/jjmpsp" target="_blank" class="d-flex align-items-center mb-1">
+            <span class="icon grey mr-3">
+                <svg version="1.1" class="Icon_Twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M17.316,6.246c0.008,0.162,0.011,0.326,0.011,0.488c0,4.99-3.797,10.742-10.74,10.742c-2.133,0-4.116-0.625-5.787-1.697
+	c0.296,0.035,0.596,0.053,0.9,0.053c1.77,0,3.397-0.604,4.688-1.615c-1.651-0.031-3.046-1.121-3.526-2.621
+	c0.23,0.043,0.467,0.066,0.71,0.066c0.345,0,0.679-0.045,0.995-0.131c-1.727-0.348-3.028-1.873-3.028-3.703c0-0.016,0-0.031,0-0.047
+	c0.509,0.283,1.092,0.453,1.71,0.473c-1.013-0.678-1.68-1.832-1.68-3.143c0-0.691,0.186-1.34,0.512-1.898
+	C3.942,5.498,6.725,7,9.862,7.158C9.798,6.881,9.765,6.594,9.765,6.297c0-2.084,1.689-3.773,3.774-3.773
+	c1.086,0,2.067,0.457,2.756,1.191c0.859-0.17,1.667-0.484,2.397-0.916c-0.282,0.881-0.881,1.621-1.66,2.088
+	c0.764-0.092,1.49-0.293,2.168-0.594C18.694,5.051,18.054,5.715,17.316,6.246z"/>
+</svg>
+
+            </span>
+            <span class="hover-underline-dashed">Twitter</span>
+        </a>
+        
+        <a href="https://github.com/jjmpsp" target="_blank" class="d-flex align-items-center mb-1">
+            <span class="icon grey mr-3">
+                <svg version="1.1" class="Icon_Github" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M13.18,11.309c-0.718,0-1.3,0.807-1.3,1.799c0,0.994,0.582,1.801,1.3,1.801s1.3-0.807,1.3-1.801
+	C14.479,12.116,13.898,11.309,13.18,11.309z M17.706,6.626c0.149-0.365,0.155-2.439-0.635-4.426c0,0-1.811,0.199-4.551,2.08
+	c-0.575-0.16-1.548-0.238-2.519-0.238c-0.973,0-1.945,0.078-2.52,0.238C4.74,2.399,2.929,2.2,2.929,2.2
+	C2.14,4.187,2.148,6.261,2.295,6.626C1.367,7.634,0.8,8.845,0.8,10.497c0,7.186,5.963,7.301,7.467,7.301
+	c0.342,0,1.018,0.002,1.734,0.002c0.715,0,1.392-0.002,1.732-0.002c1.506,0,7.467-0.115,7.467-7.301
+	C19.2,8.845,18.634,7.634,17.706,6.626z M10.028,16.915H9.972c-3.771,0-6.709-0.449-6.709-4.115c0-0.879,0.31-1.693,1.047-2.369
+	c1.227-1.127,3.305-0.531,5.662-0.531c0.01,0,0.02,0,0.029,0c0.01,0,0.018,0,0.027,0c2.357,0,4.436-0.596,5.664,0.531
+	c0.735,0.676,1.045,1.49,1.045,2.369C16.737,16.466,13.8,16.915,10.028,16.915z M6.821,11.309c-0.718,0-1.3,0.807-1.3,1.799
+	c0,0.994,0.582,1.801,1.3,1.801c0.719,0,1.301-0.807,1.301-1.801C8.122,12.116,7.54,11.309,6.821,11.309z"/>
+</svg>
+
+            </span>
+            <span class="hover-underline-dashed">jjmpsp on GitHub</span>
+        </a>
+        
+        <a href="https://hotukdeals.co.uk/jjmpsp" target="_blank" class="d-flex align-items-center mb-1">
+            <span class="icon grey mr-3">
+                <svg version="1.1" class="Icon_Wallet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M16,6H3.5V5.5l11-0.88V5.5H16V4c0-1.1-0.891-1.872-1.979-1.717L3.98,3.717C2.891,3.873,2,4.9,2,6v10c0,1.104,0.895,2,2,2h12
+	c1.104,0,2-0.896,2-2V8C18,6.896,17.104,6,16,6z M14.5,13.006c-0.828,0-1.5-0.672-1.5-1.5s0.672-1.5,1.5-1.5s1.5,0.672,1.5,1.5
+	S15.328,13.006,14.5,13.006z"/>
+</svg>
+            </span>
+            <span class="hover-underline-dashed">HotUKDeals</span>
+        </a>
+        
+    </p>
+    <a href="https://stackoverflow.com/users/1007680/joel-murphy" style="margin: 10px auto;">
+        <img src="https://stackoverflow.com/users/flair/1007680.png"
+             alt="Profile for Joel Murphy at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+             title="Profile for Joel Murphy at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+             class="img-fluid"
+        >
+    </a>
+</div>
+        </div>
+    </div>
+
+            <div class="card bg-white mgt10">
+                <div class="card-body text-center mgt10">
+                    <h5 class="card-title text-center" style="color:#000;font-weight:400;">✉
+                        Get in touch:</h5>
+                    <p>Got questions? Want to tell me something? Looking for advice?</p>
+                    <a class="typeform-share button" href="https://joelmurphy1.typeform.com/to/ZdvAbr" data-mode="popup"
+                       data-submit-close-delay="5"
+                       target="_blank">
+                        Contact Joel
+                    </a>
+                    <script> (function () {
+                        var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement,
+                            gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/";
+                        if (!gi.call(d, id)) {
+                            js = ce.call(d, "script");
+                            js.id = id;
+                            js.src = b + "embed.js";
+                            q = gt.call(d, "script")[0];
+                            q.parentNode.insertBefore(js, q)
+                        }
+                    })() </script>
+                </div>
+            </div>
+
+            <div class="card bg-white mgt10">
+                <div class="card-body">
+                    <div style="border: 1px solid rgba(0,0,0,0.1);padding:20px;">
+                        <h5 class="card-title text-center" style="color:#000;font-weight:400;">📈
+                            Website Statistics:</h5>
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        <ul id="website-stats-list">
+                            <li>
+                                <a href="/blog/">Published Blog Posts:</a> <br>
+                                <a href="/blog/">
+                                    <div class="stat_count stat_count1">31</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/tutorials/">Published Tutorials:</a> <br>
+                                <a href="/tutorials/">
+                                    <div class="stat_count stat_count2">6</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/portfolio/">Published Website Portfolio Items:</a> <br>
+                                <a href="/portfolio/">
+                                    <div class="stat_count stat_count3">9</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/money-saving/">Published Money Saving Guides:</a> <br>
+                                <a href="/money-saving/">
+                                    <div class="stat_count stat_count4">2</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/product-reviews/">Published Product Reviews:</a> <br>
+                                <a href="/product-reviews/">
+                                    <div class="stat_count stat_count5">1</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="badge badge-secondary">New!</span> <a href="/search/">Search for content</a> on joel-murphy.co.uk.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-white mgt10">
+                <div class="card-body">
+                    <div style="border: 1px solid rgba(0,0,0,0.1);padding:20px;">
+                        <h5 class="card-title text-center" style="color:#000;font-weight:400;">🔗
+                            Useful links:</h5>
+                        <ul>
+                            <li>
+                                <a href="/disclaimer.html">Disclaimer</a>
+                            </li>
+                            <li>
+                                <a href="/credits.html">Credits</a>
+                            </li>
+                            <li>
+                                <a href="/cookie-policy.html">Cookie Policy</a>
+                            </li>
+                            <li>
+                                <a href="/sitemap/">Sitemap</a>
+                            </li>
+                            <li>
+                                <a href="https://trello.com/b/6MTwpOKh/joel-murphy-website-project-management-board"
+                                   target="_blank">Website Project Management</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</main>
+
+<footer id="footer" class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-2 col-md-1">
+                <span id="toggleStickyFooter" title="Toggle pinned footer">⬆</span>
+            </div>
+            <div class="col-8 col-md-10">
+                <div id="footer-credits">
+                    &copy; Joel Murphy 2012 - 2019.
+                    <a href="https://github.com/jjmpsp/jjmpsp.github.io">This website is open
+                        source</a>.
+                    Last update:
+                    <date>
+                    November
+                    13th, 2019 </date> 🕗
+                </div>
+            </div>
+            <div class="col-2 col-md-1">
+                <span id="toggleTableOfContents" title="Toggle Table Of Contents">⬆</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="eupopup eupopup-bottom eupopup-style-compact"></div>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "email": "mailto:contact@joel-murphy.co.uk",
+        "image": "/static/img/joel-murphy.jpg",
+        "jobTitle": "Senior Full Stack PHP Developer",
+        "name": "Joel Murphy",
+        "birthPlace": "Cardiff, Wales, UK",
+        "birthDate": "1993.12.28",
+        "height": "67 inches",
+        "gender": "male",
+        "memberOf": "Labour Party",
+        "nationality": "British Welsh",
+        "url": "https://joel-murphy.co.uk/",
+        "sameAs": [
+            "https://www.facebook.com/joel.murphy.378",
+            "https://www.linkedin.com/in/joeljmurphy/",
+            "https://www.twitter.com/jjmpsp"
+        ]
+    }
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38507708-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-38507708-1');
+</script>
+</body>
+
+</html>

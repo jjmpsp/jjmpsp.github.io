@@ -500,3 +500,5 @@ To load a version of config.yml which doesn't include resource hogging plugins, 
 Debugging
 
 jekyll serve --trace --verbose
+
+{{ variable | jsonify }}
