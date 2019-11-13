@@ -4,11 +4,26 @@ tags:
   - wcag
   - accessibility
   - training
-description: Cloud Native London 2019 Review
-ogDescription: Cloud Native London 2019 Review
+description: WCAG 2.1 accessibility training notes
+ogDescription: WCAG 2.1 accessibility training notes
 ---
 
 Dac training – Digital accessibility centre
+
+Personally, I feel like I didn't learn a tremendous amount in this workshop but one thing that really stood out to me is seeing how a personal with real disabilities makes use of technology to assist them with navigating a webpage.
+
+<div class="card mb-3">
+    <img class="card-img-top" src = "/static/img/posts/accessibility-training/disabled-logo.png"/>
+    <div class="card-body bg-light">
+        <div class="card-text">What people usually associate disability with...</div>
+    </div>
+</div>
+
+When disability is talked about, the average person usually thinks about one kind of disability only - a person who sits in a wheelchair and can't walk.
+The truth is, someone does not need to be in a wheelchair to be disabled.
+
+As website designers, we think about so many different factors, but often making them accessible is at the bottom of our priority,
+
 
 WCAG 2.1
 Best design, techniques, code samples.

@@ -86,4 +86,8 @@ https://pixabay.com/images/id-1350918/
 Under construction image
 https://pixabay.com/illustrations/under-construction-404-web-site-928246/
 
+Spiderman studying
+https://unsplash.com/photos/o4c2zoVhjSw
+Photo by Road Trip with Raj on Unsplash
+
 {% include toc-scroll-to-top.html excludeHierarchy=true %}

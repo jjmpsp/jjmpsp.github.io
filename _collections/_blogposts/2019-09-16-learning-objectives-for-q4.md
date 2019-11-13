@@ -8,6 +8,13 @@ description: My learning goals for the end of 2019
 ogDescription: My learning goals for the end of 2019
 ---
 
+<div class="card mb-3">
+    <img class="card-img-top" src = "/static/img/posts/learning-objectives-2019/spiderman-studying.jpg" />
+    <div class="card-body bg-light">
+        <div class="card-text">Spiderman studies too.</div>
+    </div>
+</div>
+
 As the final quarter of 2019 has approached us, I'm setting out some personal learning objectives
 for the next 3 months. This post describes my learning objectives and why I've chosen those particular subjects.
 
